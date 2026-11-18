@@ -1,0 +1,9 @@
+.git
+.superpowers
+.worktrees
+.idea
+pipeline/.venv
+pipeline/.cache
+web/node_modules
+web/.svelte-kit
+web/build
