@@ -1,0 +1,24 @@
+# Curated UNESCO site category overrides (siteId -> category)
+whs-86: ancient      # Memphis and its Necropolis – the Pyramid Fields from Giza to Dahshur
+whs-87: ancient      # Ancient Thebes with its Necropolis
+whs-88: ancient      # Nubian Monuments from Abu Simbel to Philae
+whs-89: towns        # Historic Cairo
+whs-91: towns        # Historic Centre of Rome
+whs-93: sacred       # Church and Dominican Convent of Santa Maria delle Grazie
+whs-94: towns        # Historic Centre of Florence
+whs-162: sacred      # Mont-Saint-Michel and its Bay
+whs-163: sacred      # Chartres Cathedral
+whs-164: palaces     # Palace and Park of Versailles
+whs-240: castles     # Alhambra, Generalife and Albayzín, Granada
+whs-252: palaces     # Taj Mahal
+whs-274: ancient     # Historic Sanctuary of Machu Picchu
+whs-326: ancient     # Petra
+whs-404: ancient     # Acropolis, Athens
+whs-438: castles     # The Great Wall
+whs-439: palaces     # Imperial Palaces of the Ming and Qing Dynasties in Beijing and Shenyang
+whs-441: ancient     # Mausoleum of the First Qin Emperor
+whs-540: towns       # Kremlin and Red Square, Moscow
+whs-600: castles     # Historic Monuments of Himeji-jo
+whs-668: sacred      # Angkor
+whs-688: sacred      # Historic Monuments of Ancient Kyoto
+whs-1442: modern     # Speicherstadt and Kontorhaus District with Chilehaus
