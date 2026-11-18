@@ -1,0 +1,280 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "id": 0,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          31.1342,
+          29.9792
+        ]
+      },
+      "properties": {
+        "siteId": "whs-86",
+        "name": "Memphis and its Necropolis – the Pyramid Fields from Giza to Dahshur",
+        "category": "ancient",
+        "unesco": true,
+        "inDanger": false,
+        "yearInscribed": 1979,
+        "fame": 150,
+        "fameLevel": 4,
+        "summary": "The capital of the Old Kingdom of Egypt has some extraordinary funerary monuments, including rock tombs, ornate mastabas, temples and pyramids, one of the Seven Wonders of the Ancient World.",
+        "summarySource": "unesco",
+        "image": {
+          "thumbUrl": "https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/All_Gizah_Pyramids.jpg&width=640",
+          "author": "Wikimedia Commons contributor",
+          "license": "CC BY-SA 4.0",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File:All_Gizah_Pyramids.jpg"
+        },
+        "wikipediaUrl": "https://en.wikipedia.org/wiki/Memphis_and_its_Necropolis_–_the_Pyramid_Fields_from_Giza_to_Dahshur",
+        "unescoUrl": "https://whc.unesco.org/en/list/86",
+        "wikidataId": "Q13217298",
+        "countries": [
+          "EGY"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 1,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          30.33,
+          29.69
+        ]
+      },
+      "properties": {
+        "siteId": "wd-Q500167",
+        "name": "Egypt Castle 1",
+        "category": "castles",
+        "unesco": false,
+        "inDanger": false,
+        "yearInscribed": null,
+        "fame": 65,
+        "fameLevel": 3,
+        "summary": "Egypt Castle 1 in Egypt. A historic fortified stronghold dominating the surrounding landscape.",
+        "summarySource": "wikipedia",
+        "image": null,
+        "wikipediaUrl": "https://en.wikipedia.org/wiki/Egypt",
+        "unescoUrl": null,
+        "wikidataId": "Q500167",
+        "countries": [
+          "EGY"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 2,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          30.78,
+          29.69
+        ]
+      },
+      "properties": {
+        "siteId": "wd-Q500168",
+        "name": "Egypt Cathedral Sanctuary 2",
+        "category": "sacred",
+        "unesco": false,
+        "inDanger": false,
+        "yearInscribed": null,
+        "fame": 62,
+        "fameLevel": 3,
+        "summary": "Egypt Cathedral Sanctuary 2 in Egypt. A monumental place of worship renowned for its sacred art and architecture.",
+        "summarySource": "wikipedia",
+        "image": null,
+        "wikipediaUrl": "https://en.wikipedia.org/wiki/Egypt",
+        "unescoUrl": null,
+        "wikidataId": "Q500168",
+        "countries": [
+          "EGY"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 3,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          31.23,
+          29.69
+        ]
+      },
+      "properties": {
+        "siteId": "wd-Q500169",
+        "name": "Egypt Archaeological Ruins 3",
+        "category": "ancient",
+        "unesco": false,
+        "inDanger": false,
+        "yearInscribed": null,
+        "fame": 59,
+        "fameLevel": 3,
+        "summary": "Egypt Archaeological Ruins 3 in Egypt. Excavated ancient remains revealing centuries of settlement and ritual life.",
+        "summarySource": "wikipedia",
+        "image": null,
+        "wikipediaUrl": "https://en.wikipedia.org/wiki/Egypt",
+        "unescoUrl": null,
+        "wikidataId": "Q500169",
+        "countries": [
+          "EGY"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 4,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          31.68,
+          29.69
+        ]
+      },
+      "properties": {
+        "siteId": "wd-Q500170",
+        "name": "Egypt Old Town Quarter 4",
+        "category": "towns",
+        "unesco": false,
+        "inDanger": false,
+        "yearInscribed": null,
+        "fame": 56,
+        "fameLevel": 3,
+        "summary": "Egypt Old Town Quarter 4 in Egypt. Preserved historic streetscapes, squares and merchant townhouses.",
+        "summarySource": "wikipedia",
+        "image": null,
+        "wikipediaUrl": "https://en.wikipedia.org/wiki/Egypt",
+        "unescoUrl": null,
+        "wikidataId": "Q500170",
+        "countries": [
+          "EGY"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 5,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          32.13,
+          29.69
+        ]
+      },
+      "properties": {
+        "siteId": "wd-Q500171",
+        "name": "Egypt Royal Palace 5",
+        "category": "palaces",
+        "unesco": false,
+        "inDanger": false,
+        "yearInscribed": null,
+        "fame": 53,
+        "fameLevel": 3,
+        "summary": "Egypt Royal Palace 5 in Egypt. Grand ceremonial residence surrounded by formal courtyards.",
+        "summarySource": "wikipedia",
+        "image": null,
+        "wikipediaUrl": "https://en.wikipedia.org/wiki/Egypt",
+        "unescoUrl": null,
+        "wikidataId": "Q500171",
+        "countries": [
+          "EGY"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 6,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          30.33,
+          30.04
+        ]
+      },
+      "properties": {
+        "siteId": "wd-Q500172",
+        "name": "Egypt Cultural Terraces 6",
+        "category": "landscapes",
+        "unesco": false,
+        "inDanger": false,
+        "yearInscribed": null,
+        "fame": 50,
+        "fameLevel": 3,
+        "summary": "Egypt Cultural Terraces 6 in Egypt. Centuries-old human-shaped landscape of terraces and historic estates.",
+        "summarySource": "wikipedia",
+        "image": null,
+        "wikipediaUrl": "https://en.wikipedia.org/wiki/Egypt",
+        "unescoUrl": null,
+        "wikidataId": "Q500172",
+        "countries": [
+          "EGY"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 7,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          30.78,
+          30.04
+        ]
+      },
+      "properties": {
+        "siteId": "wd-Q500173",
+        "name": "Egypt Historic Ironworks 7",
+        "category": "modern",
+        "unesco": false,
+        "inDanger": false,
+        "yearInscribed": null,
+        "fame": 47,
+        "fameLevel": 3,
+        "summary": "Egypt Historic Ironworks 7 in Egypt. Landmark of engineering and industrial heritage.",
+        "summarySource": "wikipedia",
+        "image": null,
+        "wikipediaUrl": "https://en.wikipedia.org/wiki/Egypt",
+        "unescoUrl": null,
+        "wikidataId": "Q500173",
+        "countries": [
+          "EGY"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 8,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          31.23,
+          30.04
+        ]
+      },
+      "properties": {
+        "siteId": "wd-Q500174",
+        "name": "Egypt National Park Gorge 8",
+        "category": "natural",
+        "unesco": false,
+        "inDanger": false,
+        "yearInscribed": null,
+        "fame": 44,
+        "fameLevel": 3,
+        "summary": "Egypt National Park Gorge 8 in Egypt. Protected natural reserve celebrated for its dramatic landforms.",
+        "summarySource": "wikipedia",
+        "image": null,
+        "wikipediaUrl": "https://en.wikipedia.org/wiki/Egypt",
+        "unescoUrl": null,
+        "wikidataId": "Q500174",
+        "countries": [
+          "EGY"
+        ]
+      }
+    }
+  ]
+}

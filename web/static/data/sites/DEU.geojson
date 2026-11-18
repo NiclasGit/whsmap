@@ -1,0 +1,615 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "id": 0,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          6.9583,
+          50.9413
+        ]
+      },
+      "properties": {
+        "siteId": "whs-292",
+        "name": "Cologne Cathedral",
+        "category": "sacred",
+        "unesco": true,
+        "inDanger": false,
+        "yearInscribed": 1996,
+        "fame": 125,
+        "fameLevel": 4,
+        "summary": "Begun in 1248 and completed in 1880, this Gothic masterpiece houses the shrine of the Three Kings and testifies to the enduring strength of European Christian architecture.",
+        "summarySource": "unesco",
+        "image": {
+          "thumbUrl": "https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/Kölner_Dom_abends.jpg&width=640",
+          "author": "Wikimedia Commons contributor",
+          "license": "CC BY-SA 4.0",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File:Kölner_Dom_abends.jpg"
+        },
+        "wikipediaUrl": "https://en.wikipedia.org/wiki/Cologne_Cathedral",
+        "unescoUrl": "https://whc.unesco.org/en/list/292",
+        "wikidataId": "Q4176",
+        "countries": [
+          "DEU"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 1,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.7289,
+          50.1419
+        ]
+      },
+      "properties": {
+        "siteId": "whs-1066",
+        "name": "Upper Middle Rhine Valley",
+        "category": "landscapes",
+        "unesco": true,
+        "inDanger": false,
+        "yearInscribed": 2002,
+        "fame": 68,
+        "fameLevel": 3,
+        "summary": "A 65 km stretch of the Rhine where dramatic river terraces, vineyards, historic towns and forty hilltop castles trace two millennia of European transport and Romantic culture.",
+        "summarySource": "unesco",
+        "image": {
+          "thumbUrl": "https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/Burg_Pfalzgrafenstein_Kaub_2013.jpg&width=640",
+          "author": "Wikimedia Commons contributor",
+          "license": "CC BY-SA 4.0",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File:Burg_Pfalzgrafenstein_Kaub_2013.jpg"
+        },
+        "wikipediaUrl": "https://en.wikipedia.org/wiki/Upper_Middle_Rhine_Valley",
+        "unescoUrl": "https://whc.unesco.org/en/list/1066",
+        "wikidataId": "Q662384",
+        "countries": [
+          "DEU"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 2,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.55,
+          50.81
+        ]
+      },
+      "properties": {
+        "siteId": "wd-Q500037",
+        "name": "Germany Castle 1",
+        "category": "castles",
+        "unesco": false,
+        "inDanger": false,
+        "yearInscribed": null,
+        "fame": 65,
+        "fameLevel": 3,
+        "summary": "Germany Castle 1 in Germany. A historic fortified stronghold dominating the surrounding landscape.",
+        "summarySource": "wikipedia",
+        "image": null,
+        "wikipediaUrl": "https://en.wikipedia.org/wiki/Germany",
+        "unescoUrl": null,
+        "wikidataId": "Q500037",
+        "countries": [
+          "DEU"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 3,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          10.0,
+          50.81
+        ]
+      },
+      "properties": {
+        "siteId": "wd-Q500038",
+        "name": "Germany Cathedral Sanctuary 2",
+        "category": "sacred",
+        "unesco": false,
+        "inDanger": false,
+        "yearInscribed": null,
+        "fame": 62,
+        "fameLevel": 3,
+        "summary": "Germany Cathedral Sanctuary 2 in Germany. A monumental place of worship renowned for its sacred art and architecture.",
+        "summarySource": "wikipedia",
+        "image": null,
+        "wikipediaUrl": "https://en.wikipedia.org/wiki/Germany",
+        "unescoUrl": null,
+        "wikidataId": "Q500038",
+        "countries": [
+          "DEU"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 4,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          10.45,
+          50.81
+        ]
+      },
+      "properties": {
+        "siteId": "wd-Q500039",
+        "name": "Germany Archaeological Ruins 3",
+        "category": "ancient",
+        "unesco": false,
+        "inDanger": false,
+        "yearInscribed": null,
+        "fame": 59,
+        "fameLevel": 3,
+        "summary": "Germany Archaeological Ruins 3 in Germany. Excavated ancient remains revealing centuries of settlement and ritual life.",
+        "summarySource": "wikipedia",
+        "image": null,
+        "wikipediaUrl": "https://en.wikipedia.org/wiki/Germany",
+        "unescoUrl": null,
+        "wikidataId": "Q500039",
+        "countries": [
+          "DEU"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 5,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          10.9,
+          50.81
+        ]
+      },
+      "properties": {
+        "siteId": "wd-Q500040",
+        "name": "Germany Old Town Quarter 4",
+        "category": "towns",
+        "unesco": false,
+        "inDanger": false,
+        "yearInscribed": null,
+        "fame": 56,
+        "fameLevel": 3,
+        "summary": "Germany Old Town Quarter 4 in Germany. Preserved historic streetscapes, squares and merchant townhouses.",
+        "summarySource": "wikipedia",
+        "image": null,
+        "wikipediaUrl": "https://en.wikipedia.org/wiki/Germany",
+        "unescoUrl": null,
+        "wikidataId": "Q500040",
+        "countries": [
+          "DEU"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 6,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.35,
+          50.81
+        ]
+      },
+      "properties": {
+        "siteId": "wd-Q500041",
+        "name": "Germany Royal Palace 5",
+        "category": "palaces",
+        "unesco": false,
+        "inDanger": false,
+        "yearInscribed": null,
+        "fame": 53,
+        "fameLevel": 3,
+        "summary": "Germany Royal Palace 5 in Germany. Grand ceremonial residence surrounded by formal courtyards.",
+        "summarySource": "wikipedia",
+        "image": null,
+        "wikipediaUrl": "https://en.wikipedia.org/wiki/Germany",
+        "unescoUrl": null,
+        "wikidataId": "Q500041",
+        "countries": [
+          "DEU"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 7,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.55,
+          51.16
+        ]
+      },
+      "properties": {
+        "siteId": "wd-Q500042",
+        "name": "Germany Cultural Terraces 6",
+        "category": "landscapes",
+        "unesco": false,
+        "inDanger": false,
+        "yearInscribed": null,
+        "fame": 50,
+        "fameLevel": 3,
+        "summary": "Germany Cultural Terraces 6 in Germany. Centuries-old human-shaped landscape of terraces and historic estates.",
+        "summarySource": "wikipedia",
+        "image": null,
+        "wikipediaUrl": "https://en.wikipedia.org/wiki/Germany",
+        "unescoUrl": null,
+        "wikidataId": "Q500042",
+        "countries": [
+          "DEU"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 8,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          10.0,
+          51.16
+        ]
+      },
+      "properties": {
+        "siteId": "wd-Q500043",
+        "name": "Germany Historic Ironworks 7",
+        "category": "modern",
+        "unesco": false,
+        "inDanger": false,
+        "yearInscribed": null,
+        "fame": 47,
+        "fameLevel": 3,
+        "summary": "Germany Historic Ironworks 7 in Germany. Landmark of engineering and industrial heritage.",
+        "summarySource": "wikipedia",
+        "image": null,
+        "wikipediaUrl": "https://en.wikipedia.org/wiki/Germany",
+        "unescoUrl": null,
+        "wikidataId": "Q500043",
+        "countries": [
+          "DEU"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 9,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          10.45,
+          51.16
+        ]
+      },
+      "properties": {
+        "siteId": "wd-Q500044",
+        "name": "Germany National Park Gorge 8",
+        "category": "natural",
+        "unesco": false,
+        "inDanger": false,
+        "yearInscribed": null,
+        "fame": 44,
+        "fameLevel": 3,
+        "summary": "Germany National Park Gorge 8 in Germany. Protected natural reserve celebrated for its dramatic landforms.",
+        "summarySource": "wikipedia",
+        "image": null,
+        "wikipediaUrl": "https://en.wikipedia.org/wiki/Germany",
+        "unescoUrl": null,
+        "wikidataId": "Q500044",
+        "countries": [
+          "DEU"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 10,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          10.9,
+          51.16
+        ]
+      },
+      "properties": {
+        "siteId": "wd-Q500045",
+        "name": "Germany Castle 9",
+        "category": "castles",
+        "unesco": false,
+        "inDanger": false,
+        "yearInscribed": null,
+        "fame": 41,
+        "fameLevel": 3,
+        "summary": "Germany Castle 9 in Germany. A historic fortified stronghold dominating the surrounding landscape.",
+        "summarySource": "wikipedia",
+        "image": null,
+        "wikipediaUrl": "https://en.wikipedia.org/wiki/Germany",
+        "unescoUrl": null,
+        "wikidataId": "Q500045",
+        "countries": [
+          "DEU"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 11,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.35,
+          51.16
+        ]
+      },
+      "properties": {
+        "siteId": "wd-Q500046",
+        "name": "Germany Cathedral Sanctuary 10",
+        "category": "sacred",
+        "unesco": false,
+        "inDanger": false,
+        "yearInscribed": null,
+        "fame": 38,
+        "fameLevel": 3,
+        "summary": "Germany Cathedral Sanctuary 10 in Germany. A monumental place of worship renowned for its sacred art and architecture.",
+        "summarySource": "wikipedia",
+        "image": null,
+        "wikipediaUrl": "https://en.wikipedia.org/wiki/Germany",
+        "unescoUrl": null,
+        "wikidataId": "Q500046",
+        "countries": [
+          "DEU"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 12,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.55,
+          51.51
+        ]
+      },
+      "properties": {
+        "siteId": "wd-Q500047",
+        "name": "Germany Archaeological Ruins 11",
+        "category": "ancient",
+        "unesco": false,
+        "inDanger": false,
+        "yearInscribed": null,
+        "fame": 35,
+        "fameLevel": 3,
+        "summary": "Germany Archaeological Ruins 11 in Germany. Excavated ancient remains revealing centuries of settlement and ritual life.",
+        "summarySource": "wikipedia",
+        "image": null,
+        "wikipediaUrl": "https://en.wikipedia.org/wiki/Germany",
+        "unescoUrl": null,
+        "wikidataId": "Q500047",
+        "countries": [
+          "DEU"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 13,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          10.0,
+          51.51
+        ]
+      },
+      "properties": {
+        "siteId": "wd-Q500048",
+        "name": "Germany Old Town Quarter 12",
+        "category": "towns",
+        "unesco": false,
+        "inDanger": false,
+        "yearInscribed": null,
+        "fame": 32,
+        "fameLevel": 3,
+        "summary": "Germany Old Town Quarter 12 in Germany. Preserved historic streetscapes, squares and merchant townhouses.",
+        "summarySource": "wikipedia",
+        "image": null,
+        "wikipediaUrl": "https://en.wikipedia.org/wiki/Germany",
+        "unescoUrl": null,
+        "wikidataId": "Q500048",
+        "countries": [
+          "DEU"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 14,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          10.45,
+          51.51
+        ]
+      },
+      "properties": {
+        "siteId": "wd-Q500049",
+        "name": "Germany Royal Palace 13",
+        "category": "palaces",
+        "unesco": false,
+        "inDanger": false,
+        "yearInscribed": null,
+        "fame": 29,
+        "fameLevel": 2,
+        "summary": "Germany Royal Palace 13 in Germany. Grand ceremonial residence surrounded by formal courtyards.",
+        "summarySource": "wikipedia",
+        "image": null,
+        "wikipediaUrl": "https://en.wikipedia.org/wiki/Germany",
+        "unescoUrl": null,
+        "wikidataId": "Q500049",
+        "countries": [
+          "DEU"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 15,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          10.9,
+          51.51
+        ]
+      },
+      "properties": {
+        "siteId": "wd-Q500050",
+        "name": "Germany Cultural Terraces 14",
+        "category": "landscapes",
+        "unesco": false,
+        "inDanger": false,
+        "yearInscribed": null,
+        "fame": 26,
+        "fameLevel": 2,
+        "summary": "Germany Cultural Terraces 14 in Germany. Centuries-old human-shaped landscape of terraces and historic estates.",
+        "summarySource": "wikipedia",
+        "image": null,
+        "wikipediaUrl": "https://en.wikipedia.org/wiki/Germany",
+        "unescoUrl": null,
+        "wikidataId": "Q500050",
+        "countries": [
+          "DEU"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 16,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.35,
+          51.51
+        ]
+      },
+      "properties": {
+        "siteId": "wd-Q500051",
+        "name": "Germany Historic Ironworks 15",
+        "category": "modern",
+        "unesco": false,
+        "inDanger": false,
+        "yearInscribed": null,
+        "fame": 23,
+        "fameLevel": 2,
+        "summary": "Germany Historic Ironworks 15 in Germany. Landmark of engineering and industrial heritage.",
+        "summarySource": "wikipedia",
+        "image": null,
+        "wikipediaUrl": "https://en.wikipedia.org/wiki/Germany",
+        "unescoUrl": null,
+        "wikidataId": "Q500051",
+        "countries": [
+          "DEU"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 17,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.55,
+          51.86
+        ]
+      },
+      "properties": {
+        "siteId": "wd-Q500052",
+        "name": "Germany National Park Gorge 16",
+        "category": "natural",
+        "unesco": false,
+        "inDanger": false,
+        "yearInscribed": null,
+        "fame": 20,
+        "fameLevel": 2,
+        "summary": "Germany National Park Gorge 16 in Germany. Protected natural reserve celebrated for its dramatic landforms.",
+        "summarySource": "wikipedia",
+        "image": null,
+        "wikipediaUrl": "https://en.wikipedia.org/wiki/Germany",
+        "unescoUrl": null,
+        "wikidataId": "Q500052",
+        "countries": [
+          "DEU"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 18,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          10.0,
+          51.86
+        ]
+      },
+      "properties": {
+        "siteId": "wd-Q500053",
+        "name": "Germany Castle 17",
+        "category": "castles",
+        "unesco": false,
+        "inDanger": false,
+        "yearInscribed": null,
+        "fame": 17,
+        "fameLevel": 2,
+        "summary": "Germany Castle 17 in Germany. A historic fortified stronghold dominating the surrounding landscape.",
+        "summarySource": "wikipedia",
+        "image": null,
+        "wikipediaUrl": "https://en.wikipedia.org/wiki/Germany",
+        "unescoUrl": null,
+        "wikidataId": "Q500053",
+        "countries": [
+          "DEU"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 19,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          10.45,
+          51.86
+        ]
+      },
+      "properties": {
+        "siteId": "wd-Q500054",
+        "name": "Germany Cathedral Sanctuary 18",
+        "category": "sacred",
+        "unesco": false,
+        "inDanger": false,
+        "yearInscribed": null,
+        "fame": 14,
+        "fameLevel": 2,
+        "summary": "Germany Cathedral Sanctuary 18 in Germany. A monumental place of worship renowned for its sacred art and architecture.",
+        "summarySource": "wikipedia",
+        "image": null,
+        "wikipediaUrl": "https://en.wikipedia.org/wiki/Germany",
+        "unescoUrl": null,
+        "wikidataId": "Q500054",
+        "countries": [
+          "DEU"
+        ]
+      }
+    }
+  ]
+}

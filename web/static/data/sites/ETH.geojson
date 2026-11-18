@@ -1,0 +1,280 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "id": 0,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          39.0414,
+          12.0319
+        ]
+      },
+      "properties": {
+        "siteId": "whs-18",
+        "name": "Rock-Hewn Churches, Lalibela",
+        "category": "sacred",
+        "unesco": true,
+        "inDanger": false,
+        "yearInscribed": 1978,
+        "fame": 88,
+        "fameLevel": 4,
+        "summary": "Eleven medieval monolithic cave churches carved directly into the volcanic rock in a 13th-century 'New Jerusalem' high in the mountains of Lasta.",
+        "summarySource": "unesco",
+        "image": {
+          "thumbUrl": "https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/Bete_Giyorgis_03.jpg&width=640",
+          "author": "Wikimedia Commons contributor",
+          "license": "CC BY-SA 4.0",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File:Bete_Giyorgis_03.jpg"
+        },
+        "wikipediaUrl": "https://en.wikipedia.org/wiki/Rock-Hewn_Churches",
+        "unescoUrl": "https://whc.unesco.org/en/list/18",
+        "wikidataId": "Q207530",
+        "countries": [
+          "ETH"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 1,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          38.14,
+          11.68
+        ]
+      },
+      "properties": {
+        "siteId": "wd-Q500303",
+        "name": "Ethiopia Castle 1",
+        "category": "castles",
+        "unesco": false,
+        "inDanger": false,
+        "yearInscribed": null,
+        "fame": 65,
+        "fameLevel": 3,
+        "summary": "Ethiopia Castle 1 in Ethiopia. A historic fortified stronghold dominating the surrounding landscape.",
+        "summarySource": "wikipedia",
+        "image": null,
+        "wikipediaUrl": "https://en.wikipedia.org/wiki/Ethiopia",
+        "unescoUrl": null,
+        "wikidataId": "Q500303",
+        "countries": [
+          "ETH"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 2,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          38.59,
+          11.68
+        ]
+      },
+      "properties": {
+        "siteId": "wd-Q500304",
+        "name": "Ethiopia Cathedral Sanctuary 2",
+        "category": "sacred",
+        "unesco": false,
+        "inDanger": false,
+        "yearInscribed": null,
+        "fame": 62,
+        "fameLevel": 3,
+        "summary": "Ethiopia Cathedral Sanctuary 2 in Ethiopia. A monumental place of worship renowned for its sacred art and architecture.",
+        "summarySource": "wikipedia",
+        "image": null,
+        "wikipediaUrl": "https://en.wikipedia.org/wiki/Ethiopia",
+        "unescoUrl": null,
+        "wikidataId": "Q500304",
+        "countries": [
+          "ETH"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 3,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          39.04,
+          11.68
+        ]
+      },
+      "properties": {
+        "siteId": "wd-Q500305",
+        "name": "Ethiopia Archaeological Ruins 3",
+        "category": "ancient",
+        "unesco": false,
+        "inDanger": false,
+        "yearInscribed": null,
+        "fame": 59,
+        "fameLevel": 3,
+        "summary": "Ethiopia Archaeological Ruins 3 in Ethiopia. Excavated ancient remains revealing centuries of settlement and ritual life.",
+        "summarySource": "wikipedia",
+        "image": null,
+        "wikipediaUrl": "https://en.wikipedia.org/wiki/Ethiopia",
+        "unescoUrl": null,
+        "wikidataId": "Q500305",
+        "countries": [
+          "ETH"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 4,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          39.49,
+          11.68
+        ]
+      },
+      "properties": {
+        "siteId": "wd-Q500306",
+        "name": "Ethiopia Old Town Quarter 4",
+        "category": "towns",
+        "unesco": false,
+        "inDanger": false,
+        "yearInscribed": null,
+        "fame": 56,
+        "fameLevel": 3,
+        "summary": "Ethiopia Old Town Quarter 4 in Ethiopia. Preserved historic streetscapes, squares and merchant townhouses.",
+        "summarySource": "wikipedia",
+        "image": null,
+        "wikipediaUrl": "https://en.wikipedia.org/wiki/Ethiopia",
+        "unescoUrl": null,
+        "wikidataId": "Q500306",
+        "countries": [
+          "ETH"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 5,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          39.94,
+          11.68
+        ]
+      },
+      "properties": {
+        "siteId": "wd-Q500307",
+        "name": "Ethiopia Royal Palace 5",
+        "category": "palaces",
+        "unesco": false,
+        "inDanger": false,
+        "yearInscribed": null,
+        "fame": 53,
+        "fameLevel": 3,
+        "summary": "Ethiopia Royal Palace 5 in Ethiopia. Grand ceremonial residence surrounded by formal courtyards.",
+        "summarySource": "wikipedia",
+        "image": null,
+        "wikipediaUrl": "https://en.wikipedia.org/wiki/Ethiopia",
+        "unescoUrl": null,
+        "wikidataId": "Q500307",
+        "countries": [
+          "ETH"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 6,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          38.14,
+          12.03
+        ]
+      },
+      "properties": {
+        "siteId": "wd-Q500308",
+        "name": "Ethiopia Cultural Terraces 6",
+        "category": "landscapes",
+        "unesco": false,
+        "inDanger": false,
+        "yearInscribed": null,
+        "fame": 50,
+        "fameLevel": 3,
+        "summary": "Ethiopia Cultural Terraces 6 in Ethiopia. Centuries-old human-shaped landscape of terraces and historic estates.",
+        "summarySource": "wikipedia",
+        "image": null,
+        "wikipediaUrl": "https://en.wikipedia.org/wiki/Ethiopia",
+        "unescoUrl": null,
+        "wikidataId": "Q500308",
+        "countries": [
+          "ETH"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 7,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          38.59,
+          12.03
+        ]
+      },
+      "properties": {
+        "siteId": "wd-Q500309",
+        "name": "Ethiopia Historic Ironworks 7",
+        "category": "modern",
+        "unesco": false,
+        "inDanger": false,
+        "yearInscribed": null,
+        "fame": 47,
+        "fameLevel": 3,
+        "summary": "Ethiopia Historic Ironworks 7 in Ethiopia. Landmark of engineering and industrial heritage.",
+        "summarySource": "wikipedia",
+        "image": null,
+        "wikipediaUrl": "https://en.wikipedia.org/wiki/Ethiopia",
+        "unescoUrl": null,
+        "wikidataId": "Q500309",
+        "countries": [
+          "ETH"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 8,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          39.04,
+          12.03
+        ]
+      },
+      "properties": {
+        "siteId": "wd-Q500310",
+        "name": "Ethiopia National Park Gorge 8",
+        "category": "natural",
+        "unesco": false,
+        "inDanger": false,
+        "yearInscribed": null,
+        "fame": 44,
+        "fameLevel": 3,
+        "summary": "Ethiopia National Park Gorge 8 in Ethiopia. Protected natural reserve celebrated for its dramatic landforms.",
+        "summarySource": "wikipedia",
+        "image": null,
+        "wikipediaUrl": "https://en.wikipedia.org/wiki/Ethiopia",
+        "unescoUrl": null,
+        "wikidataId": "Q500310",
+        "countries": [
+          "ETH"
+        ]
+      }
+    }
+  ]
+}

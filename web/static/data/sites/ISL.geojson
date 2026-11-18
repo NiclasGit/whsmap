@@ -1,0 +1,280 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "id": 0,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -21.1294,
+          64.2558
+        ]
+      },
+      "properties": {
+        "siteId": "whs-1152",
+        "name": "Þingvellir National Park",
+        "category": "landscapes",
+        "unesco": true,
+        "inDanger": false,
+        "yearInscribed": 2004,
+        "fame": 76,
+        "fameLevel": 3,
+        "summary": "Where the Althing, the open-air assembly representing the whole of Iceland, was established in 930 and continued to meet until 1798 across a dramatic volcanic rift valley.",
+        "summarySource": "unesco",
+        "image": {
+          "thumbUrl": "https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/Thingvellir_National_Park.jpg&width=640",
+          "author": "Wikimedia Commons contributor",
+          "license": "CC BY-SA 4.0",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File:Thingvellir_National_Park.jpg"
+        },
+        "wikipediaUrl": "https://en.wikipedia.org/wiki/Þingvellir_National_Park",
+        "unescoUrl": "https://whc.unesco.org/en/list/1152",
+        "wikidataId": "Q107386",
+        "countries": [
+          "ISL"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 1,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -22.84,
+          63.79
+        ]
+      },
+      "properties": {
+        "siteId": "wd-Q500327",
+        "name": "Iceland Castle 1",
+        "category": "castles",
+        "unesco": false,
+        "inDanger": false,
+        "yearInscribed": null,
+        "fame": 65,
+        "fameLevel": 3,
+        "summary": "Iceland Castle 1 in Iceland. A historic fortified stronghold dominating the surrounding landscape.",
+        "summarySource": "wikipedia",
+        "image": null,
+        "wikipediaUrl": "https://en.wikipedia.org/wiki/Iceland",
+        "unescoUrl": null,
+        "wikidataId": "Q500327",
+        "countries": [
+          "ISL"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 2,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -22.39,
+          63.79
+        ]
+      },
+      "properties": {
+        "siteId": "wd-Q500328",
+        "name": "Iceland Cathedral Sanctuary 2",
+        "category": "sacred",
+        "unesco": false,
+        "inDanger": false,
+        "yearInscribed": null,
+        "fame": 62,
+        "fameLevel": 3,
+        "summary": "Iceland Cathedral Sanctuary 2 in Iceland. A monumental place of worship renowned for its sacred art and architecture.",
+        "summarySource": "wikipedia",
+        "image": null,
+        "wikipediaUrl": "https://en.wikipedia.org/wiki/Iceland",
+        "unescoUrl": null,
+        "wikidataId": "Q500328",
+        "countries": [
+          "ISL"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 3,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -21.94,
+          63.79
+        ]
+      },
+      "properties": {
+        "siteId": "wd-Q500329",
+        "name": "Iceland Archaeological Ruins 3",
+        "category": "ancient",
+        "unesco": false,
+        "inDanger": false,
+        "yearInscribed": null,
+        "fame": 59,
+        "fameLevel": 3,
+        "summary": "Iceland Archaeological Ruins 3 in Iceland. Excavated ancient remains revealing centuries of settlement and ritual life.",
+        "summarySource": "wikipedia",
+        "image": null,
+        "wikipediaUrl": "https://en.wikipedia.org/wiki/Iceland",
+        "unescoUrl": null,
+        "wikidataId": "Q500329",
+        "countries": [
+          "ISL"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 4,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -21.49,
+          63.79
+        ]
+      },
+      "properties": {
+        "siteId": "wd-Q500330",
+        "name": "Iceland Old Town Quarter 4",
+        "category": "towns",
+        "unesco": false,
+        "inDanger": false,
+        "yearInscribed": null,
+        "fame": 56,
+        "fameLevel": 3,
+        "summary": "Iceland Old Town Quarter 4 in Iceland. Preserved historic streetscapes, squares and merchant townhouses.",
+        "summarySource": "wikipedia",
+        "image": null,
+        "wikipediaUrl": "https://en.wikipedia.org/wiki/Iceland",
+        "unescoUrl": null,
+        "wikidataId": "Q500330",
+        "countries": [
+          "ISL"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 5,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -21.04,
+          63.79
+        ]
+      },
+      "properties": {
+        "siteId": "wd-Q500331",
+        "name": "Iceland Royal Palace 5",
+        "category": "palaces",
+        "unesco": false,
+        "inDanger": false,
+        "yearInscribed": null,
+        "fame": 53,
+        "fameLevel": 3,
+        "summary": "Iceland Royal Palace 5 in Iceland. Grand ceremonial residence surrounded by formal courtyards.",
+        "summarySource": "wikipedia",
+        "image": null,
+        "wikipediaUrl": "https://en.wikipedia.org/wiki/Iceland",
+        "unescoUrl": null,
+        "wikidataId": "Q500331",
+        "countries": [
+          "ISL"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 6,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -22.84,
+          64.14
+        ]
+      },
+      "properties": {
+        "siteId": "wd-Q500332",
+        "name": "Iceland Cultural Terraces 6",
+        "category": "landscapes",
+        "unesco": false,
+        "inDanger": false,
+        "yearInscribed": null,
+        "fame": 50,
+        "fameLevel": 3,
+        "summary": "Iceland Cultural Terraces 6 in Iceland. Centuries-old human-shaped landscape of terraces and historic estates.",
+        "summarySource": "wikipedia",
+        "image": null,
+        "wikipediaUrl": "https://en.wikipedia.org/wiki/Iceland",
+        "unescoUrl": null,
+        "wikidataId": "Q500332",
+        "countries": [
+          "ISL"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 7,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -22.39,
+          64.14
+        ]
+      },
+      "properties": {
+        "siteId": "wd-Q500333",
+        "name": "Iceland Historic Ironworks 7",
+        "category": "modern",
+        "unesco": false,
+        "inDanger": false,
+        "yearInscribed": null,
+        "fame": 47,
+        "fameLevel": 3,
+        "summary": "Iceland Historic Ironworks 7 in Iceland. Landmark of engineering and industrial heritage.",
+        "summarySource": "wikipedia",
+        "image": null,
+        "wikipediaUrl": "https://en.wikipedia.org/wiki/Iceland",
+        "unescoUrl": null,
+        "wikidataId": "Q500333",
+        "countries": [
+          "ISL"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 8,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -21.94,
+          64.14
+        ]
+      },
+      "properties": {
+        "siteId": "wd-Q500334",
+        "name": "Iceland National Park Gorge 8",
+        "category": "natural",
+        "unesco": false,
+        "inDanger": false,
+        "yearInscribed": null,
+        "fame": 44,
+        "fameLevel": 3,
+        "summary": "Iceland National Park Gorge 8 in Iceland. Protected natural reserve celebrated for its dramatic landforms.",
+        "summarySource": "wikipedia",
+        "image": null,
+        "wikipediaUrl": "https://en.wikipedia.org/wiki/Iceland",
+        "unescoUrl": null,
+        "wikidataId": "Q500334",
+        "countries": [
+          "ISL"
+        ]
+      }
+    }
+  ]
+}

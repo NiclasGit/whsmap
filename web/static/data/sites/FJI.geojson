@@ -1,0 +1,280 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "id": 0,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          178.8344,
+          -17.6842
+        ]
+      },
+      "properties": {
+        "siteId": "whs-1399",
+        "name": "Levuka Historical Port Town",
+        "category": "towns",
+        "unesco": true,
+        "inDanger": false,
+        "yearInscribed": 2013,
+        "fame": 42,
+        "fameLevel": 3,
+        "summary": "The first colonial capital of Fiji, peacefully ceded to the British in 1874, developed from the early 19th century as a centre of commercial activity in the South Pacific.",
+        "summarySource": "unesco",
+        "image": {
+          "thumbUrl": "https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/Levuka_Ovalau_Fiji.jpg&width=640",
+          "author": "Wikimedia Commons contributor",
+          "license": "CC BY-SA 4.0",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File:Levuka_Ovalau_Fiji.jpg"
+        },
+        "wikipediaUrl": "https://en.wikipedia.org/wiki/Levuka_Historical_Port_Town",
+        "unescoUrl": "https://whc.unesco.org/en/list/1399",
+        "wikidataId": "Q911258",
+        "countries": [
+          "FJI"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 1,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          177.54,
+          -18.49
+        ]
+      },
+      "properties": {
+        "siteId": "wd-Q500319",
+        "name": "Fiji Castle 1",
+        "category": "castles",
+        "unesco": false,
+        "inDanger": false,
+        "yearInscribed": null,
+        "fame": 65,
+        "fameLevel": 3,
+        "summary": "Fiji Castle 1 in Fiji. A historic fortified stronghold dominating the surrounding landscape.",
+        "summarySource": "wikipedia",
+        "image": null,
+        "wikipediaUrl": "https://en.wikipedia.org/wiki/Fiji",
+        "unescoUrl": null,
+        "wikidataId": "Q500319",
+        "countries": [
+          "FJI"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 2,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          177.99,
+          -18.49
+        ]
+      },
+      "properties": {
+        "siteId": "wd-Q500320",
+        "name": "Fiji Cathedral Sanctuary 2",
+        "category": "sacred",
+        "unesco": false,
+        "inDanger": false,
+        "yearInscribed": null,
+        "fame": 62,
+        "fameLevel": 3,
+        "summary": "Fiji Cathedral Sanctuary 2 in Fiji. A monumental place of worship renowned for its sacred art and architecture.",
+        "summarySource": "wikipedia",
+        "image": null,
+        "wikipediaUrl": "https://en.wikipedia.org/wiki/Fiji",
+        "unescoUrl": null,
+        "wikidataId": "Q500320",
+        "countries": [
+          "FJI"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 3,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          178.44,
+          -18.49
+        ]
+      },
+      "properties": {
+        "siteId": "wd-Q500321",
+        "name": "Fiji Archaeological Ruins 3",
+        "category": "ancient",
+        "unesco": false,
+        "inDanger": false,
+        "yearInscribed": null,
+        "fame": 59,
+        "fameLevel": 3,
+        "summary": "Fiji Archaeological Ruins 3 in Fiji. Excavated ancient remains revealing centuries of settlement and ritual life.",
+        "summarySource": "wikipedia",
+        "image": null,
+        "wikipediaUrl": "https://en.wikipedia.org/wiki/Fiji",
+        "unescoUrl": null,
+        "wikidataId": "Q500321",
+        "countries": [
+          "FJI"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 4,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          178.89,
+          -18.49
+        ]
+      },
+      "properties": {
+        "siteId": "wd-Q500322",
+        "name": "Fiji Old Town Quarter 4",
+        "category": "towns",
+        "unesco": false,
+        "inDanger": false,
+        "yearInscribed": null,
+        "fame": 56,
+        "fameLevel": 3,
+        "summary": "Fiji Old Town Quarter 4 in Fiji. Preserved historic streetscapes, squares and merchant townhouses.",
+        "summarySource": "wikipedia",
+        "image": null,
+        "wikipediaUrl": "https://en.wikipedia.org/wiki/Fiji",
+        "unescoUrl": null,
+        "wikidataId": "Q500322",
+        "countries": [
+          "FJI"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 5,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          179.34,
+          -18.49
+        ]
+      },
+      "properties": {
+        "siteId": "wd-Q500323",
+        "name": "Fiji Royal Palace 5",
+        "category": "palaces",
+        "unesco": false,
+        "inDanger": false,
+        "yearInscribed": null,
+        "fame": 53,
+        "fameLevel": 3,
+        "summary": "Fiji Royal Palace 5 in Fiji. Grand ceremonial residence surrounded by formal courtyards.",
+        "summarySource": "wikipedia",
+        "image": null,
+        "wikipediaUrl": "https://en.wikipedia.org/wiki/Fiji",
+        "unescoUrl": null,
+        "wikidataId": "Q500323",
+        "countries": [
+          "FJI"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 6,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          177.54,
+          -18.14
+        ]
+      },
+      "properties": {
+        "siteId": "wd-Q500324",
+        "name": "Fiji Cultural Terraces 6",
+        "category": "landscapes",
+        "unesco": false,
+        "inDanger": false,
+        "yearInscribed": null,
+        "fame": 50,
+        "fameLevel": 3,
+        "summary": "Fiji Cultural Terraces 6 in Fiji. Centuries-old human-shaped landscape of terraces and historic estates.",
+        "summarySource": "wikipedia",
+        "image": null,
+        "wikipediaUrl": "https://en.wikipedia.org/wiki/Fiji",
+        "unescoUrl": null,
+        "wikidataId": "Q500324",
+        "countries": [
+          "FJI"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 7,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          177.99,
+          -18.14
+        ]
+      },
+      "properties": {
+        "siteId": "wd-Q500325",
+        "name": "Fiji Historic Ironworks 7",
+        "category": "modern",
+        "unesco": false,
+        "inDanger": false,
+        "yearInscribed": null,
+        "fame": 47,
+        "fameLevel": 3,
+        "summary": "Fiji Historic Ironworks 7 in Fiji. Landmark of engineering and industrial heritage.",
+        "summarySource": "wikipedia",
+        "image": null,
+        "wikipediaUrl": "https://en.wikipedia.org/wiki/Fiji",
+        "unescoUrl": null,
+        "wikidataId": "Q500325",
+        "countries": [
+          "FJI"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 8,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          178.44,
+          -18.14
+        ]
+      },
+      "properties": {
+        "siteId": "wd-Q500326",
+        "name": "Fiji National Park Gorge 8",
+        "category": "natural",
+        "unesco": false,
+        "inDanger": false,
+        "yearInscribed": null,
+        "fame": 44,
+        "fameLevel": 3,
+        "summary": "Fiji National Park Gorge 8 in Fiji. Protected natural reserve celebrated for its dramatic landforms.",
+        "summarySource": "wikipedia",
+        "image": null,
+        "wikipediaUrl": "https://en.wikipedia.org/wiki/Fiji",
+        "unescoUrl": null,
+        "wikidataId": "Q500326",
+        "countries": [
+          "FJI"
+        ]
+      }
+    }
+  ]
+}

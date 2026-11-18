@@ -1,0 +1,280 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "id": 0,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          16.3122,
+          48.1847
+        ]
+      },
+      "properties": {
+        "siteId": "whs-786",
+        "name": "Palace and Gardens of Schönbrunn",
+        "category": "palaces",
+        "unesco": true,
+        "inDanger": false,
+        "yearInscribed": 1996,
+        "fame": 104,
+        "fameLevel": 4,
+        "summary": "The residence of the Habsburg monarchs from the 18th century to 1918, designed by Johann Bernhard Fischer von Erlach and Nicolaus Pacassi in a remarkably complete Baroque ensemble.",
+        "summarySource": "unesco",
+        "image": {
+          "thumbUrl": "https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/Schloss_Schönbrunn_Wien_2014.jpg&width=640",
+          "author": "Wikimedia Commons contributor",
+          "license": "CC BY-SA 4.0",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File:Schloss_Schönbrunn_Wien_2014.jpg"
+        },
+        "wikipediaUrl": "https://en.wikipedia.org/wiki/Palace_and_Gardens_of_Schönbrunn",
+        "unescoUrl": "https://whc.unesco.org/en/list/786",
+        "wikidataId": "Q131330",
+        "countries": [
+          "AUT"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 1,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          15.47,
+          47.85
+        ]
+      },
+      "properties": {
+        "siteId": "wd-Q500231",
+        "name": "Austria Castle 1",
+        "category": "castles",
+        "unesco": false,
+        "inDanger": false,
+        "yearInscribed": null,
+        "fame": 65,
+        "fameLevel": 3,
+        "summary": "Austria Castle 1 in Austria. A historic fortified stronghold dominating the surrounding landscape.",
+        "summarySource": "wikipedia",
+        "image": null,
+        "wikipediaUrl": "https://en.wikipedia.org/wiki/Austria",
+        "unescoUrl": null,
+        "wikidataId": "Q500231",
+        "countries": [
+          "AUT"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 2,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          15.92,
+          47.85
+        ]
+      },
+      "properties": {
+        "siteId": "wd-Q500232",
+        "name": "Austria Cathedral Sanctuary 2",
+        "category": "sacred",
+        "unesco": false,
+        "inDanger": false,
+        "yearInscribed": null,
+        "fame": 62,
+        "fameLevel": 3,
+        "summary": "Austria Cathedral Sanctuary 2 in Austria. A monumental place of worship renowned for its sacred art and architecture.",
+        "summarySource": "wikipedia",
+        "image": null,
+        "wikipediaUrl": "https://en.wikipedia.org/wiki/Austria",
+        "unescoUrl": null,
+        "wikidataId": "Q500232",
+        "countries": [
+          "AUT"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 3,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          16.37,
+          47.85
+        ]
+      },
+      "properties": {
+        "siteId": "wd-Q500233",
+        "name": "Austria Archaeological Ruins 3",
+        "category": "ancient",
+        "unesco": false,
+        "inDanger": false,
+        "yearInscribed": null,
+        "fame": 59,
+        "fameLevel": 3,
+        "summary": "Austria Archaeological Ruins 3 in Austria. Excavated ancient remains revealing centuries of settlement and ritual life.",
+        "summarySource": "wikipedia",
+        "image": null,
+        "wikipediaUrl": "https://en.wikipedia.org/wiki/Austria",
+        "unescoUrl": null,
+        "wikidataId": "Q500233",
+        "countries": [
+          "AUT"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 4,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          16.82,
+          47.85
+        ]
+      },
+      "properties": {
+        "siteId": "wd-Q500234",
+        "name": "Austria Old Town Quarter 4",
+        "category": "towns",
+        "unesco": false,
+        "inDanger": false,
+        "yearInscribed": null,
+        "fame": 56,
+        "fameLevel": 3,
+        "summary": "Austria Old Town Quarter 4 in Austria. Preserved historic streetscapes, squares and merchant townhouses.",
+        "summarySource": "wikipedia",
+        "image": null,
+        "wikipediaUrl": "https://en.wikipedia.org/wiki/Austria",
+        "unescoUrl": null,
+        "wikidataId": "Q500234",
+        "countries": [
+          "AUT"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 5,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          17.27,
+          47.85
+        ]
+      },
+      "properties": {
+        "siteId": "wd-Q500235",
+        "name": "Austria Royal Palace 5",
+        "category": "palaces",
+        "unesco": false,
+        "inDanger": false,
+        "yearInscribed": null,
+        "fame": 53,
+        "fameLevel": 3,
+        "summary": "Austria Royal Palace 5 in Austria. Grand ceremonial residence surrounded by formal courtyards.",
+        "summarySource": "wikipedia",
+        "image": null,
+        "wikipediaUrl": "https://en.wikipedia.org/wiki/Austria",
+        "unescoUrl": null,
+        "wikidataId": "Q500235",
+        "countries": [
+          "AUT"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 6,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          15.47,
+          48.2
+        ]
+      },
+      "properties": {
+        "siteId": "wd-Q500236",
+        "name": "Austria Cultural Terraces 6",
+        "category": "landscapes",
+        "unesco": false,
+        "inDanger": false,
+        "yearInscribed": null,
+        "fame": 50,
+        "fameLevel": 3,
+        "summary": "Austria Cultural Terraces 6 in Austria. Centuries-old human-shaped landscape of terraces and historic estates.",
+        "summarySource": "wikipedia",
+        "image": null,
+        "wikipediaUrl": "https://en.wikipedia.org/wiki/Austria",
+        "unescoUrl": null,
+        "wikidataId": "Q500236",
+        "countries": [
+          "AUT"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 7,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          15.92,
+          48.2
+        ]
+      },
+      "properties": {
+        "siteId": "wd-Q500237",
+        "name": "Austria Historic Ironworks 7",
+        "category": "modern",
+        "unesco": false,
+        "inDanger": false,
+        "yearInscribed": null,
+        "fame": 47,
+        "fameLevel": 3,
+        "summary": "Austria Historic Ironworks 7 in Austria. Landmark of engineering and industrial heritage.",
+        "summarySource": "wikipedia",
+        "image": null,
+        "wikipediaUrl": "https://en.wikipedia.org/wiki/Austria",
+        "unescoUrl": null,
+        "wikidataId": "Q500237",
+        "countries": [
+          "AUT"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 8,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          16.37,
+          48.2
+        ]
+      },
+      "properties": {
+        "siteId": "wd-Q500238",
+        "name": "Austria National Park Gorge 8",
+        "category": "natural",
+        "unesco": false,
+        "inDanger": false,
+        "yearInscribed": null,
+        "fame": 44,
+        "fameLevel": 3,
+        "summary": "Austria National Park Gorge 8 in Austria. Protected natural reserve celebrated for its dramatic landforms.",
+        "summarySource": "wikipedia",
+        "image": null,
+        "wikipediaUrl": "https://en.wikipedia.org/wiki/Austria",
+        "unescoUrl": null,
+        "wikidataId": "Q500238",
+        "countries": [
+          "AUT"
+        ]
+      }
+    }
+  ]
+}

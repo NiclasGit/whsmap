@@ -1,0 +1,280 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "id": 0,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -38.5089,
+          -12.9731
+        ]
+      },
+      "properties": {
+        "siteId": "whs-555",
+        "name": "Historic Centre of Salvador de Bahia",
+        "category": "towns",
+        "unesco": true,
+        "inDanger": false,
+        "yearInscribed": 1985,
+        "fame": 75,
+        "fameLevel": 3,
+        "summary": "As the first capital of Brazil from 1549 to 1763, Salvador witnessed the blending of European, African and Amerindian cultures and preserves bright colonial stucco buildings.",
+        "summarySource": "unesco",
+        "image": {
+          "thumbUrl": "https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/Pelourinho_Salvador_Bahia_2018.jpg&width=640",
+          "author": "Wikimedia Commons contributor",
+          "license": "CC BY-SA 4.0",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File:Pelourinho_Salvador_Bahia_2018.jpg"
+        },
+        "wikipediaUrl": "https://en.wikipedia.org/wiki/Historic_Centre_of_Salvador_de_Bahia",
+        "unescoUrl": "https://whc.unesco.org/en/list/555",
+        "wikidataId": "Q36947",
+        "countries": [
+          "BRA"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 1,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -44.07,
+          -23.25
+        ]
+      },
+      "properties": {
+        "siteId": "wd-Q500199",
+        "name": "Brazil Castle 1",
+        "category": "castles",
+        "unesco": false,
+        "inDanger": false,
+        "yearInscribed": null,
+        "fame": 65,
+        "fameLevel": 3,
+        "summary": "Brazil Castle 1 in Brazil. A historic fortified stronghold dominating the surrounding landscape.",
+        "summarySource": "wikipedia",
+        "image": null,
+        "wikipediaUrl": "https://en.wikipedia.org/wiki/Brazil",
+        "unescoUrl": null,
+        "wikidataId": "Q500199",
+        "countries": [
+          "BRA"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 2,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -43.62,
+          -23.25
+        ]
+      },
+      "properties": {
+        "siteId": "wd-Q500200",
+        "name": "Brazil Cathedral Sanctuary 2",
+        "category": "sacred",
+        "unesco": false,
+        "inDanger": false,
+        "yearInscribed": null,
+        "fame": 62,
+        "fameLevel": 3,
+        "summary": "Brazil Cathedral Sanctuary 2 in Brazil. A monumental place of worship renowned for its sacred art and architecture.",
+        "summarySource": "wikipedia",
+        "image": null,
+        "wikipediaUrl": "https://en.wikipedia.org/wiki/Brazil",
+        "unescoUrl": null,
+        "wikidataId": "Q500200",
+        "countries": [
+          "BRA"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 3,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -43.17,
+          -23.25
+        ]
+      },
+      "properties": {
+        "siteId": "wd-Q500201",
+        "name": "Brazil Archaeological Ruins 3",
+        "category": "ancient",
+        "unesco": false,
+        "inDanger": false,
+        "yearInscribed": null,
+        "fame": 59,
+        "fameLevel": 3,
+        "summary": "Brazil Archaeological Ruins 3 in Brazil. Excavated ancient remains revealing centuries of settlement and ritual life.",
+        "summarySource": "wikipedia",
+        "image": null,
+        "wikipediaUrl": "https://en.wikipedia.org/wiki/Brazil",
+        "unescoUrl": null,
+        "wikidataId": "Q500201",
+        "countries": [
+          "BRA"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 4,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -42.72,
+          -23.25
+        ]
+      },
+      "properties": {
+        "siteId": "wd-Q500202",
+        "name": "Brazil Old Town Quarter 4",
+        "category": "towns",
+        "unesco": false,
+        "inDanger": false,
+        "yearInscribed": null,
+        "fame": 56,
+        "fameLevel": 3,
+        "summary": "Brazil Old Town Quarter 4 in Brazil. Preserved historic streetscapes, squares and merchant townhouses.",
+        "summarySource": "wikipedia",
+        "image": null,
+        "wikipediaUrl": "https://en.wikipedia.org/wiki/Brazil",
+        "unescoUrl": null,
+        "wikidataId": "Q500202",
+        "countries": [
+          "BRA"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 5,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -42.27,
+          -23.25
+        ]
+      },
+      "properties": {
+        "siteId": "wd-Q500203",
+        "name": "Brazil Royal Palace 5",
+        "category": "palaces",
+        "unesco": false,
+        "inDanger": false,
+        "yearInscribed": null,
+        "fame": 53,
+        "fameLevel": 3,
+        "summary": "Brazil Royal Palace 5 in Brazil. Grand ceremonial residence surrounded by formal courtyards.",
+        "summarySource": "wikipedia",
+        "image": null,
+        "wikipediaUrl": "https://en.wikipedia.org/wiki/Brazil",
+        "unescoUrl": null,
+        "wikidataId": "Q500203",
+        "countries": [
+          "BRA"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 6,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -44.07,
+          -22.9
+        ]
+      },
+      "properties": {
+        "siteId": "wd-Q500204",
+        "name": "Brazil Cultural Terraces 6",
+        "category": "landscapes",
+        "unesco": false,
+        "inDanger": false,
+        "yearInscribed": null,
+        "fame": 50,
+        "fameLevel": 3,
+        "summary": "Brazil Cultural Terraces 6 in Brazil. Centuries-old human-shaped landscape of terraces and historic estates.",
+        "summarySource": "wikipedia",
+        "image": null,
+        "wikipediaUrl": "https://en.wikipedia.org/wiki/Brazil",
+        "unescoUrl": null,
+        "wikidataId": "Q500204",
+        "countries": [
+          "BRA"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 7,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -43.62,
+          -22.9
+        ]
+      },
+      "properties": {
+        "siteId": "wd-Q500205",
+        "name": "Brazil Historic Ironworks 7",
+        "category": "modern",
+        "unesco": false,
+        "inDanger": false,
+        "yearInscribed": null,
+        "fame": 47,
+        "fameLevel": 3,
+        "summary": "Brazil Historic Ironworks 7 in Brazil. Landmark of engineering and industrial heritage.",
+        "summarySource": "wikipedia",
+        "image": null,
+        "wikipediaUrl": "https://en.wikipedia.org/wiki/Brazil",
+        "unescoUrl": null,
+        "wikidataId": "Q500205",
+        "countries": [
+          "BRA"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 8,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -43.17,
+          -22.9
+        ]
+      },
+      "properties": {
+        "siteId": "wd-Q500206",
+        "name": "Brazil National Park Gorge 8",
+        "category": "natural",
+        "unesco": false,
+        "inDanger": false,
+        "yearInscribed": null,
+        "fame": 44,
+        "fameLevel": 3,
+        "summary": "Brazil National Park Gorge 8 in Brazil. Protected natural reserve celebrated for its dramatic landforms.",
+        "summarySource": "wikipedia",
+        "image": null,
+        "wikipediaUrl": "https://en.wikipedia.org/wiki/Brazil",
+        "unescoUrl": null,
+        "wikidataId": "Q500206",
+        "countries": [
+          "BRA"
+        ]
+      }
+    }
+  ]
+}

@@ -1,0 +1,280 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "id": 0,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          23.7257,
+          37.9715
+        ]
+      },
+      "properties": {
+        "siteId": "whs-404",
+        "name": "Acropolis, Athens",
+        "category": "ancient",
+        "unesco": true,
+        "inDanger": false,
+        "yearInscribed": 1987,
+        "fame": 134,
+        "fameLevel": 4,
+        "summary": "Universal symbols of the classical spirit and civilization, the sanctuaries erected on the rocky hill of Athens in the 5th century BC form the greatest architectural complex of Greek antiquity.",
+        "summarySource": "unesco",
+        "image": {
+          "thumbUrl": "https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/The_Parthenon_in_Athens.jpg&width=640",
+          "author": "Wikimedia Commons contributor",
+          "license": "CC BY-SA 4.0",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File:The_Parthenon_in_Athens.jpg"
+        },
+        "wikipediaUrl": "https://en.wikipedia.org/wiki/Acropolis",
+        "unescoUrl": "https://whc.unesco.org/en/list/404",
+        "wikidataId": "Q131013",
+        "countries": [
+          "GRC"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 1,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          22.82,
+          37.62
+        ]
+      },
+      "properties": {
+        "siteId": "wd-Q500159",
+        "name": "Greece Castle 1",
+        "category": "castles",
+        "unesco": false,
+        "inDanger": false,
+        "yearInscribed": null,
+        "fame": 65,
+        "fameLevel": 3,
+        "summary": "Greece Castle 1 in Greece. A historic fortified stronghold dominating the surrounding landscape.",
+        "summarySource": "wikipedia",
+        "image": null,
+        "wikipediaUrl": "https://en.wikipedia.org/wiki/Greece",
+        "unescoUrl": null,
+        "wikidataId": "Q500159",
+        "countries": [
+          "GRC"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 2,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          23.27,
+          37.62
+        ]
+      },
+      "properties": {
+        "siteId": "wd-Q500160",
+        "name": "Greece Cathedral Sanctuary 2",
+        "category": "sacred",
+        "unesco": false,
+        "inDanger": false,
+        "yearInscribed": null,
+        "fame": 62,
+        "fameLevel": 3,
+        "summary": "Greece Cathedral Sanctuary 2 in Greece. A monumental place of worship renowned for its sacred art and architecture.",
+        "summarySource": "wikipedia",
+        "image": null,
+        "wikipediaUrl": "https://en.wikipedia.org/wiki/Greece",
+        "unescoUrl": null,
+        "wikidataId": "Q500160",
+        "countries": [
+          "GRC"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 3,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          23.72,
+          37.62
+        ]
+      },
+      "properties": {
+        "siteId": "wd-Q500161",
+        "name": "Greece Archaeological Ruins 3",
+        "category": "ancient",
+        "unesco": false,
+        "inDanger": false,
+        "yearInscribed": null,
+        "fame": 59,
+        "fameLevel": 3,
+        "summary": "Greece Archaeological Ruins 3 in Greece. Excavated ancient remains revealing centuries of settlement and ritual life.",
+        "summarySource": "wikipedia",
+        "image": null,
+        "wikipediaUrl": "https://en.wikipedia.org/wiki/Greece",
+        "unescoUrl": null,
+        "wikidataId": "Q500161",
+        "countries": [
+          "GRC"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 4,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          24.17,
+          37.62
+        ]
+      },
+      "properties": {
+        "siteId": "wd-Q500162",
+        "name": "Greece Old Town Quarter 4",
+        "category": "towns",
+        "unesco": false,
+        "inDanger": false,
+        "yearInscribed": null,
+        "fame": 56,
+        "fameLevel": 3,
+        "summary": "Greece Old Town Quarter 4 in Greece. Preserved historic streetscapes, squares and merchant townhouses.",
+        "summarySource": "wikipedia",
+        "image": null,
+        "wikipediaUrl": "https://en.wikipedia.org/wiki/Greece",
+        "unescoUrl": null,
+        "wikidataId": "Q500162",
+        "countries": [
+          "GRC"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 5,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          24.62,
+          37.62
+        ]
+      },
+      "properties": {
+        "siteId": "wd-Q500163",
+        "name": "Greece Royal Palace 5",
+        "category": "palaces",
+        "unesco": false,
+        "inDanger": false,
+        "yearInscribed": null,
+        "fame": 53,
+        "fameLevel": 3,
+        "summary": "Greece Royal Palace 5 in Greece. Grand ceremonial residence surrounded by formal courtyards.",
+        "summarySource": "wikipedia",
+        "image": null,
+        "wikipediaUrl": "https://en.wikipedia.org/wiki/Greece",
+        "unescoUrl": null,
+        "wikidataId": "Q500163",
+        "countries": [
+          "GRC"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 6,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          22.82,
+          37.97
+        ]
+      },
+      "properties": {
+        "siteId": "wd-Q500164",
+        "name": "Greece Cultural Terraces 6",
+        "category": "landscapes",
+        "unesco": false,
+        "inDanger": false,
+        "yearInscribed": null,
+        "fame": 50,
+        "fameLevel": 3,
+        "summary": "Greece Cultural Terraces 6 in Greece. Centuries-old human-shaped landscape of terraces and historic estates.",
+        "summarySource": "wikipedia",
+        "image": null,
+        "wikipediaUrl": "https://en.wikipedia.org/wiki/Greece",
+        "unescoUrl": null,
+        "wikidataId": "Q500164",
+        "countries": [
+          "GRC"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 7,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          23.27,
+          37.97
+        ]
+      },
+      "properties": {
+        "siteId": "wd-Q500165",
+        "name": "Greece Historic Ironworks 7",
+        "category": "modern",
+        "unesco": false,
+        "inDanger": false,
+        "yearInscribed": null,
+        "fame": 47,
+        "fameLevel": 3,
+        "summary": "Greece Historic Ironworks 7 in Greece. Landmark of engineering and industrial heritage.",
+        "summarySource": "wikipedia",
+        "image": null,
+        "wikipediaUrl": "https://en.wikipedia.org/wiki/Greece",
+        "unescoUrl": null,
+        "wikidataId": "Q500165",
+        "countries": [
+          "GRC"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 8,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          23.72,
+          37.97
+        ]
+      },
+      "properties": {
+        "siteId": "wd-Q500166",
+        "name": "Greece National Park Gorge 8",
+        "category": "natural",
+        "unesco": false,
+        "inDanger": false,
+        "yearInscribed": null,
+        "fame": 44,
+        "fameLevel": 3,
+        "summary": "Greece National Park Gorge 8 in Greece. Protected natural reserve celebrated for its dramatic landforms.",
+        "summarySource": "wikipedia",
+        "image": null,
+        "wikipediaUrl": "https://en.wikipedia.org/wiki/Greece",
+        "unescoUrl": null,
+        "wikidataId": "Q500166",
+        "countries": [
+          "GRC"
+        ]
+      }
+    }
+  ]
+}

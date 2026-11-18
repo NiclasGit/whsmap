@@ -1,0 +1,650 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "id": 0,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          116.0166,
+          40.3583
+        ]
+      },
+      "properties": {
+        "siteId": "whs-438",
+        "name": "The Great Wall",
+        "category": "castles",
+        "unesco": true,
+        "inDanger": false,
+        "yearInscribed": 1987,
+        "fame": 165,
+        "fameLevel": 4,
+        "summary": "Built continuously from the 3rd century BC to the 17th century AD on the northern border of the country as the great military defensive project of successive Chinese Empires.",
+        "summarySource": "unesco",
+        "image": {
+          "thumbUrl": "https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/The_Great_Wall_of_China_at_Jinshanling-edit.jpg&width=640",
+          "author": "Wikimedia Commons contributor",
+          "license": "CC BY-SA 4.0",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File:The_Great_Wall_of_China_at_Jinshanling-edit.jpg"
+        },
+        "wikipediaUrl": "https://en.wikipedia.org/wiki/The_Great_Wall",
+        "unescoUrl": "https://whc.unesco.org/en/list/438",
+        "wikidataId": "Q12501",
+        "countries": [
+          "CHN"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 1,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          116.3972,
+          39.9163
+        ]
+      },
+      "properties": {
+        "siteId": "whs-439",
+        "name": "Imperial Palaces of the Ming and Qing Dynasties in Beijing and Shenyang",
+        "category": "palaces",
+        "unesco": true,
+        "inDanger": false,
+        "yearInscribed": 1987,
+        "fame": 142,
+        "fameLevel": 4,
+        "summary": "Seat of supreme power for over five centuries, the Forbidden City with its landscaped gardens and nearly 10,000 rooms is a priceless testimony to Chinese civilization.",
+        "summarySource": "unesco",
+        "image": {
+          "thumbUrl": "https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/Forbidden_City_Beijing_Shenwumen_Gate.JPG&width=640",
+          "author": "Wikimedia Commons contributor",
+          "license": "CC BY-SA 4.0",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File:Forbidden_City_Beijing_Shenwumen_Gate.JPG"
+        },
+        "wikipediaUrl": "https://en.wikipedia.org/wiki/Imperial_Palaces_of_the_Ming_and_Qing_Dynasties_in_Beijing_and_Shenyang",
+        "unescoUrl": "https://whc.unesco.org/en/list/439",
+        "wikidataId": "Q80290",
+        "countries": [
+          "CHN"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 2,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          109.2786,
+          34.3841
+        ]
+      },
+      "properties": {
+        "siteId": "whs-441",
+        "name": "Mausoleum of the First Qin Emperor",
+        "category": "ancient",
+        "unesco": true,
+        "inDanger": false,
+        "yearInscribed": 1987,
+        "fame": 120,
+        "fameLevel": 4,
+        "summary": "Guarded by the famous Terracotta Warriors, the tomb of Qin Shi Huang in Shaanxi showcases the military, artistic and technological achievements of unified imperial China.",
+        "summarySource": "unesco",
+        "image": {
+          "thumbUrl": "https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/Terracotta_Army_Pit_1_-_2.jpg&width=640",
+          "author": "Wikimedia Commons contributor",
+          "license": "CC BY-SA 4.0",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File:Terracotta_Army_Pit_1_-_2.jpg"
+        },
+        "wikipediaUrl": "https://en.wikipedia.org/wiki/Mausoleum_of_the_First_Qin_Emperor",
+        "unescoUrl": "https://whc.unesco.org/en/list/441",
+        "wikidataId": "Q47672",
+        "countries": [
+          "CHN"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 3,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          115.5,
+          39.55
+        ]
+      },
+      "properties": {
+        "siteId": "wd-Q500019",
+        "name": "China Castle 1",
+        "category": "castles",
+        "unesco": false,
+        "inDanger": false,
+        "yearInscribed": null,
+        "fame": 65,
+        "fameLevel": 3,
+        "summary": "China Castle 1 in China. A historic fortified stronghold dominating the surrounding landscape.",
+        "summarySource": "wikipedia",
+        "image": null,
+        "wikipediaUrl": "https://en.wikipedia.org/wiki/China",
+        "unescoUrl": null,
+        "wikidataId": "Q500019",
+        "countries": [
+          "CHN"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 4,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          115.95,
+          39.55
+        ]
+      },
+      "properties": {
+        "siteId": "wd-Q500020",
+        "name": "China Cathedral Sanctuary 2",
+        "category": "sacred",
+        "unesco": false,
+        "inDanger": false,
+        "yearInscribed": null,
+        "fame": 62,
+        "fameLevel": 3,
+        "summary": "China Cathedral Sanctuary 2 in China. A monumental place of worship renowned for its sacred art and architecture.",
+        "summarySource": "wikipedia",
+        "image": null,
+        "wikipediaUrl": "https://en.wikipedia.org/wiki/China",
+        "unescoUrl": null,
+        "wikidataId": "Q500020",
+        "countries": [
+          "CHN"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 5,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          116.4,
+          39.55
+        ]
+      },
+      "properties": {
+        "siteId": "wd-Q500021",
+        "name": "China Archaeological Ruins 3",
+        "category": "ancient",
+        "unesco": false,
+        "inDanger": false,
+        "yearInscribed": null,
+        "fame": 59,
+        "fameLevel": 3,
+        "summary": "China Archaeological Ruins 3 in China. Excavated ancient remains revealing centuries of settlement and ritual life.",
+        "summarySource": "wikipedia",
+        "image": null,
+        "wikipediaUrl": "https://en.wikipedia.org/wiki/China",
+        "unescoUrl": null,
+        "wikidataId": "Q500021",
+        "countries": [
+          "CHN"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 6,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          116.85,
+          39.55
+        ]
+      },
+      "properties": {
+        "siteId": "wd-Q500022",
+        "name": "China Old Town Quarter 4",
+        "category": "towns",
+        "unesco": false,
+        "inDanger": false,
+        "yearInscribed": null,
+        "fame": 56,
+        "fameLevel": 3,
+        "summary": "China Old Town Quarter 4 in China. Preserved historic streetscapes, squares and merchant townhouses.",
+        "summarySource": "wikipedia",
+        "image": null,
+        "wikipediaUrl": "https://en.wikipedia.org/wiki/China",
+        "unescoUrl": null,
+        "wikidataId": "Q500022",
+        "countries": [
+          "CHN"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 7,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          117.3,
+          39.55
+        ]
+      },
+      "properties": {
+        "siteId": "wd-Q500023",
+        "name": "China Royal Palace 5",
+        "category": "palaces",
+        "unesco": false,
+        "inDanger": false,
+        "yearInscribed": null,
+        "fame": 53,
+        "fameLevel": 3,
+        "summary": "China Royal Palace 5 in China. Grand ceremonial residence surrounded by formal courtyards.",
+        "summarySource": "wikipedia",
+        "image": null,
+        "wikipediaUrl": "https://en.wikipedia.org/wiki/China",
+        "unescoUrl": null,
+        "wikidataId": "Q500023",
+        "countries": [
+          "CHN"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 8,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          115.5,
+          39.9
+        ]
+      },
+      "properties": {
+        "siteId": "wd-Q500024",
+        "name": "China Cultural Terraces 6",
+        "category": "landscapes",
+        "unesco": false,
+        "inDanger": false,
+        "yearInscribed": null,
+        "fame": 50,
+        "fameLevel": 3,
+        "summary": "China Cultural Terraces 6 in China. Centuries-old human-shaped landscape of terraces and historic estates.",
+        "summarySource": "wikipedia",
+        "image": null,
+        "wikipediaUrl": "https://en.wikipedia.org/wiki/China",
+        "unescoUrl": null,
+        "wikidataId": "Q500024",
+        "countries": [
+          "CHN"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 9,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          115.95,
+          39.9
+        ]
+      },
+      "properties": {
+        "siteId": "wd-Q500025",
+        "name": "China Historic Ironworks 7",
+        "category": "modern",
+        "unesco": false,
+        "inDanger": false,
+        "yearInscribed": null,
+        "fame": 47,
+        "fameLevel": 3,
+        "summary": "China Historic Ironworks 7 in China. Landmark of engineering and industrial heritage.",
+        "summarySource": "wikipedia",
+        "image": null,
+        "wikipediaUrl": "https://en.wikipedia.org/wiki/China",
+        "unescoUrl": null,
+        "wikidataId": "Q500025",
+        "countries": [
+          "CHN"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 10,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          116.4,
+          39.9
+        ]
+      },
+      "properties": {
+        "siteId": "wd-Q500026",
+        "name": "China National Park Gorge 8",
+        "category": "natural",
+        "unesco": false,
+        "inDanger": false,
+        "yearInscribed": null,
+        "fame": 44,
+        "fameLevel": 3,
+        "summary": "China National Park Gorge 8 in China. Protected natural reserve celebrated for its dramatic landforms.",
+        "summarySource": "wikipedia",
+        "image": null,
+        "wikipediaUrl": "https://en.wikipedia.org/wiki/China",
+        "unescoUrl": null,
+        "wikidataId": "Q500026",
+        "countries": [
+          "CHN"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 11,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          116.85,
+          39.9
+        ]
+      },
+      "properties": {
+        "siteId": "wd-Q500027",
+        "name": "China Castle 9",
+        "category": "castles",
+        "unesco": false,
+        "inDanger": false,
+        "yearInscribed": null,
+        "fame": 41,
+        "fameLevel": 3,
+        "summary": "China Castle 9 in China. A historic fortified stronghold dominating the surrounding landscape.",
+        "summarySource": "wikipedia",
+        "image": null,
+        "wikipediaUrl": "https://en.wikipedia.org/wiki/China",
+        "unescoUrl": null,
+        "wikidataId": "Q500027",
+        "countries": [
+          "CHN"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 12,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          117.3,
+          39.9
+        ]
+      },
+      "properties": {
+        "siteId": "wd-Q500028",
+        "name": "China Cathedral Sanctuary 10",
+        "category": "sacred",
+        "unesco": false,
+        "inDanger": false,
+        "yearInscribed": null,
+        "fame": 38,
+        "fameLevel": 3,
+        "summary": "China Cathedral Sanctuary 10 in China. A monumental place of worship renowned for its sacred art and architecture.",
+        "summarySource": "wikipedia",
+        "image": null,
+        "wikipediaUrl": "https://en.wikipedia.org/wiki/China",
+        "unescoUrl": null,
+        "wikidataId": "Q500028",
+        "countries": [
+          "CHN"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 13,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          115.5,
+          40.25
+        ]
+      },
+      "properties": {
+        "siteId": "wd-Q500029",
+        "name": "China Archaeological Ruins 11",
+        "category": "ancient",
+        "unesco": false,
+        "inDanger": false,
+        "yearInscribed": null,
+        "fame": 35,
+        "fameLevel": 3,
+        "summary": "China Archaeological Ruins 11 in China. Excavated ancient remains revealing centuries of settlement and ritual life.",
+        "summarySource": "wikipedia",
+        "image": null,
+        "wikipediaUrl": "https://en.wikipedia.org/wiki/China",
+        "unescoUrl": null,
+        "wikidataId": "Q500029",
+        "countries": [
+          "CHN"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 14,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          115.95,
+          40.25
+        ]
+      },
+      "properties": {
+        "siteId": "wd-Q500030",
+        "name": "China Old Town Quarter 12",
+        "category": "towns",
+        "unesco": false,
+        "inDanger": false,
+        "yearInscribed": null,
+        "fame": 32,
+        "fameLevel": 3,
+        "summary": "China Old Town Quarter 12 in China. Preserved historic streetscapes, squares and merchant townhouses.",
+        "summarySource": "wikipedia",
+        "image": null,
+        "wikipediaUrl": "https://en.wikipedia.org/wiki/China",
+        "unescoUrl": null,
+        "wikidataId": "Q500030",
+        "countries": [
+          "CHN"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 15,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          116.4,
+          40.25
+        ]
+      },
+      "properties": {
+        "siteId": "wd-Q500031",
+        "name": "China Royal Palace 13",
+        "category": "palaces",
+        "unesco": false,
+        "inDanger": false,
+        "yearInscribed": null,
+        "fame": 29,
+        "fameLevel": 2,
+        "summary": "China Royal Palace 13 in China. Grand ceremonial residence surrounded by formal courtyards.",
+        "summarySource": "wikipedia",
+        "image": null,
+        "wikipediaUrl": "https://en.wikipedia.org/wiki/China",
+        "unescoUrl": null,
+        "wikidataId": "Q500031",
+        "countries": [
+          "CHN"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 16,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          116.85,
+          40.25
+        ]
+      },
+      "properties": {
+        "siteId": "wd-Q500032",
+        "name": "China Cultural Terraces 14",
+        "category": "landscapes",
+        "unesco": false,
+        "inDanger": false,
+        "yearInscribed": null,
+        "fame": 26,
+        "fameLevel": 2,
+        "summary": "China Cultural Terraces 14 in China. Centuries-old human-shaped landscape of terraces and historic estates.",
+        "summarySource": "wikipedia",
+        "image": null,
+        "wikipediaUrl": "https://en.wikipedia.org/wiki/China",
+        "unescoUrl": null,
+        "wikidataId": "Q500032",
+        "countries": [
+          "CHN"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 17,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          117.3,
+          40.25
+        ]
+      },
+      "properties": {
+        "siteId": "wd-Q500033",
+        "name": "China Historic Ironworks 15",
+        "category": "modern",
+        "unesco": false,
+        "inDanger": false,
+        "yearInscribed": null,
+        "fame": 23,
+        "fameLevel": 2,
+        "summary": "China Historic Ironworks 15 in China. Landmark of engineering and industrial heritage.",
+        "summarySource": "wikipedia",
+        "image": null,
+        "wikipediaUrl": "https://en.wikipedia.org/wiki/China",
+        "unescoUrl": null,
+        "wikidataId": "Q500033",
+        "countries": [
+          "CHN"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 18,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          115.5,
+          40.6
+        ]
+      },
+      "properties": {
+        "siteId": "wd-Q500034",
+        "name": "China National Park Gorge 16",
+        "category": "natural",
+        "unesco": false,
+        "inDanger": false,
+        "yearInscribed": null,
+        "fame": 20,
+        "fameLevel": 2,
+        "summary": "China National Park Gorge 16 in China. Protected natural reserve celebrated for its dramatic landforms.",
+        "summarySource": "wikipedia",
+        "image": null,
+        "wikipediaUrl": "https://en.wikipedia.org/wiki/China",
+        "unescoUrl": null,
+        "wikidataId": "Q500034",
+        "countries": [
+          "CHN"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 19,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          115.95,
+          40.6
+        ]
+      },
+      "properties": {
+        "siteId": "wd-Q500035",
+        "name": "China Castle 17",
+        "category": "castles",
+        "unesco": false,
+        "inDanger": false,
+        "yearInscribed": null,
+        "fame": 17,
+        "fameLevel": 2,
+        "summary": "China Castle 17 in China. A historic fortified stronghold dominating the surrounding landscape.",
+        "summarySource": "wikipedia",
+        "image": null,
+        "wikipediaUrl": "https://en.wikipedia.org/wiki/China",
+        "unescoUrl": null,
+        "wikidataId": "Q500035",
+        "countries": [
+          "CHN"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 20,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          116.4,
+          40.6
+        ]
+      },
+      "properties": {
+        "siteId": "wd-Q500036",
+        "name": "China Cathedral Sanctuary 18",
+        "category": "sacred",
+        "unesco": false,
+        "inDanger": false,
+        "yearInscribed": null,
+        "fame": 14,
+        "fameLevel": 2,
+        "summary": "China Cathedral Sanctuary 18 in China. A monumental place of worship renowned for its sacred art and architecture.",
+        "summarySource": "wikipedia",
+        "image": null,
+        "wikipediaUrl": "https://en.wikipedia.org/wiki/China",
+        "unescoUrl": null,
+        "wikidataId": "Q500036",
+        "countries": [
+          "CHN"
+        ]
+      }
+    }
+  ]
+}

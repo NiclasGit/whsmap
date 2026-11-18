@@ -1,0 +1,686 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "id": 0,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          12.3388,
+          45.4342
+        ]
+      },
+      "properties": {
+        "siteId": "whs-394",
+        "name": "Venice and its Lagoon",
+        "category": "towns",
+        "unesco": true,
+        "inDanger": false,
+        "yearInscribed": 1987,
+        "fame": 160,
+        "fameLevel": 4,
+        "summary": "Founded in the 5th century and spread over 118 small islands, Venice became a major maritime power in the 10th century and is an extraordinary architectural masterpiece.",
+        "summarySource": "unesco",
+        "image": {
+          "thumbUrl": "https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/Canal_GrandeChiesa_della_Salute_e_Dogana_dal_ponte_dell_Accademia.jpg&width=640",
+          "author": "Wikimedia Commons contributor",
+          "license": "CC BY-SA 4.0",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File:Canal_GrandeChiesa_della_Salute_e_Dogana_dal_ponte_dell_Accademia.jpg"
+        },
+        "wikipediaUrl": "https://en.wikipedia.org/wiki/Venice_and_its_Lagoon",
+        "unescoUrl": "https://whc.unesco.org/en/list/394",
+        "wikidataId": "Q641",
+        "countries": [
+          "ITA"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 1,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.2558,
+          43.7696
+        ]
+      },
+      "properties": {
+        "siteId": "whs-94",
+        "name": "Historic Centre of Florence",
+        "category": "towns",
+        "unesco": true,
+        "inDanger": false,
+        "yearInscribed": 1982,
+        "fame": 132,
+        "fameLevel": 4,
+        "summary": "Built on the site of an Etruscan settlement, Florence, the symbol of the Renaissance, rose to economic and cultural pre-eminence under the Medici in the 15th and 16th centuries.",
+        "summarySource": "unesco",
+        "image": {
+          "thumbUrl": "https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/Cattedrale_di_Santa_Maria_del_Fiore_–_Il_Duomo_di_Firenze.jpg&width=640",
+          "author": "Wikimedia Commons contributor",
+          "license": "CC BY-SA 4.0",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File:Cattedrale_di_Santa_Maria_del_Fiore_–_Il_Duomo_di_Firenze.jpg"
+        },
+        "wikipediaUrl": "https://en.wikipedia.org/wiki/Historic_Centre_of_Florence",
+        "unescoUrl": "https://whc.unesco.org/en/list/94",
+        "wikidataId": "Q2044",
+        "countries": [
+          "ITA"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 2,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.487,
+          40.75
+        ]
+      },
+      "properties": {
+        "siteId": "whs-829",
+        "name": "Archaeological Areas of Pompei, Herculaneum and Torre Annunziata",
+        "category": "ancient",
+        "unesco": true,
+        "inDanger": false,
+        "yearInscribed": 1997,
+        "fame": 118,
+        "fameLevel": 4,
+        "summary": "Buried by the eruption of Vesuvius in AD 79, the Roman towns of Pompeii and Herculaneum provide a complete and vivid picture of society and daily life at a specific moment in the past.",
+        "summarySource": "unesco",
+        "image": {
+          "thumbUrl": "https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/Pompeii_Forum.jpg&width=640",
+          "author": "Wikimedia Commons contributor",
+          "license": "CC BY-SA 4.0",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File:Pompeii_Forum.jpg"
+        },
+        "wikipediaUrl": "https://en.wikipedia.org/wiki/Archaeological_Areas_of_Pompei",
+        "unescoUrl": "https://whc.unesco.org/en/list/829",
+        "wikidataId": "Q43332",
+        "countries": [
+          "ITA"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 3,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          12.4922,
+          41.8902
+        ]
+      },
+      "properties": {
+        "siteId": "whs-91",
+        "name": "Historic Centre of Rome, the Properties of the Holy See",
+        "category": "towns",
+        "unesco": true,
+        "inDanger": false,
+        "yearInscribed": 1980,
+        "fame": 115,
+        "fameLevel": 4,
+        "summary": "Founded according to legend in 753 BC, Rome was first the centre of the Roman Republic, then of the Roman Empire, and became the capital of the Christian world in the 4th century.",
+        "summarySource": "unesco",
+        "image": {
+          "thumbUrl": "https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/Colosseum_in_Rome,_Italy_-_April_2007.jpg&width=640",
+          "author": "Wikimedia Commons contributor",
+          "license": "CC BY-SA 4.0",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File:Colosseum_in_Rome,_Italy_-_April_2007.jpg"
+        },
+        "wikipediaUrl": "https://en.wikipedia.org/wiki/Historic_Centre_of_Rome",
+        "unescoUrl": "https://whc.unesco.org/en/list/91",
+        "wikidataId": "Q152874",
+        "countries": [
+          "ITA",
+          "VAT"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 4,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.59,
+          41.54
+        ]
+      },
+      "properties": {
+        "siteId": "wd-Q500001",
+        "name": "Italy Castle 1",
+        "category": "castles",
+        "unesco": false,
+        "inDanger": false,
+        "yearInscribed": null,
+        "fame": 65,
+        "fameLevel": 3,
+        "summary": "Italy Castle 1 in Italy. A historic fortified stronghold dominating the surrounding landscape.",
+        "summarySource": "wikipedia",
+        "image": null,
+        "wikipediaUrl": "https://en.wikipedia.org/wiki/Italy",
+        "unescoUrl": null,
+        "wikidataId": "Q500001",
+        "countries": [
+          "ITA"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 5,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          12.04,
+          41.54
+        ]
+      },
+      "properties": {
+        "siteId": "wd-Q500002",
+        "name": "Italy Cathedral Sanctuary 2",
+        "category": "sacred",
+        "unesco": false,
+        "inDanger": false,
+        "yearInscribed": null,
+        "fame": 62,
+        "fameLevel": 3,
+        "summary": "Italy Cathedral Sanctuary 2 in Italy. A monumental place of worship renowned for its sacred art and architecture.",
+        "summarySource": "wikipedia",
+        "image": null,
+        "wikipediaUrl": "https://en.wikipedia.org/wiki/Italy",
+        "unescoUrl": null,
+        "wikidataId": "Q500002",
+        "countries": [
+          "ITA"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 6,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          12.49,
+          41.54
+        ]
+      },
+      "properties": {
+        "siteId": "wd-Q500003",
+        "name": "Italy Archaeological Ruins 3",
+        "category": "ancient",
+        "unesco": false,
+        "inDanger": false,
+        "yearInscribed": null,
+        "fame": 59,
+        "fameLevel": 3,
+        "summary": "Italy Archaeological Ruins 3 in Italy. Excavated ancient remains revealing centuries of settlement and ritual life.",
+        "summarySource": "wikipedia",
+        "image": null,
+        "wikipediaUrl": "https://en.wikipedia.org/wiki/Italy",
+        "unescoUrl": null,
+        "wikidataId": "Q500003",
+        "countries": [
+          "ITA"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 7,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          12.94,
+          41.54
+        ]
+      },
+      "properties": {
+        "siteId": "wd-Q500004",
+        "name": "Italy Old Town Quarter 4",
+        "category": "towns",
+        "unesco": false,
+        "inDanger": false,
+        "yearInscribed": null,
+        "fame": 56,
+        "fameLevel": 3,
+        "summary": "Italy Old Town Quarter 4 in Italy. Preserved historic streetscapes, squares and merchant townhouses.",
+        "summarySource": "wikipedia",
+        "image": null,
+        "wikipediaUrl": "https://en.wikipedia.org/wiki/Italy",
+        "unescoUrl": null,
+        "wikidataId": "Q500004",
+        "countries": [
+          "ITA"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 8,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          13.39,
+          41.54
+        ]
+      },
+      "properties": {
+        "siteId": "wd-Q500005",
+        "name": "Italy Royal Palace 5",
+        "category": "palaces",
+        "unesco": false,
+        "inDanger": false,
+        "yearInscribed": null,
+        "fame": 53,
+        "fameLevel": 3,
+        "summary": "Italy Royal Palace 5 in Italy. Grand ceremonial residence surrounded by formal courtyards.",
+        "summarySource": "wikipedia",
+        "image": null,
+        "wikipediaUrl": "https://en.wikipedia.org/wiki/Italy",
+        "unescoUrl": null,
+        "wikidataId": "Q500005",
+        "countries": [
+          "ITA"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 9,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.59,
+          41.89
+        ]
+      },
+      "properties": {
+        "siteId": "wd-Q500006",
+        "name": "Italy Cultural Terraces 6",
+        "category": "landscapes",
+        "unesco": false,
+        "inDanger": false,
+        "yearInscribed": null,
+        "fame": 50,
+        "fameLevel": 3,
+        "summary": "Italy Cultural Terraces 6 in Italy. Centuries-old human-shaped landscape of terraces and historic estates.",
+        "summarySource": "wikipedia",
+        "image": null,
+        "wikipediaUrl": "https://en.wikipedia.org/wiki/Italy",
+        "unescoUrl": null,
+        "wikidataId": "Q500006",
+        "countries": [
+          "ITA"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 10,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          12.04,
+          41.89
+        ]
+      },
+      "properties": {
+        "siteId": "wd-Q500007",
+        "name": "Italy Historic Ironworks 7",
+        "category": "modern",
+        "unesco": false,
+        "inDanger": false,
+        "yearInscribed": null,
+        "fame": 47,
+        "fameLevel": 3,
+        "summary": "Italy Historic Ironworks 7 in Italy. Landmark of engineering and industrial heritage.",
+        "summarySource": "wikipedia",
+        "image": null,
+        "wikipediaUrl": "https://en.wikipedia.org/wiki/Italy",
+        "unescoUrl": null,
+        "wikidataId": "Q500007",
+        "countries": [
+          "ITA"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 11,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          12.49,
+          41.89
+        ]
+      },
+      "properties": {
+        "siteId": "wd-Q500008",
+        "name": "Italy National Park Gorge 8",
+        "category": "natural",
+        "unesco": false,
+        "inDanger": false,
+        "yearInscribed": null,
+        "fame": 44,
+        "fameLevel": 3,
+        "summary": "Italy National Park Gorge 8 in Italy. Protected natural reserve celebrated for its dramatic landforms.",
+        "summarySource": "wikipedia",
+        "image": null,
+        "wikipediaUrl": "https://en.wikipedia.org/wiki/Italy",
+        "unescoUrl": null,
+        "wikidataId": "Q500008",
+        "countries": [
+          "ITA"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 12,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          12.94,
+          41.89
+        ]
+      },
+      "properties": {
+        "siteId": "wd-Q500009",
+        "name": "Italy Castle 9",
+        "category": "castles",
+        "unesco": false,
+        "inDanger": false,
+        "yearInscribed": null,
+        "fame": 41,
+        "fameLevel": 3,
+        "summary": "Italy Castle 9 in Italy. A historic fortified stronghold dominating the surrounding landscape.",
+        "summarySource": "wikipedia",
+        "image": null,
+        "wikipediaUrl": "https://en.wikipedia.org/wiki/Italy",
+        "unescoUrl": null,
+        "wikidataId": "Q500009",
+        "countries": [
+          "ITA"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 13,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          13.39,
+          41.89
+        ]
+      },
+      "properties": {
+        "siteId": "wd-Q500010",
+        "name": "Italy Cathedral Sanctuary 10",
+        "category": "sacred",
+        "unesco": false,
+        "inDanger": false,
+        "yearInscribed": null,
+        "fame": 38,
+        "fameLevel": 3,
+        "summary": "Italy Cathedral Sanctuary 10 in Italy. A monumental place of worship renowned for its sacred art and architecture.",
+        "summarySource": "wikipedia",
+        "image": null,
+        "wikipediaUrl": "https://en.wikipedia.org/wiki/Italy",
+        "unescoUrl": null,
+        "wikidataId": "Q500010",
+        "countries": [
+          "ITA"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 14,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.59,
+          42.24
+        ]
+      },
+      "properties": {
+        "siteId": "wd-Q500011",
+        "name": "Italy Archaeological Ruins 11",
+        "category": "ancient",
+        "unesco": false,
+        "inDanger": false,
+        "yearInscribed": null,
+        "fame": 35,
+        "fameLevel": 3,
+        "summary": "Italy Archaeological Ruins 11 in Italy. Excavated ancient remains revealing centuries of settlement and ritual life.",
+        "summarySource": "wikipedia",
+        "image": null,
+        "wikipediaUrl": "https://en.wikipedia.org/wiki/Italy",
+        "unescoUrl": null,
+        "wikidataId": "Q500011",
+        "countries": [
+          "ITA"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 15,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          12.04,
+          42.24
+        ]
+      },
+      "properties": {
+        "siteId": "wd-Q500012",
+        "name": "Italy Old Town Quarter 12",
+        "category": "towns",
+        "unesco": false,
+        "inDanger": false,
+        "yearInscribed": null,
+        "fame": 32,
+        "fameLevel": 3,
+        "summary": "Italy Old Town Quarter 12 in Italy. Preserved historic streetscapes, squares and merchant townhouses.",
+        "summarySource": "wikipedia",
+        "image": null,
+        "wikipediaUrl": "https://en.wikipedia.org/wiki/Italy",
+        "unescoUrl": null,
+        "wikidataId": "Q500012",
+        "countries": [
+          "ITA"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 16,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          12.49,
+          42.24
+        ]
+      },
+      "properties": {
+        "siteId": "wd-Q500013",
+        "name": "Italy Royal Palace 13",
+        "category": "palaces",
+        "unesco": false,
+        "inDanger": false,
+        "yearInscribed": null,
+        "fame": 29,
+        "fameLevel": 2,
+        "summary": "Italy Royal Palace 13 in Italy. Grand ceremonial residence surrounded by formal courtyards.",
+        "summarySource": "wikipedia",
+        "image": null,
+        "wikipediaUrl": "https://en.wikipedia.org/wiki/Italy",
+        "unescoUrl": null,
+        "wikidataId": "Q500013",
+        "countries": [
+          "ITA"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 17,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          12.94,
+          42.24
+        ]
+      },
+      "properties": {
+        "siteId": "wd-Q500014",
+        "name": "Italy Cultural Terraces 14",
+        "category": "landscapes",
+        "unesco": false,
+        "inDanger": false,
+        "yearInscribed": null,
+        "fame": 26,
+        "fameLevel": 2,
+        "summary": "Italy Cultural Terraces 14 in Italy. Centuries-old human-shaped landscape of terraces and historic estates.",
+        "summarySource": "wikipedia",
+        "image": null,
+        "wikipediaUrl": "https://en.wikipedia.org/wiki/Italy",
+        "unescoUrl": null,
+        "wikidataId": "Q500014",
+        "countries": [
+          "ITA"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 18,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          13.39,
+          42.24
+        ]
+      },
+      "properties": {
+        "siteId": "wd-Q500015",
+        "name": "Italy Historic Ironworks 15",
+        "category": "modern",
+        "unesco": false,
+        "inDanger": false,
+        "yearInscribed": null,
+        "fame": 23,
+        "fameLevel": 2,
+        "summary": "Italy Historic Ironworks 15 in Italy. Landmark of engineering and industrial heritage.",
+        "summarySource": "wikipedia",
+        "image": null,
+        "wikipediaUrl": "https://en.wikipedia.org/wiki/Italy",
+        "unescoUrl": null,
+        "wikidataId": "Q500015",
+        "countries": [
+          "ITA"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 19,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.59,
+          42.59
+        ]
+      },
+      "properties": {
+        "siteId": "wd-Q500016",
+        "name": "Italy National Park Gorge 16",
+        "category": "natural",
+        "unesco": false,
+        "inDanger": false,
+        "yearInscribed": null,
+        "fame": 20,
+        "fameLevel": 2,
+        "summary": "Italy National Park Gorge 16 in Italy. Protected natural reserve celebrated for its dramatic landforms.",
+        "summarySource": "wikipedia",
+        "image": null,
+        "wikipediaUrl": "https://en.wikipedia.org/wiki/Italy",
+        "unescoUrl": null,
+        "wikidataId": "Q500016",
+        "countries": [
+          "ITA"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 20,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          12.04,
+          42.59
+        ]
+      },
+      "properties": {
+        "siteId": "wd-Q500017",
+        "name": "Italy Castle 17",
+        "category": "castles",
+        "unesco": false,
+        "inDanger": false,
+        "yearInscribed": null,
+        "fame": 17,
+        "fameLevel": 2,
+        "summary": "Italy Castle 17 in Italy. A historic fortified stronghold dominating the surrounding landscape.",
+        "summarySource": "wikipedia",
+        "image": null,
+        "wikipediaUrl": "https://en.wikipedia.org/wiki/Italy",
+        "unescoUrl": null,
+        "wikidataId": "Q500017",
+        "countries": [
+          "ITA"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 21,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          12.49,
+          42.59
+        ]
+      },
+      "properties": {
+        "siteId": "wd-Q500018",
+        "name": "Italy Cathedral Sanctuary 18",
+        "category": "sacred",
+        "unesco": false,
+        "inDanger": false,
+        "yearInscribed": null,
+        "fame": 14,
+        "fameLevel": 2,
+        "summary": "Italy Cathedral Sanctuary 18 in Italy. A monumental place of worship renowned for its sacred art and architecture.",
+        "summarySource": "wikipedia",
+        "image": null,
+        "wikipediaUrl": "https://en.wikipedia.org/wiki/Italy",
+        "unescoUrl": null,
+        "wikidataId": "Q500018",
+        "countries": [
+          "ITA"
+        ]
+      }
+    }
+  ]
+}

@@ -1,0 +1,280 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "id": 0,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.0445,
+          40.6892
+        ]
+      },
+      "properties": {
+        "siteId": "whs-307",
+        "name": "Statue of Liberty",
+        "category": "modern",
+        "unesco": true,
+        "inDanger": false,
+        "yearInscribed": 1984,
+        "fame": 162,
+        "fameLevel": 4,
+        "summary": "Made in Paris by the French sculptor Bartholdi in collaboration with Gustave Eiffel, this towering monument to liberty has welcomed millions at the entrance to New York Harbor since 1886.",
+        "summarySource": "unesco",
+        "image": {
+          "thumbUrl": "https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/Statue-of-Liberty-Island-2019.jpg&width=640",
+          "author": "Wikimedia Commons contributor",
+          "license": "CC BY-SA 4.0",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File:Statue-of-Liberty-Island-2019.jpg"
+        },
+        "wikipediaUrl": "https://en.wikipedia.org/wiki/Statue_of_Liberty",
+        "unescoUrl": "https://whc.unesco.org/en/list/307",
+        "wikidataId": "Q9202",
+        "countries": [
+          "USA"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 1,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -77.93,
+          38.55
+        ]
+      },
+      "properties": {
+        "siteId": "wd-Q500207",
+        "name": "United States Castle 1",
+        "category": "castles",
+        "unesco": false,
+        "inDanger": false,
+        "yearInscribed": null,
+        "fame": 65,
+        "fameLevel": 3,
+        "summary": "United States Castle 1 in United States. A historic fortified stronghold dominating the surrounding landscape.",
+        "summarySource": "wikipedia",
+        "image": null,
+        "wikipediaUrl": "https://en.wikipedia.org/wiki/United_States",
+        "unescoUrl": null,
+        "wikidataId": "Q500207",
+        "countries": [
+          "USA"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 2,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -77.48,
+          38.55
+        ]
+      },
+      "properties": {
+        "siteId": "wd-Q500208",
+        "name": "United States Cathedral Sanctuary 2",
+        "category": "sacred",
+        "unesco": false,
+        "inDanger": false,
+        "yearInscribed": null,
+        "fame": 62,
+        "fameLevel": 3,
+        "summary": "United States Cathedral Sanctuary 2 in United States. A monumental place of worship renowned for its sacred art and architecture.",
+        "summarySource": "wikipedia",
+        "image": null,
+        "wikipediaUrl": "https://en.wikipedia.org/wiki/United_States",
+        "unescoUrl": null,
+        "wikidataId": "Q500208",
+        "countries": [
+          "USA"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 3,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -77.03,
+          38.55
+        ]
+      },
+      "properties": {
+        "siteId": "wd-Q500209",
+        "name": "United States Archaeological Ruins 3",
+        "category": "ancient",
+        "unesco": false,
+        "inDanger": false,
+        "yearInscribed": null,
+        "fame": 59,
+        "fameLevel": 3,
+        "summary": "United States Archaeological Ruins 3 in United States. Excavated ancient remains revealing centuries of settlement and ritual life.",
+        "summarySource": "wikipedia",
+        "image": null,
+        "wikipediaUrl": "https://en.wikipedia.org/wiki/United_States",
+        "unescoUrl": null,
+        "wikidataId": "Q500209",
+        "countries": [
+          "USA"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 4,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -76.58,
+          38.55
+        ]
+      },
+      "properties": {
+        "siteId": "wd-Q500210",
+        "name": "United States Old Town Quarter 4",
+        "category": "towns",
+        "unesco": false,
+        "inDanger": false,
+        "yearInscribed": null,
+        "fame": 56,
+        "fameLevel": 3,
+        "summary": "United States Old Town Quarter 4 in United States. Preserved historic streetscapes, squares and merchant townhouses.",
+        "summarySource": "wikipedia",
+        "image": null,
+        "wikipediaUrl": "https://en.wikipedia.org/wiki/United_States",
+        "unescoUrl": null,
+        "wikidataId": "Q500210",
+        "countries": [
+          "USA"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 5,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -76.13,
+          38.55
+        ]
+      },
+      "properties": {
+        "siteId": "wd-Q500211",
+        "name": "United States Royal Palace 5",
+        "category": "palaces",
+        "unesco": false,
+        "inDanger": false,
+        "yearInscribed": null,
+        "fame": 53,
+        "fameLevel": 3,
+        "summary": "United States Royal Palace 5 in United States. Grand ceremonial residence surrounded by formal courtyards.",
+        "summarySource": "wikipedia",
+        "image": null,
+        "wikipediaUrl": "https://en.wikipedia.org/wiki/United_States",
+        "unescoUrl": null,
+        "wikidataId": "Q500211",
+        "countries": [
+          "USA"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 6,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -77.93,
+          38.9
+        ]
+      },
+      "properties": {
+        "siteId": "wd-Q500212",
+        "name": "United States Cultural Terraces 6",
+        "category": "landscapes",
+        "unesco": false,
+        "inDanger": false,
+        "yearInscribed": null,
+        "fame": 50,
+        "fameLevel": 3,
+        "summary": "United States Cultural Terraces 6 in United States. Centuries-old human-shaped landscape of terraces and historic estates.",
+        "summarySource": "wikipedia",
+        "image": null,
+        "wikipediaUrl": "https://en.wikipedia.org/wiki/United_States",
+        "unescoUrl": null,
+        "wikidataId": "Q500212",
+        "countries": [
+          "USA"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 7,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -77.48,
+          38.9
+        ]
+      },
+      "properties": {
+        "siteId": "wd-Q500213",
+        "name": "United States Historic Ironworks 7",
+        "category": "modern",
+        "unesco": false,
+        "inDanger": false,
+        "yearInscribed": null,
+        "fame": 47,
+        "fameLevel": 3,
+        "summary": "United States Historic Ironworks 7 in United States. Landmark of engineering and industrial heritage.",
+        "summarySource": "wikipedia",
+        "image": null,
+        "wikipediaUrl": "https://en.wikipedia.org/wiki/United_States",
+        "unescoUrl": null,
+        "wikidataId": "Q500213",
+        "countries": [
+          "USA"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 8,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -77.03,
+          38.9
+        ]
+      },
+      "properties": {
+        "siteId": "wd-Q500214",
+        "name": "United States National Park Gorge 8",
+        "category": "natural",
+        "unesco": false,
+        "inDanger": false,
+        "yearInscribed": null,
+        "fame": 44,
+        "fameLevel": 3,
+        "summary": "United States National Park Gorge 8 in United States. Protected natural reserve celebrated for its dramatic landforms.",
+        "summarySource": "wikipedia",
+        "image": null,
+        "wikipediaUrl": "https://en.wikipedia.org/wiki/United_States",
+        "unescoUrl": null,
+        "wikidataId": "Q500214",
+        "countries": [
+          "USA"
+        ]
+      }
+    }
+  ]
+}
