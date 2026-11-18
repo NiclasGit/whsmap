@@ -24,8 +24,8 @@
         "summarySource": "unesco",
         "image": {
           "thumbUrl": "https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/Persepolis,_Iran_(8510844637).jpg&width=640",
-          "author": "Wikimedia Commons contributor",
-          "license": "CC BY-SA 4.0",
+          "author": "flowcomm",
+          "license": "CC BY 2.0",
           "sourceUrl": "https://commons.wikimedia.org/wiki/File:Persepolis,_Iran_(8510844637).jpg"
         },
         "wikipediaUrl": "https://en.wikipedia.org/wiki/Persepolis",
@@ -42,235 +42,30 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          50.77,
-          32.3
+          51.6775,
+          32.6575
         ]
       },
       "properties": {
-        "siteId": "wd-Q500143",
-        "name": "Iran Castle 1",
-        "category": "castles",
-        "unesco": false,
-        "inDanger": false,
-        "yearInscribed": null,
-        "fame": 65,
-        "fameLevel": 3,
-        "summary": "Iran Castle 1 in Iran. A historic fortified stronghold dominating the surrounding landscape.",
-        "summarySource": "wikipedia",
-        "image": null,
-        "wikipediaUrl": "https://en.wikipedia.org/wiki/Iran",
-        "unescoUrl": null,
-        "wikidataId": "Q500143",
-        "countries": [
-          "IRN"
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "id": 2,
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          51.22,
-          32.3
-        ]
-      },
-      "properties": {
-        "siteId": "wd-Q500144",
-        "name": "Iran Cathedral Sanctuary 2",
+        "siteId": "whs-115",
+        "name": "Meidan Emam, Esfahan",
         "category": "sacred",
-        "unesco": false,
+        "unesco": true,
         "inDanger": false,
-        "yearInscribed": null,
-        "fame": 62,
-        "fameLevel": 3,
-        "summary": "Iran Cathedral Sanctuary 2 in Iran. A monumental place of worship renowned for its sacred art and architecture.",
-        "summarySource": "wikipedia",
-        "image": null,
-        "wikipediaUrl": "https://en.wikipedia.org/wiki/Iran",
-        "unescoUrl": null,
-        "wikidataId": "Q500144",
-        "countries": [
-          "IRN"
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "id": 3,
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          51.67,
-          32.3
-        ]
-      },
-      "properties": {
-        "siteId": "wd-Q500145",
-        "name": "Iran Archaeological Ruins 3",
-        "category": "ancient",
-        "unesco": false,
-        "inDanger": false,
-        "yearInscribed": null,
-        "fame": 59,
-        "fameLevel": 3,
-        "summary": "Iran Archaeological Ruins 3 in Iran. Excavated ancient remains revealing centuries of settlement and ritual life.",
-        "summarySource": "wikipedia",
-        "image": null,
-        "wikipediaUrl": "https://en.wikipedia.org/wiki/Iran",
-        "unescoUrl": null,
-        "wikidataId": "Q500145",
-        "countries": [
-          "IRN"
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "id": 4,
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          52.12,
-          32.3
-        ]
-      },
-      "properties": {
-        "siteId": "wd-Q500146",
-        "name": "Iran Old Town Quarter 4",
-        "category": "towns",
-        "unesco": false,
-        "inDanger": false,
-        "yearInscribed": null,
-        "fame": 56,
-        "fameLevel": 3,
-        "summary": "Iran Old Town Quarter 4 in Iran. Preserved historic streetscapes, squares and merchant townhouses.",
-        "summarySource": "wikipedia",
-        "image": null,
-        "wikipediaUrl": "https://en.wikipedia.org/wiki/Iran",
-        "unescoUrl": null,
-        "wikidataId": "Q500146",
-        "countries": [
-          "IRN"
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "id": 5,
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          52.57,
-          32.3
-        ]
-      },
-      "properties": {
-        "siteId": "wd-Q500147",
-        "name": "Iran Royal Palace 5",
-        "category": "palaces",
-        "unesco": false,
-        "inDanger": false,
-        "yearInscribed": null,
-        "fame": 53,
-        "fameLevel": 3,
-        "summary": "Iran Royal Palace 5 in Iran. Grand ceremonial residence surrounded by formal courtyards.",
-        "summarySource": "wikipedia",
-        "image": null,
-        "wikipediaUrl": "https://en.wikipedia.org/wiki/Iran",
-        "unescoUrl": null,
-        "wikidataId": "Q500147",
-        "countries": [
-          "IRN"
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "id": 6,
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          50.77,
-          32.65
-        ]
-      },
-      "properties": {
-        "siteId": "wd-Q500148",
-        "name": "Iran Cultural Terraces 6",
-        "category": "landscapes",
-        "unesco": false,
-        "inDanger": false,
-        "yearInscribed": null,
-        "fame": 50,
-        "fameLevel": 3,
-        "summary": "Iran Cultural Terraces 6 in Iran. Centuries-old human-shaped landscape of terraces and historic estates.",
-        "summarySource": "wikipedia",
-        "image": null,
-        "wikipediaUrl": "https://en.wikipedia.org/wiki/Iran",
-        "unescoUrl": null,
-        "wikidataId": "Q500148",
-        "countries": [
-          "IRN"
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "id": 7,
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          51.22,
-          32.65
-        ]
-      },
-      "properties": {
-        "siteId": "wd-Q500149",
-        "name": "Iran Historic Ironworks 7",
-        "category": "modern",
-        "unesco": false,
-        "inDanger": false,
-        "yearInscribed": null,
-        "fame": 47,
-        "fameLevel": 3,
-        "summary": "Iran Historic Ironworks 7 in Iran. Landmark of engineering and industrial heritage.",
-        "summarySource": "wikipedia",
-        "image": null,
-        "wikipediaUrl": "https://en.wikipedia.org/wiki/Iran",
-        "unescoUrl": null,
-        "wikidataId": "Q500149",
-        "countries": [
-          "IRN"
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "id": 8,
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          51.67,
-          32.65
-        ]
-      },
-      "properties": {
-        "siteId": "wd-Q500150",
-        "name": "Iran National Park Gorge 8",
-        "category": "natural",
-        "unesco": false,
-        "inDanger": false,
-        "yearInscribed": null,
-        "fame": 44,
-        "fameLevel": 3,
-        "summary": "Iran National Park Gorge 8 in Iran. Protected natural reserve celebrated for its dramatic landforms.",
-        "summarySource": "wikipedia",
-        "image": null,
-        "wikipediaUrl": "https://en.wikipedia.org/wiki/Iran",
-        "unescoUrl": null,
-        "wikidataId": "Q500150",
+        "yearInscribed": 1979,
+        "fame": 86,
+        "fameLevel": 4,
+        "summary": "Built by Shah Abbas I the Great at the beginning of the 17th century, this vast public square is bordered by two-storey arcades and the Royal Mosque, Mosque of Sheykh Lotfollah and Ali Qapu.",
+        "summarySource": "unesco",
+        "image": {
+          "thumbUrl": "https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/Naghsh-e_jahan_square_isfahan_modified2.jpg&width=640",
+          "author": "Arad",
+          "license": "CC BY-SA 3.0",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File:Naghsh-e_jahan_square_isfahan_modified2.jpg"
+        },
+        "wikipediaUrl": "https://en.wikipedia.org/wiki/Meidan_Emam",
+        "unescoUrl": "https://whc.unesco.org/en/list/115",
+        "wikidataId": "Q463472",
         "countries": [
           "IRN"
         ]

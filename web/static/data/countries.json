@@ -2,235 +2,863 @@
   "generatedAt": "2026-11-18",
   "countries": [
     {
+      "iso3": "AFG",
+      "name": "Afghanistan",
+      "aliases": [],
+      "teaser": "Discover the cultural and historical heritage of Afghanistan.",
+      "bbox": [
+        60.486,
+        29.3912,
+        74.8897,
+        38.4566
+      ],
+      "counts": {
+        "unesco": 0,
+        "notable": 0,
+        "byCategory": {
+          "ancient": 0,
+          "sacred": 0,
+          "castles": 0,
+          "towns": 0,
+          "palaces": 0,
+          "landscapes": 0,
+          "modern": 0,
+          "natural": 0
+        }
+      },
+      "richness": 0.0,
+      "richnessRaw": 0,
+      "spread": null,
+      "climate": null,
+      "cost": null,
+      "safety": null,
+      "traditions": {
+        "count": 0,
+        "examples": []
+      }
+    },
+    {
+      "iso3": "ALB",
+      "name": "Albania",
+      "aliases": [],
+      "teaser": "Discover the cultural and historical heritage of Albania.",
+      "bbox": [
+        19.28,
+        39.6527,
+        21.0296,
+        42.6473
+      ],
+      "counts": {
+        "unesco": 0,
+        "notable": 0,
+        "byCategory": {
+          "ancient": 0,
+          "sacred": 0,
+          "castles": 0,
+          "towns": 0,
+          "palaces": 0,
+          "landscapes": 0,
+          "modern": 0,
+          "natural": 0
+        }
+      },
+      "richness": 0.0,
+      "richnessRaw": 0,
+      "spread": null,
+      "climate": null,
+      "cost": null,
+      "safety": null,
+      "traditions": {
+        "count": 0,
+        "examples": []
+      }
+    },
+    {
+      "iso3": "DZA",
+      "name": "Algeria",
+      "aliases": [],
+      "teaser": "Timgad and Djémila's Roman cities, the Casbah of Algiers, M'Zab Valley's desert towns and Tassili rock art.",
+      "bbox": [
+        -8.6851,
+        18.9873,
+        11.9683,
+        37.0921
+      ],
+      "counts": {
+        "unesco": 0,
+        "notable": 0,
+        "byCategory": {
+          "ancient": 0,
+          "sacred": 0,
+          "castles": 0,
+          "towns": 0,
+          "palaces": 0,
+          "landscapes": 0,
+          "modern": 0,
+          "natural": 0
+        }
+      },
+      "richness": 0.0,
+      "richnessRaw": 0,
+      "spread": null,
+      "climate": null,
+      "cost": null,
+      "safety": null,
+      "traditions": {
+        "count": 0,
+        "examples": []
+      }
+    },
+    {
+      "iso3": "AND",
+      "name": "Andorra",
+      "aliases": [],
+      "teaser": "Discover the cultural and historical heritage of Andorra.",
+      "bbox": [
+        1.4166,
+        42.4338,
+        1.7406,
+        42.6421
+      ],
+      "counts": {
+        "unesco": 0,
+        "notable": 0,
+        "byCategory": {
+          "ancient": 0,
+          "sacred": 0,
+          "castles": 0,
+          "towns": 0,
+          "palaces": 0,
+          "landscapes": 0,
+          "modern": 0,
+          "natural": 0
+        }
+      },
+      "richness": 0.0,
+      "richnessRaw": 0,
+      "spread": null,
+      "climate": null,
+      "cost": null,
+      "safety": null,
+      "traditions": {
+        "count": 0,
+        "examples": []
+      }
+    },
+    {
+      "iso3": "AGO",
+      "name": "Angola",
+      "aliases": [],
+      "teaser": "Discover the cultural and historical heritage of Angola.",
+      "bbox": [
+        11.7415,
+        -18.0191,
+        24.0464,
+        -4.4297
+      ],
+      "counts": {
+        "unesco": 0,
+        "notable": 0,
+        "byCategory": {
+          "ancient": 0,
+          "sacred": 0,
+          "castles": 0,
+          "towns": 0,
+          "palaces": 0,
+          "landscapes": 0,
+          "modern": 0,
+          "natural": 0
+        }
+      },
+      "richness": 0.0,
+      "richnessRaw": 0,
+      "spread": null,
+      "climate": null,
+      "cost": null,
+      "safety": null,
+      "traditions": {
+        "count": 0,
+        "examples": []
+      }
+    },
+    {
+      "iso3": "ATG",
+      "name": "Antigua and Barb.",
+      "aliases": [],
+      "teaser": "Discover the cultural and historical heritage of Antigua and Barb..",
+      "bbox": [
+        -61.8864,
+        16.9978,
+        -61.6848,
+        17.7148
+      ],
+      "counts": {
+        "unesco": 0,
+        "notable": 0,
+        "byCategory": {
+          "ancient": 0,
+          "sacred": 0,
+          "castles": 0,
+          "towns": 0,
+          "palaces": 0,
+          "landscapes": 0,
+          "modern": 0,
+          "natural": 0
+        }
+      },
+      "richness": 0.0,
+      "richnessRaw": 0,
+      "spread": null,
+      "climate": null,
+      "cost": null,
+      "safety": null,
+      "traditions": {
+        "count": 0,
+        "examples": []
+      }
+    },
+    {
+      "iso3": "ARG",
+      "name": "Argentina",
+      "aliases": [],
+      "teaser": "Jesuit missions, Andean Quebrada de Humahuaca, prehistoric Cueva de las Manos and Patagonian glaciers.",
+      "bbox": [
+        -73.5757,
+        -55.0324,
+        -53.6675,
+        -21.8018
+      ],
+      "counts": {
+        "unesco": 0,
+        "notable": 0,
+        "byCategory": {
+          "ancient": 0,
+          "sacred": 0,
+          "castles": 0,
+          "towns": 0,
+          "palaces": 0,
+          "landscapes": 0,
+          "modern": 0,
+          "natural": 0
+        }
+      },
+      "richness": 0.0,
+      "richnessRaw": 0,
+      "spread": null,
+      "climate": null,
+      "cost": null,
+      "safety": null,
+      "traditions": {
+        "count": 0,
+        "examples": []
+      }
+    },
+    {
+      "iso3": "ARM",
+      "name": "Armenia",
+      "aliases": [],
+      "teaser": "Discover the cultural and historical heritage of Armenia.",
+      "bbox": [
+        43.4398,
+        38.8697,
+        46.5863,
+        41.2915
+      ],
+      "counts": {
+        "unesco": 0,
+        "notable": 0,
+        "byCategory": {
+          "ancient": 0,
+          "sacred": 0,
+          "castles": 0,
+          "towns": 0,
+          "palaces": 0,
+          "landscapes": 0,
+          "modern": 0,
+          "natural": 0
+        }
+      },
+      "richness": 0.0,
+      "richnessRaw": 0,
+      "spread": null,
+      "climate": null,
+      "cost": null,
+      "safety": null,
+      "traditions": {
+        "count": 0,
+        "examples": []
+      }
+    },
+    {
+      "iso3": "AUS",
+      "name": "Ashmore and Cartier Is.",
+      "aliases": [],
+      "teaser": "Ancient Aboriginal rock art, convict-era settlements, the Sydney Opera House and the Great Barrier Reef.",
+      "bbox": [
+        123.573,
+        -12.4361,
+        123.5946,
+        -12.4239
+      ],
+      "counts": {
+        "unesco": 0,
+        "notable": 0,
+        "byCategory": {
+          "ancient": 0,
+          "sacred": 0,
+          "castles": 0,
+          "towns": 0,
+          "palaces": 0,
+          "landscapes": 0,
+          "modern": 0,
+          "natural": 0
+        }
+      },
+      "richness": 0.0,
+      "richnessRaw": 0,
+      "spread": null,
+      "climate": null,
+      "cost": null,
+      "safety": null,
+      "traditions": {
+        "count": 0,
+        "examples": []
+      }
+    },
+    {
       "iso3": "AUT",
       "name": "Austria",
       "aliases": [
-        "Österreich",
-        "Republic of Austria"
+        "Österreich"
       ],
       "teaser": "Habsburg palaces, Salzburg's baroque skyline, Alpine cultural landscapes and Danube abbey towns.",
       "bbox": [
-        9.5,
-        46.4,
-        17.2,
-        49.0
+        9.5239,
+        46.4005,
+        17.1488,
+        49.0011
       ],
       "counts": {
         "unesco": 1,
-        "notable": 8,
+        "notable": 0,
         "byCategory": {
-          "ancient": 1,
-          "sacred": 1,
-          "castles": 1,
-          "towns": 1,
-          "palaces": 2,
-          "landscapes": 1,
-          "modern": 1,
-          "natural": 1
+          "ancient": 0,
+          "sacred": 0,
+          "castles": 0,
+          "towns": 0,
+          "palaces": 1,
+          "landscapes": 0,
+          "modern": 0,
+          "natural": 0
         }
       },
-      "richness": 0.6055,
-      "richnessRaw": 11,
-      "spread": {
-        "level": "compact",
-        "medianKm": 52
-      },
-      "climate": {
-        "tempC": [
-          0.0,
-          2.0,
-          6.0,
-          11.0,
-          16.0,
-          19.0,
-          22.0,
-          21.0,
-          16.0,
-          11.0,
-          5.0,
-          1.0
-        ],
-        "precipMm": [
-          38.0,
-          38.0,
-          50.0,
-          52.0,
-          72.0,
-          82.0,
-          85.0,
-          75.0,
-          60.0,
-          45.0,
-          50.0,
-          45.0
-        ],
-        "comfortable": [
-          false,
-          false,
-          false,
-          false,
-          true,
-          true,
-          true,
-          true,
-          true,
-          false,
-          false,
-          false
-        ]
-      },
-      "cost": {
-        "tier": 4,
-        "priceLevelRatio": 0.78,
-        "year": 2023
-      },
-      "safety": {
-        "level": 1,
-        "label": "Exercise Normal Precautions",
-        "url": "https://travel.state.gov/content/travel/en/traveladvisories/traveladvisories.html/",
-        "asOf": "2026-11-01"
-      },
+      "richness": 0.3974,
+      "richnessRaw": 3,
+      "spread": null,
+      "climate": null,
+      "cost": null,
+      "safety": null,
       "traditions": {
-        "count": 2,
-        "examples": [
-          "Classical horsemanship and the High School of the Spanish Riding School Vienna",
-          "Schemenlaufen carnival"
-        ]
+        "count": 0,
+        "examples": []
+      }
+    },
+    {
+      "iso3": "AZE",
+      "name": "Azerbaijan",
+      "aliases": [],
+      "teaser": "Discover the cultural and historical heritage of Azerbaijan.",
+      "bbox": [
+        44.7682,
+        38.3993,
+        50.3663,
+        41.8904
+      ],
+      "counts": {
+        "unesco": 0,
+        "notable": 0,
+        "byCategory": {
+          "ancient": 0,
+          "sacred": 0,
+          "castles": 0,
+          "towns": 0,
+          "palaces": 0,
+          "landscapes": 0,
+          "modern": 0,
+          "natural": 0
+        }
+      },
+      "richness": 0.0,
+      "richnessRaw": 0,
+      "spread": null,
+      "climate": null,
+      "cost": null,
+      "safety": null,
+      "traditions": {
+        "count": 0,
+        "examples": []
+      }
+    },
+    {
+      "iso3": "BHS",
+      "name": "Bahamas",
+      "aliases": [],
+      "teaser": "Discover the cultural and historical heritage of Bahamas.",
+      "bbox": [
+        -78.9866,
+        22.1833,
+        -73.8349,
+        26.9399
+      ],
+      "counts": {
+        "unesco": 0,
+        "notable": 0,
+        "byCategory": {
+          "ancient": 0,
+          "sacred": 0,
+          "castles": 0,
+          "towns": 0,
+          "palaces": 0,
+          "landscapes": 0,
+          "modern": 0,
+          "natural": 0
+        }
+      },
+      "richness": 0.0,
+      "richnessRaw": 0,
+      "spread": null,
+      "climate": null,
+      "cost": null,
+      "safety": null,
+      "traditions": {
+        "count": 0,
+        "examples": []
+      }
+    },
+    {
+      "iso3": "BHR",
+      "name": "Bahrain",
+      "aliases": [],
+      "teaser": "Discover the cultural and historical heritage of Bahrain.",
+      "bbox": [
+        50.4527,
+        25.8063,
+        50.6183,
+        26.2473
+      ],
+      "counts": {
+        "unesco": 0,
+        "notable": 0,
+        "byCategory": {
+          "ancient": 0,
+          "sacred": 0,
+          "castles": 0,
+          "towns": 0,
+          "palaces": 0,
+          "landscapes": 0,
+          "modern": 0,
+          "natural": 0
+        }
+      },
+      "richness": 0.0,
+      "richnessRaw": 0,
+      "spread": null,
+      "climate": null,
+      "cost": null,
+      "safety": null,
+      "traditions": {
+        "count": 0,
+        "examples": []
+      }
+    },
+    {
+      "iso3": "BGD",
+      "name": "Bangladesh",
+      "aliases": [],
+      "teaser": "Discover the cultural and historical heritage of Bangladesh.",
+      "bbox": [
+        88.0227,
+        20.791,
+        92.6307,
+        26.5719
+      ],
+      "counts": {
+        "unesco": 0,
+        "notable": 0,
+        "byCategory": {
+          "ancient": 0,
+          "sacred": 0,
+          "castles": 0,
+          "towns": 0,
+          "palaces": 0,
+          "landscapes": 0,
+          "modern": 0,
+          "natural": 0
+        }
+      },
+      "richness": 0.0,
+      "richnessRaw": 0,
+      "spread": null,
+      "climate": null,
+      "cost": null,
+      "safety": null,
+      "traditions": {
+        "count": 0,
+        "examples": []
+      }
+    },
+    {
+      "iso3": "BRB",
+      "name": "Barbados",
+      "aliases": [],
+      "teaser": "Discover the cultural and historical heritage of Barbados.",
+      "bbox": [
+        -59.6472,
+        13.0623,
+        -59.4276,
+        13.3175
+      ],
+      "counts": {
+        "unesco": 0,
+        "notable": 0,
+        "byCategory": {
+          "ancient": 0,
+          "sacred": 0,
+          "castles": 0,
+          "towns": 0,
+          "palaces": 0,
+          "landscapes": 0,
+          "modern": 0,
+          "natural": 0
+        }
+      },
+      "richness": 0.0,
+      "richnessRaw": 0,
+      "spread": null,
+      "climate": null,
+      "cost": null,
+      "safety": null,
+      "traditions": {
+        "count": 0,
+        "examples": []
+      }
+    },
+    {
+      "iso3": "BLR",
+      "name": "Belarus",
+      "aliases": [],
+      "teaser": "Discover the cultural and historical heritage of Belarus.",
+      "bbox": [
+        23.1752,
+        51.2648,
+        32.7117,
+        56.1465
+      ],
+      "counts": {
+        "unesco": 0,
+        "notable": 0,
+        "byCategory": {
+          "ancient": 0,
+          "sacred": 0,
+          "castles": 0,
+          "towns": 0,
+          "palaces": 0,
+          "landscapes": 0,
+          "modern": 0,
+          "natural": 0
+        }
+      },
+      "richness": 0.0,
+      "richnessRaw": 0,
+      "spread": null,
+      "climate": null,
+      "cost": null,
+      "safety": null,
+      "traditions": {
+        "count": 0,
+        "examples": []
       }
     },
     {
       "iso3": "BEL",
       "name": "Belgium",
-      "aliases": [
-        "Kingdom of Belgium",
-        "Belgique",
-        "België"
-      ],
+      "aliases": [],
       "teaser": "Flemish belfries, serene brick béguinages, Grand-Place guildhalls and Art Nouveau townhouses.",
       "bbox": [
-        2.5,
-        49.5,
-        6.4,
-        51.5
+        2.5254,
+        49.5114,
+        6.3631,
+        51.4905
       ],
       "counts": {
         "unesco": 1,
-        "notable": 8,
+        "notable": 0,
         "byCategory": {
-          "ancient": 1,
-          "sacred": 1,
-          "castles": 1,
-          "towns": 2,
-          "palaces": 1,
-          "landscapes": 1,
-          "modern": 1,
-          "natural": 1
+          "ancient": 0,
+          "sacred": 0,
+          "castles": 0,
+          "towns": 1,
+          "palaces": 0,
+          "landscapes": 0,
+          "modern": 0,
+          "natural": 0
         }
       },
-      "richness": 0.6055,
-      "richnessRaw": 11,
-      "spread": {
-        "level": "compact",
-        "medianKm": 64
-      },
-      "climate": {
-        "tempC": [
-          3.0,
-          4.0,
-          7.0,
-          10.0,
-          14.0,
-          17.0,
-          19.0,
-          19.0,
-          16.0,
-          12.0,
-          7.0,
-          4.0
-        ],
-        "precipMm": [
-          75.0,
-          62.0,
-          65.0,
-          50.0,
-          65.0,
-          70.0,
-          75.0,
-          75.0,
-          68.0,
-          75.0,
-          78.0,
-          82.0
-        ],
-        "comfortable": [
-          false,
-          false,
-          false,
-          false,
-          true,
-          true,
-          true,
-          true,
-          true,
-          false,
-          false,
-          false
-        ]
-      },
-      "cost": {
-        "tier": 3,
-        "priceLevelRatio": 0.77,
-        "year": 2023
-      },
-      "safety": {
-        "level": 2,
-        "label": "Exercise Increased Caution",
-        "url": "https://travel.state.gov/content/travel/en/traveladvisories/traveladvisories.html/",
-        "asOf": "2026-11-01"
-      },
+      "richness": 0.3974,
+      "richnessRaw": 3,
+      "spread": null,
+      "climate": null,
+      "cost": null,
+      "safety": null,
       "traditions": {
-        "count": 3,
-        "examples": [
-          "Beer culture in Belgium",
-          "Carnival of Binche",
-          "Ommegang of Brussels"
-        ]
+        "count": 0,
+        "examples": []
+      }
+    },
+    {
+      "iso3": "BLZ",
+      "name": "Belize",
+      "aliases": [],
+      "teaser": "Discover the cultural and historical heritage of Belize.",
+      "bbox": [
+        -89.2359,
+        15.8885,
+        -87.7887,
+        18.4821
+      ],
+      "counts": {
+        "unesco": 0,
+        "notable": 0,
+        "byCategory": {
+          "ancient": 0,
+          "sacred": 0,
+          "castles": 0,
+          "towns": 0,
+          "palaces": 0,
+          "landscapes": 0,
+          "modern": 0,
+          "natural": 0
+        }
+      },
+      "richness": 0.0,
+      "richnessRaw": 0,
+      "spread": null,
+      "climate": null,
+      "cost": null,
+      "safety": null,
+      "traditions": {
+        "count": 0,
+        "examples": []
+      }
+    },
+    {
+      "iso3": "BEN",
+      "name": "Benin",
+      "aliases": [],
+      "teaser": "Discover the cultural and historical heritage of Benin.",
+      "bbox": [
+        0.765,
+        6.2173,
+        3.8358,
+        12.3835
+      ],
+      "counts": {
+        "unesco": 0,
+        "notable": 0,
+        "byCategory": {
+          "ancient": 0,
+          "sacred": 0,
+          "castles": 0,
+          "towns": 0,
+          "palaces": 0,
+          "landscapes": 0,
+          "modern": 0,
+          "natural": 0
+        }
+      },
+      "richness": 0.0,
+      "richnessRaw": 0,
+      "spread": null,
+      "climate": null,
+      "cost": null,
+      "safety": null,
+      "traditions": {
+        "count": 0,
+        "examples": []
+      }
+    },
+    {
+      "iso3": "BTN",
+      "name": "Bhutan",
+      "aliases": [],
+      "teaser": "Discover the cultural and historical heritage of Bhutan.",
+      "bbox": [
+        88.7391,
+        26.7021,
+        92.0835,
+        28.3114
+      ],
+      "counts": {
+        "unesco": 0,
+        "notable": 0,
+        "byCategory": {
+          "ancient": 0,
+          "sacred": 0,
+          "castles": 0,
+          "towns": 0,
+          "palaces": 0,
+          "landscapes": 0,
+          "modern": 0,
+          "natural": 0
+        }
+      },
+      "richness": 0.0,
+      "richnessRaw": 0,
+      "spread": null,
+      "climate": null,
+      "cost": null,
+      "safety": null,
+      "traditions": {
+        "count": 0,
+        "examples": []
+      }
+    },
+    {
+      "iso3": "BOL",
+      "name": "Bolivia",
+      "aliases": [],
+      "teaser": "Tiwanaku's stone gateways, silver-rich Potosí, whitewashed Sucre and the Jesuit missions of Chiquitos.",
+      "bbox": [
+        -69.6445,
+        -22.8921,
+        -57.4944,
+        -9.7106
+      ],
+      "counts": {
+        "unesco": 0,
+        "notable": 0,
+        "byCategory": {
+          "ancient": 0,
+          "sacred": 0,
+          "castles": 0,
+          "towns": 0,
+          "palaces": 0,
+          "landscapes": 0,
+          "modern": 0,
+          "natural": 0
+        }
+      },
+      "richness": 0.0,
+      "richnessRaw": 0,
+      "spread": null,
+      "climate": null,
+      "cost": null,
+      "safety": null,
+      "traditions": {
+        "count": 0,
+        "examples": []
+      }
+    },
+    {
+      "iso3": "BIH",
+      "name": "Bosnia and Herz.",
+      "aliases": [],
+      "teaser": "Discover the cultural and historical heritage of Bosnia and Herz..",
+      "bbox": [
+        15.7376,
+        42.5605,
+        19.5824,
+        45.2773
+      ],
+      "counts": {
+        "unesco": 0,
+        "notable": 0,
+        "byCategory": {
+          "ancient": 0,
+          "sacred": 0,
+          "castles": 0,
+          "towns": 0,
+          "palaces": 0,
+          "landscapes": 0,
+          "modern": 0,
+          "natural": 0
+        }
+      },
+      "richness": 0.0,
+      "richnessRaw": 0,
+      "spread": null,
+      "climate": null,
+      "cost": null,
+      "safety": null,
+      "traditions": {
+        "count": 0,
+        "examples": []
+      }
+    },
+    {
+      "iso3": "BWA",
+      "name": "Botswana",
+      "aliases": [],
+      "teaser": "Discover the cultural and historical heritage of Botswana.",
+      "bbox": [
+        19.9784,
+        -26.8536,
+        29.3637,
+        -17.7882
+      ],
+      "counts": {
+        "unesco": 0,
+        "notable": 0,
+        "byCategory": {
+          "ancient": 0,
+          "sacred": 0,
+          "castles": 0,
+          "towns": 0,
+          "palaces": 0,
+          "landscapes": 0,
+          "modern": 0,
+          "natural": 0
+        }
+      },
+      "richness": 0.0,
+      "richnessRaw": 0,
+      "spread": null,
+      "climate": null,
+      "cost": null,
+      "safety": null,
+      "traditions": {
+        "count": 0,
+        "examples": []
       }
     },
     {
       "iso3": "BRA",
       "name": "Brazil",
-      "aliases": [
-        "Brasil",
-        "Federative Republic of Brazil"
-      ],
+      "aliases": [],
       "teaser": "Baroque gold-rush towns of Minas Gerais, colonial coastal quarters, modernist Brasília and lush Atlantic reserves.",
       "bbox": [
-        -74.0,
-        -33.7,
-        -34.8,
-        5.3
+        -74.0005,
+        -33.7421,
+        -34.8069,
+        5.2572
       ],
       "counts": {
         "unesco": 1,
-        "notable": 8,
+        "notable": 0,
         "byCategory": {
-          "ancient": 1,
-          "sacred": 1,
-          "castles": 1,
-          "towns": 2,
-          "palaces": 1,
-          "landscapes": 1,
-          "modern": 1,
-          "natural": 1
+          "ancient": 0,
+          "sacred": 0,
+          "castles": 0,
+          "towns": 1,
+          "palaces": 0,
+          "landscapes": 0,
+          "modern": 0,
+          "natural": 0
         }
       },
-      "richness": 0.6055,
-      "richnessRaw": 11,
-      "spread": {
-        "level": "compact",
-        "medianKm": 96
-      },
+      "richness": 0.3974,
+      "richnessRaw": 3,
+      "spread": null,
       "climate": {
         "tempC": [
           26.0,
@@ -296,39 +924,213 @@
       }
     },
     {
+      "iso3": "BRN",
+      "name": "Brunei",
+      "aliases": [],
+      "teaser": "Discover the cultural and historical heritage of Brunei.",
+      "bbox": [
+        114.0653,
+        4.0247,
+        115.3254,
+        5.0229
+      ],
+      "counts": {
+        "unesco": 0,
+        "notable": 0,
+        "byCategory": {
+          "ancient": 0,
+          "sacred": 0,
+          "castles": 0,
+          "towns": 0,
+          "palaces": 0,
+          "landscapes": 0,
+          "modern": 0,
+          "natural": 0
+        }
+      },
+      "richness": 0.0,
+      "richnessRaw": 0,
+      "spread": null,
+      "climate": null,
+      "cost": null,
+      "safety": null,
+      "traditions": {
+        "count": 0,
+        "examples": []
+      }
+    },
+    {
+      "iso3": "BGR",
+      "name": "Bulgaria",
+      "aliases": [],
+      "teaser": "Rila Monastery, Thracian painted tombs, Boyana's medieval frescoes and ancient Nessebar on the Black Sea.",
+      "bbox": [
+        22.3436,
+        41.2429,
+        28.5861,
+        44.2375
+      ],
+      "counts": {
+        "unesco": 0,
+        "notable": 0,
+        "byCategory": {
+          "ancient": 0,
+          "sacred": 0,
+          "castles": 0,
+          "towns": 0,
+          "palaces": 0,
+          "landscapes": 0,
+          "modern": 0,
+          "natural": 0
+        }
+      },
+      "richness": 0.0,
+      "richnessRaw": 0,
+      "spread": null,
+      "climate": null,
+      "cost": null,
+      "safety": null,
+      "traditions": {
+        "count": 0,
+        "examples": []
+      }
+    },
+    {
+      "iso3": "BFA",
+      "name": "Burkina Faso",
+      "aliases": [],
+      "teaser": "Discover the cultural and historical heritage of Burkina Faso.",
+      "bbox": [
+        -5.5243,
+        9.4254,
+        2.3886,
+        15.0778
+      ],
+      "counts": {
+        "unesco": 0,
+        "notable": 0,
+        "byCategory": {
+          "ancient": 0,
+          "sacred": 0,
+          "castles": 0,
+          "towns": 0,
+          "palaces": 0,
+          "landscapes": 0,
+          "modern": 0,
+          "natural": 0
+        }
+      },
+      "richness": 0.0,
+      "richnessRaw": 0,
+      "spread": null,
+      "climate": null,
+      "cost": null,
+      "safety": null,
+      "traditions": {
+        "count": 0,
+        "examples": []
+      }
+    },
+    {
+      "iso3": "BDI",
+      "name": "Burundi",
+      "aliases": [],
+      "teaser": "Discover the cultural and historical heritage of Burundi.",
+      "bbox": [
+        29.0145,
+        -4.4557,
+        30.8109,
+        -2.3135
+      ],
+      "counts": {
+        "unesco": 0,
+        "notable": 0,
+        "byCategory": {
+          "ancient": 0,
+          "sacred": 0,
+          "castles": 0,
+          "towns": 0,
+          "palaces": 0,
+          "landscapes": 0,
+          "modern": 0,
+          "natural": 0
+        }
+      },
+      "richness": 0.0,
+      "richnessRaw": 0,
+      "spread": null,
+      "climate": null,
+      "cost": null,
+      "safety": null,
+      "traditions": {
+        "count": 0,
+        "examples": []
+      }
+    },
+    {
+      "iso3": "CPV",
+      "name": "Cabo Verde",
+      "aliases": [],
+      "teaser": "Discover the cultural and historical heritage of Cabo Verde.",
+      "bbox": [
+        -25.3425,
+        14.8174,
+        -22.682,
+        17.194
+      ],
+      "counts": {
+        "unesco": 0,
+        "notable": 0,
+        "byCategory": {
+          "ancient": 0,
+          "sacred": 0,
+          "castles": 0,
+          "towns": 0,
+          "palaces": 0,
+          "landscapes": 0,
+          "modern": 0,
+          "natural": 0
+        }
+      },
+      "richness": 0.0,
+      "richnessRaw": 0,
+      "spread": null,
+      "climate": null,
+      "cost": null,
+      "safety": null,
+      "traditions": {
+        "count": 0,
+        "examples": []
+      }
+    },
+    {
       "iso3": "KHM",
       "name": "Cambodia",
-      "aliases": [
-        "Kingdom of Cambodia",
-        "Kampuchea"
-      ],
+      "aliases": [],
       "teaser": "Angkor Wat, the Bayon's stone faces, jungle-wrapped Khmer temple cities and Sambor Prei Kuk.",
       "bbox": [
-        102.3,
-        10.4,
-        107.6,
-        14.7
+        102.3184,
+        10.4114,
+        107.6069,
+        14.7046
       ],
       "counts": {
         "unesco": 1,
-        "notable": 8,
+        "notable": 0,
         "byCategory": {
-          "ancient": 1,
-          "sacred": 2,
-          "castles": 1,
-          "towns": 1,
-          "palaces": 1,
-          "landscapes": 1,
-          "modern": 1,
-          "natural": 1
+          "ancient": 0,
+          "sacred": 1,
+          "castles": 0,
+          "towns": 0,
+          "palaces": 0,
+          "landscapes": 0,
+          "modern": 0,
+          "natural": 0
         }
       },
-      "richness": 0.6055,
-      "richnessRaw": 11,
-      "spread": {
-        "level": "compact",
-        "medianKm": 63
-      },
+      "richness": 0.3974,
+      "richnessRaw": 3,
+      "spread": null,
       "climate": {
         "tempC": [
           26.0,
@@ -394,6 +1196,186 @@
       }
     },
     {
+      "iso3": "CMR",
+      "name": "Cameroon",
+      "aliases": [],
+      "teaser": "Discover the cultural and historical heritage of Cameroon.",
+      "bbox": [
+        8.5339,
+        1.6759,
+        16.184,
+        13.0779
+      ],
+      "counts": {
+        "unesco": 0,
+        "notable": 0,
+        "byCategory": {
+          "ancient": 0,
+          "sacred": 0,
+          "castles": 0,
+          "towns": 0,
+          "palaces": 0,
+          "landscapes": 0,
+          "modern": 0,
+          "natural": 0
+        }
+      },
+      "richness": 0.0,
+      "richnessRaw": 0,
+      "spread": null,
+      "climate": null,
+      "cost": null,
+      "safety": null,
+      "traditions": {
+        "count": 0,
+        "examples": []
+      }
+    },
+    {
+      "iso3": "CAN",
+      "name": "Canada",
+      "aliases": [],
+      "teaser": "Historic Quebec, Viking L'Anse aux Meadows, Indigenous totem sites and Rocky Mountain wilderness.",
+      "bbox": [
+        -141.0008,
+        41.6751,
+        -52.6523,
+        77.067
+      ],
+      "counts": {
+        "unesco": 0,
+        "notable": 0,
+        "byCategory": {
+          "ancient": 0,
+          "sacred": 0,
+          "castles": 0,
+          "towns": 0,
+          "palaces": 0,
+          "landscapes": 0,
+          "modern": 0,
+          "natural": 0
+        }
+      },
+      "richness": 0.0,
+      "richnessRaw": 0,
+      "spread": null,
+      "climate": null,
+      "cost": null,
+      "safety": null,
+      "traditions": {
+        "count": 0,
+        "examples": []
+      }
+    },
+    {
+      "iso3": "CAF",
+      "name": "Central African Rep.",
+      "aliases": [],
+      "teaser": "Discover the cultural and historical heritage of Central African Rep..",
+      "bbox": [
+        14.4307,
+        2.2696,
+        27.4017,
+        10.9965
+      ],
+      "counts": {
+        "unesco": 0,
+        "notable": 0,
+        "byCategory": {
+          "ancient": 0,
+          "sacred": 0,
+          "castles": 0,
+          "towns": 0,
+          "palaces": 0,
+          "landscapes": 0,
+          "modern": 0,
+          "natural": 0
+        }
+      },
+      "richness": 0.0,
+      "richnessRaw": 0,
+      "spread": null,
+      "climate": null,
+      "cost": null,
+      "safety": null,
+      "traditions": {
+        "count": 0,
+        "examples": []
+      }
+    },
+    {
+      "iso3": "TCD",
+      "name": "Chad",
+      "aliases": [],
+      "teaser": "Discover the cultural and historical heritage of Chad.",
+      "bbox": [
+        13.4479,
+        7.4759,
+        23.9816,
+        23.4454
+      ],
+      "counts": {
+        "unesco": 0,
+        "notable": 0,
+        "byCategory": {
+          "ancient": 0,
+          "sacred": 0,
+          "castles": 0,
+          "towns": 0,
+          "palaces": 0,
+          "landscapes": 0,
+          "modern": 0,
+          "natural": 0
+        }
+      },
+      "richness": 0.0,
+      "richnessRaw": 0,
+      "spread": null,
+      "climate": null,
+      "cost": null,
+      "safety": null,
+      "traditions": {
+        "count": 0,
+        "examples": []
+      }
+    },
+    {
+      "iso3": "CHL",
+      "name": "Chile",
+      "aliases": [],
+      "teaser": "Rapa Nui's moai statues, Chiloé's wooden churches, Valparaíso's hillside quarters and Andean saltpeter towns.",
+      "bbox": [
+        -75.707,
+        -55.8917,
+        -66.4369,
+        -17.5052
+      ],
+      "counts": {
+        "unesco": 0,
+        "notable": 0,
+        "byCategory": {
+          "ancient": 0,
+          "sacred": 0,
+          "castles": 0,
+          "towns": 0,
+          "palaces": 0,
+          "landscapes": 0,
+          "modern": 0,
+          "natural": 0
+        }
+      },
+      "richness": 0.0,
+      "richnessRaw": 0,
+      "spread": null,
+      "climate": null,
+      "cost": null,
+      "safety": null,
+      "traditions": {
+        "count": 0,
+        "examples": []
+      }
+    },
+    {
       "iso3": "CHN",
       "name": "China",
       "aliases": [
@@ -402,30 +1384,30 @@
       ],
       "teaser": "The Great Wall, the Forbidden City, the Terracotta Army, sacred mountains and ancient water towns.",
       "bbox": [
-        73.6,
-        18.2,
-        134.8,
-        53.6
+        73.6081,
+        18.2182,
+        134.7511,
+        53.5563
       ],
       "counts": {
-        "unesco": 3,
-        "notable": 18,
+        "unesco": 4,
+        "notable": 1,
         "byCategory": {
-          "ancient": 3,
-          "sacred": 3,
-          "castles": 4,
-          "towns": 2,
-          "palaces": 3,
-          "landscapes": 2,
-          "modern": 2,
-          "natural": 2
+          "ancient": 1,
+          "sacred": 2,
+          "castles": 1,
+          "towns": 0,
+          "palaces": 1,
+          "landscapes": 0,
+          "modern": 0,
+          "natural": 0
         }
       },
-      "richness": 0.9487,
-      "richnessRaw": 27,
+      "richness": 0.8272,
+      "richnessRaw": 13,
       "spread": {
-        "level": "compact",
-        "medianKm": 86
+        "level": "spread",
+        "medianKm": 886
       },
       "climate": {
         "tempC": [
@@ -494,6 +1476,258 @@
       }
     },
     {
+      "iso3": "COL",
+      "name": "Colombia",
+      "aliases": [],
+      "teaser": "Cartagena's walled colonial port, San Agustín's megalithic sculptures, Mompox and coffee landscapes.",
+      "bbox": [
+        -79.0262,
+        -4.2352,
+        -66.8761,
+        12.4339
+      ],
+      "counts": {
+        "unesco": 0,
+        "notable": 0,
+        "byCategory": {
+          "ancient": 0,
+          "sacred": 0,
+          "castles": 0,
+          "towns": 0,
+          "palaces": 0,
+          "landscapes": 0,
+          "modern": 0,
+          "natural": 0
+        }
+      },
+      "richness": 0.0,
+      "richnessRaw": 0,
+      "spread": null,
+      "climate": null,
+      "cost": null,
+      "safety": null,
+      "traditions": {
+        "count": 0,
+        "examples": []
+      }
+    },
+    {
+      "iso3": "COM",
+      "name": "Comoros",
+      "aliases": [],
+      "teaser": "Discover the cultural and historical heritage of Comoros.",
+      "bbox": [
+        43.2274,
+        -12.3684,
+        44.527,
+        -11.3685
+      ],
+      "counts": {
+        "unesco": 0,
+        "notable": 0,
+        "byCategory": {
+          "ancient": 0,
+          "sacred": 0,
+          "castles": 0,
+          "towns": 0,
+          "palaces": 0,
+          "landscapes": 0,
+          "modern": 0,
+          "natural": 0
+        }
+      },
+      "richness": 0.0,
+      "richnessRaw": 0,
+      "spread": null,
+      "climate": null,
+      "cost": null,
+      "safety": null,
+      "traditions": {
+        "count": 0,
+        "examples": []
+      }
+    },
+    {
+      "iso3": "COG",
+      "name": "Congo",
+      "aliases": [],
+      "teaser": "Discover the cultural and historical heritage of Congo.",
+      "bbox": [
+        11.1295,
+        -5.0043,
+        18.6212,
+        3.6879
+      ],
+      "counts": {
+        "unesco": 0,
+        "notable": 0,
+        "byCategory": {
+          "ancient": 0,
+          "sacred": 0,
+          "castles": 0,
+          "towns": 0,
+          "palaces": 0,
+          "landscapes": 0,
+          "modern": 0,
+          "natural": 0
+        }
+      },
+      "richness": 0.0,
+      "richnessRaw": 0,
+      "spread": null,
+      "climate": null,
+      "cost": null,
+      "safety": null,
+      "traditions": {
+        "count": 0,
+        "examples": []
+      }
+    },
+    {
+      "iso3": "CRI",
+      "name": "Costa Rica",
+      "aliases": [],
+      "teaser": "Discover the cultural and historical heritage of Costa Rica.",
+      "bbox": [
+        -85.9095,
+        8.0713,
+        -82.565,
+        11.1892
+      ],
+      "counts": {
+        "unesco": 0,
+        "notable": 0,
+        "byCategory": {
+          "ancient": 0,
+          "sacred": 0,
+          "castles": 0,
+          "towns": 0,
+          "palaces": 0,
+          "landscapes": 0,
+          "modern": 0,
+          "natural": 0
+        }
+      },
+      "richness": 0.0,
+      "richnessRaw": 0,
+      "spread": null,
+      "climate": null,
+      "cost": null,
+      "safety": null,
+      "traditions": {
+        "count": 0,
+        "examples": []
+      }
+    },
+    {
+      "iso3": "HRV",
+      "name": "Croatia",
+      "aliases": [],
+      "teaser": "Dubrovnik's sea walls, Diocletian's Palace in Split, Euphrasian mosaics in Poreč and Plitvice's terraced lakes.",
+      "bbox": [
+        13.5163,
+        42.4338,
+        19.4024,
+        46.5342
+      ],
+      "counts": {
+        "unesco": 0,
+        "notable": 0,
+        "byCategory": {
+          "ancient": 0,
+          "sacred": 0,
+          "castles": 0,
+          "towns": 0,
+          "palaces": 0,
+          "landscapes": 0,
+          "modern": 0,
+          "natural": 0
+        }
+      },
+      "richness": 0.0,
+      "richnessRaw": 0,
+      "spread": null,
+      "climate": null,
+      "cost": null,
+      "safety": null,
+      "traditions": {
+        "count": 0,
+        "examples": []
+      }
+    },
+    {
+      "iso3": "CUB",
+      "name": "Cuba",
+      "aliases": [],
+      "teaser": "Old Havana's baroque plazas and sea forts, colonial Trinidad, Viñales tobacco valleys and Cienfuegos.",
+      "bbox": [
+        -84.887,
+        19.8553,
+        -74.1373,
+        23.1902
+      ],
+      "counts": {
+        "unesco": 0,
+        "notable": 0,
+        "byCategory": {
+          "ancient": 0,
+          "sacred": 0,
+          "castles": 0,
+          "towns": 0,
+          "palaces": 0,
+          "landscapes": 0,
+          "modern": 0,
+          "natural": 0
+        }
+      },
+      "richness": 0.0,
+      "richnessRaw": 0,
+      "spread": null,
+      "climate": null,
+      "cost": null,
+      "safety": null,
+      "traditions": {
+        "count": 0,
+        "examples": []
+      }
+    },
+    {
+      "iso3": "CYP",
+      "name": "Cyprus",
+      "aliases": [],
+      "teaser": "Discover the cultural and historical heritage of Cyprus.",
+      "bbox": [
+        32.3013,
+        34.5697,
+        34.0509,
+        35.1825
+      ],
+      "counts": {
+        "unesco": 0,
+        "notable": 0,
+        "byCategory": {
+          "ancient": 0,
+          "sacred": 0,
+          "castles": 0,
+          "towns": 0,
+          "palaces": 0,
+          "landscapes": 0,
+          "modern": 0,
+          "natural": 0
+        }
+      },
+      "richness": 0.0,
+      "richnessRaw": 0,
+      "spread": null,
+      "climate": null,
+      "cost": null,
+      "safety": null,
+      "traditions": {
+        "count": 0,
+        "examples": []
+      }
+    },
+    {
       "iso3": "CZE",
       "name": "Czechia",
       "aliases": [
@@ -502,128 +1736,321 @@
       ],
       "teaser": "Prague's Gothic and baroque core, Český Krumlov, pilgrimage churches and spa towns of Bohemia.",
       "bbox": [
-        12.1,
-        48.6,
-        18.9,
-        51.1
+        12.0907,
+        48.5757,
+        18.8336,
+        51.0374
       ],
       "counts": {
         "unesco": 1,
-        "notable": 8,
+        "notable": 0,
         "byCategory": {
-          "ancient": 1,
-          "sacred": 1,
-          "castles": 1,
-          "towns": 2,
-          "palaces": 1,
-          "landscapes": 1,
-          "modern": 1,
-          "natural": 1
+          "ancient": 0,
+          "sacred": 0,
+          "castles": 0,
+          "towns": 1,
+          "palaces": 0,
+          "landscapes": 0,
+          "modern": 0,
+          "natural": 0
         }
       },
-      "richness": 0.6055,
-      "richnessRaw": 11,
-      "spread": {
-        "level": "compact",
-        "medianKm": 51
-      },
-      "climate": {
-        "tempC": [
-          0.0,
-          1.0,
-          5.0,
-          10.0,
-          15.0,
-          18.0,
-          20.0,
-          19.0,
-          15.0,
-          10.0,
-          4.0,
-          1.0
-        ],
-        "precipMm": [
-          25.0,
-          22.0,
-          30.0,
-          38.0,
-          65.0,
-          72.0,
-          78.0,
-          68.0,
-          45.0,
-          32.0,
-          30.0,
-          28.0
-        ],
-        "comfortable": [
-          false,
-          false,
-          false,
-          false,
-          true,
-          true,
-          true,
-          true,
-          true,
-          false,
-          false,
-          false
-        ]
-      },
-      "cost": {
-        "tier": 3,
-        "priceLevelRatio": 0.58,
-        "year": 2023
-      },
-      "safety": {
-        "level": 1,
-        "label": "Exercise Normal Precautions",
-        "url": "https://travel.state.gov/content/travel/en/traveladvisories/traveladvisories.html/",
-        "asOf": "2026-11-01"
-      },
+      "richness": 0.3974,
+      "richnessRaw": 3,
+      "spread": null,
+      "climate": null,
+      "cost": null,
+      "safety": null,
       "traditions": {
-        "count": 3,
-        "examples": [
-          "Slovak and Czech puppetry",
-          "Ride of the Kings",
-          "Handmade Christmas tree decorations"
-        ]
+        "count": 0,
+        "examples": []
+      }
+    },
+    {
+      "iso3": "CIV",
+      "name": "Côte d'Ivoire",
+      "aliases": [],
+      "teaser": "Discover the cultural and historical heritage of Côte d'Ivoire.",
+      "bbox": [
+        -8.6023,
+        4.3511,
+        -2.5074,
+        10.7239
+      ],
+      "counts": {
+        "unesco": 0,
+        "notable": 0,
+        "byCategory": {
+          "ancient": 0,
+          "sacred": 0,
+          "castles": 0,
+          "towns": 0,
+          "palaces": 0,
+          "landscapes": 0,
+          "modern": 0,
+          "natural": 0
+        }
+      },
+      "richness": 0.0,
+      "richnessRaw": 0,
+      "spread": null,
+      "climate": null,
+      "cost": null,
+      "safety": null,
+      "traditions": {
+        "count": 0,
+        "examples": []
+      }
+    },
+    {
+      "iso3": "COD",
+      "name": "Dem. Rep. Congo",
+      "aliases": [],
+      "teaser": "Discover the cultural and historical heritage of Dem. Rep. Congo.",
+      "bbox": [
+        12.2131,
+        -13.4534,
+        31.2753,
+        5.3128
+      ],
+      "counts": {
+        "unesco": 0,
+        "notable": 0,
+        "byCategory": {
+          "ancient": 0,
+          "sacred": 0,
+          "castles": 0,
+          "towns": 0,
+          "palaces": 0,
+          "landscapes": 0,
+          "modern": 0,
+          "natural": 0
+        }
+      },
+      "richness": 0.0,
+      "richnessRaw": 0,
+      "spread": null,
+      "climate": null,
+      "cost": null,
+      "safety": null,
+      "traditions": {
+        "count": 0,
+        "examples": []
+      }
+    },
+    {
+      "iso3": "DNK",
+      "name": "Denmark",
+      "aliases": [],
+      "teaser": "Roskilde Cathedral, Viking ring fortresses, Jelling's rune stones and Kronborg Castle on the sound.",
+      "bbox": [
+        8.1199,
+        54.6292,
+        15.1364,
+        57.7366
+      ],
+      "counts": {
+        "unesco": 0,
+        "notable": 0,
+        "byCategory": {
+          "ancient": 0,
+          "sacred": 0,
+          "castles": 0,
+          "towns": 0,
+          "palaces": 0,
+          "landscapes": 0,
+          "modern": 0,
+          "natural": 0
+        }
+      },
+      "richness": 0.0,
+      "richnessRaw": 0,
+      "spread": null,
+      "climate": null,
+      "cost": null,
+      "safety": null,
+      "traditions": {
+        "count": 0,
+        "examples": []
+      }
+    },
+    {
+      "iso3": "DJI",
+      "name": "Djibouti",
+      "aliases": [],
+      "teaser": "Discover the cultural and historical heritage of Djibouti.",
+      "bbox": [
+        41.7658,
+        10.9409,
+        43.411,
+        12.7082
+      ],
+      "counts": {
+        "unesco": 0,
+        "notable": 0,
+        "byCategory": {
+          "ancient": 0,
+          "sacred": 0,
+          "castles": 0,
+          "towns": 0,
+          "palaces": 0,
+          "landscapes": 0,
+          "modern": 0,
+          "natural": 0
+        }
+      },
+      "richness": 0.0,
+      "richnessRaw": 0,
+      "spread": null,
+      "climate": null,
+      "cost": null,
+      "safety": null,
+      "traditions": {
+        "count": 0,
+        "examples": []
+      }
+    },
+    {
+      "iso3": "DMA",
+      "name": "Dominica",
+      "aliases": [],
+      "teaser": "Discover the cultural and historical heritage of Dominica.",
+      "bbox": [
+        -61.4796,
+        15.2271,
+        -61.2528,
+        15.6333
+      ],
+      "counts": {
+        "unesco": 0,
+        "notable": 0,
+        "byCategory": {
+          "ancient": 0,
+          "sacred": 0,
+          "castles": 0,
+          "towns": 0,
+          "palaces": 0,
+          "landscapes": 0,
+          "modern": 0,
+          "natural": 0
+        }
+      },
+      "richness": 0.0,
+      "richnessRaw": 0,
+      "spread": null,
+      "climate": null,
+      "cost": null,
+      "safety": null,
+      "traditions": {
+        "count": 0,
+        "examples": []
+      }
+    },
+    {
+      "iso3": "DOM",
+      "name": "Dominican Rep.",
+      "aliases": [],
+      "teaser": "Discover the cultural and historical heritage of Dominican Rep..",
+      "bbox": [
+        -71.9989,
+        17.635,
+        -68.3377,
+        19.9143
+      ],
+      "counts": {
+        "unesco": 0,
+        "notable": 0,
+        "byCategory": {
+          "ancient": 0,
+          "sacred": 0,
+          "castles": 0,
+          "towns": 0,
+          "palaces": 0,
+          "landscapes": 0,
+          "modern": 0,
+          "natural": 0
+        }
+      },
+      "richness": 0.0,
+      "richnessRaw": 0,
+      "spread": null,
+      "climate": null,
+      "cost": null,
+      "safety": null,
+      "traditions": {
+        "count": 0,
+        "examples": []
+      }
+    },
+    {
+      "iso3": "ECU",
+      "name": "Ecuador",
+      "aliases": [],
+      "teaser": "Quito's gilded colonial churches, Cuenca's historic grid, the Inca road and the Galápagos Islands.",
+      "bbox": [
+        -80.963,
+        -4.9904,
+        -75.2498,
+        1.4554
+      ],
+      "counts": {
+        "unesco": 0,
+        "notable": 0,
+        "byCategory": {
+          "ancient": 0,
+          "sacred": 0,
+          "castles": 0,
+          "towns": 0,
+          "palaces": 0,
+          "landscapes": 0,
+          "modern": 0,
+          "natural": 0
+        }
+      },
+      "richness": 0.0,
+      "richnessRaw": 0,
+      "spread": null,
+      "climate": null,
+      "cost": null,
+      "safety": null,
+      "traditions": {
+        "count": 0,
+        "examples": []
       }
     },
     {
       "iso3": "EGY",
       "name": "Egypt",
       "aliases": [
-        "Arab Republic of Egypt",
-        "Misr"
+        "Misr",
+        "Arab Republic of Egypt"
       ],
       "teaser": "The Pyramids of Giza, the temples of Luxor and Abu Simbel, Coptic monasteries and historic Islamic Cairo.",
       "bbox": [
-        24.7,
-        22.0,
-        36.9,
-        31.7
+        24.7016,
+        21.9941,
+        36.8698,
+        31.6549
       ],
       "counts": {
-        "unesco": 1,
-        "notable": 8,
+        "unesco": 2,
+        "notable": 1,
         "byCategory": {
-          "ancient": 2,
-          "sacred": 1,
-          "castles": 1,
-          "towns": 1,
-          "palaces": 1,
-          "landscapes": 1,
-          "modern": 1,
-          "natural": 1
+          "ancient": 3,
+          "sacred": 0,
+          "castles": 0,
+          "towns": 0,
+          "palaces": 0,
+          "landscapes": 0,
+          "modern": 0,
+          "natural": 0
         }
       },
-      "richness": 0.6055,
-      "richnessRaw": 11,
+      "richness": 0.607,
+      "richnessRaw": 7,
       "spread": {
-        "level": "compact",
-        "medianKm": 60
+        "level": "moderate",
+        "medianKm": 493
       },
       "climate": {
         "tempC": [
@@ -681,48 +2108,186 @@
         "asOf": "2026-11-01"
       },
       "traditions": {
-        "count": 4,
+        "count": 3,
         "examples": [
           "Tahteeb stick game",
           "Al-Sirah Al-Hilaliyyah epic",
-          "Arabic calligraphy",
-          "Handmade weaving in Upper Egypt"
+          "Arabic calligraphy"
         ]
+      }
+    },
+    {
+      "iso3": "SLV",
+      "name": "El Salvador",
+      "aliases": [],
+      "teaser": "Discover the cultural and historical heritage of El Salvador.",
+      "bbox": [
+        -90.1071,
+        13.1647,
+        -87.7167,
+        14.4303
+      ],
+      "counts": {
+        "unesco": 0,
+        "notable": 0,
+        "byCategory": {
+          "ancient": 0,
+          "sacred": 0,
+          "castles": 0,
+          "towns": 0,
+          "palaces": 0,
+          "landscapes": 0,
+          "modern": 0,
+          "natural": 0
+        }
+      },
+      "richness": 0.0,
+      "richnessRaw": 0,
+      "spread": null,
+      "climate": null,
+      "cost": null,
+      "safety": null,
+      "traditions": {
+        "count": 0,
+        "examples": []
+      }
+    },
+    {
+      "iso3": "GNQ",
+      "name": "Eq. Guinea",
+      "aliases": [],
+      "teaser": "Discover the cultural and historical heritage of Eq. Guinea.",
+      "bbox": [
+        8.4331,
+        0.9606,
+        11.3347,
+        3.7591
+      ],
+      "counts": {
+        "unesco": 0,
+        "notable": 0,
+        "byCategory": {
+          "ancient": 0,
+          "sacred": 0,
+          "castles": 0,
+          "towns": 0,
+          "palaces": 0,
+          "landscapes": 0,
+          "modern": 0,
+          "natural": 0
+        }
+      },
+      "richness": 0.0,
+      "richnessRaw": 0,
+      "spread": null,
+      "climate": null,
+      "cost": null,
+      "safety": null,
+      "traditions": {
+        "count": 0,
+        "examples": []
+      }
+    },
+    {
+      "iso3": "ERI",
+      "name": "Eritrea",
+      "aliases": [],
+      "teaser": "Discover the cultural and historical heritage of Eritrea.",
+      "bbox": [
+        36.427,
+        12.3766,
+        43.1158,
+        18.0047
+      ],
+      "counts": {
+        "unesco": 0,
+        "notable": 0,
+        "byCategory": {
+          "ancient": 0,
+          "sacred": 0,
+          "castles": 0,
+          "towns": 0,
+          "palaces": 0,
+          "landscapes": 0,
+          "modern": 0,
+          "natural": 0
+        }
+      },
+      "richness": 0.0,
+      "richnessRaw": 0,
+      "spread": null,
+      "climate": null,
+      "cost": null,
+      "safety": null,
+      "traditions": {
+        "count": 0,
+        "examples": []
+      }
+    },
+    {
+      "iso3": "EST",
+      "name": "Estonia",
+      "aliases": [],
+      "teaser": "Discover the cultural and historical heritage of Estonia.",
+      "bbox": [
+        21.854,
+        57.5248,
+        28.1505,
+        59.6393
+      ],
+      "counts": {
+        "unesco": 0,
+        "notable": 0,
+        "byCategory": {
+          "ancient": 0,
+          "sacred": 0,
+          "castles": 0,
+          "towns": 0,
+          "palaces": 0,
+          "landscapes": 0,
+          "modern": 0,
+          "natural": 0
+        }
+      },
+      "richness": 0.0,
+      "richnessRaw": 0,
+      "spread": null,
+      "climate": null,
+      "cost": null,
+      "safety": null,
+      "traditions": {
+        "count": 0,
+        "examples": []
       }
     },
     {
       "iso3": "ETH",
       "name": "Ethiopia",
-      "aliases": [
-        "Federal Democratic Republic of Ethiopia"
-      ],
+      "aliases": [],
       "teaser": "Lalibela's rock-hewn churches, Aksum's monolithic stelae, Gondar's castles and the walled city of Harar.",
       "bbox": [
-        33.0,
-        3.4,
-        48.0,
-        14.9
+        32.9997,
+        3.4553,
+        47.9795,
+        14.8521
       ],
       "counts": {
         "unesco": 1,
-        "notable": 8,
+        "notable": 0,
         "byCategory": {
-          "ancient": 1,
-          "sacred": 2,
-          "castles": 1,
-          "towns": 1,
-          "palaces": 1,
-          "landscapes": 1,
-          "modern": 1,
-          "natural": 1
+          "ancient": 0,
+          "sacred": 1,
+          "castles": 0,
+          "towns": 0,
+          "palaces": 0,
+          "landscapes": 0,
+          "modern": 0,
+          "natural": 0
         }
       },
-      "richness": 0.6055,
-      "richnessRaw": 11,
-      "spread": {
-        "level": "compact",
-        "medianKm": 63
-      },
+      "richness": 0.3974,
+      "richnessRaw": 3,
+      "spread": null,
       "climate": {
         "tempC": [
           16.0,
@@ -789,48 +2354,70 @@
     {
       "iso3": "FJI",
       "name": "Fiji",
-      "aliases": [
-        "Republic of Fiji"
-      ],
-      "teaser": "Home to 1 World Heritage Site and 8 notable landmarks, highlighted by historic old towns and ancient ruins and archaeological sites.",
+      "aliases": [],
+      "teaser": "Home to 1 World Heritage Site and 0 notable landmarks, highlighted by historic old towns.",
       "bbox": [
-        177.0,
-        -20.7,
-        -178.0,
-        -16.0
+        177.0048,
+        -20.67,
+        -178.2504,
+        -12.4778
       ],
       "counts": {
         "unesco": 1,
-        "notable": 8,
+        "notable": 0,
         "byCategory": {
-          "ancient": 1,
-          "sacred": 1,
-          "castles": 1,
-          "towns": 2,
-          "palaces": 1,
-          "landscapes": 1,
-          "modern": 1,
-          "natural": 1
+          "ancient": 0,
+          "sacred": 0,
+          "castles": 0,
+          "towns": 1,
+          "palaces": 0,
+          "landscapes": 0,
+          "modern": 0,
+          "natural": 0
         }
       },
-      "richness": 0.6055,
-      "richnessRaw": 11,
-      "spread": {
-        "level": "compact",
-        "medianKm": 95
-      },
+      "richness": 0.3974,
+      "richnessRaw": 3,
+      "spread": null,
       "climate": null,
-      "cost": {
-        "tier": 2,
-        "priceLevelRatio": 0.48,
-        "year": 2023
+      "cost": null,
+      "safety": null,
+      "traditions": {
+        "count": 0,
+        "examples": []
+      }
+    },
+    {
+      "iso3": "FIN",
+      "name": "Finland",
+      "aliases": [],
+      "teaser": "Suomenlinna sea fortress, Old Rauma's wooden town, Bronze Age burial cairns and Alvar Aalto architecture.",
+      "bbox": [
+        20.6228,
+        59.8164,
+        31.5381,
+        70.064
+      ],
+      "counts": {
+        "unesco": 0,
+        "notable": 0,
+        "byCategory": {
+          "ancient": 0,
+          "sacred": 0,
+          "castles": 0,
+          "towns": 0,
+          "palaces": 0,
+          "landscapes": 0,
+          "modern": 0,
+          "natural": 0
+        }
       },
-      "safety": {
-        "level": 1,
-        "label": "Exercise Normal Precautions",
-        "url": "https://travel.state.gov/content/travel/en/traveladvisories/traveladvisories.html/",
-        "asOf": "2026-11-01"
-      },
+      "richness": 0.0,
+      "richnessRaw": 0,
+      "spread": null,
+      "climate": null,
+      "cost": null,
+      "safety": null,
       "traditions": {
         "count": 0,
         "examples": []
@@ -840,35 +2427,35 @@
       "iso3": "FRA",
       "name": "France",
       "aliases": [
-        "French Republic",
-        "République française"
+        "République française",
+        "French Republic"
       ],
       "teaser": "Gothic cathedrals, Loire châteaux, prehistoric cave art, fortified towns and Roman aqueducts.",
       "bbox": [
-        -5.1,
-        41.3,
-        9.6,
-        51.1
+        -4.761,
+        41.3852,
+        9.5563,
+        51.0964
       ],
       "counts": {
-        "unesco": 2,
-        "notable": 18,
+        "unesco": 4,
+        "notable": 2,
         "byCategory": {
-          "ancient": 2,
-          "sacred": 4,
-          "castles": 3,
-          "towns": 2,
-          "palaces": 3,
-          "landscapes": 2,
-          "modern": 2,
-          "natural": 2
+          "ancient": 0,
+          "sacred": 2,
+          "castles": 1,
+          "towns": 0,
+          "palaces": 2,
+          "landscapes": 0,
+          "modern": 1,
+          "natural": 0
         }
       },
-      "richness": 0.8944,
-      "richnessRaw": 24,
+      "richness": 0.8584,
+      "richnessRaw": 14,
       "spread": {
-        "level": "compact",
-        "medianKm": 84
+        "level": "moderate",
+        "medianKm": 241
       },
       "climate": {
         "tempC": [
@@ -936,6 +2523,114 @@
       }
     },
     {
+      "iso3": "GAB",
+      "name": "Gabon",
+      "aliases": [],
+      "teaser": "Discover the cultural and historical heritage of Gabon.",
+      "bbox": [
+        8.7031,
+        -3.9158,
+        14.4811,
+        2.3026
+      ],
+      "counts": {
+        "unesco": 0,
+        "notable": 0,
+        "byCategory": {
+          "ancient": 0,
+          "sacred": 0,
+          "castles": 0,
+          "towns": 0,
+          "palaces": 0,
+          "landscapes": 0,
+          "modern": 0,
+          "natural": 0
+        }
+      },
+      "richness": 0.0,
+      "richnessRaw": 0,
+      "spread": null,
+      "climate": null,
+      "cost": null,
+      "safety": null,
+      "traditions": {
+        "count": 0,
+        "examples": []
+      }
+    },
+    {
+      "iso3": "GMB",
+      "name": "Gambia",
+      "aliases": [],
+      "teaser": "Discover the cultural and historical heritage of Gambia.",
+      "bbox": [
+        -16.8248,
+        13.0641,
+        -13.8259,
+        13.8123
+      ],
+      "counts": {
+        "unesco": 0,
+        "notable": 0,
+        "byCategory": {
+          "ancient": 0,
+          "sacred": 0,
+          "castles": 0,
+          "towns": 0,
+          "palaces": 0,
+          "landscapes": 0,
+          "modern": 0,
+          "natural": 0
+        }
+      },
+      "richness": 0.0,
+      "richnessRaw": 0,
+      "spread": null,
+      "climate": null,
+      "cost": null,
+      "safety": null,
+      "traditions": {
+        "count": 0,
+        "examples": []
+      }
+    },
+    {
+      "iso3": "GEO",
+      "name": "Georgia",
+      "aliases": [],
+      "teaser": "Discover the cultural and historical heritage of Georgia.",
+      "bbox": [
+        39.9766,
+        41.071,
+        46.6727,
+        43.5691
+      ],
+      "counts": {
+        "unesco": 0,
+        "notable": 0,
+        "byCategory": {
+          "ancient": 0,
+          "sacred": 0,
+          "castles": 0,
+          "towns": 0,
+          "palaces": 0,
+          "landscapes": 0,
+          "modern": 0,
+          "natural": 0
+        }
+      },
+      "richness": 0.0,
+      "richnessRaw": 0,
+      "spread": null,
+      "climate": null,
+      "cost": null,
+      "safety": null,
+      "traditions": {
+        "count": 0,
+        "examples": []
+      }
+    },
+    {
       "iso3": "DEU",
       "name": "Germany",
       "aliases": [
@@ -944,30 +2639,30 @@
       ],
       "teaser": "Imperial cathedrals, medieval timbered towns, Rhine castles, Roman frontiers and Bauhaus landmarks.",
       "bbox": [
-        5.9,
-        47.3,
-        15.0,
-        55.1
+        5.8591,
+        47.2789,
+        15.0176,
+        55.058
       ],
       "counts": {
-        "unesco": 2,
-        "notable": 18,
+        "unesco": 4,
+        "notable": 3,
         "byCategory": {
-          "ancient": 2,
-          "sacred": 4,
+          "ancient": 0,
+          "sacred": 1,
           "castles": 3,
-          "towns": 2,
-          "palaces": 2,
-          "landscapes": 3,
-          "modern": 2,
-          "natural": 2
+          "towns": 0,
+          "palaces": 1,
+          "landscapes": 1,
+          "modern": 1,
+          "natural": 0
         }
       },
-      "richness": 0.8944,
-      "richnessRaw": 24,
+      "richness": 0.8885,
+      "richnessRaw": 15,
       "spread": {
-        "level": "compact",
-        "medianKm": 89
+        "level": "moderate",
+        "medianKm": 386
       },
       "climate": {
         "tempC": [
@@ -1034,6 +2729,42 @@
       }
     },
     {
+      "iso3": "GHA",
+      "name": "Ghana",
+      "aliases": [],
+      "teaser": "Discover the cultural and historical heritage of Ghana.",
+      "bbox": [
+        -3.2454,
+        4.7625,
+        1.1862,
+        11.1666
+      ],
+      "counts": {
+        "unesco": 0,
+        "notable": 0,
+        "byCategory": {
+          "ancient": 0,
+          "sacred": 0,
+          "castles": 0,
+          "towns": 0,
+          "palaces": 0,
+          "landscapes": 0,
+          "modern": 0,
+          "natural": 0
+        }
+      },
+      "richness": 0.0,
+      "richnessRaw": 0,
+      "spread": null,
+      "climate": null,
+      "cost": null,
+      "safety": null,
+      "traditions": {
+        "count": 0,
+        "examples": []
+      }
+    },
+    {
       "iso3": "GRC",
       "name": "Greece",
       "aliases": [
@@ -1042,30 +2773,30 @@
       ],
       "teaser": "The Acropolis, Delphi's oracle, Minoan palaces, Byzantine cliff monasteries and fortified island towns.",
       "bbox": [
-        19.4,
-        34.8,
-        28.2,
-        41.7
+        19.6472,
+        34.9342,
+        28.2333,
+        41.7446
       ],
       "counts": {
-        "unesco": 1,
-        "notable": 8,
+        "unesco": 2,
+        "notable": 1,
         "byCategory": {
-          "ancient": 2,
-          "sacred": 1,
-          "castles": 1,
-          "towns": 1,
-          "palaces": 1,
-          "landscapes": 1,
-          "modern": 1,
-          "natural": 1
+          "ancient": 3,
+          "sacred": 0,
+          "castles": 0,
+          "towns": 0,
+          "palaces": 0,
+          "landscapes": 0,
+          "modern": 0,
+          "natural": 0
         }
       },
-      "richness": 0.6055,
-      "richnessRaw": 11,
+      "richness": 0.607,
+      "richnessRaw": 7,
       "spread": {
         "level": "compact",
-        "medianKm": 56
+        "medianKm": 121
       },
       "climate": {
         "tempC": [
@@ -1133,134 +2864,359 @@
       }
     },
     {
+      "iso3": "GRD",
+      "name": "Grenada",
+      "aliases": [],
+      "teaser": "Discover the cultural and historical heritage of Grenada.",
+      "bbox": [
+        -61.782,
+        12.0086,
+        -61.6056,
+        12.2377
+      ],
+      "counts": {
+        "unesco": 0,
+        "notable": 0,
+        "byCategory": {
+          "ancient": 0,
+          "sacred": 0,
+          "castles": 0,
+          "towns": 0,
+          "palaces": 0,
+          "landscapes": 0,
+          "modern": 0,
+          "natural": 0
+        }
+      },
+      "richness": 0.0,
+      "richnessRaw": 0,
+      "spread": null,
+      "climate": null,
+      "cost": null,
+      "safety": null,
+      "traditions": {
+        "count": 0,
+        "examples": []
+      }
+    },
+    {
+      "iso3": "GTM",
+      "name": "Guatemala",
+      "aliases": [],
+      "teaser": "Discover the cultural and historical heritage of Guatemala.",
+      "bbox": [
+        -92.2347,
+        13.7359,
+        -88.2279,
+        17.8172
+      ],
+      "counts": {
+        "unesco": 0,
+        "notable": 0,
+        "byCategory": {
+          "ancient": 0,
+          "sacred": 0,
+          "castles": 0,
+          "towns": 0,
+          "palaces": 0,
+          "landscapes": 0,
+          "modern": 0,
+          "natural": 0
+        }
+      },
+      "richness": 0.0,
+      "richnessRaw": 0,
+      "spread": null,
+      "climate": null,
+      "cost": null,
+      "safety": null,
+      "traditions": {
+        "count": 0,
+        "examples": []
+      }
+    },
+    {
+      "iso3": "GIN",
+      "name": "Guinea",
+      "aliases": [],
+      "teaser": "Discover the cultural and historical heritage of Guinea.",
+      "bbox": [
+        -15.05,
+        7.2155,
+        -7.6807,
+        12.6735
+      ],
+      "counts": {
+        "unesco": 0,
+        "notable": 0,
+        "byCategory": {
+          "ancient": 0,
+          "sacred": 0,
+          "castles": 0,
+          "towns": 0,
+          "palaces": 0,
+          "landscapes": 0,
+          "modern": 0,
+          "natural": 0
+        }
+      },
+      "richness": 0.0,
+      "richnessRaw": 0,
+      "spread": null,
+      "climate": null,
+      "cost": null,
+      "safety": null,
+      "traditions": {
+        "count": 0,
+        "examples": []
+      }
+    },
+    {
+      "iso3": "GNB",
+      "name": "Guinea-Bissau",
+      "aliases": [],
+      "teaser": "Discover the cultural and historical heritage of Guinea-Bissau.",
+      "bbox": [
+        -16.7132,
+        10.9409,
+        -13.6747,
+        12.6804
+      ],
+      "counts": {
+        "unesco": 0,
+        "notable": 0,
+        "byCategory": {
+          "ancient": 0,
+          "sacred": 0,
+          "castles": 0,
+          "towns": 0,
+          "palaces": 0,
+          "landscapes": 0,
+          "modern": 0,
+          "natural": 0
+        }
+      },
+      "richness": 0.0,
+      "richnessRaw": 0,
+      "spread": null,
+      "climate": null,
+      "cost": null,
+      "safety": null,
+      "traditions": {
+        "count": 0,
+        "examples": []
+      }
+    },
+    {
+      "iso3": "GUY",
+      "name": "Guyana",
+      "aliases": [],
+      "teaser": "Discover the cultural and historical heritage of Guyana.",
+      "bbox": [
+        -61.3896,
+        1.2019,
+        -56.4828,
+        8.5487
+      ],
+      "counts": {
+        "unesco": 0,
+        "notable": 0,
+        "byCategory": {
+          "ancient": 0,
+          "sacred": 0,
+          "castles": 0,
+          "towns": 0,
+          "palaces": 0,
+          "landscapes": 0,
+          "modern": 0,
+          "natural": 0
+        }
+      },
+      "richness": 0.0,
+      "richnessRaw": 0,
+      "spread": null,
+      "climate": null,
+      "cost": null,
+      "safety": null,
+      "traditions": {
+        "count": 0,
+        "examples": []
+      }
+    },
+    {
+      "iso3": "HTI",
+      "name": "Haiti",
+      "aliases": [],
+      "teaser": "Discover the cultural and historical heritage of Haiti.",
+      "bbox": [
+        -74.4793,
+        18.0394,
+        -71.6461,
+        20.0931
+      ],
+      "counts": {
+        "unesco": 0,
+        "notable": 0,
+        "byCategory": {
+          "ancient": 0,
+          "sacred": 0,
+          "castles": 0,
+          "towns": 0,
+          "palaces": 0,
+          "landscapes": 0,
+          "modern": 0,
+          "natural": 0
+        }
+      },
+      "richness": 0.0,
+      "richnessRaw": 0,
+      "spread": null,
+      "climate": null,
+      "cost": null,
+      "safety": null,
+      "traditions": {
+        "count": 0,
+        "examples": []
+      }
+    },
+    {
+      "iso3": "HND",
+      "name": "Honduras",
+      "aliases": [],
+      "teaser": "Discover the cultural and historical heritage of Honduras.",
+      "bbox": [
+        -89.3619,
+        12.979,
+        -83.159,
+        16.5135
+      ],
+      "counts": {
+        "unesco": 0,
+        "notable": 0,
+        "byCategory": {
+          "ancient": 0,
+          "sacred": 0,
+          "castles": 0,
+          "towns": 0,
+          "palaces": 0,
+          "landscapes": 0,
+          "modern": 0,
+          "natural": 0
+        }
+      },
+      "richness": 0.0,
+      "richnessRaw": 0,
+      "spread": null,
+      "climate": null,
+      "cost": null,
+      "safety": null,
+      "traditions": {
+        "count": 0,
+        "examples": []
+      }
+    },
+    {
+      "iso3": "HUN",
+      "name": "Hungary",
+      "aliases": [],
+      "teaser": "Budapest's Danube embankments and castle hill, early Christian Pécs, Pannonhalma Abbey and Tokaj vineyards.",
+      "bbox": [
+        16.094,
+        45.753,
+        22.8764,
+        48.5532
+      ],
+      "counts": {
+        "unesco": 0,
+        "notable": 0,
+        "byCategory": {
+          "ancient": 0,
+          "sacred": 0,
+          "castles": 0,
+          "towns": 0,
+          "palaces": 0,
+          "landscapes": 0,
+          "modern": 0,
+          "natural": 0
+        }
+      },
+      "richness": 0.0,
+      "richnessRaw": 0,
+      "spread": null,
+      "climate": null,
+      "cost": null,
+      "safety": null,
+      "traditions": {
+        "count": 0,
+        "examples": []
+      }
+    },
+    {
       "iso3": "ISL",
       "name": "Iceland",
-      "aliases": [
-        "Ísland",
-        "Republic of Iceland"
-      ],
-      "teaser": "Home to 1 World Heritage Site and 8 notable landmarks, highlighted by cultural landscapes and ancient ruins and archaeological sites.",
+      "aliases": [],
+      "teaser": "Home to 1 World Heritage Site and 0 notable landmarks, highlighted by cultural landscapes.",
       "bbox": [
-        -24.5,
-        63.3,
-        -13.5,
-        66.6
+        -24.4748,
+        63.4064,
+        -13.5559,
+        66.526
       ],
       "counts": {
         "unesco": 1,
-        "notable": 8,
+        "notable": 0,
         "byCategory": {
-          "ancient": 1,
-          "sacred": 1,
-          "castles": 1,
-          "towns": 1,
-          "palaces": 1,
-          "landscapes": 2,
-          "modern": 1,
-          "natural": 1
+          "ancient": 0,
+          "sacred": 0,
+          "castles": 0,
+          "towns": 0,
+          "palaces": 0,
+          "landscapes": 1,
+          "modern": 0,
+          "natural": 0
         }
       },
-      "richness": 0.6055,
-      "richnessRaw": 11,
-      "spread": {
-        "level": "compact",
-        "medianKm": 45
-      },
-      "climate": {
-        "tempC": [
-          0.0,
-          0.0,
-          1.0,
-          4.0,
-          7.0,
-          10.0,
-          12.0,
-          11.0,
-          8.0,
-          5.0,
-          2.0,
-          0.0
-        ],
-        "precipMm": [
-          85.0,
-          80.0,
-          75.0,
-          58.0,
-          50.0,
-          48.0,
-          52.0,
-          65.0,
-          78.0,
-          85.0,
-          82.0,
-          90.0
-        ],
-        "comfortable": [
-          false,
-          false,
-          false,
-          false,
-          false,
-          true,
-          true,
-          true,
-          false,
-          false,
-          false,
-          false
-        ]
-      },
-      "cost": {
-        "tier": 5,
-        "priceLevelRatio": 1.15,
-        "year": 2023
-      },
-      "safety": {
-        "level": 1,
-        "label": "Exercise Normal Precautions",
-        "url": "https://travel.state.gov/content/travel/en/traveladvisories/traveladvisories.html/",
-        "asOf": "2026-11-01"
-      },
+      "richness": 0.3974,
+      "richnessRaw": 3,
+      "spread": null,
+      "climate": null,
+      "cost": null,
+      "safety": null,
       "traditions": {
-        "count": 1,
-        "examples": [
-          "Nordic clinker boat traditions"
-        ]
+        "count": 0,
+        "examples": []
       }
     },
     {
       "iso3": "IND",
       "name": "India",
-      "aliases": [
-        "Bharat",
-        "Republic of India"
-      ],
+      "aliases": [],
       "teaser": "Mughal mausoleums, rock-cut cave temples, Rajput hill forts, Chola bronzes and living sacred cities.",
       "bbox": [
-        68.2,
-        8.1,
-        97.4,
-        35.5
+        68.1649,
+        8.0783,
+        97.3432,
+        35.4967
       ],
       "counts": {
-        "unesco": 1,
-        "notable": 8,
+        "unesco": 3,
+        "notable": 1,
         "byCategory": {
           "ancient": 1,
           "sacred": 1,
           "castles": 1,
-          "towns": 1,
-          "palaces": 2,
-          "landscapes": 1,
-          "modern": 1,
-          "natural": 1
+          "towns": 0,
+          "palaces": 1,
+          "landscapes": 0,
+          "modern": 0,
+          "natural": 0
         }
       },
-      "richness": 0.6055,
-      "richnessRaw": 11,
+      "richness": 0.7255,
+      "richnessRaw": 10,
       "spread": {
-        "level": "compact",
-        "medianKm": 60
+        "level": "spread",
+        "medianKm": 745
       },
       "climate": {
         "tempC": [
@@ -1331,36 +3287,31 @@
     {
       "iso3": "IDN",
       "name": "Indonesia",
-      "aliases": [
-        "Republic of Indonesia"
-      ],
+      "aliases": [],
       "teaser": "Borobudur's Buddhist stupas, Prambanan's Hindu spires, Bali's subak rice terraces and volcanic parks.",
       "bbox": [
-        95.0,
-        -11.0,
-        141.0,
-        6.0
+        95.2084,
+        -8.9294,
+        125.2327,
+        5.6288
       ],
       "counts": {
         "unesco": 1,
-        "notable": 8,
+        "notable": 0,
         "byCategory": {
-          "ancient": 1,
-          "sacred": 2,
-          "castles": 1,
-          "towns": 1,
-          "palaces": 1,
-          "landscapes": 1,
-          "modern": 1,
-          "natural": 1
+          "ancient": 0,
+          "sacred": 1,
+          "castles": 0,
+          "towns": 0,
+          "palaces": 0,
+          "landscapes": 0,
+          "modern": 0,
+          "natural": 0
         }
       },
-      "richness": 0.6055,
-      "richnessRaw": 11,
-      "spread": {
-        "level": "compact",
-        "medianKm": 63
-      },
+      "richness": 0.3974,
+      "richnessRaw": 3,
+      "spread": null,
       "climate": {
         "tempC": [
           26.0,
@@ -1430,36 +3381,33 @@
     {
       "iso3": "IRN",
       "name": "Iran",
-      "aliases": [
-        "Persia",
-        "Islamic Republic of Iran"
-      ],
+      "aliases": [],
       "teaser": "Persepolis, Isfahan's turquoise-tiled mosques, desert caravanserais, qanats and classical Persian gardens.",
       "bbox": [
-        44.0,
-        25.1,
-        63.3,
-        39.8
+        44.023,
+        25.1015,
+        63.3048,
+        39.769
       ],
       "counts": {
-        "unesco": 1,
-        "notable": 8,
+        "unesco": 2,
+        "notable": 0,
         "byCategory": {
-          "ancient": 2,
+          "ancient": 1,
           "sacred": 1,
-          "castles": 1,
-          "towns": 1,
-          "palaces": 1,
-          "landscapes": 1,
-          "modern": 1,
-          "natural": 1
+          "castles": 0,
+          "towns": 0,
+          "palaces": 0,
+          "landscapes": 0,
+          "modern": 0,
+          "natural": 0
         }
       },
-      "richness": 0.6055,
-      "richnessRaw": 11,
+      "richness": 0.562,
+      "richnessRaw": 6,
       "spread": {
-        "level": "compact",
-        "medianKm": 89
+        "level": "moderate",
+        "medianKm": 324
       },
       "climate": {
         "tempC": [
@@ -1526,6 +3474,42 @@
       }
     },
     {
+      "iso3": "IRQ",
+      "name": "Iraq",
+      "aliases": [],
+      "teaser": "Babylon, Assur, the Erbil Citadel, Samarra's spiral minaret and the Mesopotamian Ahwar marshes.",
+      "bbox": [
+        38.7742,
+        29.0631,
+        48.5447,
+        37.3716
+      ],
+      "counts": {
+        "unesco": 0,
+        "notable": 0,
+        "byCategory": {
+          "ancient": 0,
+          "sacred": 0,
+          "castles": 0,
+          "towns": 0,
+          "palaces": 0,
+          "landscapes": 0,
+          "modern": 0,
+          "natural": 0
+        }
+      },
+      "richness": 0.0,
+      "richnessRaw": 0,
+      "spread": null,
+      "climate": null,
+      "cost": null,
+      "safety": null,
+      "traditions": {
+        "count": 0,
+        "examples": []
+      }
+    },
+    {
       "iso3": "IRL",
       "name": "Ireland",
       "aliases": [
@@ -1534,30 +3518,30 @@
       ],
       "teaser": "Newgrange's Neolithic passage tombs, Skellig Michael's island monastery, Norman castles and monastic round towers.",
       "bbox": [
-        -10.5,
-        51.4,
-        -6.0,
-        55.4
+        -10.3915,
+        51.4731,
+        -6.0283,
+        55.3652
       ],
       "counts": {
         "unesco": 1,
-        "notable": 8,
+        "notable": 2,
         "byCategory": {
-          "ancient": 2,
-          "sacred": 1,
-          "castles": 1,
-          "towns": 1,
-          "palaces": 1,
-          "landscapes": 1,
-          "modern": 1,
-          "natural": 1
+          "ancient": 1,
+          "sacred": 0,
+          "castles": 2,
+          "towns": 0,
+          "palaces": 0,
+          "landscapes": 0,
+          "modern": 0,
+          "natural": 0
         }
       },
-      "richness": 0.6055,
-      "richnessRaw": 11,
+      "richness": 0.513,
+      "richnessRaw": 5,
       "spread": {
-        "level": "compact",
-        "medianKm": 60
+        "level": "moderate",
+        "medianKm": 161
       },
       "climate": {
         "tempC": [
@@ -1624,6 +3608,42 @@
       }
     },
     {
+      "iso3": "ISR",
+      "name": "Israel",
+      "aliases": [],
+      "teaser": "Walled Jerusalem, Masada's desert fortress, crusader Acre, biblical tells and the Bauhaus White City.",
+      "bbox": [
+        34.2453,
+        29.478,
+        35.9122,
+        33.4326
+      ],
+      "counts": {
+        "unesco": 0,
+        "notable": 0,
+        "byCategory": {
+          "ancient": 0,
+          "sacred": 0,
+          "castles": 0,
+          "towns": 0,
+          "palaces": 0,
+          "landscapes": 0,
+          "modern": 0,
+          "natural": 0
+        }
+      },
+      "richness": 0.0,
+      "richnessRaw": 0,
+      "spread": null,
+      "climate": null,
+      "cost": null,
+      "safety": null,
+      "traditions": {
+        "count": 0,
+        "examples": []
+      }
+    },
+    {
       "iso3": "ITA",
       "name": "Italy",
       "aliases": [
@@ -1632,30 +3652,30 @@
       ],
       "teaser": "Roman forums, Renaissance cities, Etruscan tombs, Gothic cathedrals and hilltop towns.",
       "bbox": [
-        6.6,
-        35.5,
-        18.5,
-        47.1
+        6.6295,
+        36.6876,
+        18.4844,
+        47.0828
       ],
       "counts": {
-        "unesco": 4,
-        "notable": 18,
+        "unesco": 5,
+        "notable": 4,
         "byCategory": {
-          "ancient": 3,
-          "sacred": 3,
-          "castles": 3,
-          "towns": 5,
-          "palaces": 2,
-          "landscapes": 2,
-          "modern": 2,
-          "natural": 2
+          "ancient": 1,
+          "sacred": 1,
+          "castles": 2,
+          "towns": 3,
+          "palaces": 1,
+          "landscapes": 1,
+          "modern": 0,
+          "natural": 0
         }
       },
       "richness": 1.0,
-      "richnessRaw": 30,
+      "richnessRaw": 19,
       "spread": {
-        "level": "compact",
-        "medianKm": 107
+        "level": "moderate",
+        "medianKm": 249
       },
       "climate": {
         "tempC": [
@@ -1724,6 +3744,42 @@
       }
     },
     {
+      "iso3": "JAM",
+      "name": "Jamaica",
+      "aliases": [],
+      "teaser": "Discover the cultural and historical heritage of Jamaica.",
+      "bbox": [
+        -78.3386,
+        17.7148,
+        -76.211,
+        18.522
+      ],
+      "counts": {
+        "unesco": 0,
+        "notable": 0,
+        "byCategory": {
+          "ancient": 0,
+          "sacred": 0,
+          "castles": 0,
+          "towns": 0,
+          "palaces": 0,
+          "landscapes": 0,
+          "modern": 0,
+          "natural": 0
+        }
+      },
+      "richness": 0.0,
+      "richnessRaw": 0,
+      "spread": null,
+      "climate": null,
+      "cost": null,
+      "safety": null,
+      "traditions": {
+        "count": 0,
+        "examples": []
+      }
+    },
+    {
       "iso3": "JPN",
       "name": "Japan",
       "aliases": [
@@ -1732,30 +3788,30 @@
       ],
       "teaser": "Kyoto's wooden temples and Zen gardens, white-walled samurai castles, Shinto shrines and sacred peaks.",
       "bbox": [
-        129.5,
-        31.0,
-        145.8,
-        45.5
+        128.6491,
+        30.2418,
+        145.8321,
+        45.51
       ],
       "counts": {
-        "unesco": 2,
-        "notable": 18,
+        "unesco": 3,
+        "notable": 2,
         "byCategory": {
-          "ancient": 2,
-          "sacred": 4,
-          "castles": 4,
-          "towns": 2,
-          "palaces": 2,
-          "landscapes": 2,
-          "modern": 2,
-          "natural": 2
+          "ancient": 0,
+          "sacred": 3,
+          "castles": 2,
+          "towns": 0,
+          "palaces": 0,
+          "landscapes": 0,
+          "modern": 0,
+          "natural": 0
         }
       },
-      "richness": 0.8944,
-      "richnessRaw": 24,
+      "richness": 0.7609,
+      "richnessRaw": 11,
       "spread": {
         "level": "compact",
-        "medianKm": 88
+        "medianKm": 98
       },
       "climate": {
         "tempC": [
@@ -1825,35 +3881,33 @@
     {
       "iso3": "JOR",
       "name": "Jordan",
-      "aliases": [
-        "Hashemite Kingdom of Jordan"
-      ],
+      "aliases": [],
       "teaser": "Rock-carved Petra, Umayyad desert castles, Roman Jerash, crusader citadels and Wadi Rum's desert valleys.",
       "bbox": [
-        35.0,
-        29.2,
-        39.3,
-        33.4
+        34.9509,
+        29.1898,
+        39.2926,
+        33.3718
       ],
       "counts": {
         "unesco": 1,
-        "notable": 8,
+        "notable": 1,
         "byCategory": {
           "ancient": 2,
-          "sacred": 1,
-          "castles": 1,
-          "towns": 1,
-          "palaces": 1,
-          "landscapes": 1,
-          "modern": 1,
-          "natural": 1
+          "sacred": 0,
+          "castles": 0,
+          "towns": 0,
+          "palaces": 0,
+          "landscapes": 0,
+          "modern": 0,
+          "natural": 0
         }
       },
-      "richness": 0.6055,
-      "richnessRaw": 11,
+      "richness": 0.4588,
+      "richnessRaw": 4,
       "spread": {
-        "level": "compact",
-        "medianKm": 59
+        "level": "moderate",
+        "medianKm": 221
       },
       "climate": {
         "tempC": [
@@ -1920,38 +3974,899 @@
       }
     },
     {
-      "iso3": "MEX",
-      "name": "Mexico",
-      "aliases": [
-        "México",
-        "United Mexican States"
-      ],
-      "teaser": "Maya and Aztec temple cities, silver-mining colonial towns, baroque convents and agave landscapes.",
+      "iso3": "KAZ",
+      "name": "Kazakhstan",
+      "aliases": [],
+      "teaser": "Discover the cultural and historical heritage of Kazakhstan.",
       "bbox": [
-        -117.1,
-        14.5,
-        -86.7,
-        32.7
+        46.6079,
+        40.6092,
+        87.3243,
+        55.3896
       ],
       "counts": {
-        "unesco": 1,
-        "notable": 8,
+        "unesco": 0,
+        "notable": 0,
         "byCategory": {
-          "ancient": 2,
-          "sacred": 1,
-          "castles": 1,
-          "towns": 1,
-          "palaces": 1,
-          "landscapes": 1,
-          "modern": 1,
-          "natural": 1
+          "ancient": 0,
+          "sacred": 0,
+          "castles": 0,
+          "towns": 0,
+          "palaces": 0,
+          "landscapes": 0,
+          "modern": 0,
+          "natural": 0
         }
       },
-      "richness": 0.6055,
-      "richnessRaw": 11,
+      "richness": 0.0,
+      "richnessRaw": 0,
+      "spread": null,
+      "climate": null,
+      "cost": null,
+      "safety": null,
+      "traditions": {
+        "count": 0,
+        "examples": []
+      }
+    },
+    {
+      "iso3": "KEN",
+      "name": "Kenya",
+      "aliases": [],
+      "teaser": "Discover the cultural and historical heritage of Kenya.",
+      "bbox": [
+        33.8997,
+        -4.6918,
+        41.8846,
+        5.4916
+      ],
+      "counts": {
+        "unesco": 0,
+        "notable": 0,
+        "byCategory": {
+          "ancient": 0,
+          "sacred": 0,
+          "castles": 0,
+          "towns": 0,
+          "palaces": 0,
+          "landscapes": 0,
+          "modern": 0,
+          "natural": 0
+        }
+      },
+      "richness": 0.0,
+      "richnessRaw": 0,
+      "spread": null,
+      "climate": null,
+      "cost": null,
+      "safety": null,
+      "traditions": {
+        "count": 0,
+        "examples": []
+      }
+    },
+    {
+      "iso3": "KIR",
+      "name": "Kiribati",
+      "aliases": [],
+      "teaser": "Discover the cultural and historical heritage of Kiribati.",
+      "bbox": [
+        -159.4078,
+        1.7314,
+        -157.1758,
+        3.924
+      ],
+      "counts": {
+        "unesco": 0,
+        "notable": 0,
+        "byCategory": {
+          "ancient": 0,
+          "sacred": 0,
+          "castles": 0,
+          "towns": 0,
+          "palaces": 0,
+          "landscapes": 0,
+          "modern": 0,
+          "natural": 0
+        }
+      },
+      "richness": 0.0,
+      "richnessRaw": 0,
+      "spread": null,
+      "climate": null,
+      "cost": null,
+      "safety": null,
+      "traditions": {
+        "count": 0,
+        "examples": []
+      }
+    },
+    {
+      "iso3": "KWT",
+      "name": "Kuwait",
+      "aliases": [],
+      "teaser": "Discover the cultural and historical heritage of Kuwait.",
+      "bbox": [
+        46.5323,
+        28.5336,
+        48.4439,
+        30.0977
+      ],
+      "counts": {
+        "unesco": 0,
+        "notable": 0,
+        "byCategory": {
+          "ancient": 0,
+          "sacred": 0,
+          "castles": 0,
+          "towns": 0,
+          "palaces": 0,
+          "landscapes": 0,
+          "modern": 0,
+          "natural": 0
+        }
+      },
+      "richness": 0.0,
+      "richnessRaw": 0,
+      "spread": null,
+      "climate": null,
+      "cost": null,
+      "safety": null,
+      "traditions": {
+        "count": 0,
+        "examples": []
+      }
+    },
+    {
+      "iso3": "KGZ",
+      "name": "Kyrgyzstan",
+      "aliases": [],
+      "teaser": "Discover the cultural and historical heritage of Kyrgyzstan.",
+      "bbox": [
+        69.2305,
+        39.2083,
+        80.2466,
+        43.241
+      ],
+      "counts": {
+        "unesco": 0,
+        "notable": 0,
+        "byCategory": {
+          "ancient": 0,
+          "sacred": 0,
+          "castles": 0,
+          "towns": 0,
+          "palaces": 0,
+          "landscapes": 0,
+          "modern": 0,
+          "natural": 0
+        }
+      },
+      "richness": 0.0,
+      "richnessRaw": 0,
+      "spread": null,
+      "climate": null,
+      "cost": null,
+      "safety": null,
+      "traditions": {
+        "count": 0,
+        "examples": []
+      }
+    },
+    {
+      "iso3": "LAO",
+      "name": "Laos",
+      "aliases": [],
+      "teaser": "Discover the cultural and historical heritage of Laos.",
+      "bbox": [
+        100.1152,
+        13.9216,
+        107.6537,
+        22.4958
+      ],
+      "counts": {
+        "unesco": 0,
+        "notable": 0,
+        "byCategory": {
+          "ancient": 0,
+          "sacred": 0,
+          "castles": 0,
+          "towns": 0,
+          "palaces": 0,
+          "landscapes": 0,
+          "modern": 0,
+          "natural": 0
+        }
+      },
+      "richness": 0.0,
+      "richnessRaw": 0,
+      "spread": null,
+      "climate": null,
+      "cost": null,
+      "safety": null,
+      "traditions": {
+        "count": 0,
+        "examples": []
+      }
+    },
+    {
+      "iso3": "LVA",
+      "name": "Latvia",
+      "aliases": [],
+      "teaser": "Discover the cultural and historical heritage of Latvia.",
+      "bbox": [
+        21.0152,
+        55.6673,
+        28.2009,
+        58.063
+      ],
+      "counts": {
+        "unesco": 0,
+        "notable": 0,
+        "byCategory": {
+          "ancient": 0,
+          "sacred": 0,
+          "castles": 0,
+          "towns": 0,
+          "palaces": 0,
+          "landscapes": 0,
+          "modern": 0,
+          "natural": 0
+        }
+      },
+      "richness": 0.0,
+      "richnessRaw": 0,
+      "spread": null,
+      "climate": null,
+      "cost": null,
+      "safety": null,
+      "traditions": {
+        "count": 0,
+        "examples": []
+      }
+    },
+    {
+      "iso3": "LBN",
+      "name": "Lebanon",
+      "aliases": [],
+      "teaser": "Baalbek's colossal Roman temples, Phoenician Byblos and Tyre, Anjar and the sacred Qadisha Valley.",
+      "bbox": [
+        35.1094,
+        33.075,
+        36.5854,
+        34.679
+      ],
+      "counts": {
+        "unesco": 0,
+        "notable": 0,
+        "byCategory": {
+          "ancient": 0,
+          "sacred": 0,
+          "castles": 0,
+          "towns": 0,
+          "palaces": 0,
+          "landscapes": 0,
+          "modern": 0,
+          "natural": 0
+        }
+      },
+      "richness": 0.0,
+      "richnessRaw": 0,
+      "spread": null,
+      "climate": null,
+      "cost": null,
+      "safety": null,
+      "traditions": {
+        "count": 0,
+        "examples": []
+      }
+    },
+    {
+      "iso3": "LSO",
+      "name": "Lesotho",
+      "aliases": [],
+      "teaser": "Discover the cultural and historical heritage of Lesotho.",
+      "bbox": [
+        27.0525,
+        -30.6416,
+        29.3925,
+        -28.5809
+      ],
+      "counts": {
+        "unesco": 0,
+        "notable": 0,
+        "byCategory": {
+          "ancient": 0,
+          "sacred": 0,
+          "castles": 0,
+          "towns": 0,
+          "palaces": 0,
+          "landscapes": 0,
+          "modern": 0,
+          "natural": 0
+        }
+      },
+      "richness": 0.0,
+      "richnessRaw": 0,
+      "spread": null,
+      "climate": null,
+      "cost": null,
+      "safety": null,
+      "traditions": {
+        "count": 0,
+        "examples": []
+      }
+    },
+    {
+      "iso3": "LBR",
+      "name": "Liberia",
+      "aliases": [],
+      "teaser": "Discover the cultural and historical heritage of Liberia.",
+      "bbox": [
+        -11.5075,
+        4.3511,
+        -7.3999,
+        8.5383
+      ],
+      "counts": {
+        "unesco": 0,
+        "notable": 0,
+        "byCategory": {
+          "ancient": 0,
+          "sacred": 0,
+          "castles": 0,
+          "towns": 0,
+          "palaces": 0,
+          "landscapes": 0,
+          "modern": 0,
+          "natural": 0
+        }
+      },
+      "richness": 0.0,
+      "richnessRaw": 0,
+      "spread": null,
+      "climate": null,
+      "cost": null,
+      "safety": null,
+      "traditions": {
+        "count": 0,
+        "examples": []
+      }
+    },
+    {
+      "iso3": "LBY",
+      "name": "Libya",
+      "aliases": [],
+      "teaser": "Discover the cultural and historical heritage of Libya.",
+      "bbox": [
+        9.3115,
+        19.4959,
+        25.1517,
+        33.1826
+      ],
+      "counts": {
+        "unesco": 0,
+        "notable": 0,
+        "byCategory": {
+          "ancient": 0,
+          "sacred": 0,
+          "castles": 0,
+          "towns": 0,
+          "palaces": 0,
+          "landscapes": 0,
+          "modern": 0,
+          "natural": 0
+        }
+      },
+      "richness": 0.0,
+      "richnessRaw": 0,
+      "spread": null,
+      "climate": null,
+      "cost": null,
+      "safety": null,
+      "traditions": {
+        "count": 0,
+        "examples": []
+      }
+    },
+    {
+      "iso3": "LIE",
+      "name": "Liechtenstein",
+      "aliases": [],
+      "teaser": "Discover the cultural and historical heritage of Liechtenstein.",
+      "bbox": [
+        9.4807,
+        47.0567,
+        9.6103,
+        47.2703
+      ],
+      "counts": {
+        "unesco": 0,
+        "notable": 0,
+        "byCategory": {
+          "ancient": 0,
+          "sacred": 0,
+          "castles": 0,
+          "towns": 0,
+          "palaces": 0,
+          "landscapes": 0,
+          "modern": 0,
+          "natural": 0
+        }
+      },
+      "richness": 0.0,
+      "richnessRaw": 0,
+      "spread": null,
+      "climate": null,
+      "cost": null,
+      "safety": null,
+      "traditions": {
+        "count": 0,
+        "examples": []
+      }
+    },
+    {
+      "iso3": "LTU",
+      "name": "Lithuania",
+      "aliases": [],
+      "teaser": "Discover the cultural and historical heritage of Lithuania.",
+      "bbox": [
+        20.9,
+        53.8931,
+        26.7753,
+        56.4103
+      ],
+      "counts": {
+        "unesco": 0,
+        "notable": 0,
+        "byCategory": {
+          "ancient": 0,
+          "sacred": 0,
+          "castles": 0,
+          "towns": 0,
+          "palaces": 0,
+          "landscapes": 0,
+          "modern": 0,
+          "natural": 0
+        }
+      },
+      "richness": 0.0,
+      "richnessRaw": 0,
+      "spread": null,
+      "climate": null,
+      "cost": null,
+      "safety": null,
+      "traditions": {
+        "count": 0,
+        "examples": []
+      }
+    },
+    {
+      "iso3": "LUX",
+      "name": "Luxembourg",
+      "aliases": [],
+      "teaser": "Discover the cultural and historical heritage of Luxembourg.",
+      "bbox": [
+        5.7259,
+        49.4455,
+        6.4927,
+        50.1677
+      ],
+      "counts": {
+        "unesco": 0,
+        "notable": 0,
+        "byCategory": {
+          "ancient": 0,
+          "sacred": 0,
+          "castles": 0,
+          "towns": 0,
+          "palaces": 0,
+          "landscapes": 0,
+          "modern": 0,
+          "natural": 0
+        }
+      },
+      "richness": 0.0,
+      "richnessRaw": 0,
+      "spread": null,
+      "climate": null,
+      "cost": null,
+      "safety": null,
+      "traditions": {
+        "count": 0,
+        "examples": []
+      }
+    },
+    {
+      "iso3": "MKD",
+      "name": "Macedonia",
+      "aliases": [],
+      "teaser": "Discover the cultural and historical heritage of Macedonia.",
+      "bbox": [
+        20.45,
+        40.8505,
+        23.006,
+        42.3574
+      ],
+      "counts": {
+        "unesco": 0,
+        "notable": 0,
+        "byCategory": {
+          "ancient": 0,
+          "sacred": 0,
+          "castles": 0,
+          "towns": 0,
+          "palaces": 0,
+          "landscapes": 0,
+          "modern": 0,
+          "natural": 0
+        }
+      },
+      "richness": 0.0,
+      "richnessRaw": 0,
+      "spread": null,
+      "climate": null,
+      "cost": null,
+      "safety": null,
+      "traditions": {
+        "count": 0,
+        "examples": []
+      }
+    },
+    {
+      "iso3": "MDG",
+      "name": "Madagascar",
+      "aliases": [],
+      "teaser": "Discover the cultural and historical heritage of Madagascar.",
+      "bbox": [
+        43.2562,
+        -25.5707,
+        50.4815,
+        -12.0802
+      ],
+      "counts": {
+        "unesco": 0,
+        "notable": 0,
+        "byCategory": {
+          "ancient": 0,
+          "sacred": 0,
+          "castles": 0,
+          "towns": 0,
+          "palaces": 0,
+          "landscapes": 0,
+          "modern": 0,
+          "natural": 0
+        }
+      },
+      "richness": 0.0,
+      "richnessRaw": 0,
+      "spread": null,
+      "climate": null,
+      "cost": null,
+      "safety": null,
+      "traditions": {
+        "count": 0,
+        "examples": []
+      }
+    },
+    {
+      "iso3": "MWI",
+      "name": "Malawi",
+      "aliases": [],
+      "teaser": "Discover the cultural and historical heritage of Malawi.",
+      "bbox": [
+        32.6721,
+        -17.1303,
+        35.8942,
+        -9.3946
+      ],
+      "counts": {
+        "unesco": 0,
+        "notable": 0,
+        "byCategory": {
+          "ancient": 0,
+          "sacred": 0,
+          "castles": 0,
+          "towns": 0,
+          "palaces": 0,
+          "landscapes": 0,
+          "modern": 0,
+          "natural": 0
+        }
+      },
+      "richness": 0.0,
+      "richnessRaw": 0,
+      "spread": null,
+      "climate": null,
+      "cost": null,
+      "safety": null,
+      "traditions": {
+        "count": 0,
+        "examples": []
+      }
+    },
+    {
+      "iso3": "MYS",
+      "name": "Malaysia",
+      "aliases": [],
+      "teaser": "Discover the cultural and historical heritage of Malaysia.",
+      "bbox": [
+        109.5401,
+        0.8617,
+        119.2674,
+        7.3509
+      ],
+      "counts": {
+        "unesco": 0,
+        "notable": 0,
+        "byCategory": {
+          "ancient": 0,
+          "sacred": 0,
+          "castles": 0,
+          "towns": 0,
+          "palaces": 0,
+          "landscapes": 0,
+          "modern": 0,
+          "natural": 0
+        }
+      },
+      "richness": 0.0,
+      "richnessRaw": 0,
+      "spread": null,
+      "climate": null,
+      "cost": null,
+      "safety": null,
+      "traditions": {
+        "count": 0,
+        "examples": []
+      }
+    },
+    {
+      "iso3": "MDV",
+      "name": "Maldives",
+      "aliases": [],
+      "teaser": "Discover the cultural and historical heritage of Maldives.",
+      "bbox": [
+        73.3813,
+        3.2296,
+        73.5289,
+        4.2469
+      ],
+      "counts": {
+        "unesco": 0,
+        "notable": 0,
+        "byCategory": {
+          "ancient": 0,
+          "sacred": 0,
+          "castles": 0,
+          "towns": 0,
+          "palaces": 0,
+          "landscapes": 0,
+          "modern": 0,
+          "natural": 0
+        }
+      },
+      "richness": 0.0,
+      "richnessRaw": 0,
+      "spread": null,
+      "climate": null,
+      "cost": null,
+      "safety": null,
+      "traditions": {
+        "count": 0,
+        "examples": []
+      }
+    },
+    {
+      "iso3": "MLI",
+      "name": "Mali",
+      "aliases": [],
+      "teaser": "Timbuktu's earthen mosques and manuscript libraries, Djenné's Great Mosque and the Bandiagara cliffs.",
+      "bbox": [
+        -12.2815,
+        10.1441,
+        4.2354,
+        24.9956
+      ],
+      "counts": {
+        "unesco": 0,
+        "notable": 0,
+        "byCategory": {
+          "ancient": 0,
+          "sacred": 0,
+          "castles": 0,
+          "towns": 0,
+          "palaces": 0,
+          "landscapes": 0,
+          "modern": 0,
+          "natural": 0
+        }
+      },
+      "richness": 0.0,
+      "richnessRaw": 0,
+      "spread": null,
+      "climate": null,
+      "cost": null,
+      "safety": null,
+      "traditions": {
+        "count": 0,
+        "examples": []
+      }
+    },
+    {
+      "iso3": "MLT",
+      "name": "Malta",
+      "aliases": [],
+      "teaser": "Discover the cultural and historical heritage of Malta.",
+      "bbox": [
+        14.1787,
+        35.8196,
+        14.5675,
+        36.0765
+      ],
+      "counts": {
+        "unesco": 0,
+        "notable": 0,
+        "byCategory": {
+          "ancient": 0,
+          "sacred": 0,
+          "castles": 0,
+          "towns": 0,
+          "palaces": 0,
+          "landscapes": 0,
+          "modern": 0,
+          "natural": 0
+        }
+      },
+      "richness": 0.0,
+      "richnessRaw": 0,
+      "spread": null,
+      "climate": null,
+      "cost": null,
+      "safety": null,
+      "traditions": {
+        "count": 0,
+        "examples": []
+      }
+    },
+    {
+      "iso3": "MHL",
+      "name": "Marshall Is.",
+      "aliases": [],
+      "teaser": "Discover the cultural and historical heritage of Marshall Is..",
+      "bbox": [
+        168.6743,
+        5.8006,
+        171.7559,
+        7.337
+      ],
+      "counts": {
+        "unesco": 0,
+        "notable": 0,
+        "byCategory": {
+          "ancient": 0,
+          "sacred": 0,
+          "castles": 0,
+          "towns": 0,
+          "palaces": 0,
+          "landscapes": 0,
+          "modern": 0,
+          "natural": 0
+        }
+      },
+      "richness": 0.0,
+      "richnessRaw": 0,
+      "spread": null,
+      "climate": null,
+      "cost": null,
+      "safety": null,
+      "traditions": {
+        "count": 0,
+        "examples": []
+      }
+    },
+    {
+      "iso3": "MRT",
+      "name": "Mauritania",
+      "aliases": [],
+      "teaser": "Discover the cultural and historical heritage of Mauritania.",
+      "bbox": [
+        -17.0624,
+        14.7445,
+        -4.8222,
+        27.2854
+      ],
+      "counts": {
+        "unesco": 0,
+        "notable": 0,
+        "byCategory": {
+          "ancient": 0,
+          "sacred": 0,
+          "castles": 0,
+          "towns": 0,
+          "palaces": 0,
+          "landscapes": 0,
+          "modern": 0,
+          "natural": 0
+        }
+      },
+      "richness": 0.0,
+      "richnessRaw": 0,
+      "spread": null,
+      "climate": null,
+      "cost": null,
+      "safety": null,
+      "traditions": {
+        "count": 0,
+        "examples": []
+      }
+    },
+    {
+      "iso3": "MUS",
+      "name": "Mauritius",
+      "aliases": [],
+      "teaser": "Discover the cultural and historical heritage of Mauritius.",
+      "bbox": [
+        57.318,
+        -20.5137,
+        57.7932,
+        -19.9895
+      ],
+      "counts": {
+        "unesco": 0,
+        "notable": 0,
+        "byCategory": {
+          "ancient": 0,
+          "sacred": 0,
+          "castles": 0,
+          "towns": 0,
+          "palaces": 0,
+          "landscapes": 0,
+          "modern": 0,
+          "natural": 0
+        }
+      },
+      "richness": 0.0,
+      "richnessRaw": 0,
+      "spread": null,
+      "climate": null,
+      "cost": null,
+      "safety": null,
+      "traditions": {
+        "count": 0,
+        "examples": []
+      }
+    },
+    {
+      "iso3": "MEX",
+      "name": "Mexico",
+      "aliases": [],
+      "teaser": "Maya and Aztec temple cities, silver-mining colonial towns, baroque convents and agave landscapes.",
+      "bbox": [
+        -118.3998,
+        14.5449,
+        -86.6979,
+        32.7156
+      ],
+      "counts": {
+        "unesco": 2,
+        "notable": 0,
+        "byCategory": {
+          "ancient": 2,
+          "sacred": 0,
+          "castles": 0,
+          "towns": 0,
+          "palaces": 0,
+          "landscapes": 0,
+          "modern": 0,
+          "natural": 0
+        }
+      },
+      "richness": 0.562,
+      "richnessRaw": 6,
       "spread": {
-        "level": "compact",
-        "medianKm": 98
+        "level": "spread",
+        "medianKm": 1078
       },
       "climate": {
         "tempC": [
@@ -2019,38 +4934,215 @@
       }
     },
     {
+      "iso3": "FSM",
+      "name": "Micronesia",
+      "aliases": [],
+      "teaser": "Discover the cultural and historical heritage of Micronesia.",
+      "bbox": [
+        158.1262,
+        6.7919,
+        158.335,
+        6.9776
+      ],
+      "counts": {
+        "unesco": 0,
+        "notable": 0,
+        "byCategory": {
+          "ancient": 0,
+          "sacred": 0,
+          "castles": 0,
+          "towns": 0,
+          "palaces": 0,
+          "landscapes": 0,
+          "modern": 0,
+          "natural": 0
+        }
+      },
+      "richness": 0.0,
+      "richnessRaw": 0,
+      "spread": null,
+      "climate": null,
+      "cost": null,
+      "safety": null,
+      "traditions": {
+        "count": 0,
+        "examples": []
+      }
+    },
+    {
+      "iso3": "MDA",
+      "name": "Moldova",
+      "aliases": [],
+      "teaser": "Discover the cultural and historical heritage of Moldova.",
+      "bbox": [
+        26.6205,
+        45.4509,
+        30.1305,
+        48.4785
+      ],
+      "counts": {
+        "unesco": 0,
+        "notable": 0,
+        "byCategory": {
+          "ancient": 0,
+          "sacred": 0,
+          "castles": 0,
+          "towns": 0,
+          "palaces": 0,
+          "landscapes": 0,
+          "modern": 0,
+          "natural": 0
+        }
+      },
+      "richness": 0.0,
+      "richnessRaw": 0,
+      "spread": null,
+      "climate": null,
+      "cost": null,
+      "safety": null,
+      "traditions": {
+        "count": 0,
+        "examples": []
+      }
+    },
+    {
+      "iso3": "MCO",
+      "name": "Monaco",
+      "aliases": [],
+      "teaser": "Discover the cultural and historical heritage of Monaco.",
+      "bbox": [
+        7.3783,
+        43.7323,
+        7.4395,
+        43.7705
+      ],
+      "counts": {
+        "unesco": 0,
+        "notable": 0,
+        "byCategory": {
+          "ancient": 0,
+          "sacred": 0,
+          "castles": 0,
+          "towns": 0,
+          "palaces": 0,
+          "landscapes": 0,
+          "modern": 0,
+          "natural": 0
+        }
+      },
+      "richness": 0.0,
+      "richnessRaw": 0,
+      "spread": null,
+      "climate": null,
+      "cost": null,
+      "safety": null,
+      "traditions": {
+        "count": 0,
+        "examples": []
+      }
+    },
+    {
+      "iso3": "MNG",
+      "name": "Mongolia",
+      "aliases": [],
+      "teaser": "Discover the cultural and historical heritage of Mongolia.",
+      "bbox": [
+        87.7419,
+        41.5953,
+        119.8974,
+        52.1172
+      ],
+      "counts": {
+        "unesco": 0,
+        "notable": 0,
+        "byCategory": {
+          "ancient": 0,
+          "sacred": 0,
+          "castles": 0,
+          "towns": 0,
+          "palaces": 0,
+          "landscapes": 0,
+          "modern": 0,
+          "natural": 0
+        }
+      },
+      "richness": 0.0,
+      "richnessRaw": 0,
+      "spread": null,
+      "climate": null,
+      "cost": null,
+      "safety": null,
+      "traditions": {
+        "count": 0,
+        "examples": []
+      }
+    },
+    {
+      "iso3": "MNE",
+      "name": "Montenegro",
+      "aliases": [],
+      "teaser": "Discover the cultural and historical heritage of Montenegro.",
+      "bbox": [
+        18.4376,
+        41.8696,
+        20.3492,
+        43.5431
+      ],
+      "counts": {
+        "unesco": 0,
+        "notable": 0,
+        "byCategory": {
+          "ancient": 0,
+          "sacred": 0,
+          "castles": 0,
+          "towns": 0,
+          "palaces": 0,
+          "landscapes": 0,
+          "modern": 0,
+          "natural": 0
+        }
+      },
+      "richness": 0.0,
+      "richnessRaw": 0,
+      "spread": null,
+      "climate": null,
+      "cost": null,
+      "safety": null,
+      "traditions": {
+        "count": 0,
+        "examples": []
+      }
+    },
+    {
       "iso3": "MAR",
       "name": "Morocco",
-      "aliases": [
-        "Kingdom of Morocco",
-        "Al-Maghrib"
-      ],
+      "aliases": [],
       "teaser": "Walled medinas of Fez and Marrakech, earthen kasbahs of the Atlas and the Roman ruins of Volubilis.",
       "bbox": [
-        -13.2,
-        27.7,
-        -1.0,
-        35.9
+        -17.0048,
+        21.4212,
+        -1.0638,
+        35.9307
       ],
       "counts": {
         "unesco": 1,
-        "notable": 8,
+        "notable": 1,
         "byCategory": {
-          "ancient": 1,
+          "ancient": 0,
           "sacred": 1,
-          "castles": 1,
-          "towns": 2,
-          "palaces": 1,
-          "landscapes": 1,
-          "modern": 1,
-          "natural": 1
+          "castles": 0,
+          "towns": 1,
+          "palaces": 0,
+          "landscapes": 0,
+          "modern": 0,
+          "natural": 0
         }
       },
-      "richness": 0.6055,
-      "richnessRaw": 11,
+      "richness": 0.4588,
+      "richnessRaw": 4,
       "spread": {
-        "level": "compact",
-        "medianKm": 90
+        "level": "moderate",
+        "medianKm": 250
       },
       "climate": {
         "tempC": [
@@ -2118,17 +5210,159 @@
       }
     },
     {
+      "iso3": "MOZ",
+      "name": "Mozambique",
+      "aliases": [],
+      "teaser": "Discover the cultural and historical heritage of Mozambique.",
+      "bbox": [
+        30.2205,
+        -26.8623,
+        40.8442,
+        -10.464
+      ],
+      "counts": {
+        "unesco": 0,
+        "notable": 0,
+        "byCategory": {
+          "ancient": 0,
+          "sacred": 0,
+          "castles": 0,
+          "towns": 0,
+          "palaces": 0,
+          "landscapes": 0,
+          "modern": 0,
+          "natural": 0
+        }
+      },
+      "richness": 0.0,
+      "richnessRaw": 0,
+      "spread": null,
+      "climate": null,
+      "cost": null,
+      "safety": null,
+      "traditions": {
+        "count": 0,
+        "examples": []
+      }
+    },
+    {
+      "iso3": "MMR",
+      "name": "Myanmar",
+      "aliases": [],
+      "teaser": "Discover the cultural and historical heritage of Myanmar.",
+      "bbox": [
+        92.1807,
+        9.875,
+        101.1484,
+        28.5162
+      ],
+      "counts": {
+        "unesco": 0,
+        "notable": 0,
+        "byCategory": {
+          "ancient": 0,
+          "sacred": 0,
+          "castles": 0,
+          "towns": 0,
+          "palaces": 0,
+          "landscapes": 0,
+          "modern": 0,
+          "natural": 0
+        }
+      },
+      "richness": 0.0,
+      "richnessRaw": 0,
+      "spread": null,
+      "climate": null,
+      "cost": null,
+      "safety": null,
+      "traditions": {
+        "count": 0,
+        "examples": []
+      }
+    },
+    {
+      "iso3": "NAM",
+      "name": "Namibia",
+      "aliases": [],
+      "teaser": "Discover the cultural and historical heritage of Namibia.",
+      "bbox": [
+        11.7199,
+        -28.9386,
+        25.2597,
+        -16.9671
+      ],
+      "counts": {
+        "unesco": 0,
+        "notable": 0,
+        "byCategory": {
+          "ancient": 0,
+          "sacred": 0,
+          "castles": 0,
+          "towns": 0,
+          "palaces": 0,
+          "landscapes": 0,
+          "modern": 0,
+          "natural": 0
+        }
+      },
+      "richness": 0.0,
+      "richnessRaw": 0,
+      "spread": null,
+      "climate": null,
+      "cost": null,
+      "safety": null,
+      "traditions": {
+        "count": 0,
+        "examples": []
+      }
+    },
+    {
       "iso3": "NRU",
       "name": "Nauru",
-      "aliases": [
-        "Republic of Nauru"
-      ],
+      "aliases": [],
       "teaser": "Discover the cultural and historical heritage of Nauru.",
       "bbox": [
-        166.9,
-        -0.55,
-        166.96,
-        -0.5
+        166.9067,
+        -0.5514,
+        166.9571,
+        -0.4889
+      ],
+      "counts": {
+        "unesco": 0,
+        "notable": 0,
+        "byCategory": {
+          "ancient": 0,
+          "sacred": 0,
+          "castles": 0,
+          "towns": 0,
+          "palaces": 0,
+          "landscapes": 0,
+          "modern": 0,
+          "natural": 0
+        }
+      },
+      "richness": 0.0,
+      "richnessRaw": 0,
+      "spread": null,
+      "climate": null,
+      "cost": null,
+      "safety": null,
+      "traditions": {
+        "count": 0,
+        "examples": []
+      }
+    },
+    {
+      "iso3": "NPL",
+      "name": "Nepal",
+      "aliases": [],
+      "teaser": "Kathmandu Valley's carved pagoda squares, Boudhanath and Swayambhunath stupas, Lumbini and Sagarmatha.",
+      "bbox": [
+        80.0522,
+        26.3601,
+        88.1631,
+        30.3876
       ],
       "counts": {
         "unesco": 0,
@@ -2164,127 +5398,534 @@
       ],
       "teaser": "Seventeenth-century canal rings, historic windmills, polder landscapes and Rietveld modernist design.",
       "bbox": [
-        3.4,
-        50.8,
-        7.2,
-        53.5
+        3.3498,
+        50.751,
+        7.1983,
+        53.6258
       ],
       "counts": {
         "unesco": 1,
-        "notable": 8,
+        "notable": 0,
         "byCategory": {
-          "ancient": 1,
-          "sacred": 1,
-          "castles": 1,
-          "towns": 2,
-          "palaces": 1,
-          "landscapes": 1,
-          "modern": 1,
-          "natural": 1
+          "ancient": 0,
+          "sacred": 0,
+          "castles": 0,
+          "towns": 1,
+          "palaces": 0,
+          "landscapes": 0,
+          "modern": 0,
+          "natural": 0
         }
       },
-      "richness": 0.6055,
-      "richnessRaw": 11,
-      "spread": {
-        "level": "compact",
-        "medianKm": 50
-      },
-      "climate": {
-        "tempC": [
-          3.0,
-          4.0,
-          6.0,
-          10.0,
-          14.0,
-          16.0,
-          18.0,
-          18.0,
-          15.0,
-          11.0,
-          7.0,
-          4.0
-        ],
-        "precipMm": [
-          68.0,
-          52.0,
-          58.0,
-          42.0,
-          55.0,
-          65.0,
-          75.0,
-          82.0,
-          78.0,
-          85.0,
-          82.0,
-          75.0
-        ],
-        "comfortable": [
-          false,
-          false,
-          false,
-          false,
-          true,
-          true,
-          true,
-          true,
-          true,
-          false,
-          false,
-          false
-        ]
-      },
-      "cost": {
-        "tier": 4,
-        "priceLevelRatio": 0.81,
-        "year": 2023
-      },
-      "safety": {
-        "level": 2,
-        "label": "Exercise Increased Caution",
-        "url": "https://travel.state.gov/content/travel/en/traveladvisories/traveladvisories.html/",
-        "asOf": "2026-11-01"
-      },
+      "richness": 0.3974,
+      "richnessRaw": 3,
+      "spread": null,
+      "climate": null,
+      "cost": null,
+      "safety": null,
       "traditions": {
-        "count": 2,
-        "examples": [
-          "Craft of the miller operating windmills",
-          "Corso culture flower parades"
-        ]
+        "count": 0,
+        "examples": []
+      }
+    },
+    {
+      "iso3": "NZL",
+      "name": "New Zealand",
+      "aliases": [],
+      "teaser": "Discover the cultural and historical heritage of New Zealand.",
+      "bbox": [
+        165.8879,
+        -50.8469,
+        178.5348,
+        -34.4295
+      ],
+      "counts": {
+        "unesco": 0,
+        "notable": 0,
+        "byCategory": {
+          "ancient": 0,
+          "sacred": 0,
+          "castles": 0,
+          "towns": 0,
+          "palaces": 0,
+          "landscapes": 0,
+          "modern": 0,
+          "natural": 0
+        }
+      },
+      "richness": 0.0,
+      "richnessRaw": 0,
+      "spread": null,
+      "climate": null,
+      "cost": null,
+      "safety": null,
+      "traditions": {
+        "count": 0,
+        "examples": []
+      }
+    },
+    {
+      "iso3": "NIC",
+      "name": "Nicaragua",
+      "aliases": [],
+      "teaser": "Discover the cultural and historical heritage of Nicaragua.",
+      "bbox": [
+        -87.6699,
+        10.7361,
+        -83.159,
+        15.0084
+      ],
+      "counts": {
+        "unesco": 0,
+        "notable": 0,
+        "byCategory": {
+          "ancient": 0,
+          "sacred": 0,
+          "castles": 0,
+          "towns": 0,
+          "palaces": 0,
+          "landscapes": 0,
+          "modern": 0,
+          "natural": 0
+        }
+      },
+      "richness": 0.0,
+      "richnessRaw": 0,
+      "spread": null,
+      "climate": null,
+      "cost": null,
+      "safety": null,
+      "traditions": {
+        "count": 0,
+        "examples": []
+      }
+    },
+    {
+      "iso3": "NER",
+      "name": "Niger",
+      "aliases": [],
+      "teaser": "Discover the cultural and historical heritage of Niger.",
+      "bbox": [
+        0.1638,
+        11.6961,
+        15.9644,
+        23.5183
+      ],
+      "counts": {
+        "unesco": 0,
+        "notable": 0,
+        "byCategory": {
+          "ancient": 0,
+          "sacred": 0,
+          "castles": 0,
+          "towns": 0,
+          "palaces": 0,
+          "landscapes": 0,
+          "modern": 0,
+          "natural": 0
+        }
+      },
+      "richness": 0.0,
+      "richnessRaw": 0,
+      "spread": null,
+      "climate": null,
+      "cost": null,
+      "safety": null,
+      "traditions": {
+        "count": 0,
+        "examples": []
+      }
+    },
+    {
+      "iso3": "NGA",
+      "name": "Nigeria",
+      "aliases": [],
+      "teaser": "Discover the cultural and historical heritage of Nigeria.",
+      "bbox": [
+        2.6874,
+        4.2781,
+        14.6287,
+        13.873
+      ],
+      "counts": {
+        "unesco": 0,
+        "notable": 0,
+        "byCategory": {
+          "ancient": 0,
+          "sacred": 0,
+          "castles": 0,
+          "towns": 0,
+          "palaces": 0,
+          "landscapes": 0,
+          "modern": 0,
+          "natural": 0
+        }
+      },
+      "richness": 0.0,
+      "richnessRaw": 0,
+      "spread": null,
+      "climate": null,
+      "cost": null,
+      "safety": null,
+      "traditions": {
+        "count": 0,
+        "examples": []
+      }
+    },
+    {
+      "iso3": "PRK",
+      "name": "North Korea",
+      "aliases": [],
+      "teaser": "Discover the cultural and historical heritage of North Korea.",
+      "bbox": [
+        124.347,
+        37.7188,
+        130.6867,
+        42.998
+      ],
+      "counts": {
+        "unesco": 0,
+        "notable": 0,
+        "byCategory": {
+          "ancient": 0,
+          "sacred": 0,
+          "castles": 0,
+          "towns": 0,
+          "palaces": 0,
+          "landscapes": 0,
+          "modern": 0,
+          "natural": 0
+        }
+      },
+      "richness": 0.0,
+      "richnessRaw": 0,
+      "spread": null,
+      "climate": null,
+      "cost": null,
+      "safety": null,
+      "traditions": {
+        "count": 0,
+        "examples": []
+      }
+    },
+    {
+      "iso3": "NOR",
+      "name": "Norway",
+      "aliases": [],
+      "teaser": "Carved wooden stave churches, Bergen's Hanseatic wharf, prehistoric rock carvings and dramatic western fjords.",
+      "bbox": [
+        4.8006,
+        58.0213,
+        30.9621,
+        74.5186
+      ],
+      "counts": {
+        "unesco": 0,
+        "notable": 0,
+        "byCategory": {
+          "ancient": 0,
+          "sacred": 0,
+          "castles": 0,
+          "towns": 0,
+          "palaces": 0,
+          "landscapes": 0,
+          "modern": 0,
+          "natural": 0
+        }
+      },
+      "richness": 0.0,
+      "richnessRaw": 0,
+      "spread": null,
+      "climate": null,
+      "cost": null,
+      "safety": null,
+      "traditions": {
+        "count": 0,
+        "examples": []
+      }
+    },
+    {
+      "iso3": "OMN",
+      "name": "Oman",
+      "aliases": [],
+      "teaser": "Bahla Fort, prehistoric stone tower tombs of Bat, ancient aflaj irrigation channels and frankincense trails.",
+      "bbox": [
+        51.9791,
+        16.6489,
+        59.838,
+        26.3566
+      ],
+      "counts": {
+        "unesco": 0,
+        "notable": 0,
+        "byCategory": {
+          "ancient": 0,
+          "sacred": 0,
+          "castles": 0,
+          "towns": 0,
+          "palaces": 0,
+          "landscapes": 0,
+          "modern": 0,
+          "natural": 0
+        }
+      },
+      "richness": 0.0,
+      "richnessRaw": 0,
+      "spread": null,
+      "climate": null,
+      "cost": null,
+      "safety": null,
+      "traditions": {
+        "count": 0,
+        "examples": []
+      }
+    },
+    {
+      "iso3": "PAK",
+      "name": "Pakistan",
+      "aliases": [],
+      "teaser": "Mohenjo-daro's Indus Valley streets, Mughal Lahore Fort and Shalimar Gardens, Taxila and Rohtas Fort.",
+      "bbox": [
+        60.8424,
+        23.7526,
+        77.0498,
+        37.0365
+      ],
+      "counts": {
+        "unesco": 0,
+        "notable": 0,
+        "byCategory": {
+          "ancient": 0,
+          "sacred": 0,
+          "castles": 0,
+          "towns": 0,
+          "palaces": 0,
+          "landscapes": 0,
+          "modern": 0,
+          "natural": 0
+        }
+      },
+      "richness": 0.0,
+      "richnessRaw": 0,
+      "spread": null,
+      "climate": null,
+      "cost": null,
+      "safety": null,
+      "traditions": {
+        "count": 0,
+        "examples": []
+      }
+    },
+    {
+      "iso3": "PLW",
+      "name": "Palau",
+      "aliases": [],
+      "teaser": "Discover the cultural and historical heritage of Palau.",
+      "bbox": [
+        134.5063,
+        7.3613,
+        134.6611,
+        7.712
+      ],
+      "counts": {
+        "unesco": 0,
+        "notable": 0,
+        "byCategory": {
+          "ancient": 0,
+          "sacred": 0,
+          "castles": 0,
+          "towns": 0,
+          "palaces": 0,
+          "landscapes": 0,
+          "modern": 0,
+          "natural": 0
+        }
+      },
+      "richness": 0.0,
+      "richnessRaw": 0,
+      "spread": null,
+      "climate": null,
+      "cost": null,
+      "safety": null,
+      "traditions": {
+        "count": 0,
+        "examples": []
+      }
+    },
+    {
+      "iso3": "PSE",
+      "name": "Palestine",
+      "aliases": [],
+      "teaser": "Discover the cultural and historical heritage of Palestine.",
+      "bbox": [
+        34.1985,
+        31.2088,
+        35.5738,
+        32.5351
+      ],
+      "counts": {
+        "unesco": 0,
+        "notable": 0,
+        "byCategory": {
+          "ancient": 0,
+          "sacred": 0,
+          "castles": 0,
+          "towns": 0,
+          "palaces": 0,
+          "landscapes": 0,
+          "modern": 0,
+          "natural": 0
+        }
+      },
+      "richness": 0.0,
+      "richnessRaw": 0,
+      "spread": null,
+      "climate": null,
+      "cost": null,
+      "safety": null,
+      "traditions": {
+        "count": 0,
+        "examples": []
+      }
+    },
+    {
+      "iso3": "PAN",
+      "name": "Panama",
+      "aliases": [],
+      "teaser": "Discover the cultural and historical heritage of Panama.",
+      "bbox": [
+        -83.0258,
+        7.2207,
+        -77.1974,
+        9.5973
+      ],
+      "counts": {
+        "unesco": 0,
+        "notable": 0,
+        "byCategory": {
+          "ancient": 0,
+          "sacred": 0,
+          "castles": 0,
+          "towns": 0,
+          "palaces": 0,
+          "landscapes": 0,
+          "modern": 0,
+          "natural": 0
+        }
+      },
+      "richness": 0.0,
+      "richnessRaw": 0,
+      "spread": null,
+      "climate": null,
+      "cost": null,
+      "safety": null,
+      "traditions": {
+        "count": 0,
+        "examples": []
+      }
+    },
+    {
+      "iso3": "PNG",
+      "name": "Papua New Guinea",
+      "aliases": [],
+      "teaser": "Discover the cultural and historical heritage of Papua New Guinea.",
+      "bbox": [
+        140.864,
+        -11.6306,
+        154.2813,
+        -1.9489
+      ],
+      "counts": {
+        "unesco": 0,
+        "notable": 0,
+        "byCategory": {
+          "ancient": 0,
+          "sacred": 0,
+          "castles": 0,
+          "towns": 0,
+          "palaces": 0,
+          "landscapes": 0,
+          "modern": 0,
+          "natural": 0
+        }
+      },
+      "richness": 0.0,
+      "richnessRaw": 0,
+      "spread": null,
+      "climate": null,
+      "cost": null,
+      "safety": null,
+      "traditions": {
+        "count": 0,
+        "examples": []
+      }
+    },
+    {
+      "iso3": "PRY",
+      "name": "Paraguay",
+      "aliases": [],
+      "teaser": "Discover the cultural and historical heritage of Paraguay.",
+      "bbox": [
+        -62.6496,
+        -27.5532,
+        -54.2435,
+        -19.2864
+      ],
+      "counts": {
+        "unesco": 0,
+        "notable": 0,
+        "byCategory": {
+          "ancient": 0,
+          "sacred": 0,
+          "castles": 0,
+          "towns": 0,
+          "palaces": 0,
+          "landscapes": 0,
+          "modern": 0,
+          "natural": 0
+        }
+      },
+      "richness": 0.0,
+      "richnessRaw": 0,
+      "spread": null,
+      "climate": null,
+      "cost": null,
+      "safety": null,
+      "traditions": {
+        "count": 0,
+        "examples": []
       }
     },
     {
       "iso3": "PER",
       "name": "Peru",
-      "aliases": [
-        "Republic of Peru",
-        "Perú"
-      ],
+      "aliases": [],
       "teaser": "Machu Picchu, Inca and colonial Cusco, the Nazca lines, Adobe Chan Chan and living Andean traditions.",
       "bbox": [
-        -81.3,
-        -18.3,
-        -68.7,
-        -0.0
+        -81.3374,
+        -18.3455,
+        -68.6869,
+        -0.041
       ],
       "counts": {
         "unesco": 1,
-        "notable": 8,
+        "notable": 1,
         "byCategory": {
           "ancient": 2,
-          "sacred": 1,
-          "castles": 1,
-          "towns": 1,
-          "palaces": 1,
-          "landscapes": 1,
-          "modern": 1,
-          "natural": 1
+          "sacred": 0,
+          "castles": 0,
+          "towns": 0,
+          "palaces": 0,
+          "landscapes": 0,
+          "modern": 0,
+          "natural": 0
         }
       },
-      "richness": 0.6055,
-      "richnessRaw": 11,
+      "richness": 0.4588,
+      "richnessRaw": 4,
       "spread": {
         "level": "compact",
-        "medianKm": 84
+        "medianKm": 72
       },
       "climate": {
         "tempC": [
@@ -2351,135 +5992,105 @@
       }
     },
     {
+      "iso3": "PHL",
+      "name": "Philippines",
+      "aliases": [],
+      "teaser": "Discover the cultural and historical heritage of Philippines.",
+      "bbox": [
+        117.219,
+        5.5992,
+        126.5935,
+        20.8413
+      ],
+      "counts": {
+        "unesco": 0,
+        "notable": 0,
+        "byCategory": {
+          "ancient": 0,
+          "sacred": 0,
+          "castles": 0,
+          "towns": 0,
+          "palaces": 0,
+          "landscapes": 0,
+          "modern": 0,
+          "natural": 0
+        }
+      },
+      "richness": 0.0,
+      "richnessRaw": 0,
+      "spread": null,
+      "climate": null,
+      "cost": null,
+      "safety": null,
+      "traditions": {
+        "count": 0,
+        "examples": []
+      }
+    },
+    {
       "iso3": "POL",
       "name": "Poland",
-      "aliases": [
-        "Polska",
-        "Republic of Poland"
-      ],
+      "aliases": [],
       "teaser": "Kraków's medieval square, Teutonic brick castles, wooden Carpathian churches and historic salt mines.",
       "bbox": [
-        14.1,
-        49.0,
-        24.1,
-        54.8
+        14.1283,
+        49.0202,
+        24.104,
+        54.8375
       ],
       "counts": {
         "unesco": 1,
-        "notable": 8,
+        "notable": 0,
         "byCategory": {
-          "ancient": 1,
-          "sacred": 1,
-          "castles": 1,
-          "towns": 2,
-          "palaces": 1,
-          "landscapes": 1,
-          "modern": 1,
-          "natural": 1
+          "ancient": 0,
+          "sacred": 0,
+          "castles": 0,
+          "towns": 1,
+          "palaces": 0,
+          "landscapes": 0,
+          "modern": 0,
+          "natural": 0
         }
       },
-      "richness": 0.6055,
-      "richnessRaw": 11,
-      "spread": {
-        "level": "compact",
-        "medianKm": 51
-      },
-      "climate": {
-        "tempC": [
-          -1.0,
-          0.0,
-          4.0,
-          10.0,
-          15.0,
-          18.0,
-          20.0,
-          19.0,
-          14.0,
-          9.0,
-          4.0,
-          0.0
-        ],
-        "precipMm": [
-          38.0,
-          32.0,
-          38.0,
-          45.0,
-          75.0,
-          85.0,
-          95.0,
-          75.0,
-          58.0,
-          45.0,
-          42.0,
-          40.0
-        ],
-        "comfortable": [
-          false,
-          false,
-          false,
-          false,
-          true,
-          true,
-          true,
-          true,
-          true,
-          false,
-          false,
-          false
-        ]
-      },
-      "cost": {
-        "tier": 2,
-        "priceLevelRatio": 0.53,
-        "year": 2023
-      },
-      "safety": {
-        "level": 1,
-        "label": "Exercise Normal Precautions",
-        "url": "https://travel.state.gov/content/travel/en/traveladvisories/traveladvisories.html/",
-        "asOf": "2026-11-01"
-      },
+      "richness": 0.3974,
+      "richnessRaw": 3,
+      "spread": null,
+      "climate": null,
+      "cost": null,
+      "safety": null,
       "traditions": {
-        "count": 2,
-        "examples": [
-          "Nativity scene (szopka) tradition in Kraków",
-          "Polonaise dance"
-        ]
+        "count": 0,
+        "examples": []
       }
     },
     {
       "iso3": "PRT",
       "name": "Portugal",
-      "aliases": [
-        "Portuguese Republic"
-      ],
+      "aliases": [],
       "teaser": "Manueline monasteries, Sintra's palaces, university hill towns, frontier castles and Douro vineyards.",
       "bbox": [
-        -9.5,
-        36.9,
-        -6.2,
-        42.2
+        -9.4807,
+        37.0053,
+        -6.2119,
+        42.1369
       ],
       "counts": {
         "unesco": 1,
-        "notable": 8,
+        "notable": 0,
         "byCategory": {
-          "ancient": 1,
-          "sacred": 2,
-          "castles": 1,
-          "towns": 1,
-          "palaces": 1,
-          "landscapes": 1,
-          "modern": 1,
-          "natural": 1
+          "ancient": 0,
+          "sacred": 1,
+          "castles": 0,
+          "towns": 0,
+          "palaces": 0,
+          "landscapes": 0,
+          "modern": 0,
+          "natural": 0
         }
       },
-      "richness": 0.6055,
-      "richnessRaw": 11,
-      "spread": {
-        "level": "compact",
-        "medianKm": 56
-      },
+      "richness": 0.3974,
+      "richnessRaw": 3,
+      "spread": null,
       "climate": {
         "tempC": [
           11.0,
@@ -2545,6 +6156,726 @@
       }
     },
     {
+      "iso3": "QAT",
+      "name": "Qatar",
+      "aliases": [],
+      "teaser": "Discover the cultural and historical heritage of Qatar.",
+      "bbox": [
+        50.7551,
+        24.5651,
+        51.6083,
+        26.1535
+      ],
+      "counts": {
+        "unesco": 0,
+        "notable": 0,
+        "byCategory": {
+          "ancient": 0,
+          "sacred": 0,
+          "castles": 0,
+          "towns": 0,
+          "palaces": 0,
+          "landscapes": 0,
+          "modern": 0,
+          "natural": 0
+        }
+      },
+      "richness": 0.0,
+      "richnessRaw": 0,
+      "spread": null,
+      "climate": null,
+      "cost": null,
+      "safety": null,
+      "traditions": {
+        "count": 0,
+        "examples": []
+      }
+    },
+    {
+      "iso3": "ROU",
+      "name": "Romania",
+      "aliases": [],
+      "teaser": "Painted monasteries of Bucovina, Saxon fortified churches of Transylvania, wooden Maramureș churches and Dacian forts.",
+      "bbox": [
+        20.2412,
+        43.6715,
+        29.7057,
+        48.2633
+      ],
+      "counts": {
+        "unesco": 0,
+        "notable": 0,
+        "byCategory": {
+          "ancient": 0,
+          "sacred": 0,
+          "castles": 0,
+          "towns": 0,
+          "palaces": 0,
+          "landscapes": 0,
+          "modern": 0,
+          "natural": 0
+        }
+      },
+      "richness": 0.0,
+      "richnessRaw": 0,
+      "spread": null,
+      "climate": null,
+      "cost": null,
+      "safety": null,
+      "traditions": {
+        "count": 0,
+        "examples": []
+      }
+    },
+    {
+      "iso3": "RUS",
+      "name": "Russia",
+      "aliases": [],
+      "teaser": "Golden-domed kremlins, wooden churches of the north, St. Petersburg's palaces and vast wilderness reserves.",
+      "bbox": [
+        19.604,
+        41.1995,
+        -169.7291,
+        81.2803
+      ],
+      "counts": {
+        "unesco": 1,
+        "notable": 0,
+        "byCategory": {
+          "ancient": 0,
+          "sacred": 0,
+          "castles": 0,
+          "towns": 1,
+          "palaces": 0,
+          "landscapes": 0,
+          "modern": 0,
+          "natural": 0
+        }
+      },
+      "richness": 0.3974,
+      "richnessRaw": 3,
+      "spread": null,
+      "climate": null,
+      "cost": null,
+      "safety": null,
+      "traditions": {
+        "count": 0,
+        "examples": []
+      }
+    },
+    {
+      "iso3": "RWA",
+      "name": "Rwanda",
+      "aliases": [],
+      "teaser": "Discover the cultural and historical heritage of Rwanda.",
+      "bbox": [
+        28.8561,
+        -2.8082,
+        30.8757,
+        -1.0635
+      ],
+      "counts": {
+        "unesco": 0,
+        "notable": 0,
+        "byCategory": {
+          "ancient": 0,
+          "sacred": 0,
+          "castles": 0,
+          "towns": 0,
+          "palaces": 0,
+          "landscapes": 0,
+          "modern": 0,
+          "natural": 0
+        }
+      },
+      "richness": 0.0,
+      "richnessRaw": 0,
+      "spread": null,
+      "climate": null,
+      "cost": null,
+      "safety": null,
+      "traditions": {
+        "count": 0,
+        "examples": []
+      }
+    },
+    {
+      "iso3": "SSD",
+      "name": "S. Sudan",
+      "aliases": [],
+      "teaser": "Discover the cultural and historical heritage of S. Sudan.",
+      "bbox": [
+        24.1472,
+        3.49,
+        35.2678,
+        12.2238
+      ],
+      "counts": {
+        "unesco": 0,
+        "notable": 0,
+        "byCategory": {
+          "ancient": 0,
+          "sacred": 0,
+          "castles": 0,
+          "towns": 0,
+          "palaces": 0,
+          "landscapes": 0,
+          "modern": 0,
+          "natural": 0
+        }
+      },
+      "richness": 0.0,
+      "richnessRaw": 0,
+      "spread": null,
+      "climate": null,
+      "cost": null,
+      "safety": null,
+      "traditions": {
+        "count": 0,
+        "examples": []
+      }
+    },
+    {
+      "iso3": "LCA",
+      "name": "Saint Lucia",
+      "aliases": [],
+      "teaser": "Discover the cultural and historical heritage of Saint Lucia.",
+      "bbox": [
+        -61.0728,
+        13.7168,
+        -60.8856,
+        14.0935
+      ],
+      "counts": {
+        "unesco": 0,
+        "notable": 0,
+        "byCategory": {
+          "ancient": 0,
+          "sacred": 0,
+          "castles": 0,
+          "towns": 0,
+          "palaces": 0,
+          "landscapes": 0,
+          "modern": 0,
+          "natural": 0
+        }
+      },
+      "richness": 0.0,
+      "richnessRaw": 0,
+      "spread": null,
+      "climate": null,
+      "cost": null,
+      "safety": null,
+      "traditions": {
+        "count": 0,
+        "examples": []
+      }
+    },
+    {
+      "iso3": "WSM",
+      "name": "Samoa",
+      "aliases": [],
+      "teaser": "Discover the cultural and historical heritage of Samoa.",
+      "bbox": [
+        -172.7783,
+        -14.0471,
+        -171.4499,
+        -13.4656
+      ],
+      "counts": {
+        "unesco": 0,
+        "notable": 0,
+        "byCategory": {
+          "ancient": 0,
+          "sacred": 0,
+          "castles": 0,
+          "towns": 0,
+          "palaces": 0,
+          "landscapes": 0,
+          "modern": 0,
+          "natural": 0
+        }
+      },
+      "richness": 0.0,
+      "richnessRaw": 0,
+      "spread": null,
+      "climate": null,
+      "cost": null,
+      "safety": null,
+      "traditions": {
+        "count": 0,
+        "examples": []
+      }
+    },
+    {
+      "iso3": "SMR",
+      "name": "San Marino",
+      "aliases": [],
+      "teaser": "Discover the cultural and historical heritage of San Marino.",
+      "bbox": [
+        12.3967,
+        43.8937,
+        12.5155,
+        43.9892
+      ],
+      "counts": {
+        "unesco": 0,
+        "notable": 0,
+        "byCategory": {
+          "ancient": 0,
+          "sacred": 0,
+          "castles": 0,
+          "towns": 0,
+          "palaces": 0,
+          "landscapes": 0,
+          "modern": 0,
+          "natural": 0
+        }
+      },
+      "richness": 0.0,
+      "richnessRaw": 0,
+      "spread": null,
+      "climate": null,
+      "cost": null,
+      "safety": null,
+      "traditions": {
+        "count": 0,
+        "examples": []
+      }
+    },
+    {
+      "iso3": "SAU",
+      "name": "Saudi Arabia",
+      "aliases": [],
+      "teaser": "Hegra's Nabataean rock tombs, mud-brick At-Turaif in Diriyah, Historic Jeddah and Hail's desert rock art.",
+      "bbox": [
+        34.6161,
+        16.3711,
+        55.6404,
+        32.1254
+      ],
+      "counts": {
+        "unesco": 0,
+        "notable": 0,
+        "byCategory": {
+          "ancient": 0,
+          "sacred": 0,
+          "castles": 0,
+          "towns": 0,
+          "palaces": 0,
+          "landscapes": 0,
+          "modern": 0,
+          "natural": 0
+        }
+      },
+      "richness": 0.0,
+      "richnessRaw": 0,
+      "spread": null,
+      "climate": null,
+      "cost": null,
+      "safety": null,
+      "traditions": {
+        "count": 0,
+        "examples": []
+      }
+    },
+    {
+      "iso3": "SEN",
+      "name": "Senegal",
+      "aliases": [],
+      "teaser": "Gorée Island, colonial Saint-Louis on the river mouth, Saloum Delta shell mounds and Bassari cultural landscapes.",
+      "bbox": [
+        -17.534,
+        12.328,
+        -11.3815,
+        16.6784
+      ],
+      "counts": {
+        "unesco": 0,
+        "notable": 0,
+        "byCategory": {
+          "ancient": 0,
+          "sacred": 0,
+          "castles": 0,
+          "towns": 0,
+          "palaces": 0,
+          "landscapes": 0,
+          "modern": 0,
+          "natural": 0
+        }
+      },
+      "richness": 0.0,
+      "richnessRaw": 0,
+      "spread": null,
+      "climate": null,
+      "cost": null,
+      "safety": null,
+      "traditions": {
+        "count": 0,
+        "examples": []
+      }
+    },
+    {
+      "iso3": "SRB",
+      "name": "Serbia",
+      "aliases": [],
+      "teaser": "Studenica and Sopoćani medieval frescoed monasteries, Roman Felix Romuliana and Danube fortresses.",
+      "bbox": [
+        18.8408,
+        42.2428,
+        22.9772,
+        46.1696
+      ],
+      "counts": {
+        "unesco": 0,
+        "notable": 0,
+        "byCategory": {
+          "ancient": 0,
+          "sacred": 0,
+          "castles": 0,
+          "towns": 0,
+          "palaces": 0,
+          "landscapes": 0,
+          "modern": 0,
+          "natural": 0
+        }
+      },
+      "richness": 0.0,
+      "richnessRaw": 0,
+      "spread": null,
+      "climate": null,
+      "cost": null,
+      "safety": null,
+      "traditions": {
+        "count": 0,
+        "examples": []
+      }
+    },
+    {
+      "iso3": "SYC",
+      "name": "Seychelles",
+      "aliases": [],
+      "teaser": "Discover the cultural and historical heritage of Seychelles.",
+      "bbox": [
+        55.3848,
+        -4.7855,
+        55.5432,
+        -4.5581
+      ],
+      "counts": {
+        "unesco": 0,
+        "notable": 0,
+        "byCategory": {
+          "ancient": 0,
+          "sacred": 0,
+          "castles": 0,
+          "towns": 0,
+          "palaces": 0,
+          "landscapes": 0,
+          "modern": 0,
+          "natural": 0
+        }
+      },
+      "richness": 0.0,
+      "richnessRaw": 0,
+      "spread": null,
+      "climate": null,
+      "cost": null,
+      "safety": null,
+      "traditions": {
+        "count": 0,
+        "examples": []
+      }
+    },
+    {
+      "iso3": "SLE",
+      "name": "Sierra Leone",
+      "aliases": [],
+      "teaser": "Discover the cultural and historical heritage of Sierra Leone.",
+      "bbox": [
+        -13.2931,
+        6.9064,
+        -10.2835,
+        9.9965
+      ],
+      "counts": {
+        "unesco": 0,
+        "notable": 0,
+        "byCategory": {
+          "ancient": 0,
+          "sacred": 0,
+          "castles": 0,
+          "towns": 0,
+          "palaces": 0,
+          "landscapes": 0,
+          "modern": 0,
+          "natural": 0
+        }
+      },
+      "richness": 0.0,
+      "richnessRaw": 0,
+      "spread": null,
+      "climate": null,
+      "cost": null,
+      "safety": null,
+      "traditions": {
+        "count": 0,
+        "examples": []
+      }
+    },
+    {
+      "iso3": "SGP",
+      "name": "Singapore",
+      "aliases": [],
+      "teaser": "Discover the cultural and historical heritage of Singapore.",
+      "bbox": [
+        103.6504,
+        1.2662,
+        103.996,
+        1.4467
+      ],
+      "counts": {
+        "unesco": 0,
+        "notable": 0,
+        "byCategory": {
+          "ancient": 0,
+          "sacred": 0,
+          "castles": 0,
+          "towns": 0,
+          "palaces": 0,
+          "landscapes": 0,
+          "modern": 0,
+          "natural": 0
+        }
+      },
+      "richness": 0.0,
+      "richnessRaw": 0,
+      "spread": null,
+      "climate": null,
+      "cost": null,
+      "safety": null,
+      "traditions": {
+        "count": 0,
+        "examples": []
+      }
+    },
+    {
+      "iso3": "SVK",
+      "name": "Slovakia",
+      "aliases": [],
+      "teaser": "Discover the cultural and historical heritage of Slovakia.",
+      "bbox": [
+        16.8644,
+        47.7633,
+        22.538,
+        49.5982
+      ],
+      "counts": {
+        "unesco": 0,
+        "notable": 0,
+        "byCategory": {
+          "ancient": 0,
+          "sacred": 0,
+          "castles": 0,
+          "towns": 0,
+          "palaces": 0,
+          "landscapes": 0,
+          "modern": 0,
+          "natural": 0
+        }
+      },
+      "richness": 0.0,
+      "richnessRaw": 0,
+      "spread": null,
+      "climate": null,
+      "cost": null,
+      "safety": null,
+      "traditions": {
+        "count": 0,
+        "examples": []
+      }
+    },
+    {
+      "iso3": "SVN",
+      "name": "Slovenia",
+      "aliases": [],
+      "teaser": "Discover the cultural and historical heritage of Slovenia.",
+      "bbox": [
+        13.3795,
+        45.4284,
+        16.5152,
+        46.864
+      ],
+      "counts": {
+        "unesco": 0,
+        "notable": 0,
+        "byCategory": {
+          "ancient": 0,
+          "sacred": 0,
+          "castles": 0,
+          "towns": 0,
+          "palaces": 0,
+          "landscapes": 0,
+          "modern": 0,
+          "natural": 0
+        }
+      },
+      "richness": 0.0,
+      "richnessRaw": 0,
+      "spread": null,
+      "climate": null,
+      "cost": null,
+      "safety": null,
+      "traditions": {
+        "count": 0,
+        "examples": []
+      }
+    },
+    {
+      "iso3": "SLB",
+      "name": "Solomon Is.",
+      "aliases": [],
+      "teaser": "Discover the cultural and historical heritage of Solomon Is..",
+      "bbox": [
+        155.6782,
+        -11.832,
+        162.3742,
+        -6.6083
+      ],
+      "counts": {
+        "unesco": 0,
+        "notable": 0,
+        "byCategory": {
+          "ancient": 0,
+          "sacred": 0,
+          "castles": 0,
+          "towns": 0,
+          "palaces": 0,
+          "landscapes": 0,
+          "modern": 0,
+          "natural": 0
+        }
+      },
+      "richness": 0.0,
+      "richnessRaw": 0,
+      "spread": null,
+      "climate": null,
+      "cost": null,
+      "safety": null,
+      "traditions": {
+        "count": 0,
+        "examples": []
+      }
+    },
+    {
+      "iso3": "SOM",
+      "name": "Somalia",
+      "aliases": [],
+      "teaser": "Discover the cultural and historical heritage of Somalia.",
+      "bbox": [
+        40.963,
+        -1.6954,
+        51.3887,
+        11.9843
+      ],
+      "counts": {
+        "unesco": 0,
+        "notable": 0,
+        "byCategory": {
+          "ancient": 0,
+          "sacred": 0,
+          "castles": 0,
+          "towns": 0,
+          "palaces": 0,
+          "landscapes": 0,
+          "modern": 0,
+          "natural": 0
+        }
+      },
+      "richness": 0.0,
+      "richnessRaw": 0,
+      "spread": null,
+      "climate": null,
+      "cost": null,
+      "safety": null,
+      "traditions": {
+        "count": 0,
+        "examples": []
+      }
+    },
+    {
+      "iso3": "ZAF",
+      "name": "South Africa",
+      "aliases": [],
+      "teaser": "Cradle of Humankind fossil sites, Robben Island, Mapungubwe's ancient kingdom and Cape floral landscapes.",
+      "bbox": [
+        16.4468,
+        -34.7854,
+        32.8845,
+        -22.1456
+      ],
+      "counts": {
+        "unesco": 0,
+        "notable": 0,
+        "byCategory": {
+          "ancient": 0,
+          "sacred": 0,
+          "castles": 0,
+          "towns": 0,
+          "palaces": 0,
+          "landscapes": 0,
+          "modern": 0,
+          "natural": 0
+        }
+      },
+      "richness": 0.0,
+      "richnessRaw": 0,
+      "spread": null,
+      "climate": null,
+      "cost": null,
+      "safety": null,
+      "traditions": {
+        "count": 0,
+        "examples": []
+      }
+    },
+    {
+      "iso3": "KOR",
+      "name": "South Korea",
+      "aliases": [],
+      "teaser": "Joseon royal palaces and tombs, mountain Buddhist monasteries, dolmen fields and historic folk villages.",
+      "bbox": [
+        126.0067,
+        33.2017,
+        130.9351,
+        38.6232
+      ],
+      "counts": {
+        "unesco": 0,
+        "notable": 0,
+        "byCategory": {
+          "ancient": 0,
+          "sacred": 0,
+          "castles": 0,
+          "towns": 0,
+          "palaces": 0,
+          "landscapes": 0,
+          "modern": 0,
+          "natural": 0
+        }
+      },
+      "richness": 0.0,
+      "richnessRaw": 0,
+      "spread": null,
+      "climate": null,
+      "cost": null,
+      "safety": null,
+      "traditions": {
+        "count": 0,
+        "examples": []
+      }
+    },
+    {
       "iso3": "ESP",
       "name": "Spain",
       "aliases": [
@@ -2553,30 +6884,30 @@
       ],
       "teaser": "The Alhambra, Gothic cathedrals, Roman aqueducts, Mudéjar towers and the Camino de Santiago.",
       "bbox": [
-        -9.3,
-        36.0,
-        3.3,
-        43.8
+        -9.2359,
+        36.0262,
+        4.3218,
+        43.7653
       ],
       "counts": {
-        "unesco": 1,
-        "notable": 18,
+        "unesco": 3,
+        "notable": 1,
         "byCategory": {
-          "ancient": 2,
-          "sacred": 3,
-          "castles": 4,
-          "towns": 2,
-          "palaces": 2,
-          "landscapes": 2,
-          "modern": 2,
-          "natural": 2
+          "ancient": 0,
+          "sacred": 2,
+          "castles": 2,
+          "towns": 0,
+          "palaces": 0,
+          "landscapes": 0,
+          "modern": 0,
+          "natural": 0
         }
       },
-      "richness": 0.8367,
-      "richnessRaw": 21,
+      "richness": 0.7255,
+      "richnessRaw": 10,
       "spread": {
-        "level": "compact",
-        "medianKm": 87
+        "level": "moderate",
+        "medianKm": 476
       },
       "climate": {
         "tempC": [
@@ -2644,103 +6975,619 @@
       }
     },
     {
+      "iso3": "LKA",
+      "name": "Sri Lanka",
+      "aliases": [],
+      "teaser": "Sigiriya's sky fortress, the ancient capitals of Anuradhapura and Polonnaruwa, and sacred Kandy.",
+      "bbox": [
+        79.7066,
+        5.9499,
+        81.8774,
+        9.8125
+      ],
+      "counts": {
+        "unesco": 0,
+        "notable": 0,
+        "byCategory": {
+          "ancient": 0,
+          "sacred": 0,
+          "castles": 0,
+          "towns": 0,
+          "palaces": 0,
+          "landscapes": 0,
+          "modern": 0,
+          "natural": 0
+        }
+      },
+      "richness": 0.0,
+      "richnessRaw": 0,
+      "spread": null,
+      "climate": null,
+      "cost": null,
+      "safety": null,
+      "traditions": {
+        "count": 0,
+        "examples": []
+      }
+    },
+    {
+      "iso3": "KNA",
+      "name": "St. Kitts and Nevis",
+      "aliases": [],
+      "teaser": "Discover the cultural and historical heritage of St. Kitts and Nevis.",
+      "bbox": [
+        -62.8404,
+        17.1003,
+        -62.5308,
+        17.4023
+      ],
+      "counts": {
+        "unesco": 0,
+        "notable": 0,
+        "byCategory": {
+          "ancient": 0,
+          "sacred": 0,
+          "castles": 0,
+          "towns": 0,
+          "palaces": 0,
+          "landscapes": 0,
+          "modern": 0,
+          "natural": 0
+        }
+      },
+      "richness": 0.0,
+      "richnessRaw": 0,
+      "spread": null,
+      "climate": null,
+      "cost": null,
+      "safety": null,
+      "traditions": {
+        "count": 0,
+        "examples": []
+      }
+    },
+    {
+      "iso3": "VCT",
+      "name": "St. Vin. and Gren.",
+      "aliases": [],
+      "teaser": "Discover the cultural and historical heritage of St. Vin. and Gren..",
+      "bbox": [
+        -61.3536,
+        12.6943,
+        -61.1232,
+        13.3592
+      ],
+      "counts": {
+        "unesco": 0,
+        "notable": 0,
+        "byCategory": {
+          "ancient": 0,
+          "sacred": 0,
+          "castles": 0,
+          "towns": 0,
+          "palaces": 0,
+          "landscapes": 0,
+          "modern": 0,
+          "natural": 0
+        }
+      },
+      "richness": 0.0,
+      "richnessRaw": 0,
+      "spread": null,
+      "climate": null,
+      "cost": null,
+      "safety": null,
+      "traditions": {
+        "count": 0,
+        "examples": []
+      }
+    },
+    {
+      "iso3": "SDN",
+      "name": "Sudan",
+      "aliases": [],
+      "teaser": "Discover the cultural and historical heritage of Sudan.",
+      "bbox": [
+        21.8252,
+        8.665,
+        38.6086,
+        22.2024
+      ],
+      "counts": {
+        "unesco": 0,
+        "notable": 0,
+        "byCategory": {
+          "ancient": 0,
+          "sacred": 0,
+          "castles": 0,
+          "towns": 0,
+          "palaces": 0,
+          "landscapes": 0,
+          "modern": 0,
+          "natural": 0
+        }
+      },
+      "richness": 0.0,
+      "richnessRaw": 0,
+      "spread": null,
+      "climate": null,
+      "cost": null,
+      "safety": null,
+      "traditions": {
+        "count": 0,
+        "examples": []
+      }
+    },
+    {
+      "iso3": "SUR",
+      "name": "Suriname",
+      "aliases": [],
+      "teaser": "Discover the cultural and historical heritage of Suriname.",
+      "bbox": [
+        -58.056,
+        1.8425,
+        -53.9915,
+        5.9933
+      ],
+      "counts": {
+        "unesco": 0,
+        "notable": 0,
+        "byCategory": {
+          "ancient": 0,
+          "sacred": 0,
+          "castles": 0,
+          "towns": 0,
+          "palaces": 0,
+          "landscapes": 0,
+          "modern": 0,
+          "natural": 0
+        }
+      },
+      "richness": 0.0,
+      "richnessRaw": 0,
+      "spread": null,
+      "climate": null,
+      "cost": null,
+      "safety": null,
+      "traditions": {
+        "count": 0,
+        "examples": []
+      }
+    },
+    {
+      "iso3": "SWE",
+      "name": "Sweden",
+      "aliases": [],
+      "teaser": "Visby's Hanseatic walls, Viking Birka, royal Drottningholm and Lapland's Indigenous cultural landscape.",
+      "bbox": [
+        11.1475,
+        55.3462,
+        24.1544,
+        69.0363
+      ],
+      "counts": {
+        "unesco": 0,
+        "notable": 0,
+        "byCategory": {
+          "ancient": 0,
+          "sacred": 0,
+          "castles": 0,
+          "towns": 0,
+          "palaces": 0,
+          "landscapes": 0,
+          "modern": 0,
+          "natural": 0
+        }
+      },
+      "richness": 0.0,
+      "richnessRaw": 0,
+      "spread": null,
+      "climate": null,
+      "cost": null,
+      "safety": null,
+      "traditions": {
+        "count": 0,
+        "examples": []
+      }
+    },
+    {
       "iso3": "CHE",
       "name": "Switzerland",
       "aliases": [
         "Schweiz",
         "Suisse",
-        "Svizzera",
-        "Swiss Confederation"
+        "Svizzera"
       ],
       "teaser": "Medieval abbey libraries, Bern's arcaded old town, Lavaux terraced vineyards and high Alpine railways.",
       "bbox": [
-        6.0,
-        45.8,
-        10.5,
-        47.8
+        5.9707,
+        45.8294,
+        10.4563,
+        47.7754
       ],
       "counts": {
         "unesco": 1,
-        "notable": 8,
+        "notable": 0,
         "byCategory": {
-          "ancient": 1,
-          "sacred": 1,
-          "castles": 1,
-          "towns": 2,
-          "palaces": 1,
-          "landscapes": 1,
-          "modern": 1,
-          "natural": 1
+          "ancient": 0,
+          "sacred": 0,
+          "castles": 0,
+          "towns": 1,
+          "palaces": 0,
+          "landscapes": 0,
+          "modern": 0,
+          "natural": 0
         }
       },
-      "richness": 0.6055,
-      "richnessRaw": 11,
-      "spread": {
-        "level": "compact",
-        "medianKm": 53
-      },
-      "climate": {
-        "tempC": [
-          0.0,
-          1.0,
-          5.0,
-          9.0,
-          14.0,
-          17.0,
-          19.0,
-          19.0,
-          15.0,
-          10.0,
-          4.0,
-          1.0
-        ],
-        "precipMm": [
-          60.0,
-          55.0,
-          65.0,
-          80.0,
-          110.0,
-          115.0,
-          110.0,
-          115.0,
-          90.0,
-          80.0,
-          75.0,
-          70.0
-        ],
-        "comfortable": [
-          false,
-          false,
-          false,
-          false,
-          true,
-          true,
-          true,
-          true,
-          true,
-          false,
-          false,
-          false
-        ]
-      },
-      "cost": {
-        "tier": 5,
-        "priceLevelRatio": 1.18,
-        "year": 2023
-      },
-      "safety": {
-        "level": 1,
-        "label": "Exercise Normal Precautions",
-        "url": "https://travel.state.gov/content/travel/en/traveladvisories/traveladvisories.html/",
-        "asOf": "2026-11-01"
-      },
+      "richness": 0.3974,
+      "richnessRaw": 3,
+      "spread": null,
+      "climate": null,
+      "cost": null,
+      "safety": null,
       "traditions": {
-        "count": 3,
-        "examples": [
-          "Winegrowers' Festival in Vevey",
-          "Basel Carnival",
-          "Watchmaking craftsmanship"
-        ]
+        "count": 0,
+        "examples": []
+      }
+    },
+    {
+      "iso3": "SYR",
+      "name": "Syria",
+      "aliases": [],
+      "teaser": "Damascus and Aleppo's ancient souks and citadels, Palmyra's colonnades and the Crac des Chevaliers.",
+      "bbox": [
+        35.7646,
+        32.3181,
+        42.3598,
+        37.2969
+      ],
+      "counts": {
+        "unesco": 0,
+        "notable": 0,
+        "byCategory": {
+          "ancient": 0,
+          "sacred": 0,
+          "castles": 0,
+          "towns": 0,
+          "palaces": 0,
+          "landscapes": 0,
+          "modern": 0,
+          "natural": 0
+        }
+      },
+      "richness": 0.0,
+      "richnessRaw": 0,
+      "spread": null,
+      "climate": null,
+      "cost": null,
+      "safety": null,
+      "traditions": {
+        "count": 0,
+        "examples": []
+      }
+    },
+    {
+      "iso3": "STP",
+      "name": "São Tomé and Principe",
+      "aliases": [],
+      "teaser": "Discover the cultural and historical heritage of São Tomé and Principe.",
+      "bbox": [
+        6.4675,
+        0.0475,
+        7.4539,
+        1.6984
+      ],
+      "counts": {
+        "unesco": 0,
+        "notable": 0,
+        "byCategory": {
+          "ancient": 0,
+          "sacred": 0,
+          "castles": 0,
+          "towns": 0,
+          "palaces": 0,
+          "landscapes": 0,
+          "modern": 0,
+          "natural": 0
+        }
+      },
+      "richness": 0.0,
+      "richnessRaw": 0,
+      "spread": null,
+      "climate": null,
+      "cost": null,
+      "safety": null,
+      "traditions": {
+        "count": 0,
+        "examples": []
+      }
+    },
+    {
+      "iso3": "TJK",
+      "name": "Tajikistan",
+      "aliases": [],
+      "teaser": "Discover the cultural and historical heritage of Tajikistan.",
+      "bbox": [
+        67.3513,
+        36.6841,
+        75.1202,
+        41.0345
+      ],
+      "counts": {
+        "unesco": 0,
+        "notable": 0,
+        "byCategory": {
+          "ancient": 0,
+          "sacred": 0,
+          "castles": 0,
+          "towns": 0,
+          "palaces": 0,
+          "landscapes": 0,
+          "modern": 0,
+          "natural": 0
+        }
+      },
+      "richness": 0.0,
+      "richnessRaw": 0,
+      "spread": null,
+      "climate": null,
+      "cost": null,
+      "safety": null,
+      "traditions": {
+        "count": 0,
+        "examples": []
+      }
+    },
+    {
+      "iso3": "TZA",
+      "name": "Tanzania",
+      "aliases": [],
+      "teaser": "Discover the cultural and historical heritage of Tanzania.",
+      "bbox": [
+        29.3241,
+        -11.7157,
+        40.4626,
+        -0.9941
+      ],
+      "counts": {
+        "unesco": 0,
+        "notable": 0,
+        "byCategory": {
+          "ancient": 0,
+          "sacred": 0,
+          "castles": 0,
+          "towns": 0,
+          "palaces": 0,
+          "landscapes": 0,
+          "modern": 0,
+          "natural": 0
+        }
+      },
+      "richness": 0.0,
+      "richnessRaw": 0,
+      "spread": null,
+      "climate": null,
+      "cost": null,
+      "safety": null,
+      "traditions": {
+        "count": 0,
+        "examples": []
+      }
+    },
+    {
+      "iso3": "THA",
+      "name": "Thailand",
+      "aliases": [],
+      "teaser": "The brick stupas and ruins of Ayutthaya and Sukhothai, Ban Chiang pottery and gilded royal temples.",
+      "bbox": [
+        97.3756,
+        5.6374,
+        105.6413,
+        20.4247
+      ],
+      "counts": {
+        "unesco": 0,
+        "notable": 0,
+        "byCategory": {
+          "ancient": 0,
+          "sacred": 0,
+          "castles": 0,
+          "towns": 0,
+          "palaces": 0,
+          "landscapes": 0,
+          "modern": 0,
+          "natural": 0
+        }
+      },
+      "richness": 0.0,
+      "richnessRaw": 0,
+      "spread": null,
+      "climate": null,
+      "cost": null,
+      "safety": null,
+      "traditions": {
+        "count": 0,
+        "examples": []
+      }
+    },
+    {
+      "iso3": "TLS",
+      "name": "Timor-Leste",
+      "aliases": [],
+      "teaser": "Discover the cultural and historical heritage of Timor-Leste.",
+      "bbox": [
+        124.0374,
+        -9.5127,
+        127.2955,
+        -8.1395
+      ],
+      "counts": {
+        "unesco": 0,
+        "notable": 0,
+        "byCategory": {
+          "ancient": 0,
+          "sacred": 0,
+          "castles": 0,
+          "towns": 0,
+          "palaces": 0,
+          "landscapes": 0,
+          "modern": 0,
+          "natural": 0
+        }
+      },
+      "richness": 0.0,
+      "richnessRaw": 0,
+      "spread": null,
+      "climate": null,
+      "cost": null,
+      "safety": null,
+      "traditions": {
+        "count": 0,
+        "examples": []
+      }
+    },
+    {
+      "iso3": "TGO",
+      "name": "Togo",
+      "aliases": [],
+      "teaser": "Discover the cultural and historical heritage of Togo.",
+      "bbox": [
+        -0.0918,
+        6.0888,
+        1.7766,
+        11.1163
+      ],
+      "counts": {
+        "unesco": 0,
+        "notable": 0,
+        "byCategory": {
+          "ancient": 0,
+          "sacred": 0,
+          "castles": 0,
+          "towns": 0,
+          "palaces": 0,
+          "landscapes": 0,
+          "modern": 0,
+          "natural": 0
+        }
+      },
+      "richness": 0.0,
+      "richnessRaw": 0,
+      "spread": null,
+      "climate": null,
+      "cost": null,
+      "safety": null,
+      "traditions": {
+        "count": 0,
+        "examples": []
+      }
+    },
+    {
+      "iso3": "TON",
+      "name": "Tonga",
+      "aliases": [],
+      "teaser": "Discover the cultural and historical heritage of Tonga.",
+      "bbox": [
+        -175.3632,
+        -21.4512,
+        -173.9231,
+        -18.5659
+      ],
+      "counts": {
+        "unesco": 0,
+        "notable": 0,
+        "byCategory": {
+          "ancient": 0,
+          "sacred": 0,
+          "castles": 0,
+          "towns": 0,
+          "palaces": 0,
+          "landscapes": 0,
+          "modern": 0,
+          "natural": 0
+        }
+      },
+      "richness": 0.0,
+      "richnessRaw": 0,
+      "spread": null,
+      "climate": null,
+      "cost": null,
+      "safety": null,
+      "traditions": {
+        "count": 0,
+        "examples": []
+      }
+    },
+    {
+      "iso3": "TTO",
+      "name": "Trinidad and Tobago",
+      "aliases": [],
+      "teaser": "Discover the cultural and historical heritage of Trinidad and Tobago.",
+      "bbox": [
+        -61.9044,
+        10.0642,
+        -60.5256,
+        11.3246
+      ],
+      "counts": {
+        "unesco": 0,
+        "notable": 0,
+        "byCategory": {
+          "ancient": 0,
+          "sacred": 0,
+          "castles": 0,
+          "towns": 0,
+          "palaces": 0,
+          "landscapes": 0,
+          "modern": 0,
+          "natural": 0
+        }
+      },
+      "richness": 0.0,
+      "richnessRaw": 0,
+      "spread": null,
+      "climate": null,
+      "cost": null,
+      "safety": null,
+      "traditions": {
+        "count": 0,
+        "examples": []
+      }
+    },
+    {
+      "iso3": "TUN",
+      "name": "Tunisia",
+      "aliases": [],
+      "teaser": "Carthage's Punic and Roman ruins, the amphitheatre of El Jem, Kairouan's Great Mosque and Tunis's medina.",
+      "bbox": [
+        7.4971,
+        30.2297,
+        11.5363,
+        37.3403
+      ],
+      "counts": {
+        "unesco": 0,
+        "notable": 0,
+        "byCategory": {
+          "ancient": 0,
+          "sacred": 0,
+          "castles": 0,
+          "towns": 0,
+          "palaces": 0,
+          "landscapes": 0,
+          "modern": 0,
+          "natural": 0
+        }
+      },
+      "richness": 0.0,
+      "richnessRaw": 0,
+      "spread": null,
+      "climate": null,
+      "cost": null,
+      "safety": null,
+      "traditions": {
+        "count": 0,
+        "examples": []
       }
     },
     {
@@ -2752,30 +7599,30 @@
       ],
       "teaser": "Neolithic Göbekli Tepe, Aegean classical cities, Cappadocia's rock churches and Istanbul's imperial skyline.",
       "bbox": [
-        26.0,
-        35.8,
-        44.8,
-        42.1
+        25.6701,
+        35.8317,
+        44.8186,
+        42.0935
       ],
       "counts": {
-        "unesco": 1,
-        "notable": 8,
+        "unesco": 2,
+        "notable": 1,
         "byCategory": {
           "ancient": 1,
-          "sacred": 1,
-          "castles": 1,
-          "towns": 2,
+          "sacred": 0,
+          "castles": 0,
+          "towns": 1,
           "palaces": 1,
-          "landscapes": 1,
-          "modern": 1,
-          "natural": 1
+          "landscapes": 0,
+          "modern": 0,
+          "natural": 0
         }
       },
-      "richness": 0.6055,
-      "richnessRaw": 11,
+      "richness": 0.607,
+      "richnessRaw": 7,
       "spread": {
-        "level": "compact",
-        "medianKm": 55
+        "level": "spread",
+        "medianKm": 955
       },
       "climate": {
         "tempC": [
@@ -2843,39 +7690,186 @@
       }
     },
     {
+      "iso3": "TKM",
+      "name": "Turkmenistan",
+      "aliases": [],
+      "teaser": "Discover the cultural and historical heritage of Turkmenistan.",
+      "bbox": [
+        52.4939,
+        35.1703,
+        66.6277,
+        42.7792
+      ],
+      "counts": {
+        "unesco": 0,
+        "notable": 0,
+        "byCategory": {
+          "ancient": 0,
+          "sacred": 0,
+          "castles": 0,
+          "towns": 0,
+          "palaces": 0,
+          "landscapes": 0,
+          "modern": 0,
+          "natural": 0
+        }
+      },
+      "richness": 0.0,
+      "richnessRaw": 0,
+      "spread": null,
+      "climate": null,
+      "cost": null,
+      "safety": null,
+      "traditions": {
+        "count": 0,
+        "examples": []
+      }
+    },
+    {
+      "iso3": "UGA",
+      "name": "Uganda",
+      "aliases": [],
+      "teaser": "Discover the cultural and historical heritage of Uganda.",
+      "bbox": [
+        29.5617,
+        -1.4698,
+        34.9797,
+        4.2209
+      ],
+      "counts": {
+        "unesco": 0,
+        "notable": 0,
+        "byCategory": {
+          "ancient": 0,
+          "sacred": 0,
+          "castles": 0,
+          "towns": 0,
+          "palaces": 0,
+          "landscapes": 0,
+          "modern": 0,
+          "natural": 0
+        }
+      },
+      "richness": 0.0,
+      "richnessRaw": 0,
+      "spread": null,
+      "climate": null,
+      "cost": null,
+      "safety": null,
+      "traditions": {
+        "count": 0,
+        "examples": []
+      }
+    },
+    {
+      "iso3": "UKR",
+      "name": "Ukraine",
+      "aliases": [],
+      "teaser": "Discover the cultural and historical heritage of Ukraine.",
+      "bbox": [
+        22.1312,
+        45.2339,
+        40.1278,
+        52.3533
+      ],
+      "counts": {
+        "unesco": 0,
+        "notable": 0,
+        "byCategory": {
+          "ancient": 0,
+          "sacred": 0,
+          "castles": 0,
+          "towns": 0,
+          "palaces": 0,
+          "landscapes": 0,
+          "modern": 0,
+          "natural": 0
+        }
+      },
+      "richness": 0.0,
+      "richnessRaw": 0,
+      "spread": null,
+      "climate": null,
+      "cost": null,
+      "safety": null,
+      "traditions": {
+        "count": 0,
+        "examples": []
+      }
+    },
+    {
+      "iso3": "ARE",
+      "name": "United Arab Emirates",
+      "aliases": [],
+      "teaser": "Discover the cultural and historical heritage of United Arab Emirates.",
+      "bbox": [
+        51.5687,
+        22.6208,
+        56.3892,
+        26.0685
+      ],
+      "counts": {
+        "unesco": 0,
+        "notable": 0,
+        "byCategory": {
+          "ancient": 0,
+          "sacred": 0,
+          "castles": 0,
+          "towns": 0,
+          "palaces": 0,
+          "landscapes": 0,
+          "modern": 0,
+          "natural": 0
+        }
+      },
+      "richness": 0.0,
+      "richnessRaw": 0,
+      "spread": null,
+      "climate": null,
+      "cost": null,
+      "safety": null,
+      "traditions": {
+        "count": 0,
+        "examples": []
+      }
+    },
+    {
       "iso3": "GBR",
       "name": "United Kingdom",
       "aliases": [
         "UK",
+        "Great Britain",
         "Britain",
-        "Great Britain"
+        "England",
+        "Scotland",
+        "Wales"
       ],
       "teaser": "Neolithic stone circles, Georgian Bath, Norman castles, medieval cathedrals and the birthplaces of industry.",
       "bbox": [
-        -8.6,
-        49.9,
-        1.8,
-        60.8
+        -8.1451,
+        50.0218,
+        1.7478,
+        60.8319
       ],
       "counts": {
-        "unesco": 1,
-        "notable": 18,
+        "unesco": 3,
+        "notable": 1,
         "byCategory": {
-          "ancient": 3,
-          "sacred": 3,
-          "castles": 3,
-          "towns": 2,
-          "palaces": 2,
-          "landscapes": 2,
-          "modern": 2,
-          "natural": 2
+          "ancient": 1,
+          "sacred": 0,
+          "castles": 2,
+          "towns": 1,
+          "palaces": 0,
+          "landscapes": 0,
+          "modern": 0,
+          "natural": 0
         }
       },
-      "richness": 0.8367,
-      "richnessRaw": 21,
+      "richness": 0.7255,
+      "richnessRaw": 10,
       "spread": {
-        "level": "compact",
-        "medianKm": 84
+        "level": "moderate",
+        "medianKm": 335
       },
       "climate": {
         "tempC": [
@@ -2942,51 +7936,147 @@
     },
     {
       "iso3": "USA",
-      "name": "United States",
+      "name": "United States of America",
       "aliases": [
-        "United States of America",
+        "United States",
         "USA",
         "America"
       ],
       "teaser": "Pueblo cliff dwellings, Independence Hall, architectural landmarks and monumental national parks.",
       "bbox": [
-        -124.7,
-        24.5,
-        -66.9,
-        49.4
+        -124.7106,
+        24.5425,
+        -66.9877,
+        49.3691
       ],
       "counts": {
         "unesco": 1,
-        "notable": 8,
+        "notable": 0,
         "byCategory": {
-          "ancient": 1,
-          "sacred": 1,
-          "castles": 1,
-          "towns": 1,
-          "palaces": 1,
-          "landscapes": 1,
-          "modern": 2,
-          "natural": 1
+          "ancient": 0,
+          "sacred": 0,
+          "castles": 0,
+          "towns": 0,
+          "palaces": 0,
+          "landscapes": 0,
+          "modern": 1,
+          "natural": 0
         }
       },
-      "richness": 0.6055,
-      "richnessRaw": 11,
-      "spread": {
-        "level": "compact",
-        "medianKm": 83
-      },
+      "richness": 0.3974,
+      "richnessRaw": 3,
+      "spread": null,
       "climate": null,
-      "cost": {
-        "tier": 5,
-        "priceLevelRatio": 1.0,
-        "year": 2023
+      "cost": null,
+      "safety": null,
+      "traditions": {
+        "count": 0,
+        "examples": []
+      }
+    },
+    {
+      "iso3": "URY",
+      "name": "Uruguay",
+      "aliases": [],
+      "teaser": "Discover the cultural and historical heritage of Uruguay.",
+      "bbox": [
+        -58.4376,
+        -34.933,
+        -53.1239,
+        -30.1017
+      ],
+      "counts": {
+        "unesco": 0,
+        "notable": 0,
+        "byCategory": {
+          "ancient": 0,
+          "sacred": 0,
+          "castles": 0,
+          "towns": 0,
+          "palaces": 0,
+          "landscapes": 0,
+          "modern": 0,
+          "natural": 0
+        }
       },
-      "safety": {
-        "level": 1,
-        "label": "Exercise Normal Precautions",
-        "url": "https://travel.state.gov/content/travel/en/traveladvisories/traveladvisories.html/",
-        "asOf": "2026-11-01"
+      "richness": 0.0,
+      "richnessRaw": 0,
+      "spread": null,
+      "climate": null,
+      "cost": null,
+      "safety": null,
+      "traditions": {
+        "count": 0,
+        "examples": []
+      }
+    },
+    {
+      "iso3": "UZB",
+      "name": "Uzbekistan",
+      "aliases": [],
+      "teaser": "Samarkand's Registan, Bukhara's domes and minarets, walled Khiva and Silk Road caravanserais.",
+      "bbox": [
+        55.9752,
+        37.1719,
+        73.1365,
+        45.5551
+      ],
+      "counts": {
+        "unesco": 1,
+        "notable": 0,
+        "byCategory": {
+          "ancient": 0,
+          "sacred": 0,
+          "castles": 0,
+          "towns": 1,
+          "palaces": 0,
+          "landscapes": 0,
+          "modern": 0,
+          "natural": 0
+        }
       },
+      "richness": 0.3974,
+      "richnessRaw": 3,
+      "spread": null,
+      "climate": null,
+      "cost": null,
+      "safety": null,
+      "traditions": {
+        "count": 0,
+        "examples": []
+      }
+    },
+    {
+      "iso3": "VUT",
+      "name": "Vanuatu",
+      "aliases": [],
+      "teaser": "Discover the cultural and historical heritage of Vanuatu.",
+      "bbox": [
+        166.5251,
+        -19.6492,
+        169.4915,
+        -13.7103
+      ],
+      "counts": {
+        "unesco": 0,
+        "notable": 0,
+        "byCategory": {
+          "ancient": 0,
+          "sacred": 0,
+          "castles": 0,
+          "towns": 0,
+          "palaces": 0,
+          "landscapes": 0,
+          "modern": 0,
+          "natural": 0
+        }
+      },
+      "richness": 0.0,
+      "richnessRaw": 0,
+      "spread": null,
+      "climate": null,
+      "cost": null,
+      "safety": null,
       "traditions": {
         "count": 0,
         "examples": []
@@ -2994,50 +8084,74 @@
     },
     {
       "iso3": "VAT",
-      "name": "Vatican City",
+      "name": "Vatican",
       "aliases": [
         "Holy See",
-        "Stato della Città del Vaticano"
+        "Vatican"
       ],
-      "teaser": "Home to 1 World Heritage Site and 8 notable landmarks, highlighted by historic old towns and ancient ruins and archaeological sites.",
+      "teaser": "Home to 1 World Heritage Site and 0 notable landmarks, highlighted by historic old towns.",
       "bbox": [
-        12.445,
-        41.9,
-        12.458,
-        41.907
+        12.4291,
+        41.8973,
+        12.4399,
+        41.906
       ],
       "counts": {
         "unesco": 1,
-        "notable": 8,
+        "notable": 0,
         "byCategory": {
-          "ancient": 1,
-          "sacred": 1,
-          "castles": 1,
-          "towns": 2,
-          "palaces": 1,
-          "landscapes": 1,
-          "modern": 1,
-          "natural": 1
+          "ancient": 0,
+          "sacred": 0,
+          "castles": 0,
+          "towns": 1,
+          "palaces": 0,
+          "landscapes": 0,
+          "modern": 0,
+          "natural": 0
         }
       },
-      "richness": 0.6055,
-      "richnessRaw": 11,
-      "spread": {
-        "level": "compact",
-        "medianKm": 55
-      },
+      "richness": 0.3974,
+      "richnessRaw": 3,
+      "spread": null,
       "climate": null,
-      "cost": {
-        "tier": 3,
-        "priceLevelRatio": 0.68,
-        "year": 2023
+      "cost": null,
+      "safety": null,
+      "traditions": {
+        "count": 0,
+        "examples": []
+      }
+    },
+    {
+      "iso3": "VEN",
+      "name": "Venezuela",
+      "aliases": [],
+      "teaser": "Discover the cultural and historical heritage of Venezuela.",
+      "bbox": [
+        -73.3669,
+        0.6881,
+        -59.8272,
+        12.1787
+      ],
+      "counts": {
+        "unesco": 0,
+        "notable": 0,
+        "byCategory": {
+          "ancient": 0,
+          "sacred": 0,
+          "castles": 0,
+          "towns": 0,
+          "palaces": 0,
+          "landscapes": 0,
+          "modern": 0,
+          "natural": 0
+        }
       },
-      "safety": {
-        "level": 2,
-        "label": "Exercise Increased Caution",
-        "url": "https://travel.state.gov/content/travel/en/traveladvisories/traveladvisories.html/",
-        "asOf": "2026-11-01"
-      },
+      "richness": 0.0,
+      "richnessRaw": 0,
+      "spread": null,
+      "climate": null,
+      "cost": null,
+      "safety": null,
       "traditions": {
         "count": 0,
         "examples": []
@@ -3046,37 +8160,31 @@
     {
       "iso3": "VNM",
       "name": "Vietnam",
-      "aliases": [
-        "Viet Nam",
-        "Socialist Republic of Vietnam"
-      ],
+      "aliases": [],
       "teaser": "Hội An's lantern-lit trading port, Huế's imperial citadel, Mỹ Sơn sanctuary and Hạ Long's karst bays.",
       "bbox": [
-        102.1,
-        8.6,
-        109.5,
-        23.4
+        102.1276,
+        8.5834,
+        109.4465,
+        23.3447
       ],
       "counts": {
         "unesco": 1,
-        "notable": 8,
+        "notable": 0,
         "byCategory": {
-          "ancient": 1,
-          "sacred": 1,
-          "castles": 1,
-          "towns": 2,
-          "palaces": 1,
-          "landscapes": 1,
-          "modern": 1,
-          "natural": 1
+          "ancient": 0,
+          "sacred": 0,
+          "castles": 0,
+          "towns": 1,
+          "palaces": 0,
+          "landscapes": 0,
+          "modern": 0,
+          "natural": 0
         }
       },
-      "richness": 0.6055,
-      "richnessRaw": 11,
-      "spread": {
-        "level": "compact",
-        "medianKm": 62
-      },
+      "richness": 0.3974,
+      "richnessRaw": 3,
+      "spread": null,
       "climate": {
         "tempC": [
           19.0,
@@ -3139,6 +8247,150 @@
           "Ca trù singing",
           "Space of gong culture"
         ]
+      }
+    },
+    {
+      "iso3": "YEM",
+      "name": "Yemen",
+      "aliases": [],
+      "teaser": "Discover the cultural and historical heritage of Yemen.",
+      "bbox": [
+        42.5506,
+        12.3193,
+        54.5099,
+        18.996
+      ],
+      "counts": {
+        "unesco": 0,
+        "notable": 0,
+        "byCategory": {
+          "ancient": 0,
+          "sacred": 0,
+          "castles": 0,
+          "towns": 0,
+          "palaces": 0,
+          "landscapes": 0,
+          "modern": 0,
+          "natural": 0
+        }
+      },
+      "richness": 0.0,
+      "richnessRaw": 0,
+      "spread": null,
+      "climate": null,
+      "cost": null,
+      "safety": null,
+      "traditions": {
+        "count": 0,
+        "examples": []
+      }
+    },
+    {
+      "iso3": "ZMB",
+      "name": "Zambia",
+      "aliases": [],
+      "teaser": "Discover the cultural and historical heritage of Zambia.",
+      "bbox": [
+        21.98,
+        -18.0417,
+        33.6621,
+        -8.1933
+      ],
+      "counts": {
+        "unesco": 0,
+        "notable": 0,
+        "byCategory": {
+          "ancient": 0,
+          "sacred": 0,
+          "castles": 0,
+          "towns": 0,
+          "palaces": 0,
+          "landscapes": 0,
+          "modern": 0,
+          "natural": 0
+        }
+      },
+      "richness": 0.0,
+      "richnessRaw": 0,
+      "spread": null,
+      "climate": null,
+      "cost": null,
+      "safety": null,
+      "traditions": {
+        "count": 0,
+        "examples": []
+      }
+    },
+    {
+      "iso3": "ZWE",
+      "name": "Zimbabwe",
+      "aliases": [],
+      "teaser": "Discover the cultural and historical heritage of Zimbabwe.",
+      "bbox": [
+        25.2237,
+        -22.4025,
+        33.0069,
+        -15.6425
+      ],
+      "counts": {
+        "unesco": 0,
+        "notable": 0,
+        "byCategory": {
+          "ancient": 0,
+          "sacred": 0,
+          "castles": 0,
+          "towns": 0,
+          "palaces": 0,
+          "landscapes": 0,
+          "modern": 0,
+          "natural": 0
+        }
+      },
+      "richness": 0.0,
+      "richnessRaw": 0,
+      "spread": null,
+      "climate": null,
+      "cost": null,
+      "safety": null,
+      "traditions": {
+        "count": 0,
+        "examples": []
+      }
+    },
+    {
+      "iso3": "SWZ",
+      "name": "eSwatini",
+      "aliases": [],
+      "teaser": "Discover the cultural and historical heritage of eSwatini.",
+      "bbox": [
+        30.7857,
+        -27.3102,
+        32.1141,
+        -25.7426
+      ],
+      "counts": {
+        "unesco": 0,
+        "notable": 0,
+        "byCategory": {
+          "ancient": 0,
+          "sacred": 0,
+          "castles": 0,
+          "towns": 0,
+          "palaces": 0,
+          "landscapes": 0,
+          "modern": 0,
+          "natural": 0
+        }
+      },
+      "richness": 0.0,
+      "richnessRaw": 0,
+      "spread": null,
+      "climate": null,
+      "cost": null,
+      "safety": null,
+      "traditions": {
+        "count": 0,
+        "examples": []
       }
     }
   ]

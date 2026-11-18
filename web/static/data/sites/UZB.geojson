@@ -1,0 +1,40 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "id": 0,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          66.975,
+          39.6547
+        ]
+      },
+      "properties": {
+        "siteId": "whs-603",
+        "name": "Samarkand – Crossroad of Cultures",
+        "category": "towns",
+        "unesco": true,
+        "inDanger": false,
+        "yearInscribed": 2001,
+        "fame": 106,
+        "fameLevel": 4,
+        "summary": "Founded in the 7th century BC as ancient Afrasiab, Samarkand preserves the monumental Timurid madrasas of the Registan, Bibi-Khanym Mosque and Shah-i-Zinda.",
+        "summarySource": "unesco",
+        "image": {
+          "thumbUrl": "https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/Registan_Samarkand.jpg&width=640",
+          "author": "Ekrem Canli",
+          "license": "CC BY-SA 3.0",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File:Registan_Samarkand.jpg"
+        },
+        "wikipediaUrl": "https://en.wikipedia.org/wiki/Samarkand_–_Crossroad_of_Cultures",
+        "unescoUrl": "https://whc.unesco.org/en/list/603",
+        "wikidataId": "Q5753",
+        "countries": [
+          "UZB"
+        ]
+      }
+    }
+  ]
+}

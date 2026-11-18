@@ -16,9 +16,12 @@ def test_build_dataset_produces_schema_valid_outputs_and_report(tmp_path: Path):
     countries_payload = json.loads(countries_file.read_text(encoding="utf-8"))
     validate_countries_payload(countries_payload)
 
-    assert summary["country_count"] >= 30
+    assert summary["country_count"] >= 150
     for c in countries_payload["countries"]:
         site_file = tmp_path / "sites" / f"{c['iso3']}.geojson"
         assert site_file.exists()
         site_payload = json.loads(site_file.read_text(encoding="utf-8"))
         validate_sites_geojson(site_payload)
+        for feat in site_payload["features"]:
+            # Ensure no synthetic numbered placeholder names exist
+            assert not feat["properties"]["name"].endswith((" 1", " 2", " 3", " 4", " 5"))

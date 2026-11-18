@@ -1,6 +1,7 @@
 <script lang="ts">
 	import { onDestroy, onMount } from 'svelte';
 	import maplibregl from 'maplibre-gl';
+	import { Protocol } from 'pmtiles';
 	import 'maplibre-gl/dist/maplibre-gl.css';
 	import type {
 		Category,
@@ -57,6 +58,7 @@
 	let animFrame: number | null = null;
 	let isUserInteracting = false;
 	let lastInteractionTime = 0;
+	let lastTouchTimestamp = 0;
 
 	function syncCountryRichnessColors() {
 		if (!map || !mapReady) return;
@@ -131,6 +133,7 @@
 		const src = map.getSource('sites') as maplibregl.GeoJSONSource | undefined;
 		if (!src) return;
 
+		map.removeFeatureState({ source: 'sites' });
 		siteFeatureIdBySiteId.clear();
 		prevHoveredSiteNumId = null;
 		prevSelectedSiteNumId = null;
@@ -215,6 +218,13 @@
 	onMount(() => {
 		if (!mapContainer) return;
 
+		const pmtilesProtocol = new Protocol();
+		try {
+			maplibregl.addProtocol('pmtiles', pmtilesProtocol.tile);
+		} catch {
+			// protocol already registered
+		}
+
 		const instance = new maplibregl.Map({
 			container: mapContainer,
 			style: buildNightAtlasStyle({ boundariesUrl: '/data/boundaries.geojson' }),
@@ -263,81 +273,101 @@
 		});
 		instance.on('touchstart', () => {
 			isUserInteracting = true;
+			lastTouchTimestamp = performance.now();
 			markInteraction();
 		});
 		instance.on('touchend', () => {
 			isUserInteracting = false;
+			lastTouchTimestamp = performance.now();
 			markInteraction();
 		});
 		instance.on('wheel', markInteraction);
 
-		// Country hover and click
-		instance.on('mousemove', 'countries-fill', (e) => {
-			const feat = e.features?.[0];
-			const iso3 = feat?.properties?.iso3 as string | undefined;
-			if (!selectedCountry && iso3) {
-				instance.getCanvas().style.cursor = 'pointer';
-				onHoverCountry(iso3);
-			}
-		});
-
-		instance.on('mouseleave', 'countries-fill', () => {
-			if (!selectedCountry) {
-				instance.getCanvas().style.cursor = '';
-				onHoverCountry(null);
-			}
-		});
-
-		instance.on('click', 'countries-fill', (e) => {
+		// Unified pointer move: prioritize site markers > clusters > countries (on non-touch)
+		instance.on('mousemove', (e) => {
 			const siteHits = instance.queryRenderedFeatures(e.point, {
 				layers: ['sites-unesco', 'sites-notable', 'sites-clusters']
 			});
-			if (siteHits.length > 0) return;
+			if (siteHits.length > 0) {
+				instance.getCanvas().style.cursor = 'pointer';
+				const top = siteHits[0];
+				if (top.layer.id === 'sites-clusters') {
+					onHoverSite(null);
+				} else {
+					const siteId = top.properties?.siteId as string | undefined;
+					onHoverSite(siteId ?? null);
+				}
+				return;
+			}
+			onHoverSite(null);
 
-			const feat = e.features?.[0];
-			const iso3 = feat?.properties?.iso3 as string | undefined;
-			if (!iso3) return;
+			// Ignore synthetic mousemove fired right after a touch tap
+			if (performance.now() - lastTouchTimestamp < 650) {
+				return;
+			}
 
-			const isMobile = typeof window !== 'undefined' && window.innerWidth < 768;
-			if (!selectedCountry && isMobile && hoveredCountryIso3 !== iso3) {
+			if (!selectedCountry) {
+				const countryHits = instance.queryRenderedFeatures(e.point, {
+					layers: ['countries-fill']
+				});
+				const iso3 = countryHits[0]?.properties?.iso3 as string | undefined;
+				if (iso3) {
+					instance.getCanvas().style.cursor = 'pointer';
+					onHoverCountry(iso3);
+				} else {
+					instance.getCanvas().style.cursor = '';
+				}
+			} else {
+				instance.getCanvas().style.cursor = '';
+			}
+		});
+
+		// Unified click handler: top-most feature wins (UNESCO > Notable > Cluster > Country > Ocean)
+		instance.on('click', async (e) => {
+			const siteHits = instance.queryRenderedFeatures(e.point, {
+				layers: ['sites-unesco', 'sites-notable', 'sites-clusters']
+			});
+			if (siteHits.length > 0) {
+				const top = siteHits[0];
+				if (top.layer.id === 'sites-clusters') {
+					const clusterId = top.properties?.cluster_id;
+					const src = instance.getSource('sites') as maplibregl.GeoJSONSource | undefined;
+					if (src && clusterId !== undefined) {
+						const zoom = await src.getClusterExpansionZoom(clusterId);
+						const coords = (top.geometry as any).coordinates as [number, number];
+						instance.easeTo({
+							center: coords,
+							zoom,
+							duration: shouldReduceMotion() ? 0 : 550
+						});
+					}
+				} else {
+					const siteId = top.properties?.siteId as string | undefined;
+					if (siteId) onSelectSite(siteId);
+				}
+				return;
+			}
+
+			const countryHits = instance.queryRenderedFeatures(e.point, {
+				layers: ['countries-fill']
+			});
+			const iso3 = countryHits[0]?.properties?.iso3 as string | undefined;
+			if (!iso3) {
+				if (!selectedCountry) {
+					onHoverCountry(null);
+				}
+				return;
+			}
+
+			const isTouchOrMobile =
+				performance.now() - lastTouchTimestamp < 650 ||
+				(typeof window !== 'undefined' && window.innerWidth < 768);
+			if (!selectedCountry && isTouchOrMobile && hoveredCountryIso3 !== iso3) {
 				onHoverCountry(iso3);
 				return;
 			}
 			onSelectCountry(iso3);
 		});
-
-		// Cluster expansion
-		instance.on('click', 'sites-clusters', async (e) => {
-			const feat = e.features?.[0];
-			if (!feat) return;
-			const clusterId = feat.properties?.cluster_id;
-			const src = instance.getSource('sites') as maplibregl.GeoJSONSource | undefined;
-			if (!src || clusterId === undefined) return;
-			const zoom = await src.getClusterExpansionZoom(clusterId);
-			const coords = (feat.geometry as any).coordinates as [number, number];
-			instance.easeTo({
-				center: coords,
-				zoom,
-				duration: shouldReduceMotion() ? 0 : 550
-			});
-		});
-
-		// Site marker clicks & hovers
-		for (const layerId of ['sites-unesco', 'sites-notable']) {
-			instance.on('mousemove', layerId, (e) => {
-				instance.getCanvas().style.cursor = 'pointer';
-				const siteId = e.features?.[0]?.properties?.siteId as string | undefined;
-				if (siteId) onHoverSite(siteId);
-			});
-			instance.on('mouseleave', layerId, () => {
-				instance.getCanvas().style.cursor = '';
-				onHoverSite(null);
-			});
-			instance.on('click', layerId, (e) => {
-				const siteId = e.features?.[0]?.properties?.siteId as string | undefined;
-				if (siteId) onSelectSite(siteId);
-			});
-		}
 
 		// Auto-rotation loop in world view
 		const tick = (now: number) => {

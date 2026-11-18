@@ -7,6 +7,41 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
+          2.1744,
+          41.4036
+        ]
+      },
+      "properties": {
+        "siteId": "whs-320",
+        "name": "Works of Antoni Gaudí",
+        "category": "sacred",
+        "unesco": true,
+        "inDanger": false,
+        "yearInscribed": 1984,
+        "fame": 140,
+        "fameLevel": 4,
+        "summary": "Seven properties built by the architect Antoni Gaudí in or near Barcelona testify to his exceptional creative contribution to the development of architecture in the late 19th and early 20th centuries.",
+        "summarySource": "unesco",
+        "image": {
+          "thumbUrl": "https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/Sagrada_Familia_8-12-21_(1).jpg&width=640",
+          "author": "Canaan",
+          "license": "CC BY-SA 4.0",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File:Sagrada_Familia_8-12-21_(1).jpg"
+        },
+        "wikipediaUrl": "https://en.wikipedia.org/wiki/Works_of_Antoni_Gaudí",
+        "unescoUrl": "https://whc.unesco.org/en/list/320",
+        "wikidataId": "Q48435",
+        "countries": [
+          "ESP"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 1,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
           -3.5881,
           37.176
         ]
@@ -24,8 +59,8 @@
         "summarySource": "unesco",
         "image": {
           "thumbUrl": "https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/Dawn_Charles_V_Palace_Alhambra_Granada_Andalusia_Spain.jpg&width=640",
-          "author": "Wikimedia Commons contributor",
-          "license": "CC BY-SA 4.0",
+          "author": "Jebulon",
+          "license": "CC BY-SA 3.0",
           "sourceUrl": "https://commons.wikimedia.org/wiki/File:Dawn_Charles_V_Palace_Alhambra_Granada_Andalusia_Spain.jpg"
         },
         "wikipediaUrl": "https://en.wikipedia.org/wiki/Alhambra",
@@ -38,59 +73,34 @@
     },
     {
       "type": "Feature",
-      "id": 1,
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -4.6,
-          40.06
-        ]
-      },
-      "properties": {
-        "siteId": "wd-Q500073",
-        "name": "Spain Castle 1",
-        "category": "castles",
-        "unesco": false,
-        "inDanger": false,
-        "yearInscribed": null,
-        "fame": 65,
-        "fameLevel": 3,
-        "summary": "Spain Castle 1 in Spain. A historic fortified stronghold dominating the surrounding landscape.",
-        "summarySource": "wikipedia",
-        "image": null,
-        "wikipediaUrl": "https://en.wikipedia.org/wiki/Spain",
-        "unescoUrl": null,
-        "wikidataId": "Q500073",
-        "countries": [
-          "ESP"
-        ]
-      }
-    },
-    {
-      "type": "Feature",
       "id": 2,
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -4.15,
-          40.06
+          -4.7794,
+          37.8789
         ]
       },
       "properties": {
-        "siteId": "wd-Q500074",
-        "name": "Spain Cathedral Sanctuary 2",
+        "siteId": "whs-313",
+        "name": "Historic Centre of Cordoba",
         "category": "sacred",
-        "unesco": false,
+        "unesco": true,
         "inDanger": false,
-        "yearInscribed": null,
-        "fame": 62,
-        "fameLevel": 3,
-        "summary": "Spain Cathedral Sanctuary 2 in Spain. A monumental place of worship renowned for its sacred art and architecture.",
-        "summarySource": "wikipedia",
-        "image": null,
-        "wikipediaUrl": "https://en.wikipedia.org/wiki/Spain",
-        "unescoUrl": null,
-        "wikidataId": "Q500074",
+        "yearInscribed": 1984,
+        "fame": 95,
+        "fameLevel": 4,
+        "summary": "In the 8th century, after the Moorish conquest, Córdoba prospered to rival Constantinople and Baghdad, anchored by its Great Mosque of hundreds of double-arched columns.",
+        "summarySource": "unesco",
+        "image": {
+          "thumbUrl": "https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/Mosque_Córdoba.jpg&width=640",
+          "author": "Toni Castillo Quero",
+          "license": "CC BY-SA 2.0",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File:Mosque_Córdoba.jpg"
+        },
+        "wikipediaUrl": "https://en.wikipedia.org/wiki/Historic_Centre_of_Cordoba",
+        "unescoUrl": "https://whc.unesco.org/en/list/313",
+        "wikidataId": "Q1049889",
         "countries": [
           "ESP"
         ]
@@ -102,475 +112,25 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -3.7,
-          40.06
+          -4.1325,
+          40.9525
         ]
       },
       "properties": {
-        "siteId": "wd-Q500075",
-        "name": "Spain Archaeological Ruins 3",
-        "category": "ancient",
-        "unesco": false,
-        "inDanger": false,
-        "yearInscribed": null,
-        "fame": 59,
-        "fameLevel": 3,
-        "summary": "Spain Archaeological Ruins 3 in Spain. Excavated ancient remains revealing centuries of settlement and ritual life.",
-        "summarySource": "wikipedia",
-        "image": null,
-        "wikipediaUrl": "https://en.wikipedia.org/wiki/Spain",
-        "unescoUrl": null,
-        "wikidataId": "Q500075",
-        "countries": [
-          "ESP"
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "id": 4,
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -3.25,
-          40.06
-        ]
-      },
-      "properties": {
-        "siteId": "wd-Q500076",
-        "name": "Spain Old Town Quarter 4",
-        "category": "towns",
-        "unesco": false,
-        "inDanger": false,
-        "yearInscribed": null,
-        "fame": 56,
-        "fameLevel": 3,
-        "summary": "Spain Old Town Quarter 4 in Spain. Preserved historic streetscapes, squares and merchant townhouses.",
-        "summarySource": "wikipedia",
-        "image": null,
-        "wikipediaUrl": "https://en.wikipedia.org/wiki/Spain",
-        "unescoUrl": null,
-        "wikidataId": "Q500076",
-        "countries": [
-          "ESP"
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "id": 5,
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -2.8,
-          40.06
-        ]
-      },
-      "properties": {
-        "siteId": "wd-Q500077",
-        "name": "Spain Royal Palace 5",
-        "category": "palaces",
-        "unesco": false,
-        "inDanger": false,
-        "yearInscribed": null,
-        "fame": 53,
-        "fameLevel": 3,
-        "summary": "Spain Royal Palace 5 in Spain. Grand ceremonial residence surrounded by formal courtyards.",
-        "summarySource": "wikipedia",
-        "image": null,
-        "wikipediaUrl": "https://en.wikipedia.org/wiki/Spain",
-        "unescoUrl": null,
-        "wikidataId": "Q500077",
-        "countries": [
-          "ESP"
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "id": 6,
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -4.6,
-          40.41
-        ]
-      },
-      "properties": {
-        "siteId": "wd-Q500078",
-        "name": "Spain Cultural Terraces 6",
-        "category": "landscapes",
-        "unesco": false,
-        "inDanger": false,
-        "yearInscribed": null,
-        "fame": 50,
-        "fameLevel": 3,
-        "summary": "Spain Cultural Terraces 6 in Spain. Centuries-old human-shaped landscape of terraces and historic estates.",
-        "summarySource": "wikipedia",
-        "image": null,
-        "wikipediaUrl": "https://en.wikipedia.org/wiki/Spain",
-        "unescoUrl": null,
-        "wikidataId": "Q500078",
-        "countries": [
-          "ESP"
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "id": 7,
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -4.15,
-          40.41
-        ]
-      },
-      "properties": {
-        "siteId": "wd-Q500079",
-        "name": "Spain Historic Ironworks 7",
-        "category": "modern",
-        "unesco": false,
-        "inDanger": false,
-        "yearInscribed": null,
-        "fame": 47,
-        "fameLevel": 3,
-        "summary": "Spain Historic Ironworks 7 in Spain. Landmark of engineering and industrial heritage.",
-        "summarySource": "wikipedia",
-        "image": null,
-        "wikipediaUrl": "https://en.wikipedia.org/wiki/Spain",
-        "unescoUrl": null,
-        "wikidataId": "Q500079",
-        "countries": [
-          "ESP"
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "id": 8,
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -3.7,
-          40.41
-        ]
-      },
-      "properties": {
-        "siteId": "wd-Q500080",
-        "name": "Spain National Park Gorge 8",
-        "category": "natural",
-        "unesco": false,
-        "inDanger": false,
-        "yearInscribed": null,
-        "fame": 44,
-        "fameLevel": 3,
-        "summary": "Spain National Park Gorge 8 in Spain. Protected natural reserve celebrated for its dramatic landforms.",
-        "summarySource": "wikipedia",
-        "image": null,
-        "wikipediaUrl": "https://en.wikipedia.org/wiki/Spain",
-        "unescoUrl": null,
-        "wikidataId": "Q500080",
-        "countries": [
-          "ESP"
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "id": 9,
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -3.25,
-          40.41
-        ]
-      },
-      "properties": {
-        "siteId": "wd-Q500081",
-        "name": "Spain Castle 9",
+        "siteId": "wd-Q179469",
+        "name": "Alcázar of Segovia",
         "category": "castles",
         "unesco": false,
         "inDanger": false,
         "yearInscribed": null,
-        "fame": 41,
-        "fameLevel": 3,
-        "summary": "Spain Castle 9 in Spain. A historic fortified stronghold dominating the surrounding landscape.",
+        "fame": 84,
+        "fameLevel": 4,
+        "summary": "Medieval alcázar set on a rocky crag above the confluence of two rivers near the Guadarrama mountains in Castile and León.",
         "summarySource": "wikipedia",
         "image": null,
-        "wikipediaUrl": "https://en.wikipedia.org/wiki/Spain",
+        "wikipediaUrl": "https://en.wikipedia.org/wiki/Alc%C3%A1zar_of_Segovia",
         "unescoUrl": null,
-        "wikidataId": "Q500081",
-        "countries": [
-          "ESP"
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "id": 10,
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -2.8,
-          40.41
-        ]
-      },
-      "properties": {
-        "siteId": "wd-Q500082",
-        "name": "Spain Cathedral Sanctuary 10",
-        "category": "sacred",
-        "unesco": false,
-        "inDanger": false,
-        "yearInscribed": null,
-        "fame": 38,
-        "fameLevel": 3,
-        "summary": "Spain Cathedral Sanctuary 10 in Spain. A monumental place of worship renowned for its sacred art and architecture.",
-        "summarySource": "wikipedia",
-        "image": null,
-        "wikipediaUrl": "https://en.wikipedia.org/wiki/Spain",
-        "unescoUrl": null,
-        "wikidataId": "Q500082",
-        "countries": [
-          "ESP"
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "id": 11,
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -4.6,
-          40.76
-        ]
-      },
-      "properties": {
-        "siteId": "wd-Q500083",
-        "name": "Spain Archaeological Ruins 11",
-        "category": "ancient",
-        "unesco": false,
-        "inDanger": false,
-        "yearInscribed": null,
-        "fame": 35,
-        "fameLevel": 3,
-        "summary": "Spain Archaeological Ruins 11 in Spain. Excavated ancient remains revealing centuries of settlement and ritual life.",
-        "summarySource": "wikipedia",
-        "image": null,
-        "wikipediaUrl": "https://en.wikipedia.org/wiki/Spain",
-        "unescoUrl": null,
-        "wikidataId": "Q500083",
-        "countries": [
-          "ESP"
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "id": 12,
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -4.15,
-          40.76
-        ]
-      },
-      "properties": {
-        "siteId": "wd-Q500084",
-        "name": "Spain Old Town Quarter 12",
-        "category": "towns",
-        "unesco": false,
-        "inDanger": false,
-        "yearInscribed": null,
-        "fame": 32,
-        "fameLevel": 3,
-        "summary": "Spain Old Town Quarter 12 in Spain. Preserved historic streetscapes, squares and merchant townhouses.",
-        "summarySource": "wikipedia",
-        "image": null,
-        "wikipediaUrl": "https://en.wikipedia.org/wiki/Spain",
-        "unescoUrl": null,
-        "wikidataId": "Q500084",
-        "countries": [
-          "ESP"
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "id": 13,
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -3.7,
-          40.76
-        ]
-      },
-      "properties": {
-        "siteId": "wd-Q500085",
-        "name": "Spain Royal Palace 13",
-        "category": "palaces",
-        "unesco": false,
-        "inDanger": false,
-        "yearInscribed": null,
-        "fame": 29,
-        "fameLevel": 2,
-        "summary": "Spain Royal Palace 13 in Spain. Grand ceremonial residence surrounded by formal courtyards.",
-        "summarySource": "wikipedia",
-        "image": null,
-        "wikipediaUrl": "https://en.wikipedia.org/wiki/Spain",
-        "unescoUrl": null,
-        "wikidataId": "Q500085",
-        "countries": [
-          "ESP"
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "id": 14,
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -3.25,
-          40.76
-        ]
-      },
-      "properties": {
-        "siteId": "wd-Q500086",
-        "name": "Spain Cultural Terraces 14",
-        "category": "landscapes",
-        "unesco": false,
-        "inDanger": false,
-        "yearInscribed": null,
-        "fame": 26,
-        "fameLevel": 2,
-        "summary": "Spain Cultural Terraces 14 in Spain. Centuries-old human-shaped landscape of terraces and historic estates.",
-        "summarySource": "wikipedia",
-        "image": null,
-        "wikipediaUrl": "https://en.wikipedia.org/wiki/Spain",
-        "unescoUrl": null,
-        "wikidataId": "Q500086",
-        "countries": [
-          "ESP"
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "id": 15,
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -2.8,
-          40.76
-        ]
-      },
-      "properties": {
-        "siteId": "wd-Q500087",
-        "name": "Spain Historic Ironworks 15",
-        "category": "modern",
-        "unesco": false,
-        "inDanger": false,
-        "yearInscribed": null,
-        "fame": 23,
-        "fameLevel": 2,
-        "summary": "Spain Historic Ironworks 15 in Spain. Landmark of engineering and industrial heritage.",
-        "summarySource": "wikipedia",
-        "image": null,
-        "wikipediaUrl": "https://en.wikipedia.org/wiki/Spain",
-        "unescoUrl": null,
-        "wikidataId": "Q500087",
-        "countries": [
-          "ESP"
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "id": 16,
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -4.6,
-          41.11
-        ]
-      },
-      "properties": {
-        "siteId": "wd-Q500088",
-        "name": "Spain National Park Gorge 16",
-        "category": "natural",
-        "unesco": false,
-        "inDanger": false,
-        "yearInscribed": null,
-        "fame": 20,
-        "fameLevel": 2,
-        "summary": "Spain National Park Gorge 16 in Spain. Protected natural reserve celebrated for its dramatic landforms.",
-        "summarySource": "wikipedia",
-        "image": null,
-        "wikipediaUrl": "https://en.wikipedia.org/wiki/Spain",
-        "unescoUrl": null,
-        "wikidataId": "Q500088",
-        "countries": [
-          "ESP"
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "id": 17,
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -4.15,
-          41.11
-        ]
-      },
-      "properties": {
-        "siteId": "wd-Q500089",
-        "name": "Spain Castle 17",
-        "category": "castles",
-        "unesco": false,
-        "inDanger": false,
-        "yearInscribed": null,
-        "fame": 17,
-        "fameLevel": 2,
-        "summary": "Spain Castle 17 in Spain. A historic fortified stronghold dominating the surrounding landscape.",
-        "summarySource": "wikipedia",
-        "image": null,
-        "wikipediaUrl": "https://en.wikipedia.org/wiki/Spain",
-        "unescoUrl": null,
-        "wikidataId": "Q500089",
-        "countries": [
-          "ESP"
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "id": 18,
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -3.7,
-          41.11
-        ]
-      },
-      "properties": {
-        "siteId": "wd-Q500090",
-        "name": "Spain Cathedral Sanctuary 18",
-        "category": "sacred",
-        "unesco": false,
-        "inDanger": false,
-        "yearInscribed": null,
-        "fame": 14,
-        "fameLevel": 2,
-        "summary": "Spain Cathedral Sanctuary 18 in Spain. A monumental place of worship renowned for its sacred art and architecture.",
-        "summarySource": "wikipedia",
-        "image": null,
-        "wikipediaUrl": "https://en.wikipedia.org/wiki/Spain",
-        "unescoUrl": null,
-        "wikidataId": "Q500090",
+        "wikidataId": "Q179469",
         "countries": [
           "ESP"
         ]

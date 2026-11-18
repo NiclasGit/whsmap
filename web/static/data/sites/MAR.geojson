@@ -24,7 +24,7 @@
         "summarySource": "unesco",
         "image": {
           "thumbUrl": "https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/Tanneries_in_Fez.jpg&width=640",
-          "author": "Wikimedia Commons contributor",
+          "author": "chensiyuan",
           "license": "CC BY-SA 4.0",
           "sourceUrl": "https://commons.wikimedia.org/wiki/File:Tanneries_in_Fez.jpg"
         },
@@ -42,235 +42,25 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -8.88,
-          31.28
+          -7.6325,
+          33.6083
         ]
       },
       "properties": {
-        "siteId": "wd-Q500183",
-        "name": "Morocco Castle 1",
-        "category": "castles",
-        "unesco": false,
-        "inDanger": false,
-        "yearInscribed": null,
-        "fame": 65,
-        "fameLevel": 3,
-        "summary": "Morocco Castle 1 in Morocco. A historic fortified stronghold dominating the surrounding landscape.",
-        "summarySource": "wikipedia",
-        "image": null,
-        "wikipediaUrl": "https://en.wikipedia.org/wiki/Morocco",
-        "unescoUrl": null,
-        "wikidataId": "Q500183",
-        "countries": [
-          "MAR"
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "id": 2,
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -8.43,
-          31.28
-        ]
-      },
-      "properties": {
-        "siteId": "wd-Q500184",
-        "name": "Morocco Cathedral Sanctuary 2",
+        "siteId": "wd-Q190377",
+        "name": "Hassan II Mosque",
         "category": "sacred",
         "unesco": false,
         "inDanger": false,
         "yearInscribed": null,
-        "fame": 62,
-        "fameLevel": 3,
-        "summary": "Morocco Cathedral Sanctuary 2 in Morocco. A monumental place of worship renowned for its sacred art and architecture.",
+        "fame": 92,
+        "fameLevel": 4,
+        "summary": "Grand Atlantic-front mosque in Casablanca completed in 1993, featuring Moroccan artisanal tilework and a 210-metre minaret.",
         "summarySource": "wikipedia",
         "image": null,
-        "wikipediaUrl": "https://en.wikipedia.org/wiki/Morocco",
+        "wikipediaUrl": "https://en.wikipedia.org/wiki/Hassan_II_Mosque",
         "unescoUrl": null,
-        "wikidataId": "Q500184",
-        "countries": [
-          "MAR"
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "id": 3,
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -7.98,
-          31.28
-        ]
-      },
-      "properties": {
-        "siteId": "wd-Q500185",
-        "name": "Morocco Archaeological Ruins 3",
-        "category": "ancient",
-        "unesco": false,
-        "inDanger": false,
-        "yearInscribed": null,
-        "fame": 59,
-        "fameLevel": 3,
-        "summary": "Morocco Archaeological Ruins 3 in Morocco. Excavated ancient remains revealing centuries of settlement and ritual life.",
-        "summarySource": "wikipedia",
-        "image": null,
-        "wikipediaUrl": "https://en.wikipedia.org/wiki/Morocco",
-        "unescoUrl": null,
-        "wikidataId": "Q500185",
-        "countries": [
-          "MAR"
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "id": 4,
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -7.53,
-          31.28
-        ]
-      },
-      "properties": {
-        "siteId": "wd-Q500186",
-        "name": "Morocco Old Town Quarter 4",
-        "category": "towns",
-        "unesco": false,
-        "inDanger": false,
-        "yearInscribed": null,
-        "fame": 56,
-        "fameLevel": 3,
-        "summary": "Morocco Old Town Quarter 4 in Morocco. Preserved historic streetscapes, squares and merchant townhouses.",
-        "summarySource": "wikipedia",
-        "image": null,
-        "wikipediaUrl": "https://en.wikipedia.org/wiki/Morocco",
-        "unescoUrl": null,
-        "wikidataId": "Q500186",
-        "countries": [
-          "MAR"
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "id": 5,
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -7.08,
-          31.28
-        ]
-      },
-      "properties": {
-        "siteId": "wd-Q500187",
-        "name": "Morocco Royal Palace 5",
-        "category": "palaces",
-        "unesco": false,
-        "inDanger": false,
-        "yearInscribed": null,
-        "fame": 53,
-        "fameLevel": 3,
-        "summary": "Morocco Royal Palace 5 in Morocco. Grand ceremonial residence surrounded by formal courtyards.",
-        "summarySource": "wikipedia",
-        "image": null,
-        "wikipediaUrl": "https://en.wikipedia.org/wiki/Morocco",
-        "unescoUrl": null,
-        "wikidataId": "Q500187",
-        "countries": [
-          "MAR"
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "id": 6,
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -8.88,
-          31.63
-        ]
-      },
-      "properties": {
-        "siteId": "wd-Q500188",
-        "name": "Morocco Cultural Terraces 6",
-        "category": "landscapes",
-        "unesco": false,
-        "inDanger": false,
-        "yearInscribed": null,
-        "fame": 50,
-        "fameLevel": 3,
-        "summary": "Morocco Cultural Terraces 6 in Morocco. Centuries-old human-shaped landscape of terraces and historic estates.",
-        "summarySource": "wikipedia",
-        "image": null,
-        "wikipediaUrl": "https://en.wikipedia.org/wiki/Morocco",
-        "unescoUrl": null,
-        "wikidataId": "Q500188",
-        "countries": [
-          "MAR"
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "id": 7,
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -8.43,
-          31.63
-        ]
-      },
-      "properties": {
-        "siteId": "wd-Q500189",
-        "name": "Morocco Historic Ironworks 7",
-        "category": "modern",
-        "unesco": false,
-        "inDanger": false,
-        "yearInscribed": null,
-        "fame": 47,
-        "fameLevel": 3,
-        "summary": "Morocco Historic Ironworks 7 in Morocco. Landmark of engineering and industrial heritage.",
-        "summarySource": "wikipedia",
-        "image": null,
-        "wikipediaUrl": "https://en.wikipedia.org/wiki/Morocco",
-        "unescoUrl": null,
-        "wikidataId": "Q500189",
-        "countries": [
-          "MAR"
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "id": 8,
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -7.98,
-          31.63
-        ]
-      },
-      "properties": {
-        "siteId": "wd-Q500190",
-        "name": "Morocco National Park Gorge 8",
-        "category": "natural",
-        "unesco": false,
-        "inDanger": false,
-        "yearInscribed": null,
-        "fame": 44,
-        "fameLevel": 3,
-        "summary": "Morocco National Park Gorge 8 in Morocco. Protected natural reserve celebrated for its dramatic landforms.",
-        "summarySource": "wikipedia",
-        "image": null,
-        "wikipediaUrl": "https://en.wikipedia.org/wiki/Morocco",
-        "unescoUrl": null,
-        "wikidataId": "Q500190",
+        "wikidataId": "Q190377",
         "countries": [
           "MAR"
         ]

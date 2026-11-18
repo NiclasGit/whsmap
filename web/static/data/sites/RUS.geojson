@@ -1,0 +1,40 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "id": 0,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          37.6175,
+          55.752
+        ]
+      },
+      "properties": {
+        "siteId": "whs-540",
+        "name": "Kremlin and Red Square, Moscow",
+        "category": "towns",
+        "unesco": true,
+        "inDanger": false,
+        "yearInscribed": 1990,
+        "fame": 158,
+        "fameLevel": 4,
+        "summary": "Inseparably linked to all the most important historical and political events in Russia since the 13th century, the Kremlin and St. Basil's Basilica stand at the heart of Moscow.",
+        "summarySource": "unesco",
+        "image": {
+          "thumbUrl": "https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/Saint_Basil's_Cathedral_in_Moscow.jpg&width=640",
+          "author": "A.Savin",
+          "license": "CC BY-SA 3.0",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File:Saint_Basil's_Cathedral_in_Moscow.jpg"
+        },
+        "wikipediaUrl": "https://en.wikipedia.org/wiki/Kremlin_and_Red_Square",
+        "unescoUrl": "https://whc.unesco.org/en/list/540",
+        "wikidataId": "Q133274",
+        "countries": [
+          "RUS"
+        ]
+      }
+    }
+  ]
+}

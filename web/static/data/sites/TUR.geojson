@@ -24,8 +24,8 @@
         "summarySource": "unesco",
         "image": {
           "thumbUrl": "https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/Hagia_Sophia_Mars_2013.jpg&width=640",
-          "author": "Wikimedia Commons contributor",
-          "license": "CC BY-SA 4.0",
+          "author": "Arild Vågen",
+          "license": "CC BY-SA 3.0",
           "sourceUrl": "https://commons.wikimedia.org/wiki/File:Hagia_Sophia_Mars_2013.jpg"
         },
         "wikipediaUrl": "https://en.wikipedia.org/wiki/Historic_Areas_of_Istanbul",
@@ -42,25 +42,30 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          28.07,
-          40.65
+          38.9225,
+          37.2231
         ]
       },
       "properties": {
-        "siteId": "wd-Q500151",
-        "name": "Turkey Castle 1",
-        "category": "castles",
-        "unesco": false,
+        "siteId": "whs-1457",
+        "name": "Göbekli Tepe",
+        "category": "ancient",
+        "unesco": true,
         "inDanger": false,
-        "yearInscribed": null,
-        "fame": 65,
-        "fameLevel": 3,
-        "summary": "Turkey Castle 1 in Turkey. A historic fortified stronghold dominating the surrounding landscape.",
-        "summarySource": "wikipedia",
-        "image": null,
-        "wikipediaUrl": "https://en.wikipedia.org/wiki/Turkey",
-        "unescoUrl": null,
-        "wikidataId": "Q500151",
+        "yearInscribed": 2018,
+        "fame": 104,
+        "fameLevel": 4,
+        "summary": "Located in the Germuş mountains of south-eastern Anatolia, this property presents monumental round-oval and rectangular megalithic structures erected by hunter-gatherers in the 10th–9th millennia BC.",
+        "summarySource": "unesco",
+        "image": {
+          "thumbUrl": "https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/Göbekli_Tepe,_Urfa.jpg&width=640",
+          "author": "Teomancimit",
+          "license": "CC BY-SA 3.0",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File:Göbekli_Tepe,_Urfa.jpg"
+        },
+        "wikipediaUrl": "https://en.wikipedia.org/wiki/Göbekli_Tepe",
+        "unescoUrl": "https://whc.unesco.org/en/list/1457",
+        "wikidataId": "Q154994",
         "countries": [
           "TUR"
         ]
@@ -72,205 +77,25 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          28.52,
-          40.65
+          28.9833,
+          41.0115
         ]
       },
       "properties": {
-        "siteId": "wd-Q500152",
-        "name": "Turkey Cathedral Sanctuary 2",
-        "category": "sacred",
-        "unesco": false,
-        "inDanger": false,
-        "yearInscribed": null,
-        "fame": 62,
-        "fameLevel": 3,
-        "summary": "Turkey Cathedral Sanctuary 2 in Turkey. A monumental place of worship renowned for its sacred art and architecture.",
-        "summarySource": "wikipedia",
-        "image": null,
-        "wikipediaUrl": "https://en.wikipedia.org/wiki/Turkey",
-        "unescoUrl": null,
-        "wikidataId": "Q500152",
-        "countries": [
-          "TUR"
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "id": 3,
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          28.97,
-          40.65
-        ]
-      },
-      "properties": {
-        "siteId": "wd-Q500153",
-        "name": "Turkey Archaeological Ruins 3",
-        "category": "ancient",
-        "unesco": false,
-        "inDanger": false,
-        "yearInscribed": null,
-        "fame": 59,
-        "fameLevel": 3,
-        "summary": "Turkey Archaeological Ruins 3 in Turkey. Excavated ancient remains revealing centuries of settlement and ritual life.",
-        "summarySource": "wikipedia",
-        "image": null,
-        "wikipediaUrl": "https://en.wikipedia.org/wiki/Turkey",
-        "unescoUrl": null,
-        "wikidataId": "Q500153",
-        "countries": [
-          "TUR"
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "id": 4,
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          29.42,
-          40.65
-        ]
-      },
-      "properties": {
-        "siteId": "wd-Q500154",
-        "name": "Turkey Old Town Quarter 4",
-        "category": "towns",
-        "unesco": false,
-        "inDanger": false,
-        "yearInscribed": null,
-        "fame": 56,
-        "fameLevel": 3,
-        "summary": "Turkey Old Town Quarter 4 in Turkey. Preserved historic streetscapes, squares and merchant townhouses.",
-        "summarySource": "wikipedia",
-        "image": null,
-        "wikipediaUrl": "https://en.wikipedia.org/wiki/Turkey",
-        "unescoUrl": null,
-        "wikidataId": "Q500154",
-        "countries": [
-          "TUR"
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "id": 5,
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          29.87,
-          40.65
-        ]
-      },
-      "properties": {
-        "siteId": "wd-Q500155",
-        "name": "Turkey Royal Palace 5",
+        "siteId": "wd-Q176158",
+        "name": "Topkapı Palace",
         "category": "palaces",
         "unesco": false,
         "inDanger": false,
         "yearInscribed": null,
-        "fame": 53,
-        "fameLevel": 3,
-        "summary": "Turkey Royal Palace 5 in Turkey. Grand ceremonial residence surrounded by formal courtyards.",
+        "fame": 114,
+        "fameLevel": 4,
+        "summary": "Imperial residence and administrative headquarters of the Ottoman sultans in Istanbul during the 15th through 19th centuries.",
         "summarySource": "wikipedia",
         "image": null,
-        "wikipediaUrl": "https://en.wikipedia.org/wiki/Turkey",
+        "wikipediaUrl": "https://en.wikipedia.org/wiki/Topkap%C4%B1_Palace",
         "unescoUrl": null,
-        "wikidataId": "Q500155",
-        "countries": [
-          "TUR"
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "id": 6,
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          28.07,
-          41.0
-        ]
-      },
-      "properties": {
-        "siteId": "wd-Q500156",
-        "name": "Turkey Cultural Terraces 6",
-        "category": "landscapes",
-        "unesco": false,
-        "inDanger": false,
-        "yearInscribed": null,
-        "fame": 50,
-        "fameLevel": 3,
-        "summary": "Turkey Cultural Terraces 6 in Turkey. Centuries-old human-shaped landscape of terraces and historic estates.",
-        "summarySource": "wikipedia",
-        "image": null,
-        "wikipediaUrl": "https://en.wikipedia.org/wiki/Turkey",
-        "unescoUrl": null,
-        "wikidataId": "Q500156",
-        "countries": [
-          "TUR"
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "id": 7,
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          28.52,
-          41.0
-        ]
-      },
-      "properties": {
-        "siteId": "wd-Q500157",
-        "name": "Turkey Historic Ironworks 7",
-        "category": "modern",
-        "unesco": false,
-        "inDanger": false,
-        "yearInscribed": null,
-        "fame": 47,
-        "fameLevel": 3,
-        "summary": "Turkey Historic Ironworks 7 in Turkey. Landmark of engineering and industrial heritage.",
-        "summarySource": "wikipedia",
-        "image": null,
-        "wikipediaUrl": "https://en.wikipedia.org/wiki/Turkey",
-        "unescoUrl": null,
-        "wikidataId": "Q500157",
-        "countries": [
-          "TUR"
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "id": 8,
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          28.97,
-          41.0
-        ]
-      },
-      "properties": {
-        "siteId": "wd-Q500158",
-        "name": "Turkey National Park Gorge 8",
-        "category": "natural",
-        "unesco": false,
-        "inDanger": false,
-        "yearInscribed": null,
-        "fame": 44,
-        "fameLevel": 3,
-        "summary": "Turkey National Park Gorge 8 in Turkey. Protected natural reserve celebrated for its dramatic landforms.",
-        "summarySource": "wikipedia",
-        "image": null,
-        "wikipediaUrl": "https://en.wikipedia.org/wiki/Turkey",
-        "unescoUrl": null,
-        "wikidataId": "Q500158",
+        "wikidataId": "Q176158",
         "countries": [
           "TUR"
         ]

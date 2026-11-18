@@ -13,6 +13,16 @@ def test_clean_summary_strips_html_and_limits_sentences():
     assert clean_summary(None) == ""
 
 
+def test_clean_summary_handles_encoded_tags_punctuation_spacing_and_abbreviations():
+    raw = "&lt;p&gt;Stretching over 400 sq. km near St. Peter, &lt;b&gt;Angkor&lt;/b&gt; is famous. Built c. 1150 AD, it has No. 1 temples. Third sentence here. Fourth dropped.&lt;/p&gt;"
+    cleaned = clean_summary(raw, max_sentences=3)
+    assert cleaned == (
+        "Stretching over 400 sq. km near St. Peter, Angkor is famous. "
+        "Built c. 1150 AD, it has No. 1 temples. "
+        "Third sentence here."
+    )
+
+
 def test_validate_countries_accepts_zero_site_country_with_null_optionals():
     payload = {
         "generatedAt": "2026-11-18",

@@ -74,4 +74,11 @@ describe('richness, search, and race-safe loader', () => {
 		expect(jpnResult?.features).toHaveLength(1);
 		expect(fraResult).toBeNull();
 	});
+
+	it('returns an empty FeatureCollection on network or HTTP error when not superseded', async () => {
+		const fetchFail = vi.fn(() => Promise.reject(new Error('network down'))) as any;
+		const loader = createSitesLoader(fetchFail);
+		const res = await loader.loadCountrySites('ITA');
+		expect(res).toEqual({ type: 'FeatureCollection', features: [] });
+	});
 });

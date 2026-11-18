@@ -16,7 +16,7 @@
         "name": "Petra",
         "category": "ancient",
         "unesco": true,
-        "inDanger": true,
+        "inDanger": false,
         "yearInscribed": 1985,
         "fame": 136,
         "fameLevel": 4,
@@ -24,8 +24,8 @@
         "summarySource": "unesco",
         "image": {
           "thumbUrl": "https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/Al_Khazneh_Petra_edit_2.jpg&width=640",
-          "author": "Wikimedia Commons contributor",
-          "license": "CC BY-SA 4.0",
+          "author": "Bernard Gagnon",
+          "license": "CC BY-SA 3.0",
           "sourceUrl": "https://commons.wikimedia.org/wiki/File:Al_Khazneh_Petra_edit_2.jpg"
         },
         "wikipediaUrl": "https://en.wikipedia.org/wiki/Petra",
@@ -42,235 +42,25 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          34.54,
-          29.97
+          35.8914,
+          32.2806
         ]
       },
       "properties": {
-        "siteId": "wd-Q500271",
-        "name": "Jordan Castle 1",
-        "category": "castles",
-        "unesco": false,
-        "inDanger": false,
-        "yearInscribed": null,
-        "fame": 65,
-        "fameLevel": 3,
-        "summary": "Jordan Castle 1 in Jordan. A historic fortified stronghold dominating the surrounding landscape.",
-        "summarySource": "wikipedia",
-        "image": null,
-        "wikipediaUrl": "https://en.wikipedia.org/wiki/Jordan",
-        "unescoUrl": null,
-        "wikidataId": "Q500271",
-        "countries": [
-          "JOR"
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "id": 2,
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          34.99,
-          29.97
-        ]
-      },
-      "properties": {
-        "siteId": "wd-Q500272",
-        "name": "Jordan Cathedral Sanctuary 2",
-        "category": "sacred",
-        "unesco": false,
-        "inDanger": false,
-        "yearInscribed": null,
-        "fame": 62,
-        "fameLevel": 3,
-        "summary": "Jordan Cathedral Sanctuary 2 in Jordan. A monumental place of worship renowned for its sacred art and architecture.",
-        "summarySource": "wikipedia",
-        "image": null,
-        "wikipediaUrl": "https://en.wikipedia.org/wiki/Jordan",
-        "unescoUrl": null,
-        "wikidataId": "Q500272",
-        "countries": [
-          "JOR"
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "id": 3,
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          35.44,
-          29.97
-        ]
-      },
-      "properties": {
-        "siteId": "wd-Q500273",
-        "name": "Jordan Archaeological Ruins 3",
+        "siteId": "wd-Q185626",
+        "name": "Jerash Archaeological City",
         "category": "ancient",
         "unesco": false,
         "inDanger": false,
         "yearInscribed": null,
-        "fame": 59,
+        "fame": 78,
         "fameLevel": 3,
-        "summary": "Jordan Archaeological Ruins 3 in Jordan. Excavated ancient remains revealing centuries of settlement and ritual life.",
+        "summary": "Greco-Roman city of Gerasa in northern Jordan, renowned for its oval colonnaded forum, cardo maximus and Temple of Artemis.",
         "summarySource": "wikipedia",
         "image": null,
-        "wikipediaUrl": "https://en.wikipedia.org/wiki/Jordan",
+        "wikipediaUrl": "https://en.wikipedia.org/wiki/Jerash",
         "unescoUrl": null,
-        "wikidataId": "Q500273",
-        "countries": [
-          "JOR"
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "id": 4,
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          35.89,
-          29.97
-        ]
-      },
-      "properties": {
-        "siteId": "wd-Q500274",
-        "name": "Jordan Old Town Quarter 4",
-        "category": "towns",
-        "unesco": false,
-        "inDanger": false,
-        "yearInscribed": null,
-        "fame": 56,
-        "fameLevel": 3,
-        "summary": "Jordan Old Town Quarter 4 in Jordan. Preserved historic streetscapes, squares and merchant townhouses.",
-        "summarySource": "wikipedia",
-        "image": null,
-        "wikipediaUrl": "https://en.wikipedia.org/wiki/Jordan",
-        "unescoUrl": null,
-        "wikidataId": "Q500274",
-        "countries": [
-          "JOR"
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "id": 5,
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          36.34,
-          29.97
-        ]
-      },
-      "properties": {
-        "siteId": "wd-Q500275",
-        "name": "Jordan Royal Palace 5",
-        "category": "palaces",
-        "unesco": false,
-        "inDanger": false,
-        "yearInscribed": null,
-        "fame": 53,
-        "fameLevel": 3,
-        "summary": "Jordan Royal Palace 5 in Jordan. Grand ceremonial residence surrounded by formal courtyards.",
-        "summarySource": "wikipedia",
-        "image": null,
-        "wikipediaUrl": "https://en.wikipedia.org/wiki/Jordan",
-        "unescoUrl": null,
-        "wikidataId": "Q500275",
-        "countries": [
-          "JOR"
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "id": 6,
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          34.54,
-          30.32
-        ]
-      },
-      "properties": {
-        "siteId": "wd-Q500276",
-        "name": "Jordan Cultural Terraces 6",
-        "category": "landscapes",
-        "unesco": false,
-        "inDanger": false,
-        "yearInscribed": null,
-        "fame": 50,
-        "fameLevel": 3,
-        "summary": "Jordan Cultural Terraces 6 in Jordan. Centuries-old human-shaped landscape of terraces and historic estates.",
-        "summarySource": "wikipedia",
-        "image": null,
-        "wikipediaUrl": "https://en.wikipedia.org/wiki/Jordan",
-        "unescoUrl": null,
-        "wikidataId": "Q500276",
-        "countries": [
-          "JOR"
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "id": 7,
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          34.99,
-          30.32
-        ]
-      },
-      "properties": {
-        "siteId": "wd-Q500277",
-        "name": "Jordan Historic Ironworks 7",
-        "category": "modern",
-        "unesco": false,
-        "inDanger": false,
-        "yearInscribed": null,
-        "fame": 47,
-        "fameLevel": 3,
-        "summary": "Jordan Historic Ironworks 7 in Jordan. Landmark of engineering and industrial heritage.",
-        "summarySource": "wikipedia",
-        "image": null,
-        "wikipediaUrl": "https://en.wikipedia.org/wiki/Jordan",
-        "unescoUrl": null,
-        "wikidataId": "Q500277",
-        "countries": [
-          "JOR"
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "id": 8,
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          35.44,
-          30.32
-        ]
-      },
-      "properties": {
-        "siteId": "wd-Q500278",
-        "name": "Jordan National Park Gorge 8",
-        "category": "natural",
-        "unesco": false,
-        "inDanger": false,
-        "yearInscribed": null,
-        "fame": 44,
-        "fameLevel": 3,
-        "summary": "Jordan National Park Gorge 8 in Jordan. Protected natural reserve celebrated for its dramatic landforms.",
-        "summarySource": "wikipedia",
-        "image": null,
-        "wikipediaUrl": "https://en.wikipedia.org/wiki/Jordan",
-        "unescoUrl": null,
-        "wikidataId": "Q500278",
+        "wikidataId": "Q185626",
         "countries": [
           "JOR"
         ]

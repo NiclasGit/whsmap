@@ -24,8 +24,8 @@
         "summarySource": "unesco",
         "image": {
           "thumbUrl": "https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/Machu_Picchu,_Peru.jpg&width=640",
-          "author": "Wikimedia Commons contributor",
-          "license": "CC BY-SA 4.0",
+          "author": "Pedro Szekely",
+          "license": "CC BY-SA 2.0",
           "sourceUrl": "https://commons.wikimedia.org/wiki/File:Machu_Picchu,_Peru.jpg"
         },
         "wikipediaUrl": "https://en.wikipedia.org/wiki/Historic_Sanctuary_of_Machu_Picchu",
@@ -42,235 +42,25 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -72.87,
-          -13.88
+          -71.9817,
+          -13.5078
         ]
       },
       "properties": {
-        "siteId": "wd-Q500175",
-        "name": "Peru Castle 1",
-        "category": "castles",
-        "unesco": false,
-        "inDanger": false,
-        "yearInscribed": null,
-        "fame": 65,
-        "fameLevel": 3,
-        "summary": "Peru Castle 1 in Peru. A historic fortified stronghold dominating the surrounding landscape.",
-        "summarySource": "wikipedia",
-        "image": null,
-        "wikipediaUrl": "https://en.wikipedia.org/wiki/Peru",
-        "unescoUrl": null,
-        "wikidataId": "Q500175",
-        "countries": [
-          "PER"
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "id": 2,
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -72.42,
-          -13.88
-        ]
-      },
-      "properties": {
-        "siteId": "wd-Q500176",
-        "name": "Peru Cathedral Sanctuary 2",
-        "category": "sacred",
-        "unesco": false,
-        "inDanger": false,
-        "yearInscribed": null,
-        "fame": 62,
-        "fameLevel": 3,
-        "summary": "Peru Cathedral Sanctuary 2 in Peru. A monumental place of worship renowned for its sacred art and architecture.",
-        "summarySource": "wikipedia",
-        "image": null,
-        "wikipediaUrl": "https://en.wikipedia.org/wiki/Peru",
-        "unescoUrl": null,
-        "wikidataId": "Q500176",
-        "countries": [
-          "PER"
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "id": 3,
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -71.97,
-          -13.88
-        ]
-      },
-      "properties": {
-        "siteId": "wd-Q500177",
-        "name": "Peru Archaeological Ruins 3",
+        "siteId": "wd-Q186532",
+        "name": "Saksaywaman",
         "category": "ancient",
         "unesco": false,
         "inDanger": false,
         "yearInscribed": null,
-        "fame": 59,
+        "fame": 76,
         "fameLevel": 3,
-        "summary": "Peru Archaeological Ruins 3 in Peru. Excavated ancient remains revealing centuries of settlement and ritual life.",
+        "summary": "Inca citadel on the northern outskirts of Cusco, famous for its monumental dry-stone walls fitted together without mortar.",
         "summarySource": "wikipedia",
         "image": null,
-        "wikipediaUrl": "https://en.wikipedia.org/wiki/Peru",
+        "wikipediaUrl": "https://en.wikipedia.org/wiki/Saksaywaman",
         "unescoUrl": null,
-        "wikidataId": "Q500177",
-        "countries": [
-          "PER"
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "id": 4,
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -71.52,
-          -13.88
-        ]
-      },
-      "properties": {
-        "siteId": "wd-Q500178",
-        "name": "Peru Old Town Quarter 4",
-        "category": "towns",
-        "unesco": false,
-        "inDanger": false,
-        "yearInscribed": null,
-        "fame": 56,
-        "fameLevel": 3,
-        "summary": "Peru Old Town Quarter 4 in Peru. Preserved historic streetscapes, squares and merchant townhouses.",
-        "summarySource": "wikipedia",
-        "image": null,
-        "wikipediaUrl": "https://en.wikipedia.org/wiki/Peru",
-        "unescoUrl": null,
-        "wikidataId": "Q500178",
-        "countries": [
-          "PER"
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "id": 5,
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -71.07,
-          -13.88
-        ]
-      },
-      "properties": {
-        "siteId": "wd-Q500179",
-        "name": "Peru Royal Palace 5",
-        "category": "palaces",
-        "unesco": false,
-        "inDanger": false,
-        "yearInscribed": null,
-        "fame": 53,
-        "fameLevel": 3,
-        "summary": "Peru Royal Palace 5 in Peru. Grand ceremonial residence surrounded by formal courtyards.",
-        "summarySource": "wikipedia",
-        "image": null,
-        "wikipediaUrl": "https://en.wikipedia.org/wiki/Peru",
-        "unescoUrl": null,
-        "wikidataId": "Q500179",
-        "countries": [
-          "PER"
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "id": 6,
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -72.87,
-          -13.53
-        ]
-      },
-      "properties": {
-        "siteId": "wd-Q500180",
-        "name": "Peru Cultural Terraces 6",
-        "category": "landscapes",
-        "unesco": false,
-        "inDanger": false,
-        "yearInscribed": null,
-        "fame": 50,
-        "fameLevel": 3,
-        "summary": "Peru Cultural Terraces 6 in Peru. Centuries-old human-shaped landscape of terraces and historic estates.",
-        "summarySource": "wikipedia",
-        "image": null,
-        "wikipediaUrl": "https://en.wikipedia.org/wiki/Peru",
-        "unescoUrl": null,
-        "wikidataId": "Q500180",
-        "countries": [
-          "PER"
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "id": 7,
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -72.42,
-          -13.53
-        ]
-      },
-      "properties": {
-        "siteId": "wd-Q500181",
-        "name": "Peru Historic Ironworks 7",
-        "category": "modern",
-        "unesco": false,
-        "inDanger": false,
-        "yearInscribed": null,
-        "fame": 47,
-        "fameLevel": 3,
-        "summary": "Peru Historic Ironworks 7 in Peru. Landmark of engineering and industrial heritage.",
-        "summarySource": "wikipedia",
-        "image": null,
-        "wikipediaUrl": "https://en.wikipedia.org/wiki/Peru",
-        "unescoUrl": null,
-        "wikidataId": "Q500181",
-        "countries": [
-          "PER"
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "id": 8,
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -71.97,
-          -13.53
-        ]
-      },
-      "properties": {
-        "siteId": "wd-Q500182",
-        "name": "Peru National Park Gorge 8",
-        "category": "natural",
-        "unesco": false,
-        "inDanger": false,
-        "yearInscribed": null,
-        "fame": 44,
-        "fameLevel": 3,
-        "summary": "Peru National Park Gorge 8 in Peru. Protected natural reserve celebrated for its dramatic landforms.",
-        "summarySource": "wikipedia",
-        "image": null,
-        "wikipediaUrl": "https://en.wikipedia.org/wiki/Peru",
-        "unescoUrl": null,
-        "wikidataId": "Q500182",
+        "wikidataId": "Q186532",
         "countries": [
           "PER"
         ]

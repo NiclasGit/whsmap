@@ -2,13 +2,20 @@
 
 from __future__ import annotations
 
+import json
 import math
+from pathlib import Path
 import re
 from typing import Any
+import unicodedata
 from urllib.parse import quote
+
+import httpx
 
 from whs_pipeline.classify import classify_site
 from whs_pipeline.validate import clean_summary
+
+WIKIDATA_SPARQL_URL = "https://query.wikidata.org/sparql"
 
 _STOPWORDS = {"the", "of", "and", "in", "at", "de", "la", "le", "el", "di", "von", "der"}
 _WORD_RE = re.compile(r"[a-z0-9]+")
@@ -24,14 +31,26 @@ def haversine_km(lon1: float, lat1: float, lon2: float, lat2: float) -> float:
     return 2.0 * r * math.atan2(math.sqrt(a), math.sqrt(max(0.0, 1.0 - a)))
 
 
+def _fold_ascii(text: str) -> str:
+    nfkd = unicodedata.normalize("NFKD", text)
+    return "".join(ch for ch in nfkd if not unicodedata.combining(ch)).lower()
+
+
 def _name_tokens(name: str) -> set[str]:
-    return {w for w in _WORD_RE.findall(name.lower()) if w not in _STOPWORDS and len(w) > 2}
+    folded = _fold_ascii(name)
+    tokens: set[str] = set()
+    for w in _WORD_RE.findall(folded):
+        if w in _STOPWORDS or len(w) <= 2:
+            continue
+        stem = w[:-1] if len(w) > 4 and w.endswith("s") else w
+        tokens.add(stem)
+    return tokens
 
 
 def build_commons_image(
     filename: str | None,
-    author: str = "Wikimedia Commons contributor",
-    license_name: str = "CC BY-SA 4.0",
+    author: str = "Wikimedia Commons",
+    license_name: str = "CC BY-SA",
 ) -> dict[str, str] | None:
     """Build contract image metadata from a Wikimedia Commons file name."""
     if not filename:
@@ -46,6 +65,39 @@ def build_commons_image(
     }
 
 
+def fetch_wikidata_sites(cache_dir: Path) -> list[dict[str, Any]]:
+    """Fetch and cache notable heritage landmarks from Wikidata SPARQL."""
+    cache_dir.mkdir(parents=True, exist_ok=True)
+    cache_file = cache_dir / "wikidata_notable_raw.json"
+    if cache_file.exists():
+        return json.loads(cache_file.read_text(encoding="utf-8"))
+
+    query = """
+    SELECT ?item ?itemLabel ?coord ?iso3 ?sitelinks ?instance ?image ?article WHERE {
+      VALUES ?instance { wd:Q23413 wd:Q57821 wd:Q839954 wd:Q16560 wd:Q2977 wd:Q44613 wd:Q32815 wd:Q24398318 wd:Q30198 }
+      ?item wdt:P31 ?instance ;
+            wdt:P625 ?coord ;
+            wdt:P17 ?country ;
+            wikibase:sitelinks ?sitelinks .
+      ?country wdt:P298 ?iso3 .
+      FILTER(?sitelinks >= 15)
+      OPTIONAL { ?item wdt:P18 ?image . }
+      OPTIONAL {
+        ?article schema:about ?item ;
+                 schema:isPartOf <https://en.wikipedia.org/> .
+      }
+      SERVICE wikibase:label { bd:serviceParam wikibase:language "en". }
+    }
+    LIMIT 5000
+    """
+    with httpx.Client(timeout=60.0, headers={"Accept": "application/sparql-results+json"}) as client:
+        resp = client.get(WIKIDATA_SPARQL_URL, params={"query": query})
+        resp.raise_for_status()
+        data = resp.json()
+        cache_file.write_text(json.dumps(data, ensure_ascii=False, indent=2), encoding="utf-8")
+        return data.get("results", {}).get("bindings", [])
+
+
 def merge_and_deduplicate_notable(
     unesco_sites: list[dict[str, Any]],
     raw_notable: list[dict[str, Any]],
@@ -53,14 +105,13 @@ def merge_and_deduplicate_notable(
 ) -> list[dict[str, Any]]:
     """Filter out notable site candidates that duplicate a UNESCO site by QID or <250m proximity."""
     unesco_qids = {s["wikidataId"] for s in unesco_sites if s.get("wikidataId")}
-    seen_qids: set[str] = set()
-    kept: list[dict[str, Any]] = []
+    by_qid: dict[str, dict[str, Any]] = {}
 
     for rec in raw_notable:
         qid = str(rec.get("qid") or "").strip()
         name = str(rec.get("name") or "").strip()
         iso3 = str(rec.get("iso3") or "").strip().upper()
-        if not qid or not name or not iso3 or qid in unesco_qids or qid in seen_qids:
+        if not qid or not name or not iso3 or qid in unesco_qids:
             continue
         if rec.get("whs_id"):
             continue
@@ -69,6 +120,11 @@ def merge_and_deduplicate_notable(
             lon = float(rec["lon"])
             lat = float(rec["lat"])
         except (KeyError, TypeError, ValueError):
+            continue
+
+        if qid in by_qid:
+            if iso3 not in by_qid[qid]["countries"]:
+                by_qid[qid]["countries"].append(iso3)
             continue
 
         cand_tokens = _name_tokens(name)
@@ -85,7 +141,6 @@ def merge_and_deduplicate_notable(
         if is_spatial_dup:
             continue
 
-        seen_qids.add(qid)
         site_id = f"wd-{qid}"
         instance_of = list(rec.get("instance_of") or [])
         category = rec.get("category") or classify_site(site_id, instance_of, None, name, overrides)
@@ -94,25 +149,23 @@ def merge_and_deduplicate_notable(
         if isinstance(image, str):
             image = build_commons_image(image)
 
-        kept.append(
-            {
-                "siteId": site_id,
-                "name": name,
-                "category": category,
-                "unesco": False,
-                "inDanger": False,
-                "yearInscribed": None,
-                "fame": int(rec.get("sitelinks") or rec.get("fame") or 0),
-                "summary": summary,
-                "summarySource": "wikipedia" if summary else None,
-                "image": image,
-                "wikipediaUrl": rec.get("wikipedia_url") or rec.get("wikipediaUrl"),
-                "unescoUrl": None,
-                "wikidataId": qid,
-                "countries": [iso3],
-                "lon": round(lon, 5),
-                "lat": round(lat, 5),
-            }
-        )
+        by_qid[qid] = {
+            "siteId": site_id,
+            "name": name,
+            "category": category,
+            "unesco": False,
+            "inDanger": False,
+            "yearInscribed": None,
+            "fame": int(rec.get("sitelinks") or rec.get("fame") or 0),
+            "summary": summary,
+            "summarySource": "wikipedia" if summary else None,
+            "image": image,
+            "wikipediaUrl": rec.get("wikipedia_url") or rec.get("wikipediaUrl"),
+            "unescoUrl": None,
+            "wikidataId": qid,
+            "countries": [iso3],
+            "lon": round(lon, 5),
+            "lat": round(lat, 5),
+        }
 
-    return kept
+    return list(by_qid.values())

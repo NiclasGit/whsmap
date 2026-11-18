@@ -24,7 +24,7 @@
         "summarySource": "unesco",
         "image": {
           "thumbUrl": "https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/Chichen_Itza_3.jpg&width=640",
-          "author": "Wikimedia Commons contributor",
+          "author": "Daniel Schwen",
           "license": "CC BY-SA 4.0",
           "sourceUrl": "https://commons.wikimedia.org/wiki/File:Chichen_Itza_3.jpg"
         },
@@ -42,235 +42,30 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -100.03,
-          19.08
+          -98.8439,
+          19.6925
         ]
       },
       "properties": {
-        "siteId": "wd-Q500099",
-        "name": "Mexico Castle 1",
-        "category": "castles",
-        "unesco": false,
-        "inDanger": false,
-        "yearInscribed": null,
-        "fame": 65,
-        "fameLevel": 3,
-        "summary": "Mexico Castle 1 in Mexico. A historic fortified stronghold dominating the surrounding landscape.",
-        "summarySource": "wikipedia",
-        "image": null,
-        "wikipediaUrl": "https://en.wikipedia.org/wiki/Mexico",
-        "unescoUrl": null,
-        "wikidataId": "Q500099",
-        "countries": [
-          "MEX"
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "id": 2,
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -99.58,
-          19.08
-        ]
-      },
-      "properties": {
-        "siteId": "wd-Q500100",
-        "name": "Mexico Cathedral Sanctuary 2",
-        "category": "sacred",
-        "unesco": false,
-        "inDanger": false,
-        "yearInscribed": null,
-        "fame": 62,
-        "fameLevel": 3,
-        "summary": "Mexico Cathedral Sanctuary 2 in Mexico. A monumental place of worship renowned for its sacred art and architecture.",
-        "summarySource": "wikipedia",
-        "image": null,
-        "wikipediaUrl": "https://en.wikipedia.org/wiki/Mexico",
-        "unescoUrl": null,
-        "wikidataId": "Q500100",
-        "countries": [
-          "MEX"
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "id": 3,
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -99.13,
-          19.08
-        ]
-      },
-      "properties": {
-        "siteId": "wd-Q500101",
-        "name": "Mexico Archaeological Ruins 3",
+        "siteId": "whs-414",
+        "name": "Pre-Hispanic City of Teotihuacan",
         "category": "ancient",
-        "unesco": false,
+        "unesco": true,
         "inDanger": false,
-        "yearInscribed": null,
-        "fame": 59,
-        "fameLevel": 3,
-        "summary": "Mexico Archaeological Ruins 3 in Mexico. Excavated ancient remains revealing centuries of settlement and ritual life.",
-        "summarySource": "wikipedia",
-        "image": null,
-        "wikipediaUrl": "https://en.wikipedia.org/wiki/Mexico",
-        "unescoUrl": null,
-        "wikidataId": "Q500101",
-        "countries": [
-          "MEX"
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "id": 4,
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -98.68,
-          19.08
-        ]
-      },
-      "properties": {
-        "siteId": "wd-Q500102",
-        "name": "Mexico Old Town Quarter 4",
-        "category": "towns",
-        "unesco": false,
-        "inDanger": false,
-        "yearInscribed": null,
-        "fame": 56,
-        "fameLevel": 3,
-        "summary": "Mexico Old Town Quarter 4 in Mexico. Preserved historic streetscapes, squares and merchant townhouses.",
-        "summarySource": "wikipedia",
-        "image": null,
-        "wikipediaUrl": "https://en.wikipedia.org/wiki/Mexico",
-        "unescoUrl": null,
-        "wikidataId": "Q500102",
-        "countries": [
-          "MEX"
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "id": 5,
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -98.23,
-          19.08
-        ]
-      },
-      "properties": {
-        "siteId": "wd-Q500103",
-        "name": "Mexico Royal Palace 5",
-        "category": "palaces",
-        "unesco": false,
-        "inDanger": false,
-        "yearInscribed": null,
-        "fame": 53,
-        "fameLevel": 3,
-        "summary": "Mexico Royal Palace 5 in Mexico. Grand ceremonial residence surrounded by formal courtyards.",
-        "summarySource": "wikipedia",
-        "image": null,
-        "wikipediaUrl": "https://en.wikipedia.org/wiki/Mexico",
-        "unescoUrl": null,
-        "wikidataId": "Q500103",
-        "countries": [
-          "MEX"
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "id": 6,
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -100.03,
-          19.43
-        ]
-      },
-      "properties": {
-        "siteId": "wd-Q500104",
-        "name": "Mexico Cultural Terraces 6",
-        "category": "landscapes",
-        "unesco": false,
-        "inDanger": false,
-        "yearInscribed": null,
-        "fame": 50,
-        "fameLevel": 3,
-        "summary": "Mexico Cultural Terraces 6 in Mexico. Centuries-old human-shaped landscape of terraces and historic estates.",
-        "summarySource": "wikipedia",
-        "image": null,
-        "wikipediaUrl": "https://en.wikipedia.org/wiki/Mexico",
-        "unescoUrl": null,
-        "wikidataId": "Q500104",
-        "countries": [
-          "MEX"
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "id": 7,
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -99.58,
-          19.43
-        ]
-      },
-      "properties": {
-        "siteId": "wd-Q500105",
-        "name": "Mexico Historic Ironworks 7",
-        "category": "modern",
-        "unesco": false,
-        "inDanger": false,
-        "yearInscribed": null,
-        "fame": 47,
-        "fameLevel": 3,
-        "summary": "Mexico Historic Ironworks 7 in Mexico. Landmark of engineering and industrial heritage.",
-        "summarySource": "wikipedia",
-        "image": null,
-        "wikipediaUrl": "https://en.wikipedia.org/wiki/Mexico",
-        "unescoUrl": null,
-        "wikidataId": "Q500105",
-        "countries": [
-          "MEX"
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "id": 8,
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -99.13,
-          19.43
-        ]
-      },
-      "properties": {
-        "siteId": "wd-Q500106",
-        "name": "Mexico National Park Gorge 8",
-        "category": "natural",
-        "unesco": false,
-        "inDanger": false,
-        "yearInscribed": null,
-        "fame": 44,
-        "fameLevel": 3,
-        "summary": "Mexico National Park Gorge 8 in Mexico. Protected natural reserve celebrated for its dramatic landforms.",
-        "summarySource": "wikipedia",
-        "image": null,
-        "wikipediaUrl": "https://en.wikipedia.org/wiki/Mexico",
-        "unescoUrl": null,
-        "wikidataId": "Q500106",
+        "yearInscribed": 1987,
+        "fame": 118,
+        "fameLevel": 4,
+        "summary": "Built between the 1st and 7th centuries AD, the holy city of Teotihuacan is characterized by the vast size of its monuments, laid out on geometric and symbolic principles.",
+        "summarySource": "unesco",
+        "image": {
+          "thumbUrl": "https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/Teotihuacán_-_Vista_aérea.jpg&width=640",
+          "author": "LBM1948",
+          "license": "CC BY-SA 4.0",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File:Teotihuacán_-_Vista_aérea.jpg"
+        },
+        "wikipediaUrl": "https://en.wikipedia.org/wiki/Pre-Hispanic_City_of_Teotihuacan",
+        "unescoUrl": "https://whc.unesco.org/en/list/414",
+        "wikidataId": "Q131250",
         "countries": [
           "MEX"
         ]

@@ -15,11 +15,19 @@ describe('camera and Night Atlas style helpers', () => {
 		expect(e - w).toBeCloseTo(4.0, 1);
 	});
 
-	it('builds a globe style with richness fill and dim overlay filter', () => {
-		const style = buildNightAtlasStyle({ boundariesUrl: '/data/boundaries.geojson' });
+	it('builds a globe style with richness fill, sky atmosphere, graticule, and cluster count symbol layer', () => {
+		const style = buildNightAtlasStyle({
+			boundariesUrl: '/data/boundaries.geojson',
+			pmtilesUrl: 'pmtiles:///data/world.pmtiles'
+		});
 		expect(style.projection?.type).toBe('globe');
+		expect(style.sky).toBeDefined();
+		expect(style.sources.graticule).toBeDefined();
+		expect(style.sources.basemap).toBeDefined();
+		expect(style.layers.some((l) => l.id === 'graticule-lines')).toBe(true);
 		expect(style.layers.some((l) => l.id === 'countries-fill')).toBe(true);
 		expect(style.layers.some((l) => l.id === 'countries-dim')).toBe(true);
+		expect(style.layers.some((l) => l.id === 'sites-cluster-count')).toBe(true);
 		expect(buildWorldDimFilter('ITA')).toEqual(['!=', ['get', 'iso3'], 'ITA']);
 	});
 });

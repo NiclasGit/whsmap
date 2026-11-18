@@ -241,13 +241,23 @@
 		color: var(--text-secondary);
 	}
 
+	@media (max-width: 920px) and (min-width: 768px) {
+		.site-card {
+			width: 310px;
+			left: 14px;
+			bottom: 14px;
+		}
+	}
+
 	@media (max-width: 767px) {
 		.site-card {
 			left: 10px;
 			right: 10px;
-			top: 12px;
-			bottom: auto;
+			bottom: 12px;
+			top: auto;
 			width: auto;
+			max-height: calc(100vh - 24px);
+			overflow-y: auto;
 		}
 	}
 </style>

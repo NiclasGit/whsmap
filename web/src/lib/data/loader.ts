@@ -38,7 +38,10 @@ export function createSitesLoader(fetchFn: typeof fetch = fetch) {
 				cache.set(norm, data);
 				return data;
 			} catch {
-				return null;
+				if (token !== currentToken || controller.signal.aborted) {
+					return null;
+				}
+				return { type: 'FeatureCollection', features: [] };
 			}
 		}
 	};

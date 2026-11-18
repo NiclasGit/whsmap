@@ -41,7 +41,9 @@
 	);
 
 	let selectedSite: SiteFeature | null = $derived(
-		routeState.siteId && currentSites
+		routeState.siteId &&
+			currentSites &&
+			loadedCountryIso3 === routeState.country?.iso3
 			? (currentSites.features.find((f) => f.properties.siteId === routeState.siteId) ?? null)
 			: null
 	);
@@ -60,6 +62,7 @@
 		}
 
 		loadedCountryIso3 = targetIso;
+		currentSites = null;
 		activeCategory = null;
 		loadingSites = true;
 		sitesLoader.loadCountrySites(targetIso).then((fc) => {
@@ -114,7 +117,7 @@
 
 <svelte:window onkeydown={handleKeydown} />
 
-<main class="atlas-shell">
+<main class="atlas-shell" class:has-site-card={Boolean(selectedSite)}>
 	<AtlasMap
 		countries={data.countries}
 		selectedCountry={routeState.country}
@@ -137,24 +140,26 @@
 			onHoverCountry={(iso) => (hoveredCountryIso3 = iso)}
 		/>
 	{:else if routeState.status === 'country' && routeState.country}
-		<CountryPanel
-			country={routeState.country}
-			sites={currentSites}
-			{loadingSites}
-			{activeCategory}
-			selectedSiteId={routeState.siteId}
-			{hoveredSiteId}
-			onBackToWorld={navigateToWorld}
-			onToggleCategory={handleToggleCategory}
-			onSelectSite={navigateToSite}
-			onHoverSite={(id) => (hoveredSiteId = id)}
-		/>
+		<div class="country-panel-holder">
+			<CountryPanel
+				country={routeState.country}
+				sites={currentSites}
+				{loadingSites}
+				{activeCategory}
+				selectedSiteId={routeState.siteId}
+				{hoveredSiteId}
+				onBackToWorld={navigateToWorld}
+				onToggleCategory={handleToggleCategory}
+				onSelectSite={navigateToSite}
+				onHoverSite={(id) => (hoveredSiteId = id)}
+			/>
+		</div>
 		{#if selectedSite}
 			<SiteCard
 				site={selectedSite}
 				onClose={() => goto(`/country/${routeState.country!.iso3}`)}
 			/>
-		{:else if routeState.siteId && !loadingSites}
+		{:else if routeState.siteId && !loadingSites && currentSites !== null && loadedCountryIso3 === routeState.country.iso3}
 			<div class="not-found-toast glass-panel" role="status">
 				<span>Site "{routeState.siteId}" not found in {routeState.country.name}.</span>
 				<button
@@ -241,5 +246,11 @@
 		color: var(--gold-bright);
 		cursor: pointer;
 		font-size: 12px;
+	}
+
+	@media (max-width: 767px) {
+		.atlas-shell.has-site-card .country-panel-holder {
+			display: none;
+		}
 	}
 </style>

@@ -19,14 +19,36 @@
 
 	let searchQuery = $state('');
 	let searchFocused = $state(false);
+	let activeIndex = $state(0);
 
 	let top5 = $derived(getTopCountries(countries, 5));
 	let searchResults = $derived(searchCountries(countries, searchQuery, 6));
+
+	$effect(() => {
+		searchResults;
+		activeIndex = 0;
+	});
 
 	function chooseFromSearch(iso3: string) {
 		searchQuery = '';
 		searchFocused = false;
 		onSelectCountry(iso3);
+	}
+
+	function handleSearchKeydown(e: KeyboardEvent) {
+		if (e.key === 'ArrowDown' && searchResults.length > 0) {
+			e.preventDefault();
+			activeIndex = (activeIndex + 1) % searchResults.length;
+		} else if (e.key === 'ArrowUp' && searchResults.length > 0) {
+			e.preventDefault();
+			activeIndex = (activeIndex - 1 + searchResults.length) % searchResults.length;
+		} else if (e.key === 'Enter' && searchResults.length > 0) {
+			e.preventDefault();
+			const pick = searchResults[activeIndex] ?? searchResults[0];
+			chooseFromSearch(pick.iso3);
+		} else if (e.key === 'Escape') {
+			searchFocused = false;
+		}
 	}
 </script>
 
@@ -40,23 +62,24 @@
 			class="search-input"
 			placeholder="Search a country (e.g. Italy, Japan, Peru)…"
 			aria-label="Search a country"
+			role="combobox"
+			aria-expanded={searchFocused && searchResults.length > 0}
+			aria-controls="country-search-listbox"
 			bind:value={searchQuery}
 			onfocus={() => (searchFocused = true)}
 			onblur={() => setTimeout(() => (searchFocused = false), 150)}
-			onkeydown={(e) => {
-				if (e.key === 'Enter' && searchResults.length > 0) {
-					chooseFromSearch(searchResults[0].iso3);
-				}
-			}}
+			onkeydown={handleSearchKeydown}
 		/>
 		{#if searchFocused && searchResults.length > 0}
-			<ul class="search-dropdown glass-panel" role="listbox">
-				{#each searchResults as item (item.iso3)}
-					<li>
+			<ul id="country-search-listbox" class="search-dropdown glass-panel" role="listbox">
+				{#each searchResults as item, idx (item.iso3)}
+					<li role="option" aria-selected={idx === activeIndex}>
 						<button
 							type="button"
 							class="search-option"
-							onmousedown={() => chooseFromSearch(item.iso3)}
+							class:highlighted={idx === activeIndex}
+							onmousedown={(e) => e.preventDefault()}
+							onclick={() => chooseFromSearch(item.iso3)}
 						>
 							<span class="opt-name">{item.name}</span>
 							<span class="opt-meta"
@@ -107,7 +130,6 @@
 						type="button"
 						class="top-item"
 						onmouseenter={() => onHoverCountry(c.iso3)}
-						onmouseleave={() => onHoverCountry(null)}
 						onclick={() => onSelectCountry(c.iso3)}
 					>
 						<span class="top-name">{c.name}</span>
@@ -201,8 +223,9 @@
 		font-size: 13px;
 	}
 
-	.search-option:hover {
-		background: rgba(243, 211, 139, 0.14);
+	.search-option:hover,
+	.search-option.highlighted {
+		background: rgba(243, 211, 139, 0.16);
 	}
 
 	.opt-meta {

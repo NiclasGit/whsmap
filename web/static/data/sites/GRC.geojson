@@ -24,8 +24,8 @@
         "summarySource": "unesco",
         "image": {
           "thumbUrl": "https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/The_Parthenon_in_Athens.jpg&width=640",
-          "author": "Wikimedia Commons contributor",
-          "license": "CC BY-SA 4.0",
+          "author": "Steve Swayne",
+          "license": "CC BY 2.0",
           "sourceUrl": "https://commons.wikimedia.org/wiki/File:The_Parthenon_in_Athens.jpg"
         },
         "wikipediaUrl": "https://en.wikipedia.org/wiki/Acropolis",
@@ -42,25 +42,30 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          22.82,
-          37.62
+          22.5011,
+          38.4822
         ]
       },
       "properties": {
-        "siteId": "wd-Q500159",
-        "name": "Greece Castle 1",
-        "category": "castles",
-        "unesco": false,
+        "siteId": "whs-393",
+        "name": "Archaeological Site of Delphi",
+        "category": "ancient",
+        "unesco": true,
         "inDanger": false,
-        "yearInscribed": null,
-        "fame": 65,
-        "fameLevel": 3,
-        "summary": "Greece Castle 1 in Greece. A historic fortified stronghold dominating the surrounding landscape.",
-        "summarySource": "wikipedia",
-        "image": null,
-        "wikipediaUrl": "https://en.wikipedia.org/wiki/Greece",
-        "unescoUrl": null,
-        "wikidataId": "Q500159",
+        "yearInscribed": 1987,
+        "fame": 108,
+        "fameLevel": 4,
+        "summary": "The pan-Hellenic sanctuary of Delphi, where the oracle of Apollo spoke, was the site of the Omphalos, the 'navel of the world', blending harmoniously with the mountain landscape of Parnassus.",
+        "summarySource": "unesco",
+        "image": {
+          "thumbUrl": "https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/Delphi_Athena_Pronaia_Temple.jpg&width=640",
+          "author": "C messier",
+          "license": "CC BY-SA 4.0",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File:Delphi_Athena_Pronaia_Temple.jpg"
+        },
+        "wikipediaUrl": "https://en.wikipedia.org/wiki/Archaeological_Site_of_Delphi",
+        "unescoUrl": "https://whc.unesco.org/en/list/393",
+        "wikidataId": "Q75459",
         "countries": [
           "GRC"
         ]
@@ -72,205 +77,25 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          23.27,
-          37.62
+          23.7331,
+          37.9694
         ]
       },
       "properties": {
-        "siteId": "wd-Q500160",
-        "name": "Greece Cathedral Sanctuary 2",
-        "category": "sacred",
-        "unesco": false,
-        "inDanger": false,
-        "yearInscribed": null,
-        "fame": 62,
-        "fameLevel": 3,
-        "summary": "Greece Cathedral Sanctuary 2 in Greece. A monumental place of worship renowned for its sacred art and architecture.",
-        "summarySource": "wikipedia",
-        "image": null,
-        "wikipediaUrl": "https://en.wikipedia.org/wiki/Greece",
-        "unescoUrl": null,
-        "wikidataId": "Q500160",
-        "countries": [
-          "GRC"
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "id": 3,
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          23.72,
-          37.62
-        ]
-      },
-      "properties": {
-        "siteId": "wd-Q500161",
-        "name": "Greece Archaeological Ruins 3",
+        "siteId": "wd-Q189524",
+        "name": "Temple of Olympian Zeus",
         "category": "ancient",
         "unesco": false,
         "inDanger": false,
         "yearInscribed": null,
-        "fame": 59,
-        "fameLevel": 3,
-        "summary": "Greece Archaeological Ruins 3 in Greece. Excavated ancient remains revealing centuries of settlement and ritual life.",
+        "fame": 84,
+        "fameLevel": 4,
+        "summary": "Colossal ruined Corinthian temple in the centre of Athens dedicated to Zeus, begun in the 6th century BC and completed under Hadrian.",
         "summarySource": "wikipedia",
         "image": null,
-        "wikipediaUrl": "https://en.wikipedia.org/wiki/Greece",
+        "wikipediaUrl": "https://en.wikipedia.org/wiki/Temple_of_Olympian_Zeus,_Athens",
         "unescoUrl": null,
-        "wikidataId": "Q500161",
-        "countries": [
-          "GRC"
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "id": 4,
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          24.17,
-          37.62
-        ]
-      },
-      "properties": {
-        "siteId": "wd-Q500162",
-        "name": "Greece Old Town Quarter 4",
-        "category": "towns",
-        "unesco": false,
-        "inDanger": false,
-        "yearInscribed": null,
-        "fame": 56,
-        "fameLevel": 3,
-        "summary": "Greece Old Town Quarter 4 in Greece. Preserved historic streetscapes, squares and merchant townhouses.",
-        "summarySource": "wikipedia",
-        "image": null,
-        "wikipediaUrl": "https://en.wikipedia.org/wiki/Greece",
-        "unescoUrl": null,
-        "wikidataId": "Q500162",
-        "countries": [
-          "GRC"
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "id": 5,
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          24.62,
-          37.62
-        ]
-      },
-      "properties": {
-        "siteId": "wd-Q500163",
-        "name": "Greece Royal Palace 5",
-        "category": "palaces",
-        "unesco": false,
-        "inDanger": false,
-        "yearInscribed": null,
-        "fame": 53,
-        "fameLevel": 3,
-        "summary": "Greece Royal Palace 5 in Greece. Grand ceremonial residence surrounded by formal courtyards.",
-        "summarySource": "wikipedia",
-        "image": null,
-        "wikipediaUrl": "https://en.wikipedia.org/wiki/Greece",
-        "unescoUrl": null,
-        "wikidataId": "Q500163",
-        "countries": [
-          "GRC"
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "id": 6,
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          22.82,
-          37.97
-        ]
-      },
-      "properties": {
-        "siteId": "wd-Q500164",
-        "name": "Greece Cultural Terraces 6",
-        "category": "landscapes",
-        "unesco": false,
-        "inDanger": false,
-        "yearInscribed": null,
-        "fame": 50,
-        "fameLevel": 3,
-        "summary": "Greece Cultural Terraces 6 in Greece. Centuries-old human-shaped landscape of terraces and historic estates.",
-        "summarySource": "wikipedia",
-        "image": null,
-        "wikipediaUrl": "https://en.wikipedia.org/wiki/Greece",
-        "unescoUrl": null,
-        "wikidataId": "Q500164",
-        "countries": [
-          "GRC"
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "id": 7,
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          23.27,
-          37.97
-        ]
-      },
-      "properties": {
-        "siteId": "wd-Q500165",
-        "name": "Greece Historic Ironworks 7",
-        "category": "modern",
-        "unesco": false,
-        "inDanger": false,
-        "yearInscribed": null,
-        "fame": 47,
-        "fameLevel": 3,
-        "summary": "Greece Historic Ironworks 7 in Greece. Landmark of engineering and industrial heritage.",
-        "summarySource": "wikipedia",
-        "image": null,
-        "wikipediaUrl": "https://en.wikipedia.org/wiki/Greece",
-        "unescoUrl": null,
-        "wikidataId": "Q500165",
-        "countries": [
-          "GRC"
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "id": 8,
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          23.72,
-          37.97
-        ]
-      },
-      "properties": {
-        "siteId": "wd-Q500166",
-        "name": "Greece National Park Gorge 8",
-        "category": "natural",
-        "unesco": false,
-        "inDanger": false,
-        "yearInscribed": null,
-        "fame": 44,
-        "fameLevel": 3,
-        "summary": "Greece National Park Gorge 8 in Greece. Protected natural reserve celebrated for its dramatic landforms.",
-        "summarySource": "wikipedia",
-        "image": null,
-        "wikipediaUrl": "https://en.wikipedia.org/wiki/Greece",
-        "unescoUrl": null,
-        "wikidataId": "Q500166",
+        "wikidataId": "Q189524",
         "countries": [
           "GRC"
         ]

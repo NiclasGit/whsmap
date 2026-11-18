@@ -20,12 +20,12 @@
         "yearInscribed": 1986,
         "fame": 145,
         "fameLevel": 4,
-        "summary": "The most ARCHITECTURALLY sophisticated prehistoric stone circles in the world, demonstrating Neolithic and Bronze Age ceremonial design and astronomical alignment.",
+        "summary": "The most architecturally sophisticated prehistoric stone circles in the world, demonstrating Neolithic and Bronze Age ceremonial design and astronomical alignment.",
         "summarySource": "unesco",
         "image": {
           "thumbUrl": "https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/Stonehenge2007_07_30.jpg&width=640",
-          "author": "Wikimedia Commons contributor",
-          "license": "CC BY-SA 4.0",
+          "author": "garethwiscombe",
+          "license": "CC BY 2.0",
           "sourceUrl": "https://commons.wikimedia.org/wiki/File:Stonehenge2007_07_30.jpg"
         },
         "wikipediaUrl": "https://en.wikipedia.org/wiki/Stonehenge",
@@ -42,25 +42,30 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -1.02,
-          51.15
+          -0.0759,
+          51.5081
         ]
       },
       "properties": {
-        "siteId": "wd-Q500107",
-        "name": "United Kingdom Castle 1",
+        "siteId": "whs-488",
+        "name": "Tower of London",
         "category": "castles",
-        "unesco": false,
+        "unesco": true,
         "inDanger": false,
-        "yearInscribed": null,
-        "fame": 65,
-        "fameLevel": 3,
-        "summary": "United Kingdom Castle 1 in United Kingdom. A historic fortified stronghold dominating the surrounding landscape.",
-        "summarySource": "wikipedia",
-        "image": null,
-        "wikipediaUrl": "https://en.wikipedia.org/wiki/United_Kingdom",
-        "unescoUrl": null,
-        "wikidataId": "Q500107",
+        "yearInscribed": 1988,
+        "fame": 136,
+        "fameLevel": 4,
+        "summary": "The massive White Tower is a typical example of Norman military architecture, whose influence was felt throughout the kingdom after it was built on the Thames by William the Conqueror.",
+        "summarySource": "unesco",
+        "image": {
+          "thumbUrl": "https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/Tower_of_London_viewed_from_the_River_Thames.jpg&width=640",
+          "author": "Bob Collowân",
+          "license": "CC BY-SA 3.0",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File:Tower_of_London_viewed_from_the_River_Thames.jpg"
+        },
+        "wikipediaUrl": "https://en.wikipedia.org/wiki/Tower_of_London",
+        "unescoUrl": "https://whc.unesco.org/en/list/488",
+        "wikidataId": "Q62378",
         "countries": [
           "GBR"
         ]
@@ -72,25 +77,30 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -0.57,
-          51.15
+          -2.3599,
+          51.3811
         ]
       },
       "properties": {
-        "siteId": "wd-Q500108",
-        "name": "United Kingdom Cathedral Sanctuary 2",
-        "category": "sacred",
-        "unesco": false,
+        "siteId": "whs-428",
+        "name": "City of Bath",
+        "category": "towns",
+        "unesco": true,
         "inDanger": false,
-        "yearInscribed": null,
-        "fame": 62,
-        "fameLevel": 3,
-        "summary": "United Kingdom Cathedral Sanctuary 2 in United Kingdom. A monumental place of worship renowned for its sacred art and architecture.",
-        "summarySource": "wikipedia",
-        "image": null,
-        "wikipediaUrl": "https://en.wikipedia.org/wiki/United_Kingdom",
-        "unescoUrl": null,
-        "wikidataId": "Q500108",
+        "yearInscribed": 1987,
+        "fame": 118,
+        "fameLevel": 4,
+        "summary": "Founded by the Romans as a thermal spa, Bath became an important centre of the wool industry in the Middle Ages and a neoclassical spa city in the 18th century.",
+        "summarySource": "unesco",
+        "image": {
+          "thumbUrl": "https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/Royal_Crescent_in_Bath,_United_Kingdom.jpg&width=640",
+          "author": "Diliff",
+          "license": "CC BY-SA 3.0",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File:Royal_Crescent_in_Bath,_United_Kingdom.jpg"
+        },
+        "wikipediaUrl": "https://en.wikipedia.org/wiki/City_of_Bath",
+        "unescoUrl": "https://whc.unesco.org/en/list/428",
+        "wikidataId": "Q22889",
         "countries": [
           "GBR"
         ]
@@ -102,475 +112,25 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -0.12,
-          51.15
+          -3.1999,
+          55.9486
         ]
       },
       "properties": {
-        "siteId": "wd-Q500109",
-        "name": "United Kingdom Archaeological Ruins 3",
-        "category": "ancient",
-        "unesco": false,
-        "inDanger": false,
-        "yearInscribed": null,
-        "fame": 59,
-        "fameLevel": 3,
-        "summary": "United Kingdom Archaeological Ruins 3 in United Kingdom. Excavated ancient remains revealing centuries of settlement and ritual life.",
-        "summarySource": "wikipedia",
-        "image": null,
-        "wikipediaUrl": "https://en.wikipedia.org/wiki/United_Kingdom",
-        "unescoUrl": null,
-        "wikidataId": "Q500109",
-        "countries": [
-          "GBR"
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "id": 4,
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          0.33,
-          51.15
-        ]
-      },
-      "properties": {
-        "siteId": "wd-Q500110",
-        "name": "United Kingdom Old Town Quarter 4",
-        "category": "towns",
-        "unesco": false,
-        "inDanger": false,
-        "yearInscribed": null,
-        "fame": 56,
-        "fameLevel": 3,
-        "summary": "United Kingdom Old Town Quarter 4 in United Kingdom. Preserved historic streetscapes, squares and merchant townhouses.",
-        "summarySource": "wikipedia",
-        "image": null,
-        "wikipediaUrl": "https://en.wikipedia.org/wiki/United_Kingdom",
-        "unescoUrl": null,
-        "wikidataId": "Q500110",
-        "countries": [
-          "GBR"
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "id": 5,
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          0.78,
-          51.15
-        ]
-      },
-      "properties": {
-        "siteId": "wd-Q500111",
-        "name": "United Kingdom Royal Palace 5",
-        "category": "palaces",
-        "unesco": false,
-        "inDanger": false,
-        "yearInscribed": null,
-        "fame": 53,
-        "fameLevel": 3,
-        "summary": "United Kingdom Royal Palace 5 in United Kingdom. Grand ceremonial residence surrounded by formal courtyards.",
-        "summarySource": "wikipedia",
-        "image": null,
-        "wikipediaUrl": "https://en.wikipedia.org/wiki/United_Kingdom",
-        "unescoUrl": null,
-        "wikidataId": "Q500111",
-        "countries": [
-          "GBR"
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "id": 6,
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -1.02,
-          51.5
-        ]
-      },
-      "properties": {
-        "siteId": "wd-Q500112",
-        "name": "United Kingdom Cultural Terraces 6",
-        "category": "landscapes",
-        "unesco": false,
-        "inDanger": false,
-        "yearInscribed": null,
-        "fame": 50,
-        "fameLevel": 3,
-        "summary": "United Kingdom Cultural Terraces 6 in United Kingdom. Centuries-old human-shaped landscape of terraces and historic estates.",
-        "summarySource": "wikipedia",
-        "image": null,
-        "wikipediaUrl": "https://en.wikipedia.org/wiki/United_Kingdom",
-        "unescoUrl": null,
-        "wikidataId": "Q500112",
-        "countries": [
-          "GBR"
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "id": 7,
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -0.57,
-          51.5
-        ]
-      },
-      "properties": {
-        "siteId": "wd-Q500113",
-        "name": "United Kingdom Historic Ironworks 7",
-        "category": "modern",
-        "unesco": false,
-        "inDanger": false,
-        "yearInscribed": null,
-        "fame": 47,
-        "fameLevel": 3,
-        "summary": "United Kingdom Historic Ironworks 7 in United Kingdom. Landmark of engineering and industrial heritage.",
-        "summarySource": "wikipedia",
-        "image": null,
-        "wikipediaUrl": "https://en.wikipedia.org/wiki/United_Kingdom",
-        "unescoUrl": null,
-        "wikidataId": "Q500113",
-        "countries": [
-          "GBR"
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "id": 8,
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -0.12,
-          51.5
-        ]
-      },
-      "properties": {
-        "siteId": "wd-Q500114",
-        "name": "United Kingdom National Park Gorge 8",
-        "category": "natural",
-        "unesco": false,
-        "inDanger": false,
-        "yearInscribed": null,
-        "fame": 44,
-        "fameLevel": 3,
-        "summary": "United Kingdom National Park Gorge 8 in United Kingdom. Protected natural reserve celebrated for its dramatic landforms.",
-        "summarySource": "wikipedia",
-        "image": null,
-        "wikipediaUrl": "https://en.wikipedia.org/wiki/United_Kingdom",
-        "unescoUrl": null,
-        "wikidataId": "Q500114",
-        "countries": [
-          "GBR"
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "id": 9,
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          0.33,
-          51.5
-        ]
-      },
-      "properties": {
-        "siteId": "wd-Q500115",
-        "name": "United Kingdom Castle 9",
+        "siteId": "wd-Q180907",
+        "name": "Edinburgh Castle",
         "category": "castles",
         "unesco": false,
         "inDanger": false,
         "yearInscribed": null,
-        "fame": 41,
-        "fameLevel": 3,
-        "summary": "United Kingdom Castle 9 in United Kingdom. A historic fortified stronghold dominating the surrounding landscape.",
+        "fame": 108,
+        "fameLevel": 4,
+        "summary": "Historic fortress dominating the skyline of Edinburgh from its position on the volcanic plug of Castle Rock.",
         "summarySource": "wikipedia",
         "image": null,
-        "wikipediaUrl": "https://en.wikipedia.org/wiki/United_Kingdom",
+        "wikipediaUrl": "https://en.wikipedia.org/wiki/Edinburgh_Castle",
         "unescoUrl": null,
-        "wikidataId": "Q500115",
-        "countries": [
-          "GBR"
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "id": 10,
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          0.78,
-          51.5
-        ]
-      },
-      "properties": {
-        "siteId": "wd-Q500116",
-        "name": "United Kingdom Cathedral Sanctuary 10",
-        "category": "sacred",
-        "unesco": false,
-        "inDanger": false,
-        "yearInscribed": null,
-        "fame": 38,
-        "fameLevel": 3,
-        "summary": "United Kingdom Cathedral Sanctuary 10 in United Kingdom. A monumental place of worship renowned for its sacred art and architecture.",
-        "summarySource": "wikipedia",
-        "image": null,
-        "wikipediaUrl": "https://en.wikipedia.org/wiki/United_Kingdom",
-        "unescoUrl": null,
-        "wikidataId": "Q500116",
-        "countries": [
-          "GBR"
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "id": 11,
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -1.02,
-          51.85
-        ]
-      },
-      "properties": {
-        "siteId": "wd-Q500117",
-        "name": "United Kingdom Archaeological Ruins 11",
-        "category": "ancient",
-        "unesco": false,
-        "inDanger": false,
-        "yearInscribed": null,
-        "fame": 35,
-        "fameLevel": 3,
-        "summary": "United Kingdom Archaeological Ruins 11 in United Kingdom. Excavated ancient remains revealing centuries of settlement and ritual life.",
-        "summarySource": "wikipedia",
-        "image": null,
-        "wikipediaUrl": "https://en.wikipedia.org/wiki/United_Kingdom",
-        "unescoUrl": null,
-        "wikidataId": "Q500117",
-        "countries": [
-          "GBR"
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "id": 12,
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -0.57,
-          51.85
-        ]
-      },
-      "properties": {
-        "siteId": "wd-Q500118",
-        "name": "United Kingdom Old Town Quarter 12",
-        "category": "towns",
-        "unesco": false,
-        "inDanger": false,
-        "yearInscribed": null,
-        "fame": 32,
-        "fameLevel": 3,
-        "summary": "United Kingdom Old Town Quarter 12 in United Kingdom. Preserved historic streetscapes, squares and merchant townhouses.",
-        "summarySource": "wikipedia",
-        "image": null,
-        "wikipediaUrl": "https://en.wikipedia.org/wiki/United_Kingdom",
-        "unescoUrl": null,
-        "wikidataId": "Q500118",
-        "countries": [
-          "GBR"
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "id": 13,
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -0.12,
-          51.85
-        ]
-      },
-      "properties": {
-        "siteId": "wd-Q500119",
-        "name": "United Kingdom Royal Palace 13",
-        "category": "palaces",
-        "unesco": false,
-        "inDanger": false,
-        "yearInscribed": null,
-        "fame": 29,
-        "fameLevel": 2,
-        "summary": "United Kingdom Royal Palace 13 in United Kingdom. Grand ceremonial residence surrounded by formal courtyards.",
-        "summarySource": "wikipedia",
-        "image": null,
-        "wikipediaUrl": "https://en.wikipedia.org/wiki/United_Kingdom",
-        "unescoUrl": null,
-        "wikidataId": "Q500119",
-        "countries": [
-          "GBR"
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "id": 14,
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          0.33,
-          51.85
-        ]
-      },
-      "properties": {
-        "siteId": "wd-Q500120",
-        "name": "United Kingdom Cultural Terraces 14",
-        "category": "landscapes",
-        "unesco": false,
-        "inDanger": false,
-        "yearInscribed": null,
-        "fame": 26,
-        "fameLevel": 2,
-        "summary": "United Kingdom Cultural Terraces 14 in United Kingdom. Centuries-old human-shaped landscape of terraces and historic estates.",
-        "summarySource": "wikipedia",
-        "image": null,
-        "wikipediaUrl": "https://en.wikipedia.org/wiki/United_Kingdom",
-        "unescoUrl": null,
-        "wikidataId": "Q500120",
-        "countries": [
-          "GBR"
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "id": 15,
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          0.78,
-          51.85
-        ]
-      },
-      "properties": {
-        "siteId": "wd-Q500121",
-        "name": "United Kingdom Historic Ironworks 15",
-        "category": "modern",
-        "unesco": false,
-        "inDanger": false,
-        "yearInscribed": null,
-        "fame": 23,
-        "fameLevel": 2,
-        "summary": "United Kingdom Historic Ironworks 15 in United Kingdom. Landmark of engineering and industrial heritage.",
-        "summarySource": "wikipedia",
-        "image": null,
-        "wikipediaUrl": "https://en.wikipedia.org/wiki/United_Kingdom",
-        "unescoUrl": null,
-        "wikidataId": "Q500121",
-        "countries": [
-          "GBR"
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "id": 16,
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -1.02,
-          52.2
-        ]
-      },
-      "properties": {
-        "siteId": "wd-Q500122",
-        "name": "United Kingdom National Park Gorge 16",
-        "category": "natural",
-        "unesco": false,
-        "inDanger": false,
-        "yearInscribed": null,
-        "fame": 20,
-        "fameLevel": 2,
-        "summary": "United Kingdom National Park Gorge 16 in United Kingdom. Protected natural reserve celebrated for its dramatic landforms.",
-        "summarySource": "wikipedia",
-        "image": null,
-        "wikipediaUrl": "https://en.wikipedia.org/wiki/United_Kingdom",
-        "unescoUrl": null,
-        "wikidataId": "Q500122",
-        "countries": [
-          "GBR"
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "id": 17,
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -0.57,
-          52.2
-        ]
-      },
-      "properties": {
-        "siteId": "wd-Q500123",
-        "name": "United Kingdom Castle 17",
-        "category": "castles",
-        "unesco": false,
-        "inDanger": false,
-        "yearInscribed": null,
-        "fame": 17,
-        "fameLevel": 2,
-        "summary": "United Kingdom Castle 17 in United Kingdom. A historic fortified stronghold dominating the surrounding landscape.",
-        "summarySource": "wikipedia",
-        "image": null,
-        "wikipediaUrl": "https://en.wikipedia.org/wiki/United_Kingdom",
-        "unescoUrl": null,
-        "wikidataId": "Q500123",
-        "countries": [
-          "GBR"
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "id": 18,
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -0.12,
-          52.2
-        ]
-      },
-      "properties": {
-        "siteId": "wd-Q500124",
-        "name": "United Kingdom Cathedral Sanctuary 18",
-        "category": "sacred",
-        "unesco": false,
-        "inDanger": false,
-        "yearInscribed": null,
-        "fame": 14,
-        "fameLevel": 2,
-        "summary": "United Kingdom Cathedral Sanctuary 18 in United Kingdom. A monumental place of worship renowned for its sacred art and architecture.",
-        "summarySource": "wikipedia",
-        "image": null,
-        "wikipediaUrl": "https://en.wikipedia.org/wiki/United_Kingdom",
-        "unescoUrl": null,
-        "wikidataId": "Q500124",
+        "wikidataId": "Q180907",
         "countries": [
           "GBR"
         ]

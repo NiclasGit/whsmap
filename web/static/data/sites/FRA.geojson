@@ -24,8 +24,8 @@
         "summarySource": "unesco",
         "image": {
           "thumbUrl": "https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/Château_de_Versailles,_France.jpg&width=640",
-          "author": "Wikimedia Commons contributor",
-          "license": "CC BY-SA 4.0",
+          "author": "ToucanWings",
+          "license": "CC BY-SA 3.0",
           "sourceUrl": "https://commons.wikimedia.org/wiki/File:Château_de_Versailles,_France.jpg"
         },
         "wikipediaUrl": "https://en.wikipedia.org/wiki/Palace_and_Park_of_Versailles",
@@ -59,8 +59,8 @@
         "summarySource": "unesco",
         "image": {
           "thumbUrl": "https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/Mont-Saint-Michel_vu_du_ciel.jpg&width=640",
-          "author": "Wikimedia Commons contributor",
-          "license": "CC BY-SA 4.0",
+          "author": "Alexandre Buisse",
+          "license": "CC BY-SA 3.0",
           "sourceUrl": "https://commons.wikimedia.org/wiki/File:Mont-Saint-Michel_vu_du_ciel.jpg"
         },
         "wikipediaUrl": "https://en.wikipedia.org/wiki/Mont-Saint-Michel_and_its_Bay",
@@ -77,25 +77,30 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          1.45,
-          48.5
+          1.4878,
+          48.4478
         ]
       },
       "properties": {
-        "siteId": "wd-Q500055",
-        "name": "France Castle 1",
-        "category": "castles",
-        "unesco": false,
+        "siteId": "whs-163",
+        "name": "Chartres Cathedral",
+        "category": "sacred",
+        "unesco": true,
         "inDanger": false,
-        "yearInscribed": null,
-        "fame": 65,
-        "fameLevel": 3,
-        "summary": "France Castle 1 in France. A historic fortified stronghold dominating the surrounding landscape.",
-        "summarySource": "wikipedia",
-        "image": null,
-        "wikipediaUrl": "https://en.wikipedia.org/wiki/France",
-        "unescoUrl": null,
-        "wikidataId": "Q500055",
+        "yearInscribed": 1979,
+        "fame": 104,
+        "fameLevel": 4,
+        "summary": "Constructed between 1194 and 1220, Chartres Cathedral is the high point of French Gothic art with its vast nave, sculpted porches and 13th-century stained-glass windows.",
+        "summarySource": "unesco",
+        "image": {
+          "thumbUrl": "https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/Cathedrale_Notre-Dame_de_Chartres.jpg&width=640",
+          "author": "sybarite48",
+          "license": "CC BY 2.0",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File:Cathedrale_Notre-Dame_de_Chartres.jpg"
+        },
+        "wikipediaUrl": "https://en.wikipedia.org/wiki/Chartres_Cathedral",
+        "unescoUrl": "https://whc.unesco.org/en/list/163",
+        "wikidataId": "Q180274",
         "countries": [
           "FRA"
         ]
@@ -107,25 +112,30 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          1.9,
-          48.5
+          2.3636,
+          43.2064
         ]
       },
       "properties": {
-        "siteId": "wd-Q500056",
-        "name": "France Cathedral Sanctuary 2",
-        "category": "sacred",
-        "unesco": false,
+        "siteId": "whs-345",
+        "name": "Historic Fortified City of Carcassonne",
+        "category": "castles",
+        "unesco": true,
         "inDanger": false,
-        "yearInscribed": null,
-        "fame": 62,
-        "fameLevel": 3,
-        "summary": "France Cathedral Sanctuary 2 in France. A monumental place of worship renowned for its sacred art and architecture.",
-        "summarySource": "wikipedia",
-        "image": null,
-        "wikipediaUrl": "https://en.wikipedia.org/wiki/France",
-        "unescoUrl": null,
-        "wikidataId": "Q500056",
+        "yearInscribed": 1997,
+        "fame": 88,
+        "fameLevel": 4,
+        "summary": "An outstanding example of a medieval fortified town, with its massive double defensive walls, 52 towers and castle surrounding a Gothic cathedral.",
+        "summarySource": "unesco",
+        "image": {
+          "thumbUrl": "https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/Cité_de_Carcassonne_-_2014.jpg&width=640",
+          "author": "Jean-Pol GRANDMONT",
+          "license": "CC BY-SA 3.0",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File:Cité_de_Carcassonne_-_2014.jpg"
+        },
+        "wikipediaUrl": "https://en.wikipedia.org/wiki/Historic_Fortified_City_of_Carcassonne",
+        "unescoUrl": "https://whc.unesco.org/en/list/345",
+        "wikidataId": "Q181996",
         "countries": [
           "FRA"
         ]
@@ -137,25 +147,25 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          2.35,
-          48.5
+          2.2945,
+          48.8584
         ]
       },
       "properties": {
-        "siteId": "wd-Q500057",
-        "name": "France Archaeological Ruins 3",
-        "category": "ancient",
+        "siteId": "wd-Q243",
+        "name": "Eiffel Tower",
+        "category": "modern",
         "unesco": false,
         "inDanger": false,
         "yearInscribed": null,
-        "fame": 59,
-        "fameLevel": 3,
-        "summary": "France Archaeological Ruins 3 in France. Excavated ancient remains revealing centuries of settlement and ritual life.",
+        "fame": 185,
+        "fameLevel": 4,
+        "summary": "Wrought-iron lattice tower on the Champ de Mars in Paris, constructed for the 1889 Exposition Universelle by Gustave Eiffel.",
         "summarySource": "wikipedia",
         "image": null,
-        "wikipediaUrl": "https://en.wikipedia.org/wiki/France",
+        "wikipediaUrl": "https://en.wikipedia.org/wiki/Eiffel_Tower",
         "unescoUrl": null,
-        "wikidataId": "Q500057",
+        "wikidataId": "Q243",
         "countries": [
           "FRA"
         ]
@@ -167,445 +177,25 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          2.8,
-          48.5
+          1.0703,
+          47.3247
         ]
       },
       "properties": {
-        "siteId": "wd-Q500058",
-        "name": "France Old Town Quarter 4",
-        "category": "towns",
-        "unesco": false,
-        "inDanger": false,
-        "yearInscribed": null,
-        "fame": 56,
-        "fameLevel": 3,
-        "summary": "France Old Town Quarter 4 in France. Preserved historic streetscapes, squares and merchant townhouses.",
-        "summarySource": "wikipedia",
-        "image": null,
-        "wikipediaUrl": "https://en.wikipedia.org/wiki/France",
-        "unescoUrl": null,
-        "wikidataId": "Q500058",
-        "countries": [
-          "FRA"
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "id": 6,
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          3.25,
-          48.5
-        ]
-      },
-      "properties": {
-        "siteId": "wd-Q500059",
-        "name": "France Royal Palace 5",
+        "siteId": "wd-Q191158",
+        "name": "Château de Chenonceau",
         "category": "palaces",
         "unesco": false,
         "inDanger": false,
         "yearInscribed": null,
-        "fame": 53,
-        "fameLevel": 3,
-        "summary": "France Royal Palace 5 in France. Grand ceremonial residence surrounded by formal courtyards.",
+        "fame": 94,
+        "fameLevel": 4,
+        "summary": "Renaissance château spanning the River Cher in the Loire Valley, celebrated for its arched river gallery and formal gardens.",
         "summarySource": "wikipedia",
         "image": null,
-        "wikipediaUrl": "https://en.wikipedia.org/wiki/France",
+        "wikipediaUrl": "https://en.wikipedia.org/wiki/Ch%C3%A2teau_de_Chenonceau",
         "unescoUrl": null,
-        "wikidataId": "Q500059",
-        "countries": [
-          "FRA"
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "id": 7,
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          1.45,
-          48.85
-        ]
-      },
-      "properties": {
-        "siteId": "wd-Q500060",
-        "name": "France Cultural Terraces 6",
-        "category": "landscapes",
-        "unesco": false,
-        "inDanger": false,
-        "yearInscribed": null,
-        "fame": 50,
-        "fameLevel": 3,
-        "summary": "France Cultural Terraces 6 in France. Centuries-old human-shaped landscape of terraces and historic estates.",
-        "summarySource": "wikipedia",
-        "image": null,
-        "wikipediaUrl": "https://en.wikipedia.org/wiki/France",
-        "unescoUrl": null,
-        "wikidataId": "Q500060",
-        "countries": [
-          "FRA"
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "id": 8,
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          1.9,
-          48.85
-        ]
-      },
-      "properties": {
-        "siteId": "wd-Q500061",
-        "name": "France Historic Ironworks 7",
-        "category": "modern",
-        "unesco": false,
-        "inDanger": false,
-        "yearInscribed": null,
-        "fame": 47,
-        "fameLevel": 3,
-        "summary": "France Historic Ironworks 7 in France. Landmark of engineering and industrial heritage.",
-        "summarySource": "wikipedia",
-        "image": null,
-        "wikipediaUrl": "https://en.wikipedia.org/wiki/France",
-        "unescoUrl": null,
-        "wikidataId": "Q500061",
-        "countries": [
-          "FRA"
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "id": 9,
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          2.35,
-          48.85
-        ]
-      },
-      "properties": {
-        "siteId": "wd-Q500062",
-        "name": "France National Park Gorge 8",
-        "category": "natural",
-        "unesco": false,
-        "inDanger": false,
-        "yearInscribed": null,
-        "fame": 44,
-        "fameLevel": 3,
-        "summary": "France National Park Gorge 8 in France. Protected natural reserve celebrated for its dramatic landforms.",
-        "summarySource": "wikipedia",
-        "image": null,
-        "wikipediaUrl": "https://en.wikipedia.org/wiki/France",
-        "unescoUrl": null,
-        "wikidataId": "Q500062",
-        "countries": [
-          "FRA"
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "id": 10,
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          2.8,
-          48.85
-        ]
-      },
-      "properties": {
-        "siteId": "wd-Q500063",
-        "name": "France Castle 9",
-        "category": "castles",
-        "unesco": false,
-        "inDanger": false,
-        "yearInscribed": null,
-        "fame": 41,
-        "fameLevel": 3,
-        "summary": "France Castle 9 in France. A historic fortified stronghold dominating the surrounding landscape.",
-        "summarySource": "wikipedia",
-        "image": null,
-        "wikipediaUrl": "https://en.wikipedia.org/wiki/France",
-        "unescoUrl": null,
-        "wikidataId": "Q500063",
-        "countries": [
-          "FRA"
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "id": 11,
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          3.25,
-          48.85
-        ]
-      },
-      "properties": {
-        "siteId": "wd-Q500064",
-        "name": "France Cathedral Sanctuary 10",
-        "category": "sacred",
-        "unesco": false,
-        "inDanger": false,
-        "yearInscribed": null,
-        "fame": 38,
-        "fameLevel": 3,
-        "summary": "France Cathedral Sanctuary 10 in France. A monumental place of worship renowned for its sacred art and architecture.",
-        "summarySource": "wikipedia",
-        "image": null,
-        "wikipediaUrl": "https://en.wikipedia.org/wiki/France",
-        "unescoUrl": null,
-        "wikidataId": "Q500064",
-        "countries": [
-          "FRA"
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "id": 12,
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          1.45,
-          49.2
-        ]
-      },
-      "properties": {
-        "siteId": "wd-Q500065",
-        "name": "France Archaeological Ruins 11",
-        "category": "ancient",
-        "unesco": false,
-        "inDanger": false,
-        "yearInscribed": null,
-        "fame": 35,
-        "fameLevel": 3,
-        "summary": "France Archaeological Ruins 11 in France. Excavated ancient remains revealing centuries of settlement and ritual life.",
-        "summarySource": "wikipedia",
-        "image": null,
-        "wikipediaUrl": "https://en.wikipedia.org/wiki/France",
-        "unescoUrl": null,
-        "wikidataId": "Q500065",
-        "countries": [
-          "FRA"
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "id": 13,
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          1.9,
-          49.2
-        ]
-      },
-      "properties": {
-        "siteId": "wd-Q500066",
-        "name": "France Old Town Quarter 12",
-        "category": "towns",
-        "unesco": false,
-        "inDanger": false,
-        "yearInscribed": null,
-        "fame": 32,
-        "fameLevel": 3,
-        "summary": "France Old Town Quarter 12 in France. Preserved historic streetscapes, squares and merchant townhouses.",
-        "summarySource": "wikipedia",
-        "image": null,
-        "wikipediaUrl": "https://en.wikipedia.org/wiki/France",
-        "unescoUrl": null,
-        "wikidataId": "Q500066",
-        "countries": [
-          "FRA"
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "id": 14,
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          2.35,
-          49.2
-        ]
-      },
-      "properties": {
-        "siteId": "wd-Q500067",
-        "name": "France Royal Palace 13",
-        "category": "palaces",
-        "unesco": false,
-        "inDanger": false,
-        "yearInscribed": null,
-        "fame": 29,
-        "fameLevel": 2,
-        "summary": "France Royal Palace 13 in France. Grand ceremonial residence surrounded by formal courtyards.",
-        "summarySource": "wikipedia",
-        "image": null,
-        "wikipediaUrl": "https://en.wikipedia.org/wiki/France",
-        "unescoUrl": null,
-        "wikidataId": "Q500067",
-        "countries": [
-          "FRA"
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "id": 15,
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          2.8,
-          49.2
-        ]
-      },
-      "properties": {
-        "siteId": "wd-Q500068",
-        "name": "France Cultural Terraces 14",
-        "category": "landscapes",
-        "unesco": false,
-        "inDanger": false,
-        "yearInscribed": null,
-        "fame": 26,
-        "fameLevel": 2,
-        "summary": "France Cultural Terraces 14 in France. Centuries-old human-shaped landscape of terraces and historic estates.",
-        "summarySource": "wikipedia",
-        "image": null,
-        "wikipediaUrl": "https://en.wikipedia.org/wiki/France",
-        "unescoUrl": null,
-        "wikidataId": "Q500068",
-        "countries": [
-          "FRA"
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "id": 16,
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          3.25,
-          49.2
-        ]
-      },
-      "properties": {
-        "siteId": "wd-Q500069",
-        "name": "France Historic Ironworks 15",
-        "category": "modern",
-        "unesco": false,
-        "inDanger": false,
-        "yearInscribed": null,
-        "fame": 23,
-        "fameLevel": 2,
-        "summary": "France Historic Ironworks 15 in France. Landmark of engineering and industrial heritage.",
-        "summarySource": "wikipedia",
-        "image": null,
-        "wikipediaUrl": "https://en.wikipedia.org/wiki/France",
-        "unescoUrl": null,
-        "wikidataId": "Q500069",
-        "countries": [
-          "FRA"
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "id": 17,
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          1.45,
-          49.55
-        ]
-      },
-      "properties": {
-        "siteId": "wd-Q500070",
-        "name": "France National Park Gorge 16",
-        "category": "natural",
-        "unesco": false,
-        "inDanger": false,
-        "yearInscribed": null,
-        "fame": 20,
-        "fameLevel": 2,
-        "summary": "France National Park Gorge 16 in France. Protected natural reserve celebrated for its dramatic landforms.",
-        "summarySource": "wikipedia",
-        "image": null,
-        "wikipediaUrl": "https://en.wikipedia.org/wiki/France",
-        "unescoUrl": null,
-        "wikidataId": "Q500070",
-        "countries": [
-          "FRA"
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "id": 18,
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          1.9,
-          49.55
-        ]
-      },
-      "properties": {
-        "siteId": "wd-Q500071",
-        "name": "France Castle 17",
-        "category": "castles",
-        "unesco": false,
-        "inDanger": false,
-        "yearInscribed": null,
-        "fame": 17,
-        "fameLevel": 2,
-        "summary": "France Castle 17 in France. A historic fortified stronghold dominating the surrounding landscape.",
-        "summarySource": "wikipedia",
-        "image": null,
-        "wikipediaUrl": "https://en.wikipedia.org/wiki/France",
-        "unescoUrl": null,
-        "wikidataId": "Q500071",
-        "countries": [
-          "FRA"
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "id": 19,
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          2.35,
-          49.55
-        ]
-      },
-      "properties": {
-        "siteId": "wd-Q500072",
-        "name": "France Cathedral Sanctuary 18",
-        "category": "sacred",
-        "unesco": false,
-        "inDanger": false,
-        "yearInscribed": null,
-        "fame": 14,
-        "fameLevel": 2,
-        "summary": "France Cathedral Sanctuary 18 in France. A monumental place of worship renowned for its sacred art and architecture.",
-        "summarySource": "wikipedia",
-        "image": null,
-        "wikipediaUrl": "https://en.wikipedia.org/wiki/France",
-        "unescoUrl": null,
-        "wikidataId": "Q500072",
+        "wikidataId": "Q191158",
         "countries": [
           "FRA"
         ]

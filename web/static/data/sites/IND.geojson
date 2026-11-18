@@ -24,8 +24,8 @@
         "summarySource": "unesco",
         "image": {
           "thumbUrl": "https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/Taj_Mahal_in_March_2004.jpg&width=640",
-          "author": "Wikimedia Commons contributor",
-          "license": "CC BY-SA 4.0",
+          "author": "Dhirad",
+          "license": "CC BY-SA 3.0",
           "sourceUrl": "https://commons.wikimedia.org/wiki/File:Taj_Mahal_in_March_2004.jpg"
         },
         "wikipediaUrl": "https://en.wikipedia.org/wiki/Taj_Mahal",
@@ -42,25 +42,30 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          77.14,
-          26.82
+          75.7033,
+          20.5519
         ]
       },
       "properties": {
-        "siteId": "wd-Q500091",
-        "name": "India Castle 1",
-        "category": "castles",
-        "unesco": false,
+        "siteId": "whs-242",
+        "name": "Ajanta Caves",
+        "category": "sacred",
+        "unesco": true,
         "inDanger": false,
-        "yearInscribed": null,
-        "fame": 65,
-        "fameLevel": 3,
-        "summary": "India Castle 1 in India. A historic fortified stronghold dominating the surrounding landscape.",
-        "summarySource": "wikipedia",
-        "image": null,
-        "wikipediaUrl": "https://en.wikipedia.org/wiki/India",
-        "unescoUrl": null,
-        "wikidataId": "Q500091",
+        "yearInscribed": 1983,
+        "fame": 102,
+        "fameLevel": 4,
+        "summary": "Thirty rock-cut Buddhist cave monuments dating from the 2nd century BC to about 480 AD, containing paintings and rock-cut sculptures considered masterpieces of Buddhist religious art.",
+        "summarySource": "unesco",
+        "image": {
+          "thumbUrl": "https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/Ajanta_Caves.jpg&width=640",
+          "author": "Soman",
+          "license": "CC BY-SA 3.0",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File:Ajanta_Caves.jpg"
+        },
+        "wikipediaUrl": "https://en.wikipedia.org/wiki/Ajanta_Caves",
+        "unescoUrl": "https://whc.unesco.org/en/list/242",
+        "wikidataId": "Q180406",
         "countries": [
           "IND"
         ]
@@ -72,25 +77,30 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          77.59,
-          26.82
+          76.46,
+          15.335
         ]
       },
       "properties": {
-        "siteId": "wd-Q500092",
-        "name": "India Cathedral Sanctuary 2",
-        "category": "sacred",
-        "unesco": false,
+        "siteId": "whs-241",
+        "name": "Group of Monuments at Hampi",
+        "category": "ancient",
+        "unesco": true,
         "inDanger": false,
-        "yearInscribed": null,
-        "fame": 62,
-        "fameLevel": 3,
-        "summary": "India Cathedral Sanctuary 2 in India. A monumental place of worship renowned for its sacred art and architecture.",
-        "summarySource": "wikipedia",
-        "image": null,
-        "wikipediaUrl": "https://en.wikipedia.org/wiki/India",
-        "unescoUrl": null,
-        "wikidataId": "Q500092",
+        "yearInscribed": 1986,
+        "fame": 88,
+        "fameLevel": 4,
+        "summary": "The austere, grandiose site of Hampi was the last capital of the last great Hindu Kingdom of Vijayanagar, featuring Dravidian temples and palaces along the Tungabhadra River.",
+        "summarySource": "unesco",
+        "image": {
+          "thumbUrl": "https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/Hampi_virupaksha_temple.jpg&width=640",
+          "author": "Dey.sandip",
+          "license": "CC BY-SA 3.0",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File:Hampi_virupaksha_temple.jpg"
+        },
+        "wikipediaUrl": "https://en.wikipedia.org/wiki/Group_of_Monuments_at_Hampi",
+        "unescoUrl": "https://whc.unesco.org/en/list/241",
+        "wikidataId": "Q208560",
         "countries": [
           "IND"
         ]
@@ -102,175 +112,25 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          78.04,
-          26.82
+          75.8513,
+          26.9855
         ]
       },
       "properties": {
-        "siteId": "wd-Q500093",
-        "name": "India Archaeological Ruins 3",
-        "category": "ancient",
+        "siteId": "wd-Q191855",
+        "name": "Amber Fort",
+        "category": "castles",
         "unesco": false,
         "inDanger": false,
         "yearInscribed": null,
-        "fame": 59,
+        "fame": 72,
         "fameLevel": 3,
-        "summary": "India Archaeological Ruins 3 in India. Excavated ancient remains revealing centuries of settlement and ritual life.",
+        "summary": "Rajput hill palace and fortress of red sandstone and marble overlooking Maota Lake in Amer near Jaipur, Rajasthan.",
         "summarySource": "wikipedia",
         "image": null,
-        "wikipediaUrl": "https://en.wikipedia.org/wiki/India",
+        "wikipediaUrl": "https://en.wikipedia.org/wiki/Amber_Fort",
         "unescoUrl": null,
-        "wikidataId": "Q500093",
-        "countries": [
-          "IND"
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "id": 4,
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          78.49,
-          26.82
-        ]
-      },
-      "properties": {
-        "siteId": "wd-Q500094",
-        "name": "India Old Town Quarter 4",
-        "category": "towns",
-        "unesco": false,
-        "inDanger": false,
-        "yearInscribed": null,
-        "fame": 56,
-        "fameLevel": 3,
-        "summary": "India Old Town Quarter 4 in India. Preserved historic streetscapes, squares and merchant townhouses.",
-        "summarySource": "wikipedia",
-        "image": null,
-        "wikipediaUrl": "https://en.wikipedia.org/wiki/India",
-        "unescoUrl": null,
-        "wikidataId": "Q500094",
-        "countries": [
-          "IND"
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "id": 5,
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          78.94,
-          26.82
-        ]
-      },
-      "properties": {
-        "siteId": "wd-Q500095",
-        "name": "India Royal Palace 5",
-        "category": "palaces",
-        "unesco": false,
-        "inDanger": false,
-        "yearInscribed": null,
-        "fame": 53,
-        "fameLevel": 3,
-        "summary": "India Royal Palace 5 in India. Grand ceremonial residence surrounded by formal courtyards.",
-        "summarySource": "wikipedia",
-        "image": null,
-        "wikipediaUrl": "https://en.wikipedia.org/wiki/India",
-        "unescoUrl": null,
-        "wikidataId": "Q500095",
-        "countries": [
-          "IND"
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "id": 6,
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          77.14,
-          27.17
-        ]
-      },
-      "properties": {
-        "siteId": "wd-Q500096",
-        "name": "India Cultural Terraces 6",
-        "category": "landscapes",
-        "unesco": false,
-        "inDanger": false,
-        "yearInscribed": null,
-        "fame": 50,
-        "fameLevel": 3,
-        "summary": "India Cultural Terraces 6 in India. Centuries-old human-shaped landscape of terraces and historic estates.",
-        "summarySource": "wikipedia",
-        "image": null,
-        "wikipediaUrl": "https://en.wikipedia.org/wiki/India",
-        "unescoUrl": null,
-        "wikidataId": "Q500096",
-        "countries": [
-          "IND"
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "id": 7,
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          77.59,
-          27.17
-        ]
-      },
-      "properties": {
-        "siteId": "wd-Q500097",
-        "name": "India Historic Ironworks 7",
-        "category": "modern",
-        "unesco": false,
-        "inDanger": false,
-        "yearInscribed": null,
-        "fame": 47,
-        "fameLevel": 3,
-        "summary": "India Historic Ironworks 7 in India. Landmark of engineering and industrial heritage.",
-        "summarySource": "wikipedia",
-        "image": null,
-        "wikipediaUrl": "https://en.wikipedia.org/wiki/India",
-        "unescoUrl": null,
-        "wikidataId": "Q500097",
-        "countries": [
-          "IND"
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "id": 8,
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          78.04,
-          27.17
-        ]
-      },
-      "properties": {
-        "siteId": "wd-Q500098",
-        "name": "India National Park Gorge 8",
-        "category": "natural",
-        "unesco": false,
-        "inDanger": false,
-        "yearInscribed": null,
-        "fame": 44,
-        "fameLevel": 3,
-        "summary": "India National Park Gorge 8 in India. Protected natural reserve celebrated for its dramatic landforms.",
-        "summarySource": "wikipedia",
-        "image": null,
-        "wikipediaUrl": "https://en.wikipedia.org/wiki/India",
-        "unescoUrl": null,
-        "wikidataId": "Q500098",
+        "wikidataId": "Q191855",
         "countries": [
           "IND"
         ]

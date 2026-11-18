@@ -24,8 +24,8 @@
         "summarySource": "unesco",
         "image": {
           "thumbUrl": "https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/Kinkaku-ji_the_Golden_Temple_in_Kyoto_overlooking_the_lake_-_highrez.JPG&width=640",
-          "author": "Wikimedia Commons contributor",
-          "license": "CC BY-SA 4.0",
+          "author": "basel",
+          "license": "CC BY-SA 3.0",
           "sourceUrl": "https://commons.wikimedia.org/wiki/File:Kinkaku-ji_the_Golden_Temple_in_Kyoto_overlooking_the_lake_-_highrez.JPG"
         },
         "wikipediaUrl": "https://en.wikipedia.org/wiki/Historic_Monuments_of_Ancient_Kyoto",
@@ -59,7 +59,7 @@
         "summarySource": "unesco",
         "image": {
           "thumbUrl": "https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/Himeji_castle_in_may_2015.jpg&width=640",
-          "author": "Wikimedia Commons contributor",
+          "author": "663highland",
           "license": "CC BY-SA 4.0",
           "sourceUrl": "https://commons.wikimedia.org/wiki/File:Himeji_castle_in_may_2015.jpg"
         },
@@ -77,25 +77,30 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          134.86,
-          34.66
+          132.3197,
+          34.2958
         ]
       },
       "properties": {
-        "siteId": "wd-Q500125",
-        "name": "Japan Castle 1",
-        "category": "castles",
-        "unesco": false,
+        "siteId": "whs-776",
+        "name": "Itsukushima Shinto Shrine",
+        "category": "sacred",
+        "unesco": true,
         "inDanger": false,
-        "yearInscribed": null,
-        "fame": 65,
-        "fameLevel": 3,
-        "summary": "Japan Castle 1 in Japan. A historic fortified stronghold dominating the surrounding landscape.",
-        "summarySource": "wikipedia",
-        "image": null,
-        "wikipediaUrl": "https://en.wikipedia.org/wiki/Japan",
-        "unescoUrl": null,
-        "wikidataId": "Q500125",
+        "yearInscribed": 1996,
+        "fame": 89,
+        "fameLevel": 4,
+        "summary": "Located on the island of Itsukushima in the Seto Inland Sea, this 12th-century Shinto shrine and its famous vermilion torii gate appear to float on the water at high tide.",
+        "summarySource": "unesco",
+        "image": {
+          "thumbUrl": "https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/Itsukushima-jinja_Torii_201701.jpg&width=640",
+          "author": "Syced",
+          "license": "CC0",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File:Itsukushima-jinja_Torii_201701.jpg"
+        },
+        "wikipediaUrl": "https://en.wikipedia.org/wiki/Itsukushima_Shinto_Shrine",
+        "unescoUrl": "https://whc.unesco.org/en/list/776",
+        "wikidataId": "Q273828",
         "countries": [
           "JPN"
         ]
@@ -107,25 +112,25 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          135.31,
-          34.66
+          135.5259,
+          34.6873
         ]
       },
       "properties": {
-        "siteId": "wd-Q500126",
-        "name": "Japan Cathedral Sanctuary 2",
-        "category": "sacred",
+        "siteId": "wd-Q193136",
+        "name": "Osaka Castle",
+        "category": "castles",
         "unesco": false,
         "inDanger": false,
         "yearInscribed": null,
-        "fame": 62,
-        "fameLevel": 3,
-        "summary": "Japan Cathedral Sanctuary 2 in Japan. A monumental place of worship renowned for its sacred art and architecture.",
+        "fame": 88,
+        "fameLevel": 4,
+        "summary": "Sixteenth-century Japanese fortress built by Toyotomi Hideyoshi that played a major role in the unification of Japan.",
         "summarySource": "wikipedia",
         "image": null,
-        "wikipediaUrl": "https://en.wikipedia.org/wiki/Japan",
+        "wikipediaUrl": "https://en.wikipedia.org/wiki/Osaka_Castle",
         "unescoUrl": null,
-        "wikidataId": "Q500126",
+        "wikidataId": "Q193136",
         "countries": [
           "JPN"
         ]
@@ -137,475 +142,25 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          135.76,
-          34.66
+          135.7727,
+          34.9671
         ]
       },
       "properties": {
-        "siteId": "wd-Q500127",
-        "name": "Japan Archaeological Ruins 3",
-        "category": "ancient",
-        "unesco": false,
-        "inDanger": false,
-        "yearInscribed": null,
-        "fame": 59,
-        "fameLevel": 3,
-        "summary": "Japan Archaeological Ruins 3 in Japan. Excavated ancient remains revealing centuries of settlement and ritual life.",
-        "summarySource": "wikipedia",
-        "image": null,
-        "wikipediaUrl": "https://en.wikipedia.org/wiki/Japan",
-        "unescoUrl": null,
-        "wikidataId": "Q500127",
-        "countries": [
-          "JPN"
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "id": 5,
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          136.21,
-          34.66
-        ]
-      },
-      "properties": {
-        "siteId": "wd-Q500128",
-        "name": "Japan Old Town Quarter 4",
-        "category": "towns",
-        "unesco": false,
-        "inDanger": false,
-        "yearInscribed": null,
-        "fame": 56,
-        "fameLevel": 3,
-        "summary": "Japan Old Town Quarter 4 in Japan. Preserved historic streetscapes, squares and merchant townhouses.",
-        "summarySource": "wikipedia",
-        "image": null,
-        "wikipediaUrl": "https://en.wikipedia.org/wiki/Japan",
-        "unescoUrl": null,
-        "wikidataId": "Q500128",
-        "countries": [
-          "JPN"
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "id": 6,
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          136.66,
-          34.66
-        ]
-      },
-      "properties": {
-        "siteId": "wd-Q500129",
-        "name": "Japan Royal Palace 5",
-        "category": "palaces",
-        "unesco": false,
-        "inDanger": false,
-        "yearInscribed": null,
-        "fame": 53,
-        "fameLevel": 3,
-        "summary": "Japan Royal Palace 5 in Japan. Grand ceremonial residence surrounded by formal courtyards.",
-        "summarySource": "wikipedia",
-        "image": null,
-        "wikipediaUrl": "https://en.wikipedia.org/wiki/Japan",
-        "unescoUrl": null,
-        "wikidataId": "Q500129",
-        "countries": [
-          "JPN"
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "id": 7,
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          134.86,
-          35.01
-        ]
-      },
-      "properties": {
-        "siteId": "wd-Q500130",
-        "name": "Japan Cultural Terraces 6",
-        "category": "landscapes",
-        "unesco": false,
-        "inDanger": false,
-        "yearInscribed": null,
-        "fame": 50,
-        "fameLevel": 3,
-        "summary": "Japan Cultural Terraces 6 in Japan. Centuries-old human-shaped landscape of terraces and historic estates.",
-        "summarySource": "wikipedia",
-        "image": null,
-        "wikipediaUrl": "https://en.wikipedia.org/wiki/Japan",
-        "unescoUrl": null,
-        "wikidataId": "Q500130",
-        "countries": [
-          "JPN"
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "id": 8,
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          135.31,
-          35.01
-        ]
-      },
-      "properties": {
-        "siteId": "wd-Q500131",
-        "name": "Japan Historic Ironworks 7",
-        "category": "modern",
-        "unesco": false,
-        "inDanger": false,
-        "yearInscribed": null,
-        "fame": 47,
-        "fameLevel": 3,
-        "summary": "Japan Historic Ironworks 7 in Japan. Landmark of engineering and industrial heritage.",
-        "summarySource": "wikipedia",
-        "image": null,
-        "wikipediaUrl": "https://en.wikipedia.org/wiki/Japan",
-        "unescoUrl": null,
-        "wikidataId": "Q500131",
-        "countries": [
-          "JPN"
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "id": 9,
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          135.76,
-          35.01
-        ]
-      },
-      "properties": {
-        "siteId": "wd-Q500132",
-        "name": "Japan National Park Gorge 8",
-        "category": "natural",
-        "unesco": false,
-        "inDanger": false,
-        "yearInscribed": null,
-        "fame": 44,
-        "fameLevel": 3,
-        "summary": "Japan National Park Gorge 8 in Japan. Protected natural reserve celebrated for its dramatic landforms.",
-        "summarySource": "wikipedia",
-        "image": null,
-        "wikipediaUrl": "https://en.wikipedia.org/wiki/Japan",
-        "unescoUrl": null,
-        "wikidataId": "Q500132",
-        "countries": [
-          "JPN"
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "id": 10,
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          136.21,
-          35.01
-        ]
-      },
-      "properties": {
-        "siteId": "wd-Q500133",
-        "name": "Japan Castle 9",
-        "category": "castles",
-        "unesco": false,
-        "inDanger": false,
-        "yearInscribed": null,
-        "fame": 41,
-        "fameLevel": 3,
-        "summary": "Japan Castle 9 in Japan. A historic fortified stronghold dominating the surrounding landscape.",
-        "summarySource": "wikipedia",
-        "image": null,
-        "wikipediaUrl": "https://en.wikipedia.org/wiki/Japan",
-        "unescoUrl": null,
-        "wikidataId": "Q500133",
-        "countries": [
-          "JPN"
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "id": 11,
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          136.66,
-          35.01
-        ]
-      },
-      "properties": {
-        "siteId": "wd-Q500134",
-        "name": "Japan Cathedral Sanctuary 10",
+        "siteId": "wd-Q182628",
+        "name": "Fushimi Inari-taisha",
         "category": "sacred",
         "unesco": false,
         "inDanger": false,
         "yearInscribed": null,
-        "fame": 38,
-        "fameLevel": 3,
-        "summary": "Japan Cathedral Sanctuary 10 in Japan. A monumental place of worship renowned for its sacred art and architecture.",
+        "fame": 82,
+        "fameLevel": 4,
+        "summary": "Head Shinto shrine of the kami Inari in southern Kyoto, famous for the thousands of vermilion torii gates winding up Mount Inari.",
         "summarySource": "wikipedia",
         "image": null,
-        "wikipediaUrl": "https://en.wikipedia.org/wiki/Japan",
+        "wikipediaUrl": "https://en.wikipedia.org/wiki/Fushimi_Inari-taisha",
         "unescoUrl": null,
-        "wikidataId": "Q500134",
-        "countries": [
-          "JPN"
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "id": 12,
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          134.86,
-          35.36
-        ]
-      },
-      "properties": {
-        "siteId": "wd-Q500135",
-        "name": "Japan Archaeological Ruins 11",
-        "category": "ancient",
-        "unesco": false,
-        "inDanger": false,
-        "yearInscribed": null,
-        "fame": 35,
-        "fameLevel": 3,
-        "summary": "Japan Archaeological Ruins 11 in Japan. Excavated ancient remains revealing centuries of settlement and ritual life.",
-        "summarySource": "wikipedia",
-        "image": null,
-        "wikipediaUrl": "https://en.wikipedia.org/wiki/Japan",
-        "unescoUrl": null,
-        "wikidataId": "Q500135",
-        "countries": [
-          "JPN"
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "id": 13,
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          135.31,
-          35.36
-        ]
-      },
-      "properties": {
-        "siteId": "wd-Q500136",
-        "name": "Japan Old Town Quarter 12",
-        "category": "towns",
-        "unesco": false,
-        "inDanger": false,
-        "yearInscribed": null,
-        "fame": 32,
-        "fameLevel": 3,
-        "summary": "Japan Old Town Quarter 12 in Japan. Preserved historic streetscapes, squares and merchant townhouses.",
-        "summarySource": "wikipedia",
-        "image": null,
-        "wikipediaUrl": "https://en.wikipedia.org/wiki/Japan",
-        "unescoUrl": null,
-        "wikidataId": "Q500136",
-        "countries": [
-          "JPN"
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "id": 14,
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          135.76,
-          35.36
-        ]
-      },
-      "properties": {
-        "siteId": "wd-Q500137",
-        "name": "Japan Royal Palace 13",
-        "category": "palaces",
-        "unesco": false,
-        "inDanger": false,
-        "yearInscribed": null,
-        "fame": 29,
-        "fameLevel": 2,
-        "summary": "Japan Royal Palace 13 in Japan. Grand ceremonial residence surrounded by formal courtyards.",
-        "summarySource": "wikipedia",
-        "image": null,
-        "wikipediaUrl": "https://en.wikipedia.org/wiki/Japan",
-        "unescoUrl": null,
-        "wikidataId": "Q500137",
-        "countries": [
-          "JPN"
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "id": 15,
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          136.21,
-          35.36
-        ]
-      },
-      "properties": {
-        "siteId": "wd-Q500138",
-        "name": "Japan Cultural Terraces 14",
-        "category": "landscapes",
-        "unesco": false,
-        "inDanger": false,
-        "yearInscribed": null,
-        "fame": 26,
-        "fameLevel": 2,
-        "summary": "Japan Cultural Terraces 14 in Japan. Centuries-old human-shaped landscape of terraces and historic estates.",
-        "summarySource": "wikipedia",
-        "image": null,
-        "wikipediaUrl": "https://en.wikipedia.org/wiki/Japan",
-        "unescoUrl": null,
-        "wikidataId": "Q500138",
-        "countries": [
-          "JPN"
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "id": 16,
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          136.66,
-          35.36
-        ]
-      },
-      "properties": {
-        "siteId": "wd-Q500139",
-        "name": "Japan Historic Ironworks 15",
-        "category": "modern",
-        "unesco": false,
-        "inDanger": false,
-        "yearInscribed": null,
-        "fame": 23,
-        "fameLevel": 2,
-        "summary": "Japan Historic Ironworks 15 in Japan. Landmark of engineering and industrial heritage.",
-        "summarySource": "wikipedia",
-        "image": null,
-        "wikipediaUrl": "https://en.wikipedia.org/wiki/Japan",
-        "unescoUrl": null,
-        "wikidataId": "Q500139",
-        "countries": [
-          "JPN"
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "id": 17,
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          134.86,
-          35.71
-        ]
-      },
-      "properties": {
-        "siteId": "wd-Q500140",
-        "name": "Japan National Park Gorge 16",
-        "category": "natural",
-        "unesco": false,
-        "inDanger": false,
-        "yearInscribed": null,
-        "fame": 20,
-        "fameLevel": 2,
-        "summary": "Japan National Park Gorge 16 in Japan. Protected natural reserve celebrated for its dramatic landforms.",
-        "summarySource": "wikipedia",
-        "image": null,
-        "wikipediaUrl": "https://en.wikipedia.org/wiki/Japan",
-        "unescoUrl": null,
-        "wikidataId": "Q500140",
-        "countries": [
-          "JPN"
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "id": 18,
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          135.31,
-          35.71
-        ]
-      },
-      "properties": {
-        "siteId": "wd-Q500141",
-        "name": "Japan Castle 17",
-        "category": "castles",
-        "unesco": false,
-        "inDanger": false,
-        "yearInscribed": null,
-        "fame": 17,
-        "fameLevel": 2,
-        "summary": "Japan Castle 17 in Japan. A historic fortified stronghold dominating the surrounding landscape.",
-        "summarySource": "wikipedia",
-        "image": null,
-        "wikipediaUrl": "https://en.wikipedia.org/wiki/Japan",
-        "unescoUrl": null,
-        "wikidataId": "Q500141",
-        "countries": [
-          "JPN"
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "id": 19,
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          135.76,
-          35.71
-        ]
-      },
-      "properties": {
-        "siteId": "wd-Q500142",
-        "name": "Japan Cathedral Sanctuary 18",
-        "category": "sacred",
-        "unesco": false,
-        "inDanger": false,
-        "yearInscribed": null,
-        "fame": 14,
-        "fameLevel": 2,
-        "summary": "Japan Cathedral Sanctuary 18 in Japan. A monumental place of worship renowned for its sacred art and architecture.",
-        "summarySource": "wikipedia",
-        "image": null,
-        "wikipediaUrl": "https://en.wikipedia.org/wiki/Japan",
-        "unescoUrl": null,
-        "wikidataId": "Q500142",
+        "wikidataId": "Q182628",
         "countries": [
           "JPN"
         ]
