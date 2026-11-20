@@ -1,3 +1,4 @@
+import { base } from '$app/paths';
 import type { SitesFeatureCollection } from './types';
 
 export function createSitesLoader(fetchFn: typeof fetch = fetch) {
@@ -22,7 +23,7 @@ export function createSitesLoader(fetchFn: typeof fetch = fetch) {
 			currentAbort = controller;
 
 			try {
-				const resp = await fetchFn(`/data/sites/${norm}.geojson`, {
+				const resp = await fetchFn(`${base}/data/sites/${norm}.geojson`, {
 					signal: controller.signal
 				});
 				if (token !== currentToken) {

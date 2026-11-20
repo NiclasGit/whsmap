@@ -1,4 +1,5 @@
 <script lang="ts">
+	import { base } from '$app/paths';
 	import { onDestroy, onMount } from 'svelte';
 	import maplibregl from 'maplibre-gl';
 	import { Protocol } from 'pmtiles';
@@ -227,7 +228,7 @@
 
 		const instance = new maplibregl.Map({
 			container: mapContainer,
-			style: buildNightAtlasStyle({ boundariesUrl: '/data/boundaries.geojson' }),
+			style: buildNightAtlasStyle({ boundariesUrl: `${base}/data/boundaries.geojson` }),
 			center: [18, 24],
 			zoom: 1.75,
 			attributionControl: false
@@ -244,7 +245,7 @@
 
 		instance.on('load', async () => {
 			try {
-				const resp = await fetch('/data/boundaries.geojson');
+				const resp = await fetch(`${base}/data/boundaries.geojson`);
 				if (resp.ok) {
 					const fc = await resp.json();
 					for (const feat of fc.features ?? []) {

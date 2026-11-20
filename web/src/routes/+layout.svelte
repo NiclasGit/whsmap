@@ -1,6 +1,7 @@
 <script lang="ts">
 	import '../app.css';
 	import { goto } from '$app/navigation';
+	import { base } from '$app/paths';
 	import { page } from '$app/state';
 	import type {
 		Category,
@@ -76,19 +77,19 @@
 	function navigateToWorld() {
 		hoveredCountryIso3 = null;
 		hoveredSiteId = null;
-		goto('/');
+		goto(`${base}/`);
 	}
 
 	function navigateToCountry(iso3: string) {
 		hoveredCountryIso3 = null;
 		hoveredSiteId = null;
-		goto(`/country/${iso3.toUpperCase()}`);
+		goto(`${base}/country/${iso3.toUpperCase()}`);
 	}
 
 	function navigateToSite(siteId: string) {
 		const iso3 = routeState.country?.iso3;
 		if (!iso3) return;
-		goto(`/country/${iso3}/site/${encodeURIComponent(siteId)}`);
+		goto(`${base}/country/${iso3}/site/${encodeURIComponent(siteId)}`);
 	}
 
 	function handleToggleCategory(cat: Category | null) {
@@ -100,7 +101,7 @@
 				routeState.siteId
 			);
 			if (!kept) {
-				goto(`/country/${routeState.country.iso3}`);
+				goto(`${base}/country/${routeState.country.iso3}`);
 			}
 		}
 	}
@@ -108,7 +109,7 @@
 	function handleKeydown(e: KeyboardEvent) {
 		if (e.key !== 'Escape') return;
 		if (routeState.siteId && routeState.country) {
-			goto(`/country/${routeState.country.iso3}`);
+			goto(`${base}/country/${routeState.country.iso3}`);
 		} else if (routeState.status !== 'world') {
 			navigateToWorld();
 		}
@@ -157,7 +158,7 @@
 		{#if selectedSite}
 			<SiteCard
 				site={selectedSite}
-				onClose={() => goto(`/country/${routeState.country!.iso3}`)}
+				onClose={() => goto(`${base}/country/${routeState.country!.iso3}`)}
 			/>
 		{:else if routeState.siteId && !loadingSites && currentSites !== null && loadedCountryIso3 === routeState.country.iso3}
 			<div class="not-found-toast glass-panel" role="status">
@@ -165,7 +166,7 @@
 				<button
 					type="button"
 					class="toast-btn"
-					onclick={() => goto(`/country/${routeState.country!.iso3}`)}
+					onclick={() => goto(`${base}/country/${routeState.country!.iso3}`)}
 				>
 					Dismiss
 				</button>
