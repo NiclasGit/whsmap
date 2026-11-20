@@ -13,6 +13,8 @@
 	import {
 		bboxToCameraBounds,
 		buildWorldDimFilter,
+		getCountryFitPadding,
+		getWorldCamera,
 		shouldReduceMotion
 	} from '$lib/map/camera';
 	import { buildNightAtlasStyle } from '$lib/map/style';
@@ -107,20 +109,21 @@
 		if (nextIso !== lastMovedCountryIso3) {
 			lastMovedCountryIso3 = nextIso;
 			const reduced = shouldReduceMotion();
+			const vw = typeof window !== 'undefined' ? window.innerWidth : 1280;
+			const vh = typeof window !== 'undefined' ? window.innerHeight : 800;
 			if (selectedCountry) {
 				const bounds = bboxToCameraBounds(selectedCountry.bbox);
-				const isMobile = typeof window !== 'undefined' && window.innerWidth < 768;
 				map.fitBounds(bounds, {
-					padding: isMobile
-						? { top: 48, bottom: 320, left: 32, right: 32 }
-						: { top: 64, bottom: 64, left: 64, right: 440 },
+					padding: getCountryFitPadding(vw, vh),
 					maxZoom: 8.5,
 					duration: reduced ? 0 : 1500
 				});
 			} else {
+				const worldCam = getWorldCamera(vw, vh);
 				map.easeTo({
-					center: [18, 24],
-					zoom: 1.75,
+					center: worldCam.center,
+					zoom: worldCam.zoom,
+					padding: worldCam.padding,
 					pitch: 0,
 					bearing: 0,
 					duration: reduced ? 0 : 1100
@@ -226,14 +229,35 @@
 			// protocol already registered
 		}
 
+		const initialVw = typeof window !== 'undefined' ? window.innerWidth : 1280;
+		const initialVh = typeof window !== 'undefined' ? window.innerHeight : 800;
+		const initialWorldCam = getWorldCamera(initialVw, initialVh);
+
 		const instance = new maplibregl.Map({
 			container: mapContainer,
 			style: buildNightAtlasStyle({ boundariesUrl: `${base}/data/boundaries.geojson` }),
-			center: [18, 24],
-			zoom: 1.75,
+			center: initialWorldCam.center,
+			zoom: initialWorldCam.zoom,
 			attributionControl: false
 		});
+		instance.setPadding(initialWorldCam.padding);
 		map = instance;
+
+		let lastResizeWidth = initialVw;
+		const handleResize = () => {
+			if (!map || selectedCountry) return;
+			const nextVw = window.innerWidth;
+			const nextVh = window.innerHeight;
+			if (Math.abs(nextVw - lastResizeWidth) < 24) return;
+			lastResizeWidth = nextVw;
+			const cam = getWorldCamera(nextVw, nextVh);
+			map.easeTo({
+				zoom: cam.zoom,
+				padding: cam.padding,
+				duration: shouldReduceMotion() ? 0 : 350
+			});
+		};
+		window.addEventListener('resize', handleResize);
 
 		instance.addControl(
 			new maplibregl.AttributionControl({
@@ -387,6 +411,10 @@
 			animFrame = requestAnimationFrame(tick);
 		};
 		animFrame = requestAnimationFrame(tick);
+
+		return () => {
+			window.removeEventListener('resize', handleResize);
+		};
 	});
 
 	onDestroy(() => {
@@ -404,5 +432,12 @@
 		inset: 0;
 		width: 100%;
 		height: 100%;
+	}
+
+	@media (max-width: 767px) {
+		.map-stage :global(.maplibregl-ctrl-bottom-right) {
+			bottom: calc(74px + env(safe-area-inset-bottom, 0px));
+			right: 6px;
+		}
 	}
 </style>

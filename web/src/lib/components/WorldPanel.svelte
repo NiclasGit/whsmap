@@ -20,6 +20,8 @@
 	let searchQuery = $state('');
 	let searchFocused = $state(false);
 	let activeIndex = $state(0);
+	let mobileSheetExpanded = $state(false);
+	let touchStartY = 0;
 
 	let top5 = $derived(getTopCountries(countries, 5));
 	let searchResults = $derived(searchCountries(countries, searchQuery, 6));
@@ -29,10 +31,35 @@
 		activeIndex = 0;
 	});
 
+	$effect(() => {
+		if (!activeCountry) {
+			mobileSheetExpanded = false;
+		}
+	});
+
 	function chooseFromSearch(iso3: string) {
 		searchQuery = '';
 		searchFocused = false;
+		mobileSheetExpanded = false;
 		onSelectCountry(iso3);
+	}
+
+	function handleSheetTouchStart(e: TouchEvent) {
+		touchStartY = e.touches[0]?.clientY ?? 0;
+	}
+
+	function handleSheetTouchEnd(e: TouchEvent) {
+		const endY = e.changedTouches[0]?.clientY ?? touchStartY;
+		const deltaY = endY - touchStartY;
+		if (deltaY < -30) {
+			mobileSheetExpanded = true;
+		} else if (deltaY > 30) {
+			if (activeCountry) {
+				onHoverCountry(null);
+			} else {
+				mobileSheetExpanded = false;
+			}
+		}
 	}
 
 	function handleSearchKeydown(e: KeyboardEvent) {
@@ -66,7 +93,10 @@
 			aria-expanded={searchFocused && searchResults.length > 0}
 			aria-controls="country-search-listbox"
 			bind:value={searchQuery}
-			onfocus={() => (searchFocused = true)}
+			onfocus={() => {
+				searchFocused = true;
+				mobileSheetExpanded = false;
+			}}
 			onblur={() => setTimeout(() => (searchFocused = false), 150)}
 			onkeydown={handleSearchKeydown}
 		/>
@@ -93,10 +123,37 @@
 	</div>
 </header>
 
-<aside class="world-panel glass-panel" aria-live="polite">
+<aside
+	class="world-panel glass-panel"
+	class:mobile-expanded={mobileSheetExpanded}
+	class:has-active-country={Boolean(activeCountry)}
+	aria-live="polite"
+>
 	{#if activeCountry}
-		<div class="kicker">Country</div>
-		<h2>{activeCountry.name}</h2>
+		<button
+			type="button"
+			class="mobile-drag-zone"
+			aria-label="Dismiss country preview"
+			onclick={() => onHoverCountry(null)}
+			ontouchstart={handleSheetTouchStart}
+			ontouchend={handleSheetTouchEnd}
+		>
+			<span class="drag-pill" aria-hidden="true"></span>
+		</button>
+		<div class="active-head">
+			<div>
+				<div class="kicker">Country</div>
+				<h2>{activeCountry.name}</h2>
+			</div>
+			<button
+				type="button"
+				class="mobile-dismiss-btn"
+				aria-label="Close country preview"
+				onclick={() => onHoverCountry(null)}
+			>
+				✕
+			</button>
+		</div>
 		<div class="stat-row">
 			<div>
 				<div class="big-num">{activeCountry.counts.unesco}</div>
@@ -116,30 +173,59 @@
 			Explore {activeCountry.name} →
 		</button>
 	{:else}
-		<div class="kicker">Start exploring</div>
-		<h2>Where to next?</h2>
-		<p class="teaser">
-			Every glowing country is a story. Hover or tap one to see what it holds for a cultural
-			traveler.
-		</p>
-		<div class="kicker top-heading">Most heritage sites</div>
-		<ol class="top-list">
-			{#each top5 as c (c.iso3)}
-				<li>
-					<button
-						type="button"
-						class="top-item"
-						onmouseenter={() => onHoverCountry(c.iso3)}
-						onclick={() => onSelectCountry(c.iso3)}
-					>
-						<span class="top-name">{c.name}</span>
-						<span class="top-count"
-							>{c.counts.unesco} UNESCO · {c.counts.notable} notable</span
+		<button
+			type="button"
+			class="mobile-sheet-toggle"
+			aria-expanded={mobileSheetExpanded}
+			aria-controls="world-explore-sheet-body"
+			onclick={() => (mobileSheetExpanded = !mobileSheetExpanded)}
+			ontouchstart={handleSheetTouchStart}
+			ontouchend={handleSheetTouchEnd}
+		>
+			<span class="drag-pill" aria-hidden="true"></span>
+			<span class="toggle-row">
+				<span class="toggle-copy">
+					<span class="kicker">Start exploring</span>
+					<span class="toggle-hint">Tap a country or view top destinations</span>
+				</span>
+				<span class="toggle-chip">{mobileSheetExpanded ? 'Hide ▼' : 'Explore ▲'}</span>
+			</span>
+		</button>
+
+		<div id="world-explore-sheet-body" class="sheet-body">
+			<div class="kicker desktop-only">Start exploring</div>
+			<h2>Where to next?</h2>
+			<p class="teaser">
+				Every glowing country is a story. Hover or tap one to see what it holds for a cultural
+				traveler.
+			</p>
+			<div class="kicker top-heading">Most heritage sites</div>
+			<ol class="top-list">
+				{#each top5 as c (c.iso3)}
+					<li>
+						<button
+							type="button"
+							class="top-item"
+							onmouseenter={() => onHoverCountry(c.iso3)}
+							onclick={() => onSelectCountry(c.iso3)}
 						>
-					</button>
-				</li>
-			{/each}
-		</ol>
+							<span class="top-name">{c.name}</span>
+							<span class="top-count"
+								>{c.counts.unesco} UNESCO · {c.counts.notable} notable</span
+							>
+						</button>
+					</li>
+				{/each}
+			</ol>
+			<div class="mobile-legend">
+				<span class="kicker">Heritage richness</span>
+				<div class="legend-bar"></div>
+				<div class="mobile-legend-labels">
+					<span>fewer sites</span>
+					<span>more sites</span>
+				</div>
+			</div>
+		</div>
 	{/if}
 </aside>
 
@@ -206,6 +292,7 @@
 		padding: 6px;
 		list-style: none;
 		border-radius: 14px;
+		z-index: 20;
 	}
 
 	.search-option {
@@ -241,6 +328,20 @@
 		width: 350px;
 		padding: 26px;
 		z-index: 10;
+	}
+
+	.mobile-sheet-toggle,
+	.mobile-drag-zone,
+	.mobile-dismiss-btn,
+	.mobile-legend {
+		display: none;
+	}
+
+	.active-head {
+		display: flex;
+		align-items: flex-start;
+		justify-content: space-between;
+		gap: 12px;
 	}
 
 	h2 {
@@ -350,25 +451,217 @@
 
 	@media (max-width: 767px) {
 		.world-header {
-			left: 18px;
-			right: 18px;
-			top: 16px;
+			left: 14px;
+			right: 14px;
+			top: calc(12px + env(safe-area-inset-top, 0px));
+			max-width: none;
 		}
+
 		h1 {
-			font-size: 32px;
+			font-size: clamp(24px, 6.8vw, 30px);
 		}
+
+		.subtitle {
+			margin: 3px 0 10px;
+			font-size: 12px;
+		}
+
 		.search-wrap {
 			width: 100%;
 		}
+
+		.search-input {
+			font-size: 16px;
+			padding: 9px 14px;
+		}
+
+		.search-option {
+			padding: 10px 12px;
+			min-height: 42px;
+		}
+
 		.world-panel {
-			left: 14px;
-			right: 14px;
-			bottom: 16px;
+			left: 12px;
+			right: 12px;
+			bottom: calc(12px + env(safe-area-inset-bottom, 0px));
 			top: auto;
 			transform: none;
 			width: auto;
-			padding: 18px;
+			padding: 10px 14px 12px;
+			border-radius: 18px;
+			max-height: 58dvh;
+			overflow-y: auto;
+			-webkit-overflow-scrolling: touch;
+			transition: padding 0.2s ease;
 		}
+
+		.world-panel.mobile-expanded,
+		.world-panel.has-active-country {
+			padding: 10px 16px 16px;
+		}
+
+		.mobile-drag-zone {
+			display: flex;
+			justify-content: center;
+			width: 100%;
+			padding: 2px 0 8px;
+			border: 0;
+			background: transparent;
+			cursor: pointer;
+		}
+
+		.drag-pill {
+			display: block;
+			width: 36px;
+			height: 4px;
+			border-radius: 999px;
+			background: rgba(243, 211, 139, 0.35);
+			margin: 0 auto 8px;
+		}
+
+		.mobile-drag-zone .drag-pill {
+			margin-bottom: 0;
+		}
+
+		.mobile-sheet-toggle {
+			display: block;
+			width: 100%;
+			padding: 0;
+			border: 0;
+			background: transparent;
+			color: var(--text-primary);
+			text-align: left;
+			cursor: pointer;
+		}
+
+		.toggle-row {
+			display: flex;
+			align-items: center;
+			justify-content: space-between;
+			gap: 10px;
+		}
+
+		.toggle-copy {
+			display: flex;
+			flex-direction: column;
+			gap: 2px;
+			min-width: 0;
+		}
+
+		.toggle-hint {
+			font-size: 12px;
+			color: var(--text-secondary);
+			white-space: nowrap;
+			overflow: hidden;
+			text-overflow: ellipsis;
+		}
+
+		.toggle-chip {
+			flex-shrink: 0;
+			padding: 6px 12px;
+			border-radius: 999px;
+			border: 1px solid var(--gold-soft);
+			background: rgba(243, 211, 139, 0.14);
+			color: var(--gold-bright);
+			font-size: 12px;
+			font-weight: 600;
+		}
+
+		.desktop-only {
+			display: none;
+		}
+
+		.sheet-body {
+			display: none;
+			margin-top: 12px;
+			padding-top: 12px;
+			border-top: 1px solid rgba(255, 255, 255, 0.08);
+		}
+
+		.world-panel.mobile-expanded .sheet-body {
+			display: block;
+		}
+
+		.mobile-dismiss-btn {
+			display: grid;
+			place-items: center;
+			width: 32px;
+			height: 32px;
+			border-radius: 50%;
+			border: 1px solid rgba(255, 255, 255, 0.18);
+			background: rgba(255, 255, 255, 0.06);
+			color: var(--text-primary);
+			cursor: pointer;
+			flex-shrink: 0;
+		}
+
+		h2 {
+			font-size: 26px;
+			margin: 2px 0 4px;
+		}
+
+		.stat-row {
+			gap: 20px;
+			margin: 8px 0 4px;
+		}
+
+		.big-num {
+			font-size: 30px;
+		}
+
+		.big-num.secondary {
+			font-size: 24px;
+			padding-top: 5px;
+		}
+
+		.teaser {
+			font-size: 13px;
+			line-height: 1.45;
+			margin: 8px 0 10px;
+		}
+
+		.world-panel.has-active-country .teaser {
+			display: -webkit-box;
+			-webkit-line-clamp: 2;
+			line-clamp: 2;
+			-webkit-box-orient: vertical;
+			overflow: hidden;
+		}
+
+		.explore-btn {
+			width: 100%;
+			text-align: center;
+			padding: 12px 18px;
+			margin-top: 2px;
+		}
+
+		.top-heading {
+			margin-top: 12px;
+		}
+
+		.top-item {
+			padding: 9px 8px;
+			min-height: 40px;
+		}
+
+		.mobile-legend {
+			display: block;
+			margin-top: 14px;
+			padding-top: 12px;
+			border-top: 1px solid rgba(255, 255, 255, 0.08);
+		}
+
+		.mobile-legend .legend-bar {
+			width: 100%;
+		}
+
+		.mobile-legend-labels {
+			display: flex;
+			justify-content: space-between;
+			font-size: 11px;
+			color: var(--text-muted);
+		}
+
 		.world-legend {
 			display: none;
 		}

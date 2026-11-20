@@ -191,6 +191,7 @@
 		position: relative;
 		width: 100vw;
 		height: 100vh;
+		height: 100dvh;
 		overflow: hidden;
 	}
 
@@ -200,7 +201,7 @@
 		left: 50%;
 		transform: translate(-50%, -50%);
 		padding: 28px;
-		width: 360px;
+		width: min(360px, calc(100vw - 32px));
 		z-index: 20;
 		text-align: center;
 	}
@@ -252,6 +253,13 @@
 	@media (max-width: 767px) {
 		.atlas-shell.has-site-card .country-panel-holder {
 			display: none;
+		}
+
+		.not-found-toast {
+			left: 12px;
+			right: 12px;
+			bottom: calc(14px + env(safe-area-inset-bottom, 0px));
+			justify-content: space-between;
 		}
 	}
 </style>

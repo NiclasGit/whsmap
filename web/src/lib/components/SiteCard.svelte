@@ -253,11 +253,30 @@
 		.site-card {
 			left: 10px;
 			right: 10px;
-			bottom: 12px;
+			bottom: calc(12px + env(safe-area-inset-bottom, 0px));
 			top: auto;
 			width: auto;
-			max-height: calc(100vh - 24px);
+			max-height: calc(100dvh - 24px - env(safe-area-inset-top, 0px) - env(safe-area-inset-bottom, 0px));
 			overflow-y: auto;
+			-webkit-overflow-scrolling: touch;
+		}
+
+		.close-btn {
+			width: 36px;
+			height: 36px;
+			font-size: 15px;
+		}
+
+		.media-wrap {
+			height: 145px;
+		}
+
+		.card-body {
+			padding: 14px 16px 16px;
+		}
+
+		h3 {
+			font-size: 23px;
 		}
 	}
 </style>
