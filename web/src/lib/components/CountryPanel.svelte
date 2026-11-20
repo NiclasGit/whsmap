@@ -43,11 +43,58 @@
 	let visibleSites: SiteFeature[] = $derived(
 		filterSitesByCategory(sites?.features ?? [], activeCategory)
 	);
+
+	let mobileCollapsed = $state(false);
+	let touchStartY = 0;
+
+	$effect(() => {
+		country.iso3;
+		mobileCollapsed = false;
+	});
+
+	function handleTouchStart(e: TouchEvent) {
+		touchStartY = e.touches[0]?.clientY ?? 0;
+	}
+
+	function handleTouchEnd(e: TouchEvent) {
+		const endY = e.changedTouches[0]?.clientY ?? touchStartY;
+		const deltaY = endY - touchStartY;
+		if (deltaY > 30) {
+			mobileCollapsed = true;
+		} else if (deltaY < -30) {
+			mobileCollapsed = false;
+		}
+	}
 </script>
 
-<aside class="country-panel glass-panel" aria-label="{country.name} heritage overview">
+<aside
+	class="country-panel glass-panel"
+	class:mobile-collapsed={mobileCollapsed}
+	aria-label="{country.name} heritage overview"
+>
 	<div class="panel-top">
-		<button type="button" class="back-btn" onclick={onBackToWorld}>← Back to globe</button>
+		<button
+			type="button"
+			class="mobile-drag-handle"
+			aria-label={mobileCollapsed ? 'Expand country details' : 'Collapse country details'}
+			aria-expanded={!mobileCollapsed}
+			onclick={() => (mobileCollapsed = !mobileCollapsed)}
+			ontouchstart={handleTouchStart}
+			ontouchend={handleTouchEnd}
+		>
+			<span class="mobile-drag-pill" aria-hidden="true"></span>
+		</button>
+		<div class="top-controls">
+			<button type="button" class="back-btn" onclick={onBackToWorld}>← Back to globe</button>
+			<button
+				type="button"
+				class="mobile-collapse-btn"
+				aria-expanded={!mobileCollapsed}
+				onclick={() => (mobileCollapsed = !mobileCollapsed)}
+			>
+				{mobileCollapsed ? 'Details ▲' : 'Map ▼'}
+			</button>
+		</div>
 		<div class="title-block">
 			<h2>{country.name}</h2>
 			<div class="badge-row">
@@ -57,6 +104,8 @@
 			<p class="teaser">{country.teaser}</p>
 		</div>
 	</div>
+
+	<div class="country-panel-details">
 
 	<section class="panel-section">
 		<div class="sec-head">
@@ -198,6 +247,7 @@
 			</ul>
 		{/if}
 	</section>
+	</div>
 </aside>
 
 <style>
@@ -212,6 +262,18 @@
 		flex-direction: column;
 		padding: 20px;
 		overflow-y: auto;
+	}
+
+	.mobile-drag-handle,
+	.mobile-collapse-btn {
+		display: none;
+	}
+
+	.top-controls {
+		display: flex;
+		align-items: center;
+		justify-content: space-between;
+		gap: 8px;
 	}
 
 	.back-btn {
@@ -509,10 +571,64 @@
 		.country-panel {
 			left: 10px;
 			right: 10px;
-			bottom: 10px;
+			bottom: calc(10px + env(safe-area-inset-bottom, 0px));
 			top: auto;
 			width: auto;
-			max-height: 54vh;
+			padding: 10px 14px 14px;
+			max-height: 50dvh;
+			-webkit-overflow-scrolling: touch;
+		}
+
+		.mobile-drag-handle {
+			display: flex;
+			justify-content: center;
+			width: 100%;
+			padding: 2px 0 8px;
+			border: 0;
+			background: transparent;
+			cursor: pointer;
+		}
+
+		.mobile-drag-pill {
+			display: block;
+			width: 36px;
+			height: 4px;
+			border-radius: 999px;
+			background: rgba(243, 211, 139, 0.35);
+		}
+
+		.mobile-collapse-btn {
+			display: inline-flex;
+			align-items: center;
+			background: rgba(243, 211, 139, 0.14);
+			border: 1px solid var(--gold-soft);
+			color: var(--gold-bright);
+			padding: 6px 12px;
+			border-radius: 999px;
+			font-size: 12px;
+			font-weight: 600;
+			cursor: pointer;
+		}
+
+		h2 {
+			font-size: 26px;
+			margin: 8px 0 6px;
+		}
+
+		.country-panel.mobile-collapsed {
+			max-height: none;
+			overflow: hidden;
+			padding-bottom: 12px;
+		}
+
+		.country-panel.mobile-collapsed .teaser,
+		.country-panel.mobile-collapsed .country-panel-details {
+			display: none;
+		}
+
+		.cat-chip,
+		.site-row {
+			min-height: 40px;
 		}
 	}
 </style>
